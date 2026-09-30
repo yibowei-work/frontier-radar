@@ -309,6 +309,7 @@ def make_item(
     now: datetime,
     native_id: str = "",
     windows: list[Window],
+    topic_override: str | None = None,
 ) -> dict[str, Any] | None:
     matched = matching_windows(published, windows)
     if not matched:
@@ -319,7 +320,7 @@ def make_item(
     stable_value = f"{source['id']}\n{native_id or canonical}"
     item_id = hashlib.sha256(stable_value.encode("utf-8")).hexdigest()[:20]
     combined = f"{title} {summary}"
-    topic = classify_topic(combined, source.get("default_topic", "行业综合"))
+    topic = topic_override or classify_topic(combined, source.get("default_topic", "行业综合"))
     signal = classify_signal(combined, source["id"])
     why, career = insight_for(topic, signal)
     return {
@@ -384,56 +385,78 @@ def collect_rss(source: dict[str, Any], now: datetime, windows: list[Window]) ->
 
 
 def collect_github(source: dict[str, Any], now: datetime, windows: list[Window], token: str | None) -> tuple[list[dict[str, Any]], dict[str, Any]]:
+    """Collect a quiet, first-party signal from recently pushed public repositories.
+
+    The public organization event stream is easily saturated by stars, comments and
+    pull-request activity, so release/create events can disappear from its first page.
+    Repository ``pushed_at`` is a more reliable official signal. We emit at most five
+    repositories per organization and one stable update per repository/day.
+    """
+
     started = time.monotonic()
-    url = f"https://api.github.com/orgs/{urllib.parse.quote(source['org'])}/events?per_page=100"
+    url = (
+        f"https://api.github.com/orgs/{urllib.parse.quote(source['org'])}/repos"
+        "?type=public&sort=pushed&direction=desc&per_page=100"
+    )
     payload, _ = fetch(url, token=token)
-    events = json.loads(payload)
+    repositories = json.loads(payload)
     items: list[dict[str, Any]] = []
-    if not isinstance(events, list):
+    if not isinstance(repositories, list):
         raise RuntimeError(f"unexpected GitHub response for {source['org']}")
-    for event in events:
-        event_type = event.get("type")
-        if event_type not in {"ReleaseEvent", "CreateEvent"}:
+
+    candidates: list[tuple[datetime, dict[str, Any]]] = []
+    for repository in repositories:
+        if repository.get("archived") or repository.get("fork"):
             continue
-        published = parse_datetime(event.get("created_at"))
-        if not published:
+        if repository.get("name") in {".github", ".github-private", "profile"}:
             continue
-        repo = event.get("repo", {}).get("name", source["org"])
-        repo_name = repo.split("/", 1)[-1]
-        event_url = f"https://github.com/{repo}"
-        payload_data = event.get("payload", {})
-        if event_type == "ReleaseEvent":
-            release = payload_data.get("release", {})
-            tag = release.get("tag_name") or release.get("name") or "新版本"
-            title = f"{source['company']} 发布 {repo_name} {tag}"
-            summary = clean_text(release.get("body"), 360) or f"{repo} 发布新版本 {tag}。"
-            event_url = release.get("html_url") or event_url
-        else:
-            ref_type = payload_data.get("ref_type", "repository")
-            if ref_type not in {"repository", "tag"}:
-                continue
-            ref = payload_data.get("ref")
-            action = "创建开源项目" if ref_type == "repository" else f"发布标签 {ref or ''}".strip()
-            title = f"{source['company']} {action}：{repo_name}"
-            summary = payload_data.get("description") or f"{repo} 出现新的公开 {ref_type} 动态。"
+        pushed = parse_datetime(repository.get("pushed_at"))
+        if pushed and matching_windows(pushed, windows):
+            candidates.append((pushed, repository))
+
+    candidates.sort(key=lambda candidate: candidate[0], reverse=True)
+    for published, repository in candidates[:5]:
+        repo_name = clean_text(repository.get("name"), 100) or "未命名项目"
+        created = parse_datetime(repository.get("created_at"))
+        is_new = bool(created and matching_windows(created, windows))
+        action = "创建开源项目" if is_new else "更新开源项目"
+        title = f"{source['company']} {action}：{repo_name}"
+
+        details = []
+        description = clean_text(repository.get("description"), 220)
+        if description:
+            details.append(description)
+        language = clean_text(repository.get("language"), 40)
+        if language:
+            details.append(f"主要语言：{language}")
+        stars = repository.get("stargazers_count")
+        if isinstance(stars, int):
+            details.append(f"GitHub Stars：{stars:,}")
+        details.append(f"最近代码推送：{utc_iso(published)}")
+        summary = "；".join(details) + "。"
+
+        repo_id = repository.get("id") or repository.get("full_name") or repo_name
+        native_id = f"repo:{repo_id}:{published.date().isoformat()}"
         item = make_item(
             source=source,
             title=title,
-            url=event_url,
+            url=repository.get("html_url") or f"https://github.com/{source['org']}/{repo_name}",
             summary=summary,
             published=published,
             now=now,
-            native_id=str(event.get("id", "")),
+            native_id=native_id,
             windows=windows,
+            topic_override=source.get("default_topic"),
         )
         if item:
             items.append(item)
+
     return items, {
         "id": source["id"],
         "name": source["name"],
         "status": "ok",
         "kind": "GitHub",
-        "fetched": len(events),
+        "fetched": len(repositories),
         "matched": len(items),
         "latest_item_at": max((item["published_at"] for item in items), default=None),
         "duration_ms": round((time.monotonic() - started) * 1000),

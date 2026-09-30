@@ -1,24 +1,240 @@
 {
   "meta": {
     "schema_version": 1,
-    "generated_at": "2026-09-30T10:43:10Z",
-    "generated_at_beijing": "2026-09-30 18:43",
+    "generated_at": "2026-09-30T10:57:25Z",
+    "generated_at_beijing": "2026-09-30 18:57",
     "run_status": "healthy",
     "active_modes": [
       "daily"
     ],
-    "window_start": "2026-09-27T10:43:10Z",
-    "window_end": "2026-09-30T10:43:10Z",
-    "source_count": 18,
-    "healthy_source_count": 18,
+    "window_start": "2026-09-27T10:57:25Z",
+    "window_end": "2026-09-30T10:57:25Z",
+    "source_count": 27,
+    "healthy_source_count": 27,
     "degraded_source_count": 0,
-    "new_or_checked_count": 116,
-    "total_item_count": 338,
-    "revision_count": 0,
+    "new_or_checked_count": 157,
+    "total_item_count": 380,
+    "revision_count": 1,
     "weekly_last_due_date": "2026-09-27",
     "monthly_complete_through": "2026-08"
   },
   "items": [
+    {
+      "id": "f1ced4dad171bbb14552",
+      "title": "MiniMax 更新开源项目：OpenAgentCore",
+      "summary": "Open-source, self-hosted implementation of the OpenAI Agents API with multiple native harnesses.；主要语言：Go；GitHub Stars：7；最近代码推送：2026-09-30T10:55:24Z。",
+      "url": "https://github.com/MiniMax-AI/OpenAgentCore",
+      "source": "MiniMax GitHub",
+      "source_id": "github-minimax",
+      "source_tier": "一手来源",
+      "company": "MiniMax",
+      "company_scale": "成长公司",
+      "region": "中国",
+      "topic": "大模型",
+      "signal_type": "开源",
+      "published_at": "2026-09-30T10:55:24Z",
+      "first_seen_at": "2026-09-30T10:55:51Z",
+      "last_checked_at": "2026-09-30T10:57:25Z",
+      "matched_windows": [
+        "daily"
+      ],
+      "confidence": "高",
+      "verification_status": "官方一手源",
+      "why_it_matters": "开放程度会改变开发成本和生态位，可能催生新的集成工具、评测和垂直应用机会。",
+      "career_angle": "把模型能力翻译成用户任务、评测集和业务指标，构建可证明的产品判断力。",
+      "score": 95,
+      "content_hash": "55c9256e42f29603",
+      "revisions": []
+    },
+    {
+      "id": "1f1afb290f4107e1b090",
+      "title": "阿里巴巴 更新开源项目：qwen-code",
+      "summary": "An open-source AI coding agent that lives in your terminal.；主要语言：TypeScript；GitHub Stars：28,235；最近代码推送：2026-09-30T10:45:11Z。",
+      "url": "https://github.com/QwenLM/qwen-code",
+      "source": "Qwen GitHub",
+      "source_id": "github-qwen",
+      "source_tier": "一手来源",
+      "company": "阿里巴巴",
+      "company_scale": "成熟企业",
+      "region": "中国",
+      "topic": "大模型",
+      "signal_type": "开源",
+      "published_at": "2026-09-30T10:45:11Z",
+      "first_seen_at": "2026-09-30T10:55:51Z",
+      "last_checked_at": "2026-09-30T10:57:25Z",
+      "matched_windows": [
+        "daily"
+      ],
+      "confidence": "高",
+      "verification_status": "官方一手源",
+      "why_it_matters": "开放程度会改变开发成本和生态位，可能催生新的集成工具、评测和垂直应用机会。",
+      "career_angle": "把模型能力翻译成用户任务、评测集和业务指标，构建可证明的产品判断力。",
+      "score": 95,
+      "content_hash": "374d4e962b09bcf3",
+      "revisions": []
+    },
+    {
+      "id": "ccdbf4d3a4bff4d0168f",
+      "title": "百度 更新开源项目：PaddleFleet",
+      "summary": "Core Functional Library for Distributed Training；主要语言：Python；GitHub Stars：28；最近代码推送：2026-09-30T09:52:28Z。",
+      "url": "https://github.com/PaddlePaddle/PaddleFleet",
+      "source": "PaddlePaddle GitHub",
+      "source_id": "github-paddle",
+      "source_tier": "一手来源",
+      "company": "百度",
+      "company_scale": "成熟企业",
+      "region": "中国",
+      "topic": "开源生态",
+      "signal_type": "开源",
+      "published_at": "2026-09-30T09:52:28Z",
+      "first_seen_at": "2026-09-30T10:55:51Z",
+      "last_checked_at": "2026-09-30T10:57:25Z",
+      "matched_windows": [
+        "daily"
+      ],
+      "confidence": "高",
+      "verification_status": "官方一手源",
+      "why_it_matters": "开放程度会改变开发成本和生态位，可能催生新的集成工具、评测和垂直应用机会。",
+      "career_angle": "研究开发者上手路径、文档与社区反馈，补强平台和开发者产品经验。",
+      "score": 95,
+      "content_hash": "50ce8df7ba709f85",
+      "revisions": []
+    },
+    {
+      "id": "3fa7fe7455cb3166416f",
+      "title": "华为 更新开源项目：hyper-parallel",
+      "summary": "主要语言：Python；GitHub Stars：58；最近代码推送：2026-09-30T09:41:34Z。",
+      "url": "https://github.com/mindspore-ai/hyper-parallel",
+      "source": "MindSpore GitHub",
+      "source_id": "github-mindspore",
+      "source_tier": "一手来源",
+      "company": "华为",
+      "company_scale": "成熟企业",
+      "region": "中国",
+      "topic": "开源生态",
+      "signal_type": "开源",
+      "published_at": "2026-09-30T09:41:34Z",
+      "first_seen_at": "2026-09-30T10:55:51Z",
+      "last_checked_at": "2026-09-30T10:57:25Z",
+      "matched_windows": [
+        "daily"
+      ],
+      "confidence": "高",
+      "verification_status": "官方一手源",
+      "why_it_matters": "开放程度会改变开发成本和生态位，可能催生新的集成工具、评测和垂直应用机会。",
+      "career_angle": "研究开发者上手路径、文档与社区反馈，补强平台和开发者产品经验。",
+      "score": 95,
+      "content_hash": "bd06392eb4ae97cf",
+      "revisions": []
+    },
+    {
+      "id": "154a39f66dec78a8babf",
+      "title": "腾讯 更新开源项目：UniRL",
+      "summary": "UniRL is a Framework for Unified Multimodal Model Reinforcement Learning；主要语言：Python；GitHub Stars：999；最近代码推送：2026-09-30T09:03:18Z。",
+      "url": "https://github.com/Tencent-Hunyuan/UniRL",
+      "source": "Tencent Hunyuan GitHub",
+      "source_id": "github-tencent-hunyuan",
+      "source_tier": "一手来源",
+      "company": "腾讯",
+      "company_scale": "成熟企业",
+      "region": "中国",
+      "topic": "大模型",
+      "signal_type": "开源",
+      "published_at": "2026-09-30T09:03:18Z",
+      "first_seen_at": "2026-09-30T10:55:51Z",
+      "last_checked_at": "2026-09-30T10:57:25Z",
+      "matched_windows": [
+        "daily"
+      ],
+      "confidence": "高",
+      "verification_status": "官方一手源",
+      "why_it_matters": "开放程度会改变开发成本和生态位，可能催生新的集成工具、评测和垂直应用机会。",
+      "career_angle": "把模型能力翻译成用户任务、评测集和业务指标，构建可证明的产品判断力。",
+      "score": 95,
+      "content_hash": "198ae63ac5b46604",
+      "revisions": []
+    },
+    {
+      "id": "ca93e174333f6dd67c43",
+      "title": "MiniMax 更新开源项目：minimax-code",
+      "summary": "An open-source coding agent for your terminal, powered by MiniMax.；主要语言：TypeScript；GitHub Stars：1,933；最近代码推送：2026-09-30T08:47:48Z。",
+      "url": "https://github.com/MiniMax-AI/minimax-code",
+      "source": "MiniMax GitHub",
+      "source_id": "github-minimax",
+      "source_tier": "一手来源",
+      "company": "MiniMax",
+      "company_scale": "成长公司",
+      "region": "中国",
+      "topic": "大模型",
+      "signal_type": "开源",
+      "published_at": "2026-09-30T08:47:48Z",
+      "first_seen_at": "2026-09-30T10:55:51Z",
+      "last_checked_at": "2026-09-30T10:57:25Z",
+      "matched_windows": [
+        "daily"
+      ],
+      "confidence": "高",
+      "verification_status": "官方一手源",
+      "why_it_matters": "开放程度会改变开发成本和生态位，可能催生新的集成工具、评测和垂直应用机会。",
+      "career_angle": "把模型能力翻译成用户任务、评测集和业务指标，构建可证明的产品判断力。",
+      "score": 95,
+      "content_hash": "f4ddeb0cf33a93fa",
+      "revisions": []
+    },
+    {
+      "id": "a45faa33f9e3c3038345",
+      "title": "阶跃星辰 更新开源项目：Step-Code",
+      "summary": "主要语言：TypeScript；GitHub Stars：508；最近代码推送：2026-09-30T08:36:02Z。",
+      "url": "https://github.com/stepfun-ai/Step-Code",
+      "source": "阶跃星辰 GitHub",
+      "source_id": "github-stepfun",
+      "source_tier": "一手来源",
+      "company": "阶跃星辰",
+      "company_scale": "初创公司",
+      "region": "中国",
+      "topic": "大模型",
+      "signal_type": "开源",
+      "published_at": "2026-09-30T08:36:02Z",
+      "first_seen_at": "2026-09-30T10:55:51Z",
+      "last_checked_at": "2026-09-30T10:57:25Z",
+      "matched_windows": [
+        "daily"
+      ],
+      "confidence": "高",
+      "verification_status": "官方一手源",
+      "why_it_matters": "开放程度会改变开发成本和生态位，可能催生新的集成工具、评测和垂直应用机会。",
+      "career_angle": "把模型能力翻译成用户任务、评测集和业务指标，构建可证明的产品判断力。",
+      "score": 95,
+      "content_hash": "7027f908abbb405e",
+      "revisions": []
+    },
+    {
+      "id": "7e51526eaa61aa3c2d3c",
+      "title": "百度 更新开源项目：PARL",
+      "summary": "A high-performance distributed training framework for Reinforcement Learning；主要语言：Python；GitHub Stars：3,458；最近代码推送：2026-09-30T08:21:48Z。",
+      "url": "https://github.com/PaddlePaddle/PARL",
+      "source": "PaddlePaddle GitHub",
+      "source_id": "github-paddle",
+      "source_tier": "一手来源",
+      "company": "百度",
+      "company_scale": "成熟企业",
+      "region": "中国",
+      "topic": "开源生态",
+      "signal_type": "开源",
+      "published_at": "2026-09-30T08:21:48Z",
+      "first_seen_at": "2026-09-30T10:55:51Z",
+      "last_checked_at": "2026-09-30T10:57:25Z",
+      "matched_windows": [
+        "daily"
+      ],
+      "confidence": "高",
+      "verification_status": "官方一手源",
+      "why_it_matters": "开放程度会改变开发成本和生态位，可能催生新的集成工具、评测和垂直应用机会。",
+      "career_angle": "研究开发者上手路径、文档与社区反馈，补强平台和开发者产品经验。",
+      "score": 95,
+      "content_hash": "b028ccebe3178cf9",
+      "revisions": []
+    },
     {
       "id": "a8de215ce49642cb2380",
       "title": "Introducing Anthropic models on Amazon Bedrock for in-region inference in Seoul and Singapore",
@@ -34,7 +250,7 @@
       "signal_type": "产品发布",
       "published_at": "2026-09-30T01:13:12Z",
       "first_seen_at": "2026-09-30T10:03:00Z",
-      "last_checked_at": "2026-09-30T10:43:10Z",
+      "last_checked_at": "2026-09-30T10:57:25Z",
       "matched_windows": [
         "daily"
       ],
@@ -44,6 +260,363 @@
       "career_angle": "优先研究部署、权限、审计和 ROI，补齐从 Demo 到规模化落地的经验。",
       "score": 95,
       "content_hash": "e16b9cc9aa52d6d1",
+      "revisions": []
+    },
+    {
+      "id": "cf185f421bd6f891f1e1",
+      "title": "DeepSeek 创建开源项目：dsh-libreoffice-kit",
+      "summary": "An internal component used by DeepSeek Harness；主要语言：JavaScript；GitHub Stars：5；最近代码推送：2026-09-30T07:37:00Z。",
+      "url": "https://github.com/deepseek-ai/dsh-libreoffice-kit",
+      "source": "DeepSeek GitHub",
+      "source_id": "github-deepseek",
+      "source_tier": "一手来源",
+      "company": "DeepSeek",
+      "company_scale": "成长公司",
+      "region": "中国",
+      "topic": "大模型",
+      "signal_type": "开源",
+      "published_at": "2026-09-30T07:37:00Z",
+      "first_seen_at": "2026-09-30T10:55:51Z",
+      "last_checked_at": "2026-09-30T10:57:25Z",
+      "matched_windows": [
+        "daily"
+      ],
+      "confidence": "高",
+      "verification_status": "复查有更新",
+      "why_it_matters": "开放程度会改变开发成本和生态位，可能催生新的集成工具、评测和垂直应用机会。",
+      "career_angle": "把模型能力翻译成用户任务、评测集和业务指标，构建可证明的产品判断力。",
+      "score": 94,
+      "content_hash": "754171336e8cfa0d",
+      "revisions": [
+        {
+          "at": "2026-09-30T10:57:25Z",
+          "previous_title": "DeepSeek 创建开源项目：dsh-libreoffice-kit",
+          "previous_summary": "An internal component used by DeepSeek Harness；主要语言：JavaScript；GitHub Stars：4；最近代码推送：2026-09-30T07:37:00Z。"
+        }
+      ]
+    },
+    {
+      "id": "ef7028732711d64bb8b7",
+      "title": "百度 更新开源项目：PaddleFormers",
+      "summary": "PaddleFormers is an easy-to-use library of pre-trained large language model zoo based on PaddlePaddle.；主要语言：Python；GitHub Stars：12,979；最近代码推送：2026-09-30T07:31:00Z。",
+      "url": "https://github.com/PaddlePaddle/PaddleFormers",
+      "source": "PaddlePaddle GitHub",
+      "source_id": "github-paddle",
+      "source_tier": "一手来源",
+      "company": "百度",
+      "company_scale": "成熟企业",
+      "region": "中国",
+      "topic": "开源生态",
+      "signal_type": "开源",
+      "published_at": "2026-09-30T07:31:00Z",
+      "first_seen_at": "2026-09-30T10:55:51Z",
+      "last_checked_at": "2026-09-30T10:57:25Z",
+      "matched_windows": [
+        "daily"
+      ],
+      "confidence": "高",
+      "verification_status": "官方一手源",
+      "why_it_matters": "开放程度会改变开发成本和生态位，可能催生新的集成工具、评测和垂直应用机会。",
+      "career_angle": "研究开发者上手路径、文档与社区反馈，补强平台和开发者产品经验。",
+      "score": 94,
+      "content_hash": "36a87cfe9f9c372f",
+      "revisions": []
+    },
+    {
+      "id": "887cab07e54938476adf",
+      "title": "DeepSeek 创建开源项目：dsh-node-addon-require-builtin",
+      "summary": "An internal component used by DeepSeek Harness；主要语言：C++；GitHub Stars：4；最近代码推送：2026-09-30T07:03:33Z。",
+      "url": "https://github.com/deepseek-ai/dsh-node-addon-require-builtin",
+      "source": "DeepSeek GitHub",
+      "source_id": "github-deepseek",
+      "source_tier": "一手来源",
+      "company": "DeepSeek",
+      "company_scale": "成长公司",
+      "region": "中国",
+      "topic": "大模型",
+      "signal_type": "开源",
+      "published_at": "2026-09-30T07:03:33Z",
+      "first_seen_at": "2026-09-30T10:55:51Z",
+      "last_checked_at": "2026-09-30T10:57:25Z",
+      "matched_windows": [
+        "daily"
+      ],
+      "confidence": "高",
+      "verification_status": "官方一手源",
+      "why_it_matters": "开放程度会改变开发成本和生态位，可能催生新的集成工具、评测和垂直应用机会。",
+      "career_angle": "把模型能力翻译成用户任务、评测集和业务指标，构建可证明的产品判断力。",
+      "score": 94,
+      "content_hash": "b59fcea24cda2585",
+      "revisions": []
+    },
+    {
+      "id": "6110739f59e4fda2996a",
+      "title": "字节跳动 更新开源项目：VeOmni",
+      "summary": "VeOmni: Scaling Any Modality Model Training with Model-Centric Distributed Recipe Zoo；主要语言：Python；GitHub Stars：2,230；最近代码推送：2026-09-30T06:19:29Z。",
+      "url": "https://github.com/ByteDance-Seed/VeOmni",
+      "source": "ByteDance Seed GitHub",
+      "source_id": "github-bytedance-seed",
+      "source_tier": "一手来源",
+      "company": "字节跳动",
+      "company_scale": "成熟企业",
+      "region": "中国",
+      "topic": "大模型",
+      "signal_type": "开源",
+      "published_at": "2026-09-30T06:19:29Z",
+      "first_seen_at": "2026-09-30T10:55:51Z",
+      "last_checked_at": "2026-09-30T10:57:25Z",
+      "matched_windows": [
+        "daily"
+      ],
+      "confidence": "高",
+      "verification_status": "官方一手源",
+      "why_it_matters": "开放程度会改变开发成本和生态位，可能催生新的集成工具、评测和垂直应用机会。",
+      "career_angle": "把模型能力翻译成用户任务、评测集和业务指标，构建可证明的产品判断力。",
+      "score": 94,
+      "content_hash": "ab7cd5a939481ba9",
+      "revisions": []
+    },
+    {
+      "id": "1458bd2b6fcd7d9f6ae9",
+      "title": "宇树科技 更新开源项目：unitree_ros",
+      "summary": "主要语言：C++；GitHub Stars：1,577；最近代码推送：2026-09-30T03:54:56Z。",
+      "url": "https://github.com/unitreerobotics/unitree_ros",
+      "source": "Unitree Robotics GitHub",
+      "source_id": "github-unitree",
+      "source_tier": "一手来源",
+      "company": "宇树科技",
+      "company_scale": "成长公司",
+      "region": "中国",
+      "topic": "具身智能",
+      "signal_type": "开源",
+      "published_at": "2026-09-30T03:54:56Z",
+      "first_seen_at": "2026-09-30T10:55:51Z",
+      "last_checked_at": "2026-09-30T10:57:25Z",
+      "matched_windows": [
+        "daily"
+      ],
+      "confidence": "高",
+      "verification_status": "官方一手源",
+      "why_it_matters": "开放程度会改变开发成本和生态位，可能催生新的集成工具、评测和垂直应用机会。",
+      "career_angle": "关注软硬件协同、任务评测与真实场景数据闭环；这些经验比单一功能设计更稀缺。",
+      "score": 93,
+      "content_hash": "7d9b4e7c0962ff7a",
+      "revisions": []
+    },
+    {
+      "id": "d1eb3eccdf3458ca0e5d",
+      "title": "DeepSeek 更新开源项目：DeepJIT",
+      "summary": "A lightweight library for xPU kernel JIT compilation；主要语言：C++；GitHub Stars：354；最近代码推送：2026-09-30T02:21:39Z。",
+      "url": "https://github.com/deepseek-ai/DeepJIT",
+      "source": "DeepSeek GitHub",
+      "source_id": "github-deepseek",
+      "source_tier": "一手来源",
+      "company": "DeepSeek",
+      "company_scale": "成长公司",
+      "region": "中国",
+      "topic": "大模型",
+      "signal_type": "开源",
+      "published_at": "2026-09-30T02:21:39Z",
+      "first_seen_at": "2026-09-30T10:55:51Z",
+      "last_checked_at": "2026-09-30T10:57:25Z",
+      "matched_windows": [
+        "daily"
+      ],
+      "confidence": "高",
+      "verification_status": "官方一手源",
+      "why_it_matters": "开放程度会改变开发成本和生态位，可能催生新的集成工具、评测和垂直应用机会。",
+      "career_angle": "把模型能力翻译成用户任务、评测集和业务指标，构建可证明的产品判断力。",
+      "score": 93,
+      "content_hash": "ac82aaabbc17ce8b",
+      "revisions": []
+    },
+    {
+      "id": "0fcd09e3b55ed9c12f40",
+      "title": "百度 更新开源项目：Paddle",
+      "summary": "主要语言：C++；GitHub Stars：24,113；最近代码推送：2026-09-30T02:20:19Z。",
+      "url": "https://github.com/PaddlePaddle/Paddle",
+      "source": "PaddlePaddle GitHub",
+      "source_id": "github-paddle",
+      "source_tier": "一手来源",
+      "company": "百度",
+      "company_scale": "成熟企业",
+      "region": "中国",
+      "topic": "开源生态",
+      "signal_type": "开源",
+      "published_at": "2026-09-30T02:20:19Z",
+      "first_seen_at": "2026-09-30T10:55:51Z",
+      "last_checked_at": "2026-09-30T10:57:25Z",
+      "matched_windows": [
+        "daily"
+      ],
+      "confidence": "高",
+      "verification_status": "官方一手源",
+      "why_it_matters": "开放程度会改变开发成本和生态位，可能催生新的集成工具、评测和垂直应用机会。",
+      "career_angle": "研究开发者上手路径、文档与社区反馈，补强平台和开发者产品经验。",
+      "score": 93,
+      "content_hash": "6dd0a1ae2e38c9db",
+      "revisions": []
+    },
+    {
+      "id": "38464fa8d675aa7b131a",
+      "title": "阿里巴巴 更新开源项目：Qwen-Image-2.1",
+      "summary": "Qwen's most powerful open-source image generation model；主要语言：Python；GitHub Stars：1,644；最近代码推送：2026-09-30T02:17:34Z。",
+      "url": "https://github.com/QwenLM/Qwen-Image-2.1",
+      "source": "Qwen GitHub",
+      "source_id": "github-qwen",
+      "source_tier": "一手来源",
+      "company": "阿里巴巴",
+      "company_scale": "成熟企业",
+      "region": "中国",
+      "topic": "大模型",
+      "signal_type": "开源",
+      "published_at": "2026-09-30T02:17:34Z",
+      "first_seen_at": "2026-09-30T10:55:51Z",
+      "last_checked_at": "2026-09-30T10:57:25Z",
+      "matched_windows": [
+        "daily"
+      ],
+      "confidence": "高",
+      "verification_status": "官方一手源",
+      "why_it_matters": "开放程度会改变开发成本和生态位，可能催生新的集成工具、评测和垂直应用机会。",
+      "career_angle": "把模型能力翻译成用户任务、评测集和业务指标，构建可证明的产品判断力。",
+      "score": 93,
+      "content_hash": "a15ec67241600e19",
+      "revisions": []
+    },
+    {
+      "id": "03736afdbdd9ce1829b7",
+      "title": "DeepSeek 更新开源项目：TileKernels",
+      "summary": "A kernel library written in tilelang；主要语言：Python；GitHub Stars：1,840；最近代码推送：2026-09-30T01:58:45Z。",
+      "url": "https://github.com/deepseek-ai/TileKernels",
+      "source": "DeepSeek GitHub",
+      "source_id": "github-deepseek",
+      "source_tier": "一手来源",
+      "company": "DeepSeek",
+      "company_scale": "成长公司",
+      "region": "中国",
+      "topic": "大模型",
+      "signal_type": "开源",
+      "published_at": "2026-09-30T01:58:45Z",
+      "first_seen_at": "2026-09-30T10:55:51Z",
+      "last_checked_at": "2026-09-30T10:57:25Z",
+      "matched_windows": [
+        "daily"
+      ],
+      "confidence": "高",
+      "verification_status": "官方一手源",
+      "why_it_matters": "开放程度会改变开发成本和生态位，可能催生新的集成工具、评测和垂直应用机会。",
+      "career_angle": "把模型能力翻译成用户任务、评测集和业务指标，构建可证明的产品判断力。",
+      "score": 93,
+      "content_hash": "778cf2f81214ca0a",
+      "revisions": []
+    },
+    {
+      "id": "8da4e066125d5752e3c5",
+      "title": "DeepSeek 更新开源项目：FlashMLA",
+      "summary": "FlashMLA: Efficient Multi-head Latent Attention Kernels；主要语言：C++；GitHub Stars：12,997；最近代码推送：2026-09-30T01:58:27Z。",
+      "url": "https://github.com/deepseek-ai/FlashMLA",
+      "source": "DeepSeek GitHub",
+      "source_id": "github-deepseek",
+      "source_tier": "一手来源",
+      "company": "DeepSeek",
+      "company_scale": "成长公司",
+      "region": "中国",
+      "topic": "大模型",
+      "signal_type": "开源",
+      "published_at": "2026-09-30T01:58:27Z",
+      "first_seen_at": "2026-09-30T10:55:51Z",
+      "last_checked_at": "2026-09-30T10:57:25Z",
+      "matched_windows": [
+        "daily"
+      ],
+      "confidence": "高",
+      "verification_status": "官方一手源",
+      "why_it_matters": "开放程度会改变开发成本和生态位，可能催生新的集成工具、评测和垂直应用机会。",
+      "career_angle": "把模型能力翻译成用户任务、评测集和业务指标，构建可证明的产品判断力。",
+      "score": 93,
+      "content_hash": "eaa5bfae0967c105",
+      "revisions": []
+    },
+    {
+      "id": "13ee05d101e01a6c64cb",
+      "title": "华为 更新开源项目：mindformers",
+      "summary": "主要语言：Python；GitHub Stars：3；最近代码推送：2026-09-30T01:49:28Z。",
+      "url": "https://github.com/mindspore-ai/mindformers",
+      "source": "MindSpore GitHub",
+      "source_id": "github-mindspore",
+      "source_tier": "一手来源",
+      "company": "华为",
+      "company_scale": "成熟企业",
+      "region": "中国",
+      "topic": "开源生态",
+      "signal_type": "开源",
+      "published_at": "2026-09-30T01:49:28Z",
+      "first_seen_at": "2026-09-30T10:55:51Z",
+      "last_checked_at": "2026-09-30T10:57:25Z",
+      "matched_windows": [
+        "daily"
+      ],
+      "confidence": "高",
+      "verification_status": "官方一手源",
+      "why_it_matters": "开放程度会改变开发成本和生态位，可能催生新的集成工具、评测和垂直应用机会。",
+      "career_angle": "研究开发者上手路径、文档与社区反馈，补强平台和开发者产品经验。",
+      "score": 92,
+      "content_hash": "128644cdfa8aaf3b",
+      "revisions": []
+    },
+    {
+      "id": "6bdd98a1292221ed3774",
+      "title": "华为 更新开源项目：mindspore-lite",
+      "summary": "主要语言：C++；GitHub Stars：7；最近代码推送：2026-09-30T01:48:39Z。",
+      "url": "https://github.com/mindspore-ai/mindspore-lite",
+      "source": "MindSpore GitHub",
+      "source_id": "github-mindspore",
+      "source_tier": "一手来源",
+      "company": "华为",
+      "company_scale": "成熟企业",
+      "region": "中国",
+      "topic": "开源生态",
+      "signal_type": "开源",
+      "published_at": "2026-09-30T01:48:39Z",
+      "first_seen_at": "2026-09-30T10:55:51Z",
+      "last_checked_at": "2026-09-30T10:57:25Z",
+      "matched_windows": [
+        "daily"
+      ],
+      "confidence": "高",
+      "verification_status": "官方一手源",
+      "why_it_matters": "开放程度会改变开发成本和生态位，可能催生新的集成工具、评测和垂直应用机会。",
+      "career_angle": "研究开发者上手路径、文档与社区反馈，补强平台和开发者产品经验。",
+      "score": 92,
+      "content_hash": "38562b34eec37be4",
+      "revisions": []
+    },
+    {
+      "id": "5aebd9a5ea65b31f6478",
+      "title": "百度 更新开源项目：Paddle-iluvatar",
+      "summary": "PaddlePaddle for Iluvatar GPU；主要语言：Cuda；GitHub Stars：1；最近代码推送：2026-09-30T01:10:26Z。",
+      "url": "https://github.com/PaddlePaddle/Paddle-iluvatar",
+      "source": "PaddlePaddle GitHub",
+      "source_id": "github-paddle",
+      "source_tier": "一手来源",
+      "company": "百度",
+      "company_scale": "成熟企业",
+      "region": "中国",
+      "topic": "开源生态",
+      "signal_type": "开源",
+      "published_at": "2026-09-30T01:10:26Z",
+      "first_seen_at": "2026-09-30T10:55:51Z",
+      "last_checked_at": "2026-09-30T10:57:25Z",
+      "matched_windows": [
+        "daily"
+      ],
+      "confidence": "高",
+      "verification_status": "官方一手源",
+      "why_it_matters": "开放程度会改变开发成本和生态位，可能催生新的集成工具、评测和垂直应用机会。",
+      "career_angle": "研究开发者上手路径、文档与社区反馈，补强平台和开发者产品经验。",
+      "score": 92,
+      "content_hash": "e547343e71013eb3",
       "revisions": []
     },
     {
@@ -61,7 +634,7 @@
       "signal_type": "产品发布",
       "published_at": "2026-09-29T14:00:02Z",
       "first_seen_at": "2026-09-30T10:03:00Z",
-      "last_checked_at": "2026-09-30T10:43:10Z",
+      "last_checked_at": "2026-09-30T10:57:25Z",
       "matched_windows": [
         "daily"
       ],
@@ -71,6 +644,195 @@
       "career_angle": "先问“能解决哪个用户任务”，再把论文指标转成产品假设和验证计划。",
       "score": 92,
       "content_hash": "b21f6bce705fa4e3",
+      "revisions": []
+    },
+    {
+      "id": "1d987f3d2a6e43ca44ce",
+      "title": "Mistral AI 更新开源项目：mistral-common",
+      "summary": "Official inference library for pre-processing of Mistral models；主要语言：Python；GitHub Stars：944；最近代码推送：2026-09-30T10:55:12Z。",
+      "url": "https://github.com/mistralai/mistral-common",
+      "source": "Mistral AI GitHub",
+      "source_id": "github-mistral",
+      "source_tier": "一手来源",
+      "company": "Mistral AI",
+      "company_scale": "成长公司",
+      "region": "欧洲",
+      "topic": "大模型",
+      "signal_type": "开源",
+      "published_at": "2026-09-30T10:55:12Z",
+      "first_seen_at": "2026-09-30T10:55:51Z",
+      "last_checked_at": "2026-09-30T10:57:25Z",
+      "matched_windows": [
+        "daily"
+      ],
+      "confidence": "高",
+      "verification_status": "官方一手源",
+      "why_it_matters": "开放程度会改变开发成本和生态位，可能催生新的集成工具、评测和垂直应用机会。",
+      "career_angle": "把模型能力翻译成用户任务、评测集和业务指标，构建可证明的产品判断力。",
+      "score": 91,
+      "content_hash": "7d2919f50d2a3615",
+      "revisions": []
+    },
+    {
+      "id": "1f425a2d92ce17a509b4",
+      "title": "Anthropic 更新开源项目：claude-code",
+      "summary": "Claude Code is an agentic coding tool that lives in your terminal, understands your codebase, and helps you code faster by executing routine tasks, explaining complex code, and handling git workflows - all through natur…；主要语言：TypeScript；GitHub Stars：148,643；最近代码推送：2026-09-30T09:23:08Z。",
+      "url": "https://github.com/anthropics/claude-code",
+      "source": "Anthropic GitHub",
+      "source_id": "github-anthropic",
+      "source_tier": "一手来源",
+      "company": "Anthropic",
+      "company_scale": "成长公司",
+      "region": "北美",
+      "topic": "大模型",
+      "signal_type": "开源",
+      "published_at": "2026-09-30T09:23:08Z",
+      "first_seen_at": "2026-09-30T10:55:51Z",
+      "last_checked_at": "2026-09-30T10:57:25Z",
+      "matched_windows": [
+        "daily"
+      ],
+      "confidence": "高",
+      "verification_status": "官方一手源",
+      "why_it_matters": "开放程度会改变开发成本和生态位，可能催生新的集成工具、评测和垂直应用机会。",
+      "career_angle": "把模型能力翻译成用户任务、评测集和业务指标，构建可证明的产品判断力。",
+      "score": 91,
+      "content_hash": "dfd71dfac12bb7a8",
+      "revisions": []
+    },
+    {
+      "id": "a27b172fe97645815fb0",
+      "title": "Anthropic 更新开源项目：knowledge-work-plugins",
+      "summary": "Open source repository of plugins primarily intended for knowledge workers to use in Claude Cowork；主要语言：Python；GitHub Stars：25,900；最近代码推送：2026-09-30T07:42:47Z。",
+      "url": "https://github.com/anthropics/knowledge-work-plugins",
+      "source": "Anthropic GitHub",
+      "source_id": "github-anthropic",
+      "source_tier": "一手来源",
+      "company": "Anthropic",
+      "company_scale": "成长公司",
+      "region": "北美",
+      "topic": "大模型",
+      "signal_type": "开源",
+      "published_at": "2026-09-30T07:42:47Z",
+      "first_seen_at": "2026-09-30T10:55:51Z",
+      "last_checked_at": "2026-09-30T10:57:25Z",
+      "matched_windows": [
+        "daily"
+      ],
+      "confidence": "高",
+      "verification_status": "官方一手源",
+      "why_it_matters": "开放程度会改变开发成本和生态位，可能催生新的集成工具、评测和垂直应用机会。",
+      "career_angle": "把模型能力翻译成用户任务、评测集和业务指标，构建可证明的产品判断力。",
+      "score": 90,
+      "content_hash": "185293842deeac32",
+      "revisions": []
+    },
+    {
+      "id": "74fce9188bf125b73e21",
+      "title": "Mistral AI 更新开源项目：platform-docs-public",
+      "summary": "主要语言：MDX；GitHub Stars：73；最近代码推送：2026-09-30T07:42:12Z。",
+      "url": "https://github.com/mistralai/platform-docs-public",
+      "source": "Mistral AI GitHub",
+      "source_id": "github-mistral",
+      "source_tier": "一手来源",
+      "company": "Mistral AI",
+      "company_scale": "成长公司",
+      "region": "欧洲",
+      "topic": "大模型",
+      "signal_type": "开源",
+      "published_at": "2026-09-30T07:42:12Z",
+      "first_seen_at": "2026-09-30T10:55:51Z",
+      "last_checked_at": "2026-09-30T10:57:25Z",
+      "matched_windows": [
+        "daily"
+      ],
+      "confidence": "高",
+      "verification_status": "官方一手源",
+      "why_it_matters": "开放程度会改变开发成本和生态位，可能催生新的集成工具、评测和垂直应用机会。",
+      "career_angle": "把模型能力翻译成用户任务、评测集和业务指标，构建可证明的产品判断力。",
+      "score": 90,
+      "content_hash": "8a3d1f45970db75e",
+      "revisions": []
+    },
+    {
+      "id": "76167adfce29c37d3cfe",
+      "title": "Anthropic 更新开源项目：claude-agent-sdk-python",
+      "summary": "主要语言：Python；GitHub Stars：8,195；最近代码推送：2026-09-30T06:58:50Z。",
+      "url": "https://github.com/anthropics/claude-agent-sdk-python",
+      "source": "Anthropic GitHub",
+      "source_id": "github-anthropic",
+      "source_tier": "一手来源",
+      "company": "Anthropic",
+      "company_scale": "成长公司",
+      "region": "北美",
+      "topic": "大模型",
+      "signal_type": "开源",
+      "published_at": "2026-09-30T06:58:50Z",
+      "first_seen_at": "2026-09-30T10:55:51Z",
+      "last_checked_at": "2026-09-30T10:57:25Z",
+      "matched_windows": [
+        "daily"
+      ],
+      "confidence": "高",
+      "verification_status": "官方一手源",
+      "why_it_matters": "开放程度会改变开发成本和生态位，可能催生新的集成工具、评测和垂直应用机会。",
+      "career_angle": "把模型能力翻译成用户任务、评测集和业务指标，构建可证明的产品判断力。",
+      "score": 90,
+      "content_hash": "d11972c8ed1b2334",
+      "revisions": []
+    },
+    {
+      "id": "2de118788dd2a34ada20",
+      "title": "Anthropic 更新开源项目：claude-agent-sdk-typescript",
+      "summary": "主要语言：Shell；GitHub Stars：1,780；最近代码推送：2026-09-30T06:42:21Z。",
+      "url": "https://github.com/anthropics/claude-agent-sdk-typescript",
+      "source": "Anthropic GitHub",
+      "source_id": "github-anthropic",
+      "source_tier": "一手来源",
+      "company": "Anthropic",
+      "company_scale": "成长公司",
+      "region": "北美",
+      "topic": "大模型",
+      "signal_type": "开源",
+      "published_at": "2026-09-30T06:42:21Z",
+      "first_seen_at": "2026-09-30T10:55:51Z",
+      "last_checked_at": "2026-09-30T10:57:25Z",
+      "matched_windows": [
+        "daily"
+      ],
+      "confidence": "高",
+      "verification_status": "官方一手源",
+      "why_it_matters": "开放程度会改变开发成本和生态位，可能催生新的集成工具、评测和垂直应用机会。",
+      "career_angle": "把模型能力翻译成用户任务、评测集和业务指标，构建可证明的产品判断力。",
+      "score": 90,
+      "content_hash": "aa09861443128af3",
+      "revisions": []
+    },
+    {
+      "id": "ed469537b61c43eba8a5",
+      "title": "Anthropic 更新开源项目：claude-code-action",
+      "summary": "主要语言：TypeScript；GitHub Stars：9,249；最近代码推送：2026-09-30T06:33:52Z。",
+      "url": "https://github.com/anthropics/claude-code-action",
+      "source": "Anthropic GitHub",
+      "source_id": "github-anthropic",
+      "source_tier": "一手来源",
+      "company": "Anthropic",
+      "company_scale": "成长公司",
+      "region": "北美",
+      "topic": "大模型",
+      "signal_type": "开源",
+      "published_at": "2026-09-30T06:33:52Z",
+      "first_seen_at": "2026-09-30T10:55:51Z",
+      "last_checked_at": "2026-09-30T10:57:25Z",
+      "matched_windows": [
+        "daily"
+      ],
+      "confidence": "高",
+      "verification_status": "官方一手源",
+      "why_it_matters": "开放程度会改变开发成本和生态位，可能催生新的集成工具、评测和垂直应用机会。",
+      "career_angle": "把模型能力翻译成用户任务、评测集和业务指标，构建可证明的产品判断力。",
+      "score": 90,
+      "content_hash": "6e1aaddc15e8cfb6",
       "revisions": []
     },
     {
@@ -88,7 +850,7 @@
       "signal_type": "产品发布",
       "published_at": "2026-09-29T10:00:00Z",
       "first_seen_at": "2026-09-30T10:03:00Z",
-      "last_checked_at": "2026-09-30T10:43:10Z",
+      "last_checked_at": "2026-09-30T10:57:25Z",
       "matched_windows": [
         "daily"
       ],
@@ -115,7 +877,7 @@
       "signal_type": "产品发布",
       "published_at": "2026-09-29T10:00:00Z",
       "first_seen_at": "2026-09-30T10:03:00Z",
-      "last_checked_at": "2026-09-30T10:43:10Z",
+      "last_checked_at": "2026-09-30T10:57:25Z",
       "matched_windows": [
         "daily"
       ],
@@ -142,7 +904,7 @@
       "signal_type": "合作落地",
       "published_at": "2026-09-29T16:14:24Z",
       "first_seen_at": "2026-09-30T10:03:00Z",
-      "last_checked_at": "2026-09-30T10:43:10Z",
+      "last_checked_at": "2026-09-30T10:57:25Z",
       "matched_windows": [
         "daily"
       ],
@@ -152,6 +914,114 @@
       "career_angle": "练习定义任务成功率、人工接管率和失败兜底，形成一份可复用的 Agent 评测框架。",
       "score": 89,
       "content_hash": "bcedcab905c98b71",
+      "revisions": []
+    },
+    {
+      "id": "ef7c16e1c68d7b4229c4",
+      "title": "MiniMax 更新开源项目：cli",
+      "summary": "Generate text, images, video, speech, and music by MiniMax.；主要语言：TypeScript；GitHub Stars：2,179；最近代码推送：2026-09-29T12:53:48Z。",
+      "url": "https://github.com/MiniMax-AI/cli",
+      "source": "MiniMax GitHub",
+      "source_id": "github-minimax",
+      "source_tier": "一手来源",
+      "company": "MiniMax",
+      "company_scale": "成长公司",
+      "region": "中国",
+      "topic": "大模型",
+      "signal_type": "开源",
+      "published_at": "2026-09-29T12:53:48Z",
+      "first_seen_at": "2026-09-30T10:55:51Z",
+      "last_checked_at": "2026-09-30T10:57:25Z",
+      "matched_windows": [
+        "daily"
+      ],
+      "confidence": "高",
+      "verification_status": "官方一手源",
+      "why_it_matters": "开放程度会改变开发成本和生态位，可能催生新的集成工具、评测和垂直应用机会。",
+      "career_angle": "把模型能力翻译成用户任务、评测集和业务指标，构建可证明的产品判断力。",
+      "score": 88,
+      "content_hash": "762eb1d90ed33134",
+      "revisions": []
+    },
+    {
+      "id": "cac136261ecc17d9d0dd",
+      "title": "宇树科技 更新开源项目：unifolm-wla",
+      "summary": "主要语言：Python；GitHub Stars：199；最近代码推送：2026-09-29T11:09:51Z。",
+      "url": "https://github.com/unitreerobotics/unifolm-wla",
+      "source": "Unitree Robotics GitHub",
+      "source_id": "github-unitree",
+      "source_tier": "一手来源",
+      "company": "宇树科技",
+      "company_scale": "成长公司",
+      "region": "中国",
+      "topic": "具身智能",
+      "signal_type": "开源",
+      "published_at": "2026-09-29T11:09:51Z",
+      "first_seen_at": "2026-09-30T10:55:51Z",
+      "last_checked_at": "2026-09-30T10:57:25Z",
+      "matched_windows": [
+        "daily"
+      ],
+      "confidence": "高",
+      "verification_status": "官方一手源",
+      "why_it_matters": "开放程度会改变开发成本和生态位，可能催生新的集成工具、评测和垂直应用机会。",
+      "career_angle": "关注软硬件协同、任务评测与真实场景数据闭环；这些经验比单一功能设计更稀缺。",
+      "score": 88,
+      "content_hash": "980db5e9eddbb47f",
+      "revisions": []
+    },
+    {
+      "id": "246600aa47f89db8ad7a",
+      "title": "宇树科技 更新开源项目：.github",
+      "summary": "GitHub Stars：4；最近代码推送：2026-09-29T09:38:48Z。",
+      "url": "https://github.com/unitreerobotics/.github",
+      "source": "Unitree Robotics GitHub",
+      "source_id": "github-unitree",
+      "source_tier": "一手来源",
+      "company": "宇树科技",
+      "company_scale": "成长公司",
+      "region": "中国",
+      "topic": "开源生态",
+      "signal_type": "开源",
+      "published_at": "2026-09-29T09:38:48Z",
+      "first_seen_at": "2026-09-30T10:55:51Z",
+      "last_checked_at": "2026-09-30T10:55:51Z",
+      "matched_windows": [
+        "daily"
+      ],
+      "confidence": "高",
+      "verification_status": "官方一手源",
+      "why_it_matters": "开放程度会改变开发成本和生态位，可能催生新的集成工具、评测和垂直应用机会。",
+      "career_angle": "研究开发者上手路径、文档与社区反馈，补强平台和开发者产品经验。",
+      "score": 87,
+      "content_hash": "fa26577ba24476cc",
+      "revisions": []
+    },
+    {
+      "id": "dec3ec25a227ec352eb3",
+      "title": "阶跃星辰 更新开源项目：Step-Cookbook",
+      "summary": "主要语言：PowerShell；GitHub Stars：2；最近代码推送：2026-09-29T08:40:17Z。",
+      "url": "https://github.com/stepfun-ai/Step-Cookbook",
+      "source": "阶跃星辰 GitHub",
+      "source_id": "github-stepfun",
+      "source_tier": "一手来源",
+      "company": "阶跃星辰",
+      "company_scale": "初创公司",
+      "region": "中国",
+      "topic": "大模型",
+      "signal_type": "开源",
+      "published_at": "2026-09-29T08:40:17Z",
+      "first_seen_at": "2026-09-30T10:55:51Z",
+      "last_checked_at": "2026-09-30T10:57:25Z",
+      "matched_windows": [
+        "daily"
+      ],
+      "confidence": "高",
+      "verification_status": "官方一手源",
+      "why_it_matters": "开放程度会改变开发成本和生态位，可能催生新的集成工具、评测和垂直应用机会。",
+      "career_angle": "把模型能力翻译成用户任务、评测集和业务指标，构建可证明的产品判断力。",
+      "score": 87,
+      "content_hash": "48764f2d24871a5b",
       "revisions": []
     },
     {
@@ -169,7 +1039,7 @@
       "signal_type": "产品发布",
       "published_at": "2026-09-29T00:00:00Z",
       "first_seen_at": "2026-09-30T10:03:00Z",
-      "last_checked_at": "2026-09-30T10:43:10Z",
+      "last_checked_at": "2026-09-30T10:57:25Z",
       "matched_windows": [
         "daily"
       ],
@@ -196,7 +1066,7 @@
       "signal_type": "研究突破",
       "published_at": "2026-09-30T04:00:00Z",
       "first_seen_at": "2026-09-30T10:03:00Z",
-      "last_checked_at": "2026-09-30T10:43:10Z",
+      "last_checked_at": "2026-09-30T10:57:25Z",
       "matched_windows": [
         "daily"
       ],
@@ -223,7 +1093,7 @@
       "signal_type": "研究突破",
       "published_at": "2026-09-30T04:00:00Z",
       "first_seen_at": "2026-09-30T10:03:00Z",
-      "last_checked_at": "2026-09-30T10:43:10Z",
+      "last_checked_at": "2026-09-30T10:57:25Z",
       "matched_windows": [
         "daily"
       ],
@@ -250,7 +1120,7 @@
       "signal_type": "研究突破",
       "published_at": "2026-09-30T04:00:00Z",
       "first_seen_at": "2026-09-30T10:03:00Z",
-      "last_checked_at": "2026-09-30T10:43:10Z",
+      "last_checked_at": "2026-09-30T10:57:25Z",
       "matched_windows": [
         "daily"
       ],
@@ -277,7 +1147,7 @@
       "signal_type": "研究突破",
       "published_at": "2026-09-30T04:00:00Z",
       "first_seen_at": "2026-09-30T10:03:00Z",
-      "last_checked_at": "2026-09-30T10:43:10Z",
+      "last_checked_at": "2026-09-30T10:57:25Z",
       "matched_windows": [
         "daily"
       ],
@@ -304,7 +1174,7 @@
       "signal_type": "研究突破",
       "published_at": "2026-09-30T04:00:00Z",
       "first_seen_at": "2026-09-30T10:03:00Z",
-      "last_checked_at": "2026-09-30T10:43:10Z",
+      "last_checked_at": "2026-09-30T10:57:25Z",
       "matched_windows": [
         "daily"
       ],
@@ -331,7 +1201,7 @@
       "signal_type": "研究突破",
       "published_at": "2026-09-30T04:00:00Z",
       "first_seen_at": "2026-09-30T10:03:00Z",
-      "last_checked_at": "2026-09-30T10:43:10Z",
+      "last_checked_at": "2026-09-30T10:57:25Z",
       "matched_windows": [
         "daily"
       ],
@@ -358,7 +1228,7 @@
       "signal_type": "研究突破",
       "published_at": "2026-09-30T04:00:00Z",
       "first_seen_at": "2026-09-30T10:03:00Z",
-      "last_checked_at": "2026-09-30T10:43:10Z",
+      "last_checked_at": "2026-09-30T10:57:25Z",
       "matched_windows": [
         "daily"
       ],
@@ -385,7 +1255,7 @@
       "signal_type": "研究突破",
       "published_at": "2026-09-30T04:00:00Z",
       "first_seen_at": "2026-09-30T10:03:00Z",
-      "last_checked_at": "2026-09-30T10:43:10Z",
+      "last_checked_at": "2026-09-30T10:57:25Z",
       "matched_windows": [
         "daily"
       ],
@@ -412,7 +1282,7 @@
       "signal_type": "研究突破",
       "published_at": "2026-09-30T04:00:00Z",
       "first_seen_at": "2026-09-30T10:03:00Z",
-      "last_checked_at": "2026-09-30T10:43:10Z",
+      "last_checked_at": "2026-09-30T10:57:25Z",
       "matched_windows": [
         "daily"
       ],
@@ -439,7 +1309,7 @@
       "signal_type": "研究突破",
       "published_at": "2026-09-30T04:00:00Z",
       "first_seen_at": "2026-09-30T10:03:00Z",
-      "last_checked_at": "2026-09-30T10:43:10Z",
+      "last_checked_at": "2026-09-30T10:57:25Z",
       "matched_windows": [
         "daily"
       ],
@@ -466,7 +1336,7 @@
       "signal_type": "研究突破",
       "published_at": "2026-09-30T04:00:00Z",
       "first_seen_at": "2026-09-30T10:03:00Z",
-      "last_checked_at": "2026-09-30T10:43:10Z",
+      "last_checked_at": "2026-09-30T10:57:25Z",
       "matched_windows": [
         "daily"
       ],
@@ -493,7 +1363,7 @@
       "signal_type": "研究突破",
       "published_at": "2026-09-30T04:00:00Z",
       "first_seen_at": "2026-09-30T10:03:00Z",
-      "last_checked_at": "2026-09-30T10:43:10Z",
+      "last_checked_at": "2026-09-30T10:57:25Z",
       "matched_windows": [
         "daily"
       ],
@@ -520,7 +1390,7 @@
       "signal_type": "研究突破",
       "published_at": "2026-09-30T04:00:00Z",
       "first_seen_at": "2026-09-30T10:03:00Z",
-      "last_checked_at": "2026-09-30T10:43:10Z",
+      "last_checked_at": "2026-09-30T10:57:25Z",
       "matched_windows": [
         "daily"
       ],
@@ -547,7 +1417,7 @@
       "signal_type": "研究突破",
       "published_at": "2026-09-30T04:00:00Z",
       "first_seen_at": "2026-09-30T10:03:00Z",
-      "last_checked_at": "2026-09-30T10:43:10Z",
+      "last_checked_at": "2026-09-30T10:57:25Z",
       "matched_windows": [
         "daily"
       ],
@@ -574,7 +1444,7 @@
       "signal_type": "研究突破",
       "published_at": "2026-09-30T04:00:00Z",
       "first_seen_at": "2026-09-30T10:03:00Z",
-      "last_checked_at": "2026-09-30T10:43:10Z",
+      "last_checked_at": "2026-09-30T10:57:25Z",
       "matched_windows": [
         "daily"
       ],
@@ -601,7 +1471,7 @@
       "signal_type": "研究突破",
       "published_at": "2026-09-30T04:00:00Z",
       "first_seen_at": "2026-09-30T10:03:00Z",
-      "last_checked_at": "2026-09-30T10:43:10Z",
+      "last_checked_at": "2026-09-30T10:57:25Z",
       "matched_windows": [
         "daily"
       ],
@@ -628,7 +1498,7 @@
       "signal_type": "研究突破",
       "published_at": "2026-09-30T04:00:00Z",
       "first_seen_at": "2026-09-30T10:03:00Z",
-      "last_checked_at": "2026-09-30T10:43:10Z",
+      "last_checked_at": "2026-09-30T10:57:25Z",
       "matched_windows": [
         "daily"
       ],
@@ -655,7 +1525,7 @@
       "signal_type": "研究突破",
       "published_at": "2026-09-30T04:00:00Z",
       "first_seen_at": "2026-09-30T10:03:00Z",
-      "last_checked_at": "2026-09-30T10:43:10Z",
+      "last_checked_at": "2026-09-30T10:57:25Z",
       "matched_windows": [
         "daily"
       ],
@@ -682,7 +1552,7 @@
       "signal_type": "研究突破",
       "published_at": "2026-09-30T04:00:00Z",
       "first_seen_at": "2026-09-30T10:03:00Z",
-      "last_checked_at": "2026-09-30T10:43:10Z",
+      "last_checked_at": "2026-09-30T10:57:25Z",
       "matched_windows": [
         "daily"
       ],
@@ -709,7 +1579,7 @@
       "signal_type": "研究突破",
       "published_at": "2026-09-30T04:00:00Z",
       "first_seen_at": "2026-09-30T10:03:00Z",
-      "last_checked_at": "2026-09-30T10:43:10Z",
+      "last_checked_at": "2026-09-30T10:57:25Z",
       "matched_windows": [
         "daily"
       ],
@@ -736,7 +1606,7 @@
       "signal_type": "研究突破",
       "published_at": "2026-09-30T04:00:00Z",
       "first_seen_at": "2026-09-30T10:03:00Z",
-      "last_checked_at": "2026-09-30T10:43:10Z",
+      "last_checked_at": "2026-09-30T10:57:25Z",
       "matched_windows": [
         "daily"
       ],
@@ -763,7 +1633,7 @@
       "signal_type": "研究突破",
       "published_at": "2026-09-30T04:00:00Z",
       "first_seen_at": "2026-09-30T10:03:00Z",
-      "last_checked_at": "2026-09-30T10:43:10Z",
+      "last_checked_at": "2026-09-30T10:57:25Z",
       "matched_windows": [
         "daily"
       ],
@@ -790,7 +1660,7 @@
       "signal_type": "研究突破",
       "published_at": "2026-09-30T04:00:00Z",
       "first_seen_at": "2026-09-30T10:03:00Z",
-      "last_checked_at": "2026-09-30T10:43:10Z",
+      "last_checked_at": "2026-09-30T10:57:25Z",
       "matched_windows": [
         "daily"
       ],
@@ -817,7 +1687,7 @@
       "signal_type": "研究突破",
       "published_at": "2026-09-30T04:00:00Z",
       "first_seen_at": "2026-09-30T10:03:00Z",
-      "last_checked_at": "2026-09-30T10:43:10Z",
+      "last_checked_at": "2026-09-30T10:57:25Z",
       "matched_windows": [
         "daily"
       ],
@@ -844,7 +1714,7 @@
       "signal_type": "研究突破",
       "published_at": "2026-09-30T04:00:00Z",
       "first_seen_at": "2026-09-30T10:03:00Z",
-      "last_checked_at": "2026-09-30T10:43:10Z",
+      "last_checked_at": "2026-09-30T10:57:25Z",
       "matched_windows": [
         "daily"
       ],
@@ -871,7 +1741,7 @@
       "signal_type": "研究突破",
       "published_at": "2026-09-30T04:00:00Z",
       "first_seen_at": "2026-09-30T10:03:00Z",
-      "last_checked_at": "2026-09-30T10:43:10Z",
+      "last_checked_at": "2026-09-30T10:57:25Z",
       "matched_windows": [
         "daily"
       ],
@@ -898,7 +1768,7 @@
       "signal_type": "研究突破",
       "published_at": "2026-09-30T04:00:00Z",
       "first_seen_at": "2026-09-30T10:03:00Z",
-      "last_checked_at": "2026-09-30T10:43:10Z",
+      "last_checked_at": "2026-09-30T10:57:25Z",
       "matched_windows": [
         "daily"
       ],
@@ -925,7 +1795,7 @@
       "signal_type": "研究突破",
       "published_at": "2026-09-30T04:00:00Z",
       "first_seen_at": "2026-09-30T10:03:00Z",
-      "last_checked_at": "2026-09-30T10:43:10Z",
+      "last_checked_at": "2026-09-30T10:57:25Z",
       "matched_windows": [
         "daily"
       ],
@@ -952,7 +1822,7 @@
       "signal_type": "研究突破",
       "published_at": "2026-09-30T04:00:00Z",
       "first_seen_at": "2026-09-30T10:03:00Z",
-      "last_checked_at": "2026-09-30T10:43:10Z",
+      "last_checked_at": "2026-09-30T10:57:25Z",
       "matched_windows": [
         "daily"
       ],
@@ -979,7 +1849,7 @@
       "signal_type": "研究突破",
       "published_at": "2026-09-30T04:00:00Z",
       "first_seen_at": "2026-09-30T10:03:00Z",
-      "last_checked_at": "2026-09-30T10:43:10Z",
+      "last_checked_at": "2026-09-30T10:57:25Z",
       "matched_windows": [
         "daily"
       ],
@@ -1006,7 +1876,7 @@
       "signal_type": "研究突破",
       "published_at": "2026-09-30T04:00:00Z",
       "first_seen_at": "2026-09-30T10:03:00Z",
-      "last_checked_at": "2026-09-30T10:43:10Z",
+      "last_checked_at": "2026-09-30T10:57:25Z",
       "matched_windows": [
         "daily"
       ],
@@ -1033,7 +1903,7 @@
       "signal_type": "研究突破",
       "published_at": "2026-09-30T04:00:00Z",
       "first_seen_at": "2026-09-30T10:03:00Z",
-      "last_checked_at": "2026-09-30T10:43:10Z",
+      "last_checked_at": "2026-09-30T10:57:25Z",
       "matched_windows": [
         "daily"
       ],
@@ -1060,7 +1930,7 @@
       "signal_type": "研究突破",
       "published_at": "2026-09-30T04:00:00Z",
       "first_seen_at": "2026-09-30T10:03:00Z",
-      "last_checked_at": "2026-09-30T10:43:10Z",
+      "last_checked_at": "2026-09-30T10:57:25Z",
       "matched_windows": [
         "daily"
       ],
@@ -1087,7 +1957,7 @@
       "signal_type": "研究突破",
       "published_at": "2026-09-30T04:00:00Z",
       "first_seen_at": "2026-09-30T10:03:00Z",
-      "last_checked_at": "2026-09-30T10:43:10Z",
+      "last_checked_at": "2026-09-30T10:57:25Z",
       "matched_windows": [
         "daily"
       ],
@@ -1114,7 +1984,7 @@
       "signal_type": "研究突破",
       "published_at": "2026-09-30T04:00:00Z",
       "first_seen_at": "2026-09-30T10:03:00Z",
-      "last_checked_at": "2026-09-30T10:43:10Z",
+      "last_checked_at": "2026-09-30T10:57:25Z",
       "matched_windows": [
         "daily"
       ],
@@ -1141,7 +2011,7 @@
       "signal_type": "研究突破",
       "published_at": "2026-09-30T04:00:00Z",
       "first_seen_at": "2026-09-30T10:03:00Z",
-      "last_checked_at": "2026-09-30T10:43:10Z",
+      "last_checked_at": "2026-09-30T10:57:25Z",
       "matched_windows": [
         "daily"
       ],
@@ -1168,7 +2038,7 @@
       "signal_type": "研究突破",
       "published_at": "2026-09-30T04:00:00Z",
       "first_seen_at": "2026-09-30T10:03:00Z",
-      "last_checked_at": "2026-09-30T10:43:10Z",
+      "last_checked_at": "2026-09-30T10:57:25Z",
       "matched_windows": [
         "daily"
       ],
@@ -1195,7 +2065,7 @@
       "signal_type": "研究突破",
       "published_at": "2026-09-30T04:00:00Z",
       "first_seen_at": "2026-09-30T10:03:00Z",
-      "last_checked_at": "2026-09-30T10:43:10Z",
+      "last_checked_at": "2026-09-30T10:57:25Z",
       "matched_windows": [
         "daily"
       ],
@@ -1222,7 +2092,7 @@
       "signal_type": "研究突破",
       "published_at": "2026-09-30T04:00:00Z",
       "first_seen_at": "2026-09-30T10:03:00Z",
-      "last_checked_at": "2026-09-30T10:43:10Z",
+      "last_checked_at": "2026-09-30T10:57:25Z",
       "matched_windows": [
         "daily"
       ],
@@ -1249,7 +2119,7 @@
       "signal_type": "研究突破",
       "published_at": "2026-09-30T04:00:00Z",
       "first_seen_at": "2026-09-30T10:03:00Z",
-      "last_checked_at": "2026-09-30T10:43:10Z",
+      "last_checked_at": "2026-09-30T10:57:25Z",
       "matched_windows": [
         "daily"
       ],
@@ -1276,7 +2146,7 @@
       "signal_type": "研究突破",
       "published_at": "2026-09-30T04:00:00Z",
       "first_seen_at": "2026-09-30T10:03:00Z",
-      "last_checked_at": "2026-09-30T10:43:10Z",
+      "last_checked_at": "2026-09-30T10:57:25Z",
       "matched_windows": [
         "daily"
       ],
@@ -1303,7 +2173,7 @@
       "signal_type": "研究突破",
       "published_at": "2026-09-30T04:00:00Z",
       "first_seen_at": "2026-09-30T10:03:00Z",
-      "last_checked_at": "2026-09-30T10:43:10Z",
+      "last_checked_at": "2026-09-30T10:57:25Z",
       "matched_windows": [
         "daily"
       ],
@@ -1330,7 +2200,7 @@
       "signal_type": "研究突破",
       "published_at": "2026-09-30T04:00:00Z",
       "first_seen_at": "2026-09-30T10:03:00Z",
-      "last_checked_at": "2026-09-30T10:43:10Z",
+      "last_checked_at": "2026-09-30T10:57:25Z",
       "matched_windows": [
         "daily"
       ],
@@ -1357,7 +2227,7 @@
       "signal_type": "研究突破",
       "published_at": "2026-09-30T04:00:00Z",
       "first_seen_at": "2026-09-30T10:03:00Z",
-      "last_checked_at": "2026-09-30T10:43:10Z",
+      "last_checked_at": "2026-09-30T10:57:25Z",
       "matched_windows": [
         "daily"
       ],
@@ -1384,7 +2254,7 @@
       "signal_type": "研究突破",
       "published_at": "2026-09-30T04:00:00Z",
       "first_seen_at": "2026-09-30T10:03:00Z",
-      "last_checked_at": "2026-09-30T10:43:10Z",
+      "last_checked_at": "2026-09-30T10:57:25Z",
       "matched_windows": [
         "daily"
       ],
@@ -1411,7 +2281,7 @@
       "signal_type": "研究突破",
       "published_at": "2026-09-30T04:00:00Z",
       "first_seen_at": "2026-09-30T10:03:00Z",
-      "last_checked_at": "2026-09-30T10:43:10Z",
+      "last_checked_at": "2026-09-30T10:57:25Z",
       "matched_windows": [
         "daily"
       ],
@@ -1438,7 +2308,7 @@
       "signal_type": "研究突破",
       "published_at": "2026-09-30T04:00:00Z",
       "first_seen_at": "2026-09-30T10:03:00Z",
-      "last_checked_at": "2026-09-30T10:43:10Z",
+      "last_checked_at": "2026-09-30T10:57:25Z",
       "matched_windows": [
         "daily"
       ],
@@ -1465,7 +2335,7 @@
       "signal_type": "研究突破",
       "published_at": "2026-09-30T04:00:00Z",
       "first_seen_at": "2026-09-30T10:03:00Z",
-      "last_checked_at": "2026-09-30T10:43:10Z",
+      "last_checked_at": "2026-09-30T10:57:25Z",
       "matched_windows": [
         "daily"
       ],
@@ -1492,7 +2362,7 @@
       "signal_type": "研究突破",
       "published_at": "2026-09-30T04:00:00Z",
       "first_seen_at": "2026-09-30T10:03:00Z",
-      "last_checked_at": "2026-09-30T10:43:10Z",
+      "last_checked_at": "2026-09-30T10:57:25Z",
       "matched_windows": [
         "daily"
       ],
@@ -1519,7 +2389,7 @@
       "signal_type": "研究突破",
       "published_at": "2026-09-30T04:00:00Z",
       "first_seen_at": "2026-09-30T10:03:00Z",
-      "last_checked_at": "2026-09-30T10:43:10Z",
+      "last_checked_at": "2026-09-30T10:57:25Z",
       "matched_windows": [
         "daily"
       ],
@@ -1546,7 +2416,7 @@
       "signal_type": "研究突破",
       "published_at": "2026-09-30T04:00:00Z",
       "first_seen_at": "2026-09-30T10:03:00Z",
-      "last_checked_at": "2026-09-30T10:43:10Z",
+      "last_checked_at": "2026-09-30T10:57:25Z",
       "matched_windows": [
         "daily"
       ],
@@ -1573,7 +2443,7 @@
       "signal_type": "研究突破",
       "published_at": "2026-09-30T04:00:00Z",
       "first_seen_at": "2026-09-30T10:03:00Z",
-      "last_checked_at": "2026-09-30T10:43:10Z",
+      "last_checked_at": "2026-09-30T10:57:25Z",
       "matched_windows": [
         "daily"
       ],
@@ -1600,7 +2470,7 @@
       "signal_type": "研究突破",
       "published_at": "2026-09-30T04:00:00Z",
       "first_seen_at": "2026-09-30T10:03:00Z",
-      "last_checked_at": "2026-09-30T10:43:10Z",
+      "last_checked_at": "2026-09-30T10:57:25Z",
       "matched_windows": [
         "daily"
       ],
@@ -1627,7 +2497,7 @@
       "signal_type": "研究突破",
       "published_at": "2026-09-30T04:00:00Z",
       "first_seen_at": "2026-09-30T10:03:00Z",
-      "last_checked_at": "2026-09-30T10:43:10Z",
+      "last_checked_at": "2026-09-30T10:57:25Z",
       "matched_windows": [
         "daily"
       ],
@@ -1654,7 +2524,7 @@
       "signal_type": "研究突破",
       "published_at": "2026-09-30T04:00:00Z",
       "first_seen_at": "2026-09-30T10:03:00Z",
-      "last_checked_at": "2026-09-30T10:43:10Z",
+      "last_checked_at": "2026-09-30T10:57:25Z",
       "matched_windows": [
         "daily"
       ],
@@ -1681,7 +2551,7 @@
       "signal_type": "研究突破",
       "published_at": "2026-09-30T04:00:00Z",
       "first_seen_at": "2026-09-30T10:03:00Z",
-      "last_checked_at": "2026-09-30T10:43:10Z",
+      "last_checked_at": "2026-09-30T10:57:25Z",
       "matched_windows": [
         "daily"
       ],
@@ -1708,7 +2578,7 @@
       "signal_type": "研究突破",
       "published_at": "2026-09-30T04:00:00Z",
       "first_seen_at": "2026-09-30T10:03:00Z",
-      "last_checked_at": "2026-09-30T10:43:10Z",
+      "last_checked_at": "2026-09-30T10:57:25Z",
       "matched_windows": [
         "daily"
       ],
@@ -1735,7 +2605,7 @@
       "signal_type": "研究突破",
       "published_at": "2026-09-30T04:00:00Z",
       "first_seen_at": "2026-09-30T10:03:00Z",
-      "last_checked_at": "2026-09-30T10:43:10Z",
+      "last_checked_at": "2026-09-30T10:57:25Z",
       "matched_windows": [
         "daily"
       ],
@@ -1762,7 +2632,7 @@
       "signal_type": "研究突破",
       "published_at": "2026-09-30T04:00:00Z",
       "first_seen_at": "2026-09-30T10:03:00Z",
-      "last_checked_at": "2026-09-30T10:43:10Z",
+      "last_checked_at": "2026-09-30T10:57:25Z",
       "matched_windows": [
         "daily"
       ],
@@ -1789,7 +2659,7 @@
       "signal_type": "研究突破",
       "published_at": "2026-09-30T04:00:00Z",
       "first_seen_at": "2026-09-30T10:03:00Z",
-      "last_checked_at": "2026-09-30T10:43:10Z",
+      "last_checked_at": "2026-09-30T10:57:25Z",
       "matched_windows": [
         "daily"
       ],
@@ -1816,7 +2686,7 @@
       "signal_type": "研究突破",
       "published_at": "2026-09-30T04:00:00Z",
       "first_seen_at": "2026-09-30T10:03:00Z",
-      "last_checked_at": "2026-09-30T10:43:10Z",
+      "last_checked_at": "2026-09-30T10:57:25Z",
       "matched_windows": [
         "daily"
       ],
@@ -1843,7 +2713,7 @@
       "signal_type": "研究突破",
       "published_at": "2026-09-30T04:00:00Z",
       "first_seen_at": "2026-09-30T10:03:00Z",
-      "last_checked_at": "2026-09-30T10:43:10Z",
+      "last_checked_at": "2026-09-30T10:57:25Z",
       "matched_windows": [
         "daily"
       ],
@@ -1870,7 +2740,7 @@
       "signal_type": "研究突破",
       "published_at": "2026-09-30T04:00:00Z",
       "first_seen_at": "2026-09-30T10:03:00Z",
-      "last_checked_at": "2026-09-30T10:43:10Z",
+      "last_checked_at": "2026-09-30T10:57:25Z",
       "matched_windows": [
         "daily"
       ],
@@ -1897,7 +2767,7 @@
       "signal_type": "研究突破",
       "published_at": "2026-09-30T04:00:00Z",
       "first_seen_at": "2026-09-30T10:03:00Z",
-      "last_checked_at": "2026-09-30T10:43:10Z",
+      "last_checked_at": "2026-09-30T10:57:25Z",
       "matched_windows": [
         "daily"
       ],
@@ -1924,7 +2794,7 @@
       "signal_type": "研究突破",
       "published_at": "2026-09-30T04:00:00Z",
       "first_seen_at": "2026-09-30T10:03:00Z",
-      "last_checked_at": "2026-09-30T10:43:10Z",
+      "last_checked_at": "2026-09-30T10:57:25Z",
       "matched_windows": [
         "daily"
       ],
@@ -1951,7 +2821,7 @@
       "signal_type": "研究突破",
       "published_at": "2026-09-30T04:00:00Z",
       "first_seen_at": "2026-09-30T10:03:00Z",
-      "last_checked_at": "2026-09-30T10:43:10Z",
+      "last_checked_at": "2026-09-30T10:57:25Z",
       "matched_windows": [
         "daily"
       ],
@@ -1978,7 +2848,7 @@
       "signal_type": "研究突破",
       "published_at": "2026-09-30T04:00:00Z",
       "first_seen_at": "2026-09-30T10:03:00Z",
-      "last_checked_at": "2026-09-30T10:43:10Z",
+      "last_checked_at": "2026-09-30T10:57:25Z",
       "matched_windows": [
         "daily"
       ],
@@ -2005,7 +2875,7 @@
       "signal_type": "研究突破",
       "published_at": "2026-09-30T04:00:00Z",
       "first_seen_at": "2026-09-30T10:03:00Z",
-      "last_checked_at": "2026-09-30T10:43:10Z",
+      "last_checked_at": "2026-09-30T10:57:25Z",
       "matched_windows": [
         "daily"
       ],
@@ -2032,7 +2902,7 @@
       "signal_type": "研究突破",
       "published_at": "2026-09-30T04:00:00Z",
       "first_seen_at": "2026-09-30T10:03:00Z",
-      "last_checked_at": "2026-09-30T10:43:10Z",
+      "last_checked_at": "2026-09-30T10:57:25Z",
       "matched_windows": [
         "daily"
       ],
@@ -2059,7 +2929,7 @@
       "signal_type": "研究突破",
       "published_at": "2026-09-30T04:00:00Z",
       "first_seen_at": "2026-09-30T10:03:00Z",
-      "last_checked_at": "2026-09-30T10:43:10Z",
+      "last_checked_at": "2026-09-30T10:57:25Z",
       "matched_windows": [
         "daily"
       ],
@@ -2086,7 +2956,7 @@
       "signal_type": "研究突破",
       "published_at": "2026-09-30T04:00:00Z",
       "first_seen_at": "2026-09-30T10:03:00Z",
-      "last_checked_at": "2026-09-30T10:43:10Z",
+      "last_checked_at": "2026-09-30T10:57:25Z",
       "matched_windows": [
         "daily"
       ],
@@ -2113,7 +2983,7 @@
       "signal_type": "研究突破",
       "published_at": "2026-09-30T04:00:00Z",
       "first_seen_at": "2026-09-30T10:03:00Z",
-      "last_checked_at": "2026-09-30T10:43:10Z",
+      "last_checked_at": "2026-09-30T10:57:25Z",
       "matched_windows": [
         "daily"
       ],
@@ -2140,7 +3010,7 @@
       "signal_type": "研究突破",
       "published_at": "2026-09-30T04:00:00Z",
       "first_seen_at": "2026-09-30T10:03:00Z",
-      "last_checked_at": "2026-09-30T10:43:10Z",
+      "last_checked_at": "2026-09-30T10:57:25Z",
       "matched_windows": [
         "daily"
       ],
@@ -2167,7 +3037,7 @@
       "signal_type": "研究突破",
       "published_at": "2026-09-30T04:00:00Z",
       "first_seen_at": "2026-09-30T10:03:00Z",
-      "last_checked_at": "2026-09-30T10:43:10Z",
+      "last_checked_at": "2026-09-30T10:57:25Z",
       "matched_windows": [
         "daily"
       ],
@@ -2194,7 +3064,7 @@
       "signal_type": "研究突破",
       "published_at": "2026-09-30T04:00:00Z",
       "first_seen_at": "2026-09-30T10:03:00Z",
-      "last_checked_at": "2026-09-30T10:43:10Z",
+      "last_checked_at": "2026-09-30T10:57:25Z",
       "matched_windows": [
         "daily"
       ],
@@ -2221,7 +3091,7 @@
       "signal_type": "研究突破",
       "published_at": "2026-09-30T04:00:00Z",
       "first_seen_at": "2026-09-30T10:03:00Z",
-      "last_checked_at": "2026-09-30T10:43:10Z",
+      "last_checked_at": "2026-09-30T10:57:25Z",
       "matched_windows": [
         "daily"
       ],
@@ -2248,7 +3118,7 @@
       "signal_type": "研究突破",
       "published_at": "2026-09-30T04:00:00Z",
       "first_seen_at": "2026-09-30T10:03:00Z",
-      "last_checked_at": "2026-09-30T10:43:10Z",
+      "last_checked_at": "2026-09-30T10:57:25Z",
       "matched_windows": [
         "daily"
       ],
@@ -2275,7 +3145,7 @@
       "signal_type": "研究突破",
       "published_at": "2026-09-30T04:00:00Z",
       "first_seen_at": "2026-09-30T10:03:00Z",
-      "last_checked_at": "2026-09-30T10:43:10Z",
+      "last_checked_at": "2026-09-30T10:57:25Z",
       "matched_windows": [
         "daily"
       ],
@@ -2302,7 +3172,7 @@
       "signal_type": "研究突破",
       "published_at": "2026-09-30T04:00:00Z",
       "first_seen_at": "2026-09-30T10:03:00Z",
-      "last_checked_at": "2026-09-30T10:43:10Z",
+      "last_checked_at": "2026-09-30T10:57:25Z",
       "matched_windows": [
         "daily"
       ],
@@ -2329,7 +3199,7 @@
       "signal_type": "研究突破",
       "published_at": "2026-09-30T04:00:00Z",
       "first_seen_at": "2026-09-30T10:03:00Z",
-      "last_checked_at": "2026-09-30T10:43:10Z",
+      "last_checked_at": "2026-09-30T10:57:25Z",
       "matched_windows": [
         "daily"
       ],
@@ -2356,7 +3226,7 @@
       "signal_type": "开源",
       "published_at": "2026-09-29T19:10:59Z",
       "first_seen_at": "2026-09-30T10:03:00Z",
-      "last_checked_at": "2026-09-30T10:43:10Z",
+      "last_checked_at": "2026-09-30T10:57:25Z",
       "matched_windows": [
         "daily"
       ],
@@ -2383,7 +3253,7 @@
       "signal_type": "产品发布",
       "published_at": "2026-09-28T21:00:00Z",
       "first_seen_at": "2026-09-30T10:03:00Z",
-      "last_checked_at": "2026-09-30T10:43:10Z",
+      "last_checked_at": "2026-09-30T10:57:25Z",
       "matched_windows": [
         "daily"
       ],
@@ -2393,6 +3263,33 @@
       "career_angle": "先问“能解决哪个用户任务”，再把论文指标转成产品假设和验证计划。",
       "score": 86,
       "content_hash": "d6d66da4124c67e3",
+      "revisions": []
+    },
+    {
+      "id": "ae8405d8f1fddd3ec407",
+      "title": "华为 更新开源项目：docs",
+      "summary": "MindSpore document；主要语言：Jupyter Notebook；GitHub Stars：167；最近代码推送：2026-09-29T01:59:50Z。",
+      "url": "https://github.com/mindspore-ai/docs",
+      "source": "MindSpore GitHub",
+      "source_id": "github-mindspore",
+      "source_tier": "一手来源",
+      "company": "华为",
+      "company_scale": "成熟企业",
+      "region": "中国",
+      "topic": "开源生态",
+      "signal_type": "开源",
+      "published_at": "2026-09-29T01:59:50Z",
+      "first_seen_at": "2026-09-30T10:55:51Z",
+      "last_checked_at": "2026-09-30T10:57:25Z",
+      "matched_windows": [
+        "daily"
+      ],
+      "confidence": "高",
+      "verification_status": "官方一手源",
+      "why_it_matters": "开放程度会改变开发成本和生态位，可能催生新的集成工具、评测和垂直应用机会。",
+      "career_angle": "研究开发者上手路径、文档与社区反馈，补强平台和开发者产品经验。",
+      "score": 85,
+      "content_hash": "043d2361a5a9fb59",
       "revisions": []
     },
     {
@@ -2410,7 +3307,7 @@
       "signal_type": "产品发布",
       "published_at": "2026-09-28T18:57:13Z",
       "first_seen_at": "2026-09-30T10:03:00Z",
-      "last_checked_at": "2026-09-30T10:43:10Z",
+      "last_checked_at": "2026-09-30T10:57:25Z",
       "matched_windows": [
         "daily"
       ],
@@ -2420,6 +3317,60 @@
       "career_angle": "优先研究部署、权限、审计和 ROI，补齐从 Demo 到规模化落地的经验。",
       "score": 85,
       "content_hash": "708db4b2b25d9591",
+      "revisions": []
+    },
+    {
+      "id": "5e2a3a2a746dc9d5b189",
+      "title": "Mistral AI 更新开源项目：mistral-vibe",
+      "summary": "Minimal CLI coding agent by Mistral；主要语言：Python；GitHub Stars：5,024；最近代码推送：2026-09-29T10:22:25Z。",
+      "url": "https://github.com/mistralai/mistral-vibe",
+      "source": "Mistral AI GitHub",
+      "source_id": "github-mistral",
+      "source_tier": "一手来源",
+      "company": "Mistral AI",
+      "company_scale": "成长公司",
+      "region": "欧洲",
+      "topic": "大模型",
+      "signal_type": "开源",
+      "published_at": "2026-09-29T10:22:25Z",
+      "first_seen_at": "2026-09-30T10:55:51Z",
+      "last_checked_at": "2026-09-30T10:57:25Z",
+      "matched_windows": [
+        "daily"
+      ],
+      "confidence": "高",
+      "verification_status": "官方一手源",
+      "why_it_matters": "开放程度会改变开发成本和生态位，可能催生新的集成工具、评测和垂直应用机会。",
+      "career_angle": "把模型能力翻译成用户任务、评测集和业务指标，构建可证明的产品判断力。",
+      "score": 83,
+      "content_hash": "438f72f802912a7e",
+      "revisions": []
+    },
+    {
+      "id": "19426e4bd3126cdcb8b9",
+      "title": "Mistral AI 更新开源项目：cookbook",
+      "summary": "主要语言：Jupyter Notebook；GitHub Stars：2,334；最近代码推送：2026-09-29T08:25:42Z。",
+      "url": "https://github.com/mistralai/cookbook",
+      "source": "Mistral AI GitHub",
+      "source_id": "github-mistral",
+      "source_tier": "一手来源",
+      "company": "Mistral AI",
+      "company_scale": "成长公司",
+      "region": "欧洲",
+      "topic": "大模型",
+      "signal_type": "开源",
+      "published_at": "2026-09-29T08:25:42Z",
+      "first_seen_at": "2026-09-30T10:55:51Z",
+      "last_checked_at": "2026-09-30T10:57:25Z",
+      "matched_windows": [
+        "daily"
+      ],
+      "confidence": "高",
+      "verification_status": "官方一手源",
+      "why_it_matters": "开放程度会改变开发成本和生态位，可能催生新的集成工具、评测和垂直应用机会。",
+      "career_angle": "把模型能力翻译成用户任务、评测集和业务指标，构建可证明的产品判断力。",
+      "score": 83,
+      "content_hash": "880acc8bd0eb5db6",
       "revisions": []
     },
     {
@@ -2437,7 +3388,7 @@
       "signal_type": "研究突破",
       "published_at": "2026-09-29T16:27:33Z",
       "first_seen_at": "2026-09-30T10:03:00Z",
-      "last_checked_at": "2026-09-30T10:43:10Z",
+      "last_checked_at": "2026-09-30T10:57:25Z",
       "matched_windows": [
         "daily"
       ],
@@ -2464,7 +3415,7 @@
       "signal_type": "合作落地",
       "published_at": "2026-09-28T16:15:46Z",
       "first_seen_at": "2026-09-30T10:03:00Z",
-      "last_checked_at": "2026-09-30T10:43:10Z",
+      "last_checked_at": "2026-09-30T10:57:25Z",
       "matched_windows": [
         "daily"
       ],
@@ -2491,7 +3442,7 @@
       "signal_type": "合作落地",
       "published_at": "2026-09-28T16:15:17Z",
       "first_seen_at": "2026-09-30T10:03:00Z",
-      "last_checked_at": "2026-09-30T10:43:10Z",
+      "last_checked_at": "2026-09-30T10:57:25Z",
       "matched_windows": [
         "daily"
       ],
@@ -2501,6 +3452,33 @@
       "career_angle": "把模型能力翻译成用户任务、评测集和业务指标，构建可证明的产品判断力。",
       "score": 81,
       "content_hash": "f3cd335596684c22",
+      "revisions": []
+    },
+    {
+      "id": "5bbee61bdc2015761bee",
+      "title": "MiniMax 更新开源项目：MiniMax-Provider-Verifier",
+      "summary": "MiniMax-Provider-Verifier offers a rigorous, vendor-agnostic way to verify whether third-party deployments of the Minimax M2 model are correct and reliable.；主要语言：Python；GitHub Stars：51；最近代码推送：2026-09-28T14:15:38Z。",
+      "url": "https://github.com/MiniMax-AI/MiniMax-Provider-Verifier",
+      "source": "MiniMax GitHub",
+      "source_id": "github-minimax",
+      "source_tier": "一手来源",
+      "company": "MiniMax",
+      "company_scale": "成长公司",
+      "region": "中国",
+      "topic": "大模型",
+      "signal_type": "开源",
+      "published_at": "2026-09-28T14:15:38Z",
+      "first_seen_at": "2026-09-30T10:55:51Z",
+      "last_checked_at": "2026-09-30T10:57:25Z",
+      "matched_windows": [
+        "daily"
+      ],
+      "confidence": "高",
+      "verification_status": "官方一手源",
+      "why_it_matters": "开放程度会改变开发成本和生态位，可能催生新的集成工具、评测和垂直应用机会。",
+      "career_angle": "把模型能力翻译成用户任务、评测集和业务指标，构建可证明的产品判断力。",
+      "score": 81,
+      "content_hash": "2e0ec31a2c9634cc",
       "revisions": []
     },
     {
@@ -2518,7 +3496,7 @@
       "signal_type": "组织招聘",
       "published_at": "2026-09-29T15:55:17Z",
       "first_seen_at": "2026-09-30T10:03:00Z",
-      "last_checked_at": "2026-09-30T10:43:10Z",
+      "last_checked_at": "2026-09-30T10:57:25Z",
       "matched_windows": [
         "daily"
       ],
@@ -2528,6 +3506,33 @@
       "career_angle": "优先研究部署、权限、审计和 ROI，补齐从 Demo 到规模化落地的经验。",
       "score": 80,
       "content_hash": "7ef950be8c41371b",
+      "revisions": []
+    },
+    {
+      "id": "53472e6cf9b35dadd4e2",
+      "title": "宇树科技 创建开源项目：r1-7a_sdk",
+      "summary": "主要语言：C++；GitHub Stars：0；最近代码推送：2026-09-28T12:14:51Z。",
+      "url": "https://github.com/unitreerobotics/r1-7a_sdk",
+      "source": "Unitree Robotics GitHub",
+      "source_id": "github-unitree",
+      "source_tier": "一手来源",
+      "company": "宇树科技",
+      "company_scale": "成长公司",
+      "region": "中国",
+      "topic": "具身智能",
+      "signal_type": "开源",
+      "published_at": "2026-09-28T12:14:51Z",
+      "first_seen_at": "2026-09-30T10:55:51Z",
+      "last_checked_at": "2026-09-30T10:57:25Z",
+      "matched_windows": [
+        "daily"
+      ],
+      "confidence": "高",
+      "verification_status": "官方一手源",
+      "why_it_matters": "开放程度会改变开发成本和生态位，可能催生新的集成工具、评测和垂直应用机会。",
+      "career_angle": "关注软硬件协同、任务评测与真实场景数据闭环；这些经验比单一功能设计更稀缺。",
+      "score": 80,
+      "content_hash": "334118a416c6a157",
       "revisions": []
     },
     {
@@ -2545,7 +3550,7 @@
       "signal_type": "行业动态",
       "published_at": "2026-09-30T01:13:14Z",
       "first_seen_at": "2026-09-30T10:03:00Z",
-      "last_checked_at": "2026-09-30T10:43:10Z",
+      "last_checked_at": "2026-09-30T10:57:25Z",
       "matched_windows": [
         "daily"
       ],
@@ -2555,6 +3560,114 @@
       "career_angle": "研究开发者上手路径、文档与社区反馈，补强平台和开发者产品经验。",
       "score": 79,
       "content_hash": "2b561b216682943a",
+      "revisions": []
+    },
+    {
+      "id": "9f9504805953bc9db185",
+      "title": "阿里巴巴 更新开源项目：Qwen-Live-Harness",
+      "summary": "An open-source agent harness powered by the Qwen Omni Realtime API—see, hear, and act, with built-in memory.；主要语言：TypeScript；GitHub Stars：155；最近代码推送：2026-09-28T08:41:18Z。",
+      "url": "https://github.com/QwenLM/Qwen-Live-Harness",
+      "source": "Qwen GitHub",
+      "source_id": "github-qwen",
+      "source_tier": "一手来源",
+      "company": "阿里巴巴",
+      "company_scale": "成熟企业",
+      "region": "中国",
+      "topic": "大模型",
+      "signal_type": "开源",
+      "published_at": "2026-09-28T08:41:18Z",
+      "first_seen_at": "2026-09-30T10:55:51Z",
+      "last_checked_at": "2026-09-30T10:57:25Z",
+      "matched_windows": [
+        "daily"
+      ],
+      "confidence": "高",
+      "verification_status": "官方一手源",
+      "why_it_matters": "开放程度会改变开发成本和生态位，可能催生新的集成工具、评测和垂直应用机会。",
+      "career_angle": "把模型能力翻译成用户任务、评测集和业务指标，构建可证明的产品判断力。",
+      "score": 79,
+      "content_hash": "39faa4c1e2895ade",
+      "revisions": []
+    },
+    {
+      "id": "8ed26e669a1ee654ef58",
+      "title": "华为 更新开源项目：dvm",
+      "summary": "主要语言：C++；GitHub Stars：0；最近代码推送：2026-09-28T08:02:23Z。",
+      "url": "https://github.com/mindspore-ai/dvm",
+      "source": "MindSpore GitHub",
+      "source_id": "github-mindspore",
+      "source_tier": "一手来源",
+      "company": "华为",
+      "company_scale": "成熟企业",
+      "region": "中国",
+      "topic": "开源生态",
+      "signal_type": "开源",
+      "published_at": "2026-09-28T08:02:23Z",
+      "first_seen_at": "2026-09-30T10:55:51Z",
+      "last_checked_at": "2026-09-30T10:57:25Z",
+      "matched_windows": [
+        "daily"
+      ],
+      "confidence": "高",
+      "verification_status": "官方一手源",
+      "why_it_matters": "开放程度会改变开发成本和生态位，可能催生新的集成工具、评测和垂直应用机会。",
+      "career_angle": "研究开发者上手路径、文档与社区反馈，补强平台和开发者产品经验。",
+      "score": 79,
+      "content_hash": "aa092e1e815f53cb",
+      "revisions": []
+    },
+    {
+      "id": "81e49e297ccdd7e18622",
+      "title": "Mistral AI 更新开源项目：client-python",
+      "summary": "Python client library for Mistral AI platform；主要语言：Python；GitHub Stars：769；最近代码推送：2026-09-28T18:35:30Z。",
+      "url": "https://github.com/mistralai/client-python",
+      "source": "Mistral AI GitHub",
+      "source_id": "github-mistral",
+      "source_tier": "一手来源",
+      "company": "Mistral AI",
+      "company_scale": "成长公司",
+      "region": "欧洲",
+      "topic": "大模型",
+      "signal_type": "开源",
+      "published_at": "2026-09-28T18:35:30Z",
+      "first_seen_at": "2026-09-30T10:55:51Z",
+      "last_checked_at": "2026-09-30T10:57:25Z",
+      "matched_windows": [
+        "daily"
+      ],
+      "confidence": "高",
+      "verification_status": "官方一手源",
+      "why_it_matters": "开放程度会改变开发成本和生态位，可能催生新的集成工具、评测和垂直应用机会。",
+      "career_angle": "把模型能力翻译成用户任务、评测集和业务指标，构建可证明的产品判断力。",
+      "score": 78,
+      "content_hash": "edb7f3f16410dc7f",
+      "revisions": []
+    },
+    {
+      "id": "50c89d1376eb958de9d9",
+      "title": "阿里巴巴 更新开源项目：FlashQLA",
+      "summary": "high-performance linear attention kernel library built on TileLang；主要语言：Python；GitHub Stars：714；最近代码推送：2026-09-28T07:47:19Z。",
+      "url": "https://github.com/QwenLM/FlashQLA",
+      "source": "Qwen GitHub",
+      "source_id": "github-qwen",
+      "source_tier": "一手来源",
+      "company": "阿里巴巴",
+      "company_scale": "成熟企业",
+      "region": "中国",
+      "topic": "大模型",
+      "signal_type": "开源",
+      "published_at": "2026-09-28T07:47:19Z",
+      "first_seen_at": "2026-09-30T10:55:51Z",
+      "last_checked_at": "2026-09-30T10:57:25Z",
+      "matched_windows": [
+        "daily"
+      ],
+      "confidence": "高",
+      "verification_status": "官方一手源",
+      "why_it_matters": "开放程度会改变开发成本和生态位，可能催生新的集成工具、评测和垂直应用机会。",
+      "career_angle": "把模型能力翻译成用户任务、评测集和业务指标，构建可证明的产品判断力。",
+      "score": 78,
+      "content_hash": "907ca78c3c15afee",
       "revisions": []
     },
     {
@@ -2572,7 +3685,7 @@
       "signal_type": "行业动态",
       "published_at": "2026-09-29T19:34:14Z",
       "first_seen_at": "2026-09-30T10:03:00Z",
-      "last_checked_at": "2026-09-30T10:43:10Z",
+      "last_checked_at": "2026-09-30T10:57:25Z",
       "matched_windows": [
         "daily"
       ],
@@ -2599,7 +3712,7 @@
       "signal_type": "行业动态",
       "published_at": "2026-09-29T18:56:05Z",
       "first_seen_at": "2026-09-30T10:03:00Z",
-      "last_checked_at": "2026-09-30T10:43:10Z",
+      "last_checked_at": "2026-09-30T10:57:25Z",
       "matched_windows": [
         "daily"
       ],
@@ -2626,7 +3739,7 @@
       "signal_type": "行业动态",
       "published_at": "2026-09-29T18:38:27Z",
       "first_seen_at": "2026-09-30T10:03:00Z",
-      "last_checked_at": "2026-09-30T10:43:10Z",
+      "last_checked_at": "2026-09-30T10:57:25Z",
       "matched_windows": [
         "daily"
       ],
@@ -2653,7 +3766,7 @@
       "signal_type": "融资并购",
       "published_at": "2026-09-28T07:00:00Z",
       "first_seen_at": "2026-09-30T10:03:00Z",
-      "last_checked_at": "2026-09-30T10:43:10Z",
+      "last_checked_at": "2026-09-30T10:57:25Z",
       "matched_windows": [
         "daily"
       ],
@@ -2680,7 +3793,7 @@
       "signal_type": "行业动态",
       "published_at": "2026-09-29T16:27:57Z",
       "first_seen_at": "2026-09-30T10:03:00Z",
-      "last_checked_at": "2026-09-30T10:43:10Z",
+      "last_checked_at": "2026-09-30T10:57:25Z",
       "matched_windows": [
         "daily"
       ],
@@ -2707,7 +3820,7 @@
       "signal_type": "行业动态",
       "published_at": "2026-09-29T15:30:38Z",
       "first_seen_at": "2026-09-30T10:03:00Z",
-      "last_checked_at": "2026-09-30T10:43:10Z",
+      "last_checked_at": "2026-09-30T10:57:25Z",
       "matched_windows": [
         "daily"
       ],
@@ -2734,7 +3847,7 @@
       "signal_type": "行业动态",
       "published_at": "2026-09-29T13:07:00Z",
       "first_seen_at": "2026-09-30T10:03:00Z",
-      "last_checked_at": "2026-09-30T10:43:10Z",
+      "last_checked_at": "2026-09-30T10:57:25Z",
       "matched_windows": [
         "daily"
       ],
@@ -2744,6 +3857,33 @@
       "career_angle": "练习定义任务成功率、人工接管率和失败兜底，形成一份可复用的 Agent 评测框架。",
       "score": 75,
       "content_hash": "71ebcddde80df595",
+      "revisions": []
+    },
+    {
+      "id": "43c746cc1608fef222d0",
+      "title": "阿里巴巴 更新开源项目：qwen-code-docs",
+      "summary": "A documentation translation tool specifically designed for Qwen Code；主要语言：MDX；GitHub Stars：51；最近代码推送：2026-09-27T22:56:33Z。",
+      "url": "https://github.com/QwenLM/qwen-code-docs",
+      "source": "Qwen GitHub",
+      "source_id": "github-qwen",
+      "source_tier": "一手来源",
+      "company": "阿里巴巴",
+      "company_scale": "成熟企业",
+      "region": "中国",
+      "topic": "大模型",
+      "signal_type": "开源",
+      "published_at": "2026-09-27T22:56:33Z",
+      "first_seen_at": "2026-09-30T10:55:51Z",
+      "last_checked_at": "2026-09-30T10:57:25Z",
+      "matched_windows": [
+        "daily"
+      ],
+      "confidence": "高",
+      "verification_status": "官方一手源",
+      "why_it_matters": "开放程度会改变开发成本和生态位，可能催生新的集成工具、评测和垂直应用机会。",
+      "career_angle": "把模型能力翻译成用户任务、评测集和业务指标，构建可证明的产品判断力。",
+      "score": 75,
+      "content_hash": "501568b72d13dba3",
       "revisions": []
     },
     {
@@ -2761,7 +3901,7 @@
       "signal_type": "行业动态",
       "published_at": "2026-09-29T00:00:00Z",
       "first_seen_at": "2026-09-30T10:03:00Z",
-      "last_checked_at": "2026-09-30T10:43:10Z",
+      "last_checked_at": "2026-09-30T10:57:25Z",
       "matched_windows": [
         "daily"
       ],
@@ -2788,7 +3928,7 @@
       "signal_type": "行业动态",
       "published_at": "2026-09-28T22:13:16Z",
       "first_seen_at": "2026-09-30T10:03:00Z",
-      "last_checked_at": "2026-09-30T10:43:10Z",
+      "last_checked_at": "2026-09-30T10:57:25Z",
       "matched_windows": [
         "daily"
       ],
@@ -2815,7 +3955,7 @@
       "signal_type": "行业动态",
       "published_at": "2026-09-28T19:00:00Z",
       "first_seen_at": "2026-09-30T10:03:00Z",
-      "last_checked_at": "2026-09-30T10:43:10Z",
+      "last_checked_at": "2026-09-30T10:57:25Z",
       "matched_windows": [
         "daily"
       ],
@@ -2842,7 +3982,7 @@
       "signal_type": "行业动态",
       "published_at": "2026-09-28T19:00:00Z",
       "first_seen_at": "2026-09-30T10:03:00Z",
-      "last_checked_at": "2026-09-30T10:43:10Z",
+      "last_checked_at": "2026-09-30T10:57:25Z",
       "matched_windows": [
         "daily"
       ],
@@ -2869,7 +4009,7 @@
       "signal_type": "行业动态",
       "published_at": "2026-09-28T17:24:46Z",
       "first_seen_at": "2026-09-30T10:03:00Z",
-      "last_checked_at": "2026-09-30T10:43:10Z",
+      "last_checked_at": "2026-09-30T10:57:25Z",
       "matched_windows": [
         "daily"
       ],
@@ -2896,7 +4036,7 @@
       "signal_type": "行业动态",
       "published_at": "2026-09-28T17:14:05Z",
       "first_seen_at": "2026-09-30T10:03:00Z",
-      "last_checked_at": "2026-09-30T10:43:10Z",
+      "last_checked_at": "2026-09-30T10:57:25Z",
       "matched_windows": [
         "daily"
       ],
@@ -2923,7 +4063,7 @@
       "signal_type": "行业动态",
       "published_at": "2026-09-28T17:00:03Z",
       "first_seen_at": "2026-09-30T10:03:00Z",
-      "last_checked_at": "2026-09-30T10:43:10Z",
+      "last_checked_at": "2026-09-30T10:57:25Z",
       "matched_windows": [
         "daily"
       ],
@@ -2950,7 +4090,7 @@
       "signal_type": "研究突破",
       "published_at": "2026-09-28T00:00:00Z",
       "first_seen_at": "2026-09-30T10:03:00Z",
-      "last_checked_at": "2026-09-30T10:43:10Z",
+      "last_checked_at": "2026-09-30T10:57:25Z",
       "matched_windows": [
         "daily"
       ],
@@ -2977,7 +4117,7 @@
       "signal_type": "研究突破",
       "published_at": "2026-09-28T00:00:00Z",
       "first_seen_at": "2026-09-30T10:03:00Z",
-      "last_checked_at": "2026-09-30T10:43:10Z",
+      "last_checked_at": "2026-09-30T10:57:25Z",
       "matched_windows": [
         "daily"
       ],
@@ -3004,7 +4144,7 @@
       "signal_type": "行业动态",
       "published_at": "2026-09-28T15:56:32Z",
       "first_seen_at": "2026-09-30T10:03:00Z",
-      "last_checked_at": "2026-09-30T10:43:10Z",
+      "last_checked_at": "2026-09-30T10:57:25Z",
       "matched_windows": [
         "daily"
       ],
@@ -3031,7 +4171,7 @@
       "signal_type": "行业动态",
       "published_at": "2026-09-28T15:49:04Z",
       "first_seen_at": "2026-09-30T10:03:00Z",
-      "last_checked_at": "2026-09-30T10:43:10Z",
+      "last_checked_at": "2026-09-30T10:57:25Z",
       "matched_windows": [
         "daily"
       ],
@@ -3058,7 +4198,7 @@
       "signal_type": "行业动态",
       "published_at": "2026-09-28T15:10:06Z",
       "first_seen_at": "2026-09-30T10:03:00Z",
-      "last_checked_at": "2026-09-30T10:43:10Z",
+      "last_checked_at": "2026-09-30T10:57:25Z",
       "matched_windows": [
         "daily"
       ],
@@ -3112,7 +4252,7 @@
       "signal_type": "行业动态",
       "published_at": "2026-09-28T09:44:05Z",
       "first_seen_at": "2026-09-30T10:03:00Z",
-      "last_checked_at": "2026-09-30T10:43:10Z",
+      "last_checked_at": "2026-09-30T10:57:25Z",
       "matched_windows": [
         "daily"
       ],
@@ -3139,7 +4279,7 @@
       "signal_type": "行业动态",
       "published_at": "2026-09-28T00:00:00Z",
       "first_seen_at": "2026-09-30T10:03:00Z",
-      "last_checked_at": "2026-09-30T10:43:10Z",
+      "last_checked_at": "2026-09-30T10:57:25Z",
       "matched_windows": [
         "daily"
       ],
@@ -3166,7 +4306,7 @@
       "signal_type": "行业动态",
       "published_at": "2026-09-27T19:16:41Z",
       "first_seen_at": "2026-09-30T10:03:00Z",
-      "last_checked_at": "2026-09-30T10:43:10Z",
+      "last_checked_at": "2026-09-30T10:57:25Z",
       "matched_windows": [
         "daily"
       ],
@@ -9155,8 +10295,8 @@
       "fetched": 10,
       "matched": 2,
       "latest_item_at": "2026-09-29T00:00:00Z",
-      "etag": "W/\"6abc2563-2743\"",
-      "duration_ms": 115
+      "etag": "\"6abc2563-2743\"",
+      "duration_ms": 1131
     },
     {
       "id": "arxiv-ai-robotics",
@@ -9167,7 +10307,7 @@
       "matched": 80,
       "latest_item_at": "2026-09-30T04:00:00Z",
       "etag": "dd3acf69aeb51479e24bc5c8187bdbe4a334605b7d778cf6574d186be83152b0",
-      "duration_ms": 345
+      "duration_ms": 1388
     },
     {
       "id": "aws-ml",
@@ -9178,7 +10318,7 @@
       "matched": 13,
       "latest_item_at": "2026-09-30T01:13:14Z",
       "etag": null,
-      "duration_ms": 195
+      "duration_ms": 793
     },
     {
       "id": "boston-dynamics",
@@ -9189,77 +10329,167 @@
       "matched": 0,
       "latest_item_at": null,
       "etag": null,
-      "duration_ms": 448
+      "duration_ms": 681
+    },
+    {
+      "id": "github-01-ai",
+      "name": "零一万物 GitHub",
+      "status": "ok",
+      "kind": "GitHub",
+      "fetched": 12,
+      "matched": 0,
+      "latest_item_at": null,
+      "duration_ms": 873
+    },
+    {
+      "id": "github-1x",
+      "name": "1X Technologies GitHub",
+      "status": "ok",
+      "kind": "GitHub",
+      "fetched": 1,
+      "matched": 0,
+      "latest_item_at": null,
+      "duration_ms": 612
+    },
+    {
+      "id": "github-agibot",
+      "name": "智元机器人 GitHub",
+      "status": "ok",
+      "kind": "GitHub",
+      "fetched": 23,
+      "matched": 0,
+      "latest_item_at": null,
+      "duration_ms": 1157
+    },
+    {
+      "id": "github-anthropic",
+      "name": "Anthropic GitHub",
+      "status": "ok",
+      "kind": "GitHub",
+      "fetched": 100,
+      "matched": 5,
+      "latest_item_at": "2026-09-30T09:23:08Z",
+      "duration_ms": 1920
     },
     {
       "id": "github-bytedance-seed",
       "name": "ByteDance Seed GitHub",
       "status": "ok",
       "kind": "GitHub",
-      "fetched": 100,
-      "matched": 0,
-      "latest_item_at": null,
-      "duration_ms": 1043
+      "fetched": 63,
+      "matched": 1,
+      "latest_item_at": "2026-09-30T06:19:29Z",
+      "duration_ms": 1431
     },
     {
       "id": "github-deepseek",
       "name": "DeepSeek GitHub",
       "status": "ok",
       "kind": "GitHub",
-      "fetched": 99,
+      "fetched": 44,
+      "matched": 5,
+      "latest_item_at": "2026-09-30T07:37:00Z",
+      "duration_ms": 1235
+    },
+    {
+      "id": "github-galaxea",
+      "name": "星海图 GitHub",
+      "status": "ok",
+      "kind": "GitHub",
+      "fetched": 13,
       "matched": 0,
       "latest_item_at": null,
-      "duration_ms": 1208
+      "duration_ms": 1097
     },
     {
       "id": "github-mindspore",
       "name": "MindSpore GitHub",
       "status": "ok",
       "kind": "GitHub",
-      "fetched": 100,
-      "matched": 0,
-      "latest_item_at": null,
-      "duration_ms": 1520
+      "fetched": 50,
+      "matched": 5,
+      "latest_item_at": "2026-09-30T09:41:34Z",
+      "duration_ms": 1154
+    },
+    {
+      "id": "github-minimax",
+      "name": "MiniMax GitHub",
+      "status": "ok",
+      "kind": "GitHub",
+      "fetched": 36,
+      "matched": 4,
+      "latest_item_at": "2026-09-30T10:55:24Z",
+      "duration_ms": 1493
+    },
+    {
+      "id": "github-mistral",
+      "name": "Mistral AI GitHub",
+      "status": "ok",
+      "kind": "GitHub",
+      "fetched": 28,
+      "matched": 5,
+      "latest_item_at": "2026-09-30T10:55:12Z",
+      "duration_ms": 1471
     },
     {
       "id": "github-paddle",
       "name": "PaddlePaddle GitHub",
       "status": "ok",
       "kind": "GitHub",
-      "fetched": 96,
+      "fetched": 100,
+      "matched": 5,
+      "latest_item_at": "2026-09-30T09:52:28Z",
+      "duration_ms": 1916
+    },
+    {
+      "id": "github-physical-intelligence",
+      "name": "Physical Intelligence GitHub",
+      "status": "ok",
+      "kind": "GitHub",
+      "fetched": 8,
       "matched": 0,
       "latest_item_at": null,
-      "duration_ms": 1434
+      "duration_ms": 1083
     },
     {
       "id": "github-qwen",
       "name": "Qwen GitHub",
       "status": "ok",
       "kind": "GitHub",
-      "fetched": 100,
-      "matched": 0,
-      "latest_item_at": null,
-      "duration_ms": 1798
+      "fetched": 58,
+      "matched": 5,
+      "latest_item_at": "2026-09-30T10:45:11Z",
+      "duration_ms": 2029
+    },
+    {
+      "id": "github-stepfun",
+      "name": "阶跃星辰 GitHub",
+      "status": "ok",
+      "kind": "GitHub",
+      "fetched": 33,
+      "matched": 2,
+      "latest_item_at": "2026-09-30T08:36:02Z",
+      "duration_ms": 1308
     },
     {
       "id": "github-tencent-hunyuan",
       "name": "Tencent Hunyuan GitHub",
       "status": "ok",
       "kind": "GitHub",
-      "fetched": 100,
-      "matched": 0,
-      "latest_item_at": null,
-      "duration_ms": 1055
+      "fetched": 83,
+      "matched": 1,
+      "latest_item_at": "2026-09-30T09:03:18Z",
+      "duration_ms": 2403
     },
     {
       "id": "github-unitree",
       "name": "Unitree Robotics GitHub",
       "status": "ok",
       "kind": "GitHub",
-      "fetched": 99,
-      "matched": 0,
-      "latest_item_at": null,
-      "duration_ms": 1171
+      "fetched": 56,
+      "matched": 3,
+      "latest_item_at": "2026-09-30T03:54:56Z",
+      "duration_ms": 1840
     },
     {
       "id": "google-research",
@@ -9270,7 +10500,7 @@
       "matched": 1,
       "latest_item_at": "2026-09-29T18:38:27Z",
       "etag": null,
-      "duration_ms": 437
+      "duration_ms": 1530
     },
     {
       "id": "hugging-face",
@@ -9281,7 +10511,7 @@
       "matched": 3,
       "latest_item_at": "2026-09-29T15:30:38Z",
       "etag": "W/\"3ea16-AL+Q3Eb0t/GiWqjtqcYGKqB1zcM\"",
-      "duration_ms": 281
+      "duration_ms": 836
     },
     {
       "id": "microsoft-ai",
@@ -9292,7 +10522,7 @@
       "matched": 0,
       "latest_item_at": null,
       "etag": "W/\"47bccc7684e36461a64bdc10a2b27a08\"",
-      "duration_ms": 179
+      "duration_ms": 261
     },
     {
       "id": "microsoft-research",
@@ -9303,7 +10533,7 @@
       "matched": 2,
       "latest_item_at": "2026-09-29T14:00:02Z",
       "etag": "\"92f956225359f4b95680777d61a4012b\"",
-      "duration_ms": 652
+      "duration_ms": 2151
     },
     {
       "id": "nvidia-developer",
@@ -9314,7 +10544,7 @@
       "matched": 7,
       "latest_item_at": "2026-09-29T19:10:59Z",
       "etag": "\"fa3f9a91c4b57bd38dcc52f7632e1028\"",
-      "duration_ms": 72
+      "duration_ms": 721
     },
     {
       "id": "nvidia-robotics",
@@ -9325,7 +10555,7 @@
       "matched": 0,
       "latest_item_at": null,
       "etag": "\"6abc0e23-4042c\"",
-      "duration_ms": 142
+      "duration_ms": 896
     },
     {
       "id": "openai-news",
@@ -9336,7 +10566,7 @@
       "matched": 8,
       "latest_item_at": "2026-09-29T10:00:00Z",
       "etag": null,
-      "duration_ms": 178
+      "duration_ms": 517
     }
   ]
 }

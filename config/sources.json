@@ -163,6 +163,87 @@
       "company_scale": "成长公司",
       "company": "宇树科技",
       "default_topic": "具身智能"
+    },
+    {
+      "id": "github-minimax",
+      "name": "MiniMax GitHub",
+      "org": "MiniMax-AI",
+      "region": "中国",
+      "company_scale": "成长公司",
+      "company": "MiniMax",
+      "default_topic": "大模型"
+    },
+    {
+      "id": "github-stepfun",
+      "name": "阶跃星辰 GitHub",
+      "org": "stepfun-ai",
+      "region": "中国",
+      "company_scale": "初创公司",
+      "company": "阶跃星辰",
+      "default_topic": "大模型"
+    },
+    {
+      "id": "github-01-ai",
+      "name": "零一万物 GitHub",
+      "org": "01-ai",
+      "region": "中国",
+      "company_scale": "成长公司",
+      "company": "零一万物",
+      "default_topic": "大模型"
+    },
+    {
+      "id": "github-agibot",
+      "name": "智元机器人 GitHub",
+      "org": "AgibotTech",
+      "region": "中国",
+      "company_scale": "成长公司",
+      "company": "智元机器人",
+      "default_topic": "具身智能"
+    },
+    {
+      "id": "github-galaxea",
+      "name": "星海图 GitHub",
+      "org": "OpenGalaxea",
+      "region": "中国",
+      "company_scale": "初创公司",
+      "company": "星海图",
+      "default_topic": "具身智能"
+    },
+    {
+      "id": "github-anthropic",
+      "name": "Anthropic GitHub",
+      "org": "anthropics",
+      "region": "北美",
+      "company_scale": "成长公司",
+      "company": "Anthropic",
+      "default_topic": "大模型"
+    },
+    {
+      "id": "github-mistral",
+      "name": "Mistral AI GitHub",
+      "org": "mistralai",
+      "region": "欧洲",
+      "company_scale": "成长公司",
+      "company": "Mistral AI",
+      "default_topic": "大模型"
+    },
+    {
+      "id": "github-physical-intelligence",
+      "name": "Physical Intelligence GitHub",
+      "org": "Physical-Intelligence",
+      "region": "北美",
+      "company_scale": "初创公司",
+      "company": "Physical Intelligence",
+      "default_topic": "具身智能"
+    },
+    {
+      "id": "github-1x",
+      "name": "1X Technologies GitHub",
+      "org": "1x-technologies",
+      "region": "欧洲",
+      "company_scale": "成长公司",
+      "company": "1X Technologies",
+      "default_topic": "具身智能"
     }
   ]
 }
