@@ -49,10 +49,20 @@
 }
 
 :root {
+  color-scheme: dark;
   --font-interface:
     Inter, ui-sans-serif, -apple-system, BlinkMacSystemFont, 'Segoe UI',
     'PingFang SC', 'Microsoft YaHei', sans-serif;
   --font-data: 'SFMono-Regular', 'Roboto Mono', Consolas, monospace;
+  --brand: #77e5f5;
+  --brand-soft: rgba(119, 229, 245, 0.12);
+  --insight: #ae91ff;
+  --surface-1: #09101d;
+  --surface-2: #0d1626;
+  --surface-3: #121d30;
+  --text-1: #f7fbff;
+  --text-2: #c4cfdd;
+  --text-3: #7f8da3;
   --background: oklch(0.128 0.02 258);
   --foreground: oklch(0.96 0.01 250);
   --card: oklch(0.175 0.025 258);
@@ -88,37 +98,37 @@
 }
 
 .dark {
-  --background: oklch(0.145 0 0);
-  --foreground: oklch(0.985 0 0);
-  --card: oklch(0.205 0 0);
-  --card-foreground: oklch(0.985 0 0);
-  --popover: oklch(0.205 0 0);
-  --popover-foreground: oklch(0.985 0 0);
-  --primary: oklch(0.922 0 0);
-  --primary-foreground: oklch(0.205 0 0);
-  --secondary: oklch(0.269 0 0);
-  --secondary-foreground: oklch(0.985 0 0);
-  --muted: oklch(0.269 0 0);
-  --muted-foreground: oklch(0.708 0 0);
-  --accent: oklch(0.269 0 0);
-  --accent-foreground: oklch(0.985 0 0);
-  --destructive: oklch(0.704 0.191 22.216);
+  --background: oklch(0.128 0.02 258);
+  --foreground: oklch(0.96 0.01 250);
+  --card: oklch(0.175 0.025 258);
+  --card-foreground: oklch(0.96 0.01 250);
+  --popover: oklch(0.18 0.025 258);
+  --popover-foreground: oklch(0.96 0.01 250);
+  --primary: oklch(0.82 0.13 205);
+  --primary-foreground: oklch(0.14 0.025 250);
+  --secondary: oklch(0.22 0.025 258);
+  --secondary-foreground: oklch(0.9 0.015 250);
+  --muted: oklch(0.21 0.022 258);
+  --muted-foreground: oklch(0.66 0.025 250);
+  --accent: oklch(0.73 0.16 295);
+  --accent-foreground: oklch(0.98 0.01 250);
+  --destructive: oklch(0.577 0.245 27.325);
   --border: oklch(1 0 0 / 10%);
-  --input: oklch(1 0 0 / 15%);
-  --ring: oklch(0.556 0 0);
-  --chart-1: oklch(0.87 0 0);
-  --chart-2: oklch(0.556 0 0);
-  --chart-3: oklch(0.439 0 0);
-  --chart-4: oklch(0.371 0 0);
-  --chart-5: oklch(0.269 0 0);
-  --sidebar: oklch(0.205 0 0);
-  --sidebar-foreground: oklch(0.985 0 0);
-  --sidebar-primary: oklch(0.488 0.243 264.376);
-  --sidebar-primary-foreground: oklch(0.985 0 0);
-  --sidebar-accent: oklch(0.269 0 0);
-  --sidebar-accent-foreground: oklch(0.985 0 0);
+  --input: oklch(1 0 0 / 12%);
+  --ring: oklch(0.82 0.13 205);
+  --chart-1: oklch(0.82 0.13 205);
+  --chart-2: oklch(0.73 0.16 295);
+  --chart-3: oklch(0.85 0.18 125);
+  --chart-4: oklch(0.72 0.18 45);
+  --chart-5: oklch(0.7 0.12 245);
+  --sidebar: oklch(0.15 0.02 258);
+  --sidebar-foreground: oklch(0.95 0.01 250);
+  --sidebar-primary: oklch(0.82 0.13 205);
+  --sidebar-primary-foreground: oklch(0.14 0.025 250);
+  --sidebar-accent: oklch(0.22 0.025 258);
+  --sidebar-accent-foreground: oklch(0.95 0.01 250);
   --sidebar-border: oklch(1 0 0 / 10%);
-  --sidebar-ring: oklch(0.556 0 0);
+  --sidebar-ring: oklch(0.82 0.13 205);
 }
 
 @layer base {
@@ -137,8 +147,13 @@
         circle at 14% 8%,
         rgba(42, 201, 223, 0.08),
         transparent 28rem
-      );
+      ),
+      linear-gradient(rgba(148, 163, 184, 0.018) 1px, transparent 1px),
+      linear-gradient(90deg, rgba(148, 163, 184, 0.018) 1px, transparent 1px);
+    background-size: auto, auto, 48px 48px, 48px 48px;
     min-width: 320px;
+    font-feature-settings: 'ss01' 1, 'cv11' 1;
+    -webkit-font-smoothing: antialiased;
   }
   html {
     @apply font-sans;
@@ -147,7 +162,105 @@
 }
 
 @layer components {
+  .app-shell {
+    background:
+      linear-gradient(180deg, rgba(7, 13, 24, 0.12), rgba(5, 10, 18, 0.72)),
+      transparent;
+  }
+
+  .app-header::after {
+    position: absolute;
+    right: 0;
+    bottom: -1px;
+    left: 0;
+    height: 1px;
+    content: '';
+    background: linear-gradient(
+      90deg,
+      transparent 4%,
+      rgba(119, 229, 245, 0.28) 24%,
+      rgba(174, 145, 255, 0.22) 70%,
+      transparent 96%
+    );
+  }
+
+  .nav-link {
+    position: relative;
+  }
+
+  .nav-link::after {
+    position: absolute;
+    right: 0.7rem;
+    bottom: -0.6rem;
+    left: 0.7rem;
+    height: 2px;
+    border-radius: 999px;
+    content: '';
+    background: var(--brand);
+    opacity: 0;
+    transform: scaleX(0.45);
+    transition:
+      opacity 180ms ease,
+      transform 180ms ease;
+  }
+
+  .nav-link-active {
+    background: rgba(255, 255, 255, 0.055);
+  }
+
+  .nav-link-active::after {
+    opacity: 0.85;
+    transform: scaleX(1);
+  }
+
+  .hero-shell {
+    position: relative;
+    background:
+      radial-gradient(circle at 24% 0%, rgba(119, 229, 245, 0.075), transparent 28rem),
+      radial-gradient(circle at 82% 18%, rgba(174, 145, 255, 0.065), transparent 24rem),
+      linear-gradient(180deg, rgba(10, 18, 31, 0.58), rgba(7, 12, 22, 0.08));
+  }
+
+  .hero-shell::before {
+    position: absolute;
+    inset: 0;
+    pointer-events: none;
+    content: '';
+    background-image:
+      linear-gradient(rgba(119, 229, 245, 0.025) 1px, transparent 1px),
+      linear-gradient(90deg, rgba(119, 229, 245, 0.025) 1px, transparent 1px);
+    background-size: 64px 64px;
+    mask-image: linear-gradient(to bottom, black, transparent 72%);
+  }
+
+  .hero-kicker,
+  .hero-shell > div {
+    position: relative;
+    z-index: 1;
+  }
+
+  .brand-gradient-text {
+    margin-left: 0.14em;
+    background: linear-gradient(100deg, #b9f5ff 0%, #77e5f5 48%, #b6a2ff 100%);
+    background-clip: text;
+    color: transparent;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+
+  .topic-chip {
+    box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.025);
+  }
+
+  .topic-chip-active {
+    box-shadow:
+      inset 0 1px 0 rgba(255, 255, 255, 0.08),
+      0 0 22px rgba(119, 229, 245, 0.07);
+  }
+
   .signal-card {
+    isolation: isolate;
+    overflow: hidden;
     box-shadow:
       inset 0 1px 0 rgba(255, 255, 255, 0.025),
       0 18px 48px rgba(2, 6, 23, 0.13);
@@ -162,12 +275,33 @@
     background-color: color-mix(in oklab, var(--card) 88%, white 3%);
   }
 
+  .signal-card::after {
+    position: absolute;
+    inset: 0;
+    z-index: -1;
+    pointer-events: none;
+    content: '';
+    background: radial-gradient(
+      circle at 12% 0%,
+      color-mix(in oklab, var(--signal-color) 10%, transparent),
+      transparent 45%
+    );
+  }
+
+  .signal-card--lead {
+    border-color: color-mix(in oklab, var(--signal-color) 23%, transparent);
+    box-shadow:
+      inset 0 1px 0 rgba(255, 255, 255, 0.045),
+      0 24px 65px rgba(2, 6, 23, 0.24),
+      0 0 42px color-mix(in oklab, var(--signal-color) 5%, transparent);
+  }
+
   .signal-line {
     position: absolute;
-    inset: 0 auto 0 0;
-    width: 2px;
-    background: var(--signal-color);
-    opacity: 0.72;
+    inset: 0 1.25rem auto;
+    height: 2px;
+    background: linear-gradient(90deg, var(--signal-color), transparent 82%);
+    opacity: 0.8;
   }
 
   .signal-icon {
@@ -177,6 +311,70 @@
 
   .signal-label {
     color: var(--signal-color);
+  }
+
+  .priority-pill {
+    border: 1px solid rgba(119, 229, 245, 0.16);
+    background: rgba(119, 229, 245, 0.085);
+  }
+
+  .metric-strip {
+    overflow: hidden;
+    border: 1px solid rgba(255, 255, 255, 0.075);
+    border-radius: 1rem;
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0.027), rgba(255, 255, 255, 0.012));
+    box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.025);
+  }
+
+  .metric-item {
+    min-width: 0;
+  }
+
+  .metric-item + .metric-item {
+    border-left: 1px solid rgba(255, 255, 255, 0.065);
+  }
+
+  .filter-toolbar {
+    background: color-mix(in oklab, var(--surface-2) 91%, transparent);
+  }
+
+  .intel-row {
+    position: relative;
+    overflow: hidden;
+  }
+
+  .intel-row::before {
+    position: absolute;
+    inset: 0 auto 0 0;
+    width: 2px;
+    content: '';
+    background: linear-gradient(var(--signal-color), transparent 78%);
+    opacity: 0.62;
+  }
+
+  .source-grid {
+    overflow: hidden;
+    border: 1px solid rgba(255, 255, 255, 0.07);
+    border-radius: 1rem;
+    background: rgba(255, 255, 255, 0.015);
+  }
+
+  .source-item {
+    border-right: 1px solid rgba(255, 255, 255, 0.055);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.055);
+    transition: background-color 160ms ease;
+  }
+
+  .source-item:hover {
+    background: rgba(255, 255, 255, 0.025);
+  }
+
+  .mobile-nav {
+    padding-bottom: max(0.375rem, env(safe-area-inset-bottom));
+  }
+
+  .mobile-filter-sheet {
+    padding-bottom: calc(1.25rem + env(safe-area-inset-bottom));
   }
 
   .signal-cyan {
@@ -200,6 +398,38 @@
 
   .intel-details[open] summary svg:last-child {
     transform: rotate(180deg);
+  }
+}
+
+@media (max-width: 1023px) {
+  .metric-item:nth-child(odd) {
+    border-left: 0;
+  }
+
+  .metric-item:nth-child(n + 3) {
+    border-top: 1px solid rgba(255, 255, 255, 0.065);
+  }
+}
+
+@media (max-width: 639px) {
+  .metric-item + .metric-item {
+    border-top: 1px solid rgba(255, 255, 255, 0.065);
+    border-left: 0;
+  }
+
+  .hero-shell::before {
+    background-size: 48px 48px;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    scroll-behavior: auto !important;
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
   }
 }
 

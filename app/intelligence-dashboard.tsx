@@ -159,6 +159,7 @@ export function IntelligenceDashboard({ data }: { data: IntelligenceData }) {
   const [mobileFilters, setMobileFilters] = useState(false);
   const [favorites, setFavorites] = useState<string[]>([]);
   const [onlyFavorites, setOnlyFavorites] = useState(false);
+  const [activeSection, setActiveSection] = useState('today');
 
   useEffect(() => {
     try {
@@ -167,6 +168,37 @@ export function IntelligenceDashboard({ data }: { data: IntelligenceData }) {
     } catch {
       // Device-local favorites are optional; a blocked storage API should not block reading.
     }
+  }, []);
+
+  useEffect(() => {
+    const sections = ['today', 'feed', 'career', 'review', 'sources']
+      .map((id) => document.getElementById(id))
+      .filter((element): element is HTMLElement => Boolean(element));
+    const observer = new IntersectionObserver(
+      (entries) => {
+        const visible = entries
+          .filter((entry) => entry.isIntersecting)
+          .sort((left, right) => right.intersectionRatio - left.intersectionRatio);
+        if (visible[0]?.target.id) setActiveSection(visible[0].target.id);
+      },
+      { rootMargin: '-18% 0px -68% 0px', threshold: [0, 0.2, 0.6] },
+    );
+    sections.forEach((section) => observer.observe(section));
+    return () => observer.disconnect();
+  }, []);
+
+  useEffect(() => {
+    const focusSearch = (event: KeyboardEvent) => {
+      if (event.key !== '/' || event.metaKey || event.ctrlKey || event.altKey)
+        return;
+      const target = event.target as HTMLElement | null;
+      if (target?.matches('input, textarea, select, [contenteditable="true"]'))
+        return;
+      event.preventDefault();
+      document.querySelector<HTMLInputElement>('#intel-search')?.focus();
+    };
+    window.addEventListener('keydown', focusSearch);
+    return () => window.removeEventListener('keydown', focusSearch);
   }, []);
 
   const updateFavorites = (next: string[]) => {
@@ -281,8 +313,8 @@ export function IntelligenceDashboard({ data }: { data: IntelligenceData }) {
   };
 
   return (
-    <main className="min-h-screen bg-background text-foreground">
-      <header className="sticky top-0 z-40 border-b border-white/8 bg-background/88 backdrop-blur-xl">
+    <main className="app-shell min-h-screen bg-background text-foreground">
+      <header className="app-header sticky top-0 z-40 border-b border-white/8 bg-background/88 backdrop-blur-xl">
         <div className="mx-auto flex h-16 max-w-[1480px] items-center justify-between px-4 sm:px-6 lg:px-8">
           <a
             href="#today"
@@ -312,15 +344,20 @@ export function IntelligenceDashboard({ data }: { data: IntelligenceData }) {
               ['职业雷达', '#career'],
               ['核查记录', '#review'],
               ['数据源', '#sources'],
-            ].map(([label, href], index) => (
+            ].map(([label, href]) => {
+              const sectionId = href.slice(1);
+              const isActive = activeSection === sectionId;
+              return (
               <a
                 key={label}
                 href={href}
-                className={`rounded-lg px-3 py-2 text-sm transition-colors ${index === 0 ? 'bg-white/7 text-white' : 'text-muted-foreground hover:bg-white/5 hover:text-white'}`}
+                aria-current={isActive ? 'page' : undefined}
+                className={`nav-link rounded-lg px-3 py-2 text-sm transition-colors ${isActive ? 'nav-link-active text-white' : 'text-muted-foreground hover:bg-white/5 hover:text-white'}`}
               >
                 {label}
               </a>
-            ))}
+              );
+            })}
           </nav>
 
           <div className="flex items-center gap-2">
@@ -335,6 +372,9 @@ export function IntelligenceDashboard({ data }: { data: IntelligenceData }) {
             >
               <Search data-icon="inline-start" />
               搜索情报
+              <kbd className="ml-1 rounded border border-white/10 bg-black/20 px-1.5 py-0.5 font-mono text-[10px] text-slate-500">
+                /
+              </kbd>
             </Button>
             <Button
               variant="ghost"
@@ -349,12 +389,20 @@ export function IntelligenceDashboard({ data }: { data: IntelligenceData }) {
         </div>
       </header>
 
-      <section id="today" className="scroll-mt-24 border-b border-white/6">
+      <section
+        id="today"
+        className="hero-shell scroll-mt-24 overflow-hidden border-b border-white/6"
+      >
         <div className="mx-auto max-w-[1480px] px-4 pb-11 pt-7 sm:px-6 lg:px-8 lg:pt-10">
           <div className="grid gap-7 xl:grid-cols-[minmax(0,1fr)_310px]">
             <div className="min-w-0">
               <div className="mb-8 flex flex-col justify-between gap-5 lg:flex-row lg:items-end">
-                <div>
+                <div className="relative">
+                  <div className="hero-kicker mb-3 flex items-center gap-2 font-mono text-[10px] font-medium uppercase tracking-[0.18em] text-cyan-200/80">
+                    <span>AI × Robotics</span>
+                    <span className="h-px w-6 bg-gradient-to-r from-cyan-300/70 to-transparent" />
+                    <span className="text-slate-500">Daily product intelligence</span>
+                  </div>
                   <div className="mb-3 flex flex-wrap items-center gap-2 text-xs text-muted-foreground">
                     <Badge
                       className={
@@ -378,7 +426,8 @@ export function IntelligenceDashboard({ data }: { data: IntelligenceData }) {
                     </span>
                   </div>
                   <h1 className="font-heading text-3xl font-semibold tracking-[-0.04em] text-white sm:text-4xl lg:text-[42px]">
-                    今天，什么值得你行动？
+                    今天，什么
+                    <span className="brand-gradient-text">值得你行动</span>？
                   </h1>
                   <p className="mt-3 max-w-2xl text-sm leading-6 text-muted-foreground sm:text-base">
                     不只是更多新闻。把全球 AI
@@ -397,7 +446,7 @@ export function IntelligenceDashboard({ data }: { data: IntelligenceData }) {
                           .querySelector('#feed')
                           ?.scrollIntoView({ behavior: 'smooth' });
                       }}
-                      className={`min-h-9 shrink-0 rounded-full border px-3 text-xs transition-colors ${topic === value ? 'border-cyan-300/30 bg-cyan-300/12 text-cyan-100' : 'border-white/8 bg-white/[.025] text-muted-foreground hover:border-white/15 hover:text-white'}`}
+                      className={`topic-chip min-h-9 shrink-0 rounded-full border px-3 text-xs transition-colors ${topic === value ? 'topic-chip-active border-cyan-300/30 bg-cyan-300/12 text-cyan-100' : 'border-white/8 bg-white/[.025] text-muted-foreground hover:border-white/15 hover:text-white'}`}
                     >
                       {value}
                     </button>
@@ -420,11 +469,11 @@ export function IntelligenceDashboard({ data }: { data: IntelligenceData }) {
                 </span>
               </div>
 
-              <div className="grid gap-4 lg:grid-cols-3">
+              <div className="grid gap-4 lg:grid-cols-[1.12fr_1fr_1fr]">
                 {topSignals.map((item, index) => (
                   <Card
                     key={item.id}
-                    className={`signal-card group relative min-h-[390px] border border-white/8 bg-card/75 py-0 ring-0 ${topicAccent[item.topic] ?? 'signal-cyan'}`}
+                    className={`signal-card group relative min-h-[330px] border border-white/8 bg-card/75 py-0 ring-0 sm:min-h-[360px] lg:min-h-[382px] ${index === 0 ? 'signal-card--lead' : ''} ${topicAccent[item.topic] ?? 'signal-cyan'}`}
                   >
                     <div className="signal-line" aria-hidden="true" />
                     <CardHeader className="px-5 pt-5">
@@ -447,7 +496,7 @@ export function IntelligenceDashboard({ data }: { data: IntelligenceData }) {
                                 : '收藏情报'
                             }
                             onClick={() => toggleFavorite(item.id)}
-                            className="grid size-8 place-items-center rounded-lg text-slate-500 transition-colors hover:bg-white/6 hover:text-white"
+                            className="grid size-11 place-items-center rounded-xl text-slate-500 transition-colors hover:bg-white/6 hover:text-white sm:size-9"
                           >
                             <Bookmark
                               className={`size-4 ${favorites.includes(item.id) ? 'fill-cyan-300 text-cyan-300' : ''}`}
@@ -458,8 +507,11 @@ export function IntelligenceDashboard({ data }: { data: IntelligenceData }) {
                           </span>
                         </div>
                       </div>
-                      <CardDescription className="signal-label text-[11px] font-medium tracking-[0.06em]">
-                        {item.signal_type} · {priorityLabel(item.score)}
+                      <CardDescription className="flex items-center gap-2 text-[11px] font-medium tracking-[0.06em]">
+                        <span className="signal-label">{item.signal_type}</span>
+                        <span className="priority-pill rounded-full px-2 py-1 tracking-normal text-cyan-100">
+                          {priorityLabel(item.score)}
+                        </span>
                       </CardDescription>
                       <CardTitle className="mt-2 text-lg font-semibold leading-[1.5] tracking-[-0.02em] text-white">
                         {item.title}
@@ -503,7 +555,7 @@ export function IntelligenceDashboard({ data }: { data: IntelligenceData }) {
                 ))}
               </div>
 
-              <div className="mt-7 grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
+              <div className="metric-strip mt-7 grid sm:grid-cols-2 lg:grid-cols-4">
                 {[
                   [
                     String(recentItems.length),
@@ -524,7 +576,7 @@ export function IntelligenceDashboard({ data }: { data: IntelligenceData }) {
                 ].map(([value, label, note]) => (
                   <div
                     key={label}
-                    className="rounded-xl border border-white/7 bg-white/[.025] px-5 py-4"
+                    className="metric-item px-5 py-4"
                   >
                     <div className="flex items-baseline justify-between gap-3">
                       <strong className="font-mono text-2xl font-medium text-white">
@@ -655,7 +707,7 @@ export function IntelligenceDashboard({ data }: { data: IntelligenceData }) {
           </p>
         </div>
 
-        <div className="mb-6 rounded-2xl border border-white/8 bg-card/45 p-3 sm:p-4">
+        <div className="filter-toolbar mb-6 rounded-2xl border border-white/8 bg-card/80 p-3 shadow-[0_18px_60px_rgba(0,0,0,.18)] backdrop-blur-xl sm:p-4 lg:sticky lg:top-20 lg:z-30">
           <div className="grid gap-3 lg:grid-cols-[minmax(240px,1fr)_repeat(4,minmax(120px,auto))_auto]">
             <label className="relative block" htmlFor="intel-search">
               <Search className="pointer-events-none absolute left-3 top-1/2 size-4 -translate-y-1/2 text-slate-500" />
@@ -762,7 +814,7 @@ export function IntelligenceDashboard({ data }: { data: IntelligenceData }) {
             {filtered.slice(0, limit).map((item) => (
               <article
                 key={item.id}
-                className="group rounded-2xl border border-white/8 bg-card/55 p-4 transition-colors hover:border-white/14 hover:bg-card/80 sm:p-5"
+                className={`intel-row group rounded-2xl border border-white/8 bg-card/55 p-4 transition-colors hover:border-white/14 hover:bg-card/80 sm:p-5 ${topicAccent[item.topic] ?? 'signal-cyan'}`}
               >
                 <div className="flex gap-3 sm:gap-4">
                   <div
@@ -828,7 +880,7 @@ export function IntelligenceDashboard({ data }: { data: IntelligenceData }) {
                         aria-label={
                           favorites.includes(item.id) ? '取消收藏' : '收藏情报'
                         }
-                        className="grid size-9 shrink-0 place-items-center rounded-lg text-slate-500 hover:bg-white/6 hover:text-white"
+                      className="grid size-11 shrink-0 place-items-center rounded-xl text-slate-500 hover:bg-white/6 hover:text-white sm:size-9"
                       >
                         <Bookmark
                           className={`size-4 ${favorites.includes(item.id) ? 'fill-cyan-300 text-cyan-300' : ''}`}
@@ -1011,11 +1063,11 @@ export function IntelligenceDashboard({ data }: { data: IntelligenceData }) {
             </div>
           </div>
 
-          <div className="grid gap-3 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
+          <div className="source-grid grid sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
             {data.sources.map((source) => (
               <div
                 key={source.id}
-                className="flex items-center gap-3 rounded-xl border border-white/7 bg-white/[.02] px-4 py-3"
+                className="source-item flex items-center gap-3 px-4 py-3.5"
               >
                 <span
                   className={`size-2 shrink-0 rounded-full ${source.status === 'ok' ? 'bg-emerald-400' : 'bg-amber-400'}`}
@@ -1056,7 +1108,7 @@ export function IntelligenceDashboard({ data }: { data: IntelligenceData }) {
       </footer>
 
       <nav
-        className="fixed inset-x-3 bottom-3 z-50 grid grid-cols-4 rounded-2xl border border-white/10 bg-[#111827]/94 p-1.5 shadow-2xl backdrop-blur-xl md:hidden"
+        className="mobile-nav fixed inset-x-3 bottom-3 z-50 grid grid-cols-4 rounded-2xl border border-white/10 bg-[#111827]/94 p-1.5 shadow-2xl backdrop-blur-xl md:hidden"
         aria-label="移动导航"
       >
         {[
@@ -1064,21 +1116,35 @@ export function IntelligenceDashboard({ data }: { data: IntelligenceData }) {
           ['情报', '#feed', BellRing],
           ['收藏', '#feed', Bookmark],
           ['洞察', '#career', BriefcaseBusiness],
-        ].map(([label, href, Icon], index) => (
+        ].map(([label, href, Icon], index) => {
+          const sectionId = String(href).slice(1);
+          const isActive =
+            index === 2 ? onlyFavorites : activeSection === sectionId;
+          return (
           <a
             key={String(label)}
             href={String(href)}
             onClick={index === 2 ? () => setOnlyFavorites(true) : undefined}
-            className="flex min-h-12 flex-col items-center justify-center gap-1 rounded-xl text-[10px] text-slate-500 hover:bg-white/5 hover:text-white"
+            aria-current={isActive ? 'page' : undefined}
+            className={`flex min-h-12 flex-col items-center justify-center gap-1 rounded-xl text-[10px] transition-colors ${isActive ? 'bg-cyan-300/12 text-cyan-200' : 'text-slate-500 hover:bg-white/5 hover:text-white'}`}
           >
             <Icon className="size-4" />
             {String(label)}
           </a>
-        ))}
+          );
+        })}
       </nav>
 
       {mobileFilters && (
-        <div className="fixed inset-x-3 top-[72px] z-50 rounded-2xl border border-white/10 bg-[#111827]/98 p-4 shadow-2xl backdrop-blur-xl md:hidden">
+        <>
+          <button
+            type="button"
+            aria-label="关闭筛选"
+            className="fixed inset-0 z-40 bg-slate-950/72 backdrop-blur-sm md:hidden"
+            onClick={() => setMobileFilters(false)}
+          />
+          <div className="mobile-filter-sheet fixed inset-x-0 bottom-0 z-50 rounded-t-3xl border border-white/10 bg-[#111827]/98 p-5 shadow-2xl backdrop-blur-xl md:hidden">
+          <div className="mx-auto mb-4 h-1 w-10 rounded-full bg-white/15" />
           <div className="mb-3 flex items-center justify-between">
             <span className="flex items-center gap-2 text-sm font-medium text-white">
               <Filter className="size-4" />
@@ -1136,6 +1202,7 @@ export function IntelligenceDashboard({ data }: { data: IntelligenceData }) {
             查看 {filtered.length} 条情报
           </Button>
         </div>
+        </>
       )}
     </main>
   );
