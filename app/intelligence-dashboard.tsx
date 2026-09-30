@@ -171,7 +171,7 @@ export function IntelligenceDashboard({ data }: { data: IntelligenceData }) {
   }, []);
 
   useEffect(() => {
-    const sections = ['today', 'feed', 'career', 'review', 'sources']
+    const sections = ['today', 'feed', 'sources']
       .map((id) => document.getElementById(id))
       .filter((element): element is HTMLElement => Boolean(element));
     const observer = new IntersectionObserver(
@@ -351,6 +351,7 @@ export function IntelligenceDashboard({ data }: { data: IntelligenceData }) {
               <a
                 key={label}
                 href={href}
+                onClick={() => setActiveSection(sectionId)}
                 aria-current={isActive ? 'page' : undefined}
                 className={`nav-link rounded-lg px-3 py-2 text-sm transition-colors ${isActive ? 'nav-link-active text-white' : 'text-muted-foreground hover:bg-white/5 hover:text-white'}`}
               >
@@ -396,7 +397,7 @@ export function IntelligenceDashboard({ data }: { data: IntelligenceData }) {
         <div className="mx-auto max-w-[1480px] px-4 pb-11 pt-7 sm:px-6 lg:px-8 lg:pt-10">
           <div className="grid gap-7 xl:grid-cols-[minmax(0,1fr)_310px]">
             <div className="min-w-0">
-              <div className="mb-8 flex flex-col justify-between gap-5 lg:flex-row lg:items-end">
+              <div className="mb-8 flex flex-col justify-between gap-5 2xl:flex-row 2xl:items-end">
                 <div className="relative">
                   <div className="hero-kicker mb-3 flex items-center gap-2 font-mono text-[10px] font-medium uppercase tracking-[0.18em] text-cyan-200/80">
                     <span>AI × Robotics</span>
@@ -435,7 +436,7 @@ export function IntelligenceDashboard({ data }: { data: IntelligenceData }) {
                   </p>
                 </div>
 
-                <div className="flex gap-2 overflow-x-auto pb-1 lg:max-w-[560px] lg:justify-end">
+                <div className="flex gap-2 overflow-x-auto pb-1 2xl:max-w-[560px] 2xl:justify-end">
                   {[ALL, ...topics.slice(0, 6)].map((value) => (
                     <button
                       key={value}
@@ -1124,7 +1125,10 @@ export function IntelligenceDashboard({ data }: { data: IntelligenceData }) {
           <a
             key={String(label)}
             href={String(href)}
-            onClick={index === 2 ? () => setOnlyFavorites(true) : undefined}
+            onClick={() => {
+              setActiveSection(sectionId);
+              if (index === 2) setOnlyFavorites(true);
+            }}
             aria-current={isActive ? 'page' : undefined}
             className={`flex min-h-12 flex-col items-center justify-center gap-1 rounded-xl text-[10px] transition-colors ${isActive ? 'bg-cyan-300/12 text-cyan-200' : 'text-slate-500 hover:bg-white/5 hover:text-white'}`}
           >
