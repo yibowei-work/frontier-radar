@@ -1,16 +1,18 @@
 {
   "meta": {
     "schema_version": 1,
-    "generated_at": "2026-09-30T10:03:00Z",
-    "generated_at_beijing": "2026-09-30 18:03",
-    "run_status": "degraded",
-    "active_modes": ["daily", "weekly", "monthly"],
-    "window_start": "2026-07-31T16:00:00Z",
-    "window_end": "2026-09-30T10:03:00Z",
+    "generated_at": "2026-09-30T10:43:10Z",
+    "generated_at_beijing": "2026-09-30 18:43",
+    "run_status": "healthy",
+    "active_modes": [
+      "daily"
+    ],
+    "window_start": "2026-09-27T10:43:10Z",
+    "window_end": "2026-09-30T10:43:10Z",
     "source_count": 18,
-    "healthy_source_count": 11,
-    "degraded_source_count": 7,
-    "new_or_checked_count": 338,
+    "healthy_source_count": 18,
+    "degraded_source_count": 0,
+    "new_or_checked_count": 116,
     "total_item_count": 338,
     "revision_count": 0,
     "weekly_last_due_date": "2026-09-27",
@@ -32,13 +34,15 @@
       "signal_type": "产品发布",
       "published_at": "2026-09-30T01:13:12Z",
       "first_seen_at": "2026-09-30T10:03:00Z",
-      "last_checked_at": "2026-09-30T10:03:00Z",
-      "matched_windows": ["daily", "weekly"],
+      "last_checked_at": "2026-09-30T10:43:10Z",
+      "matched_windows": [
+        "daily"
+      ],
       "confidence": "高",
       "verification_status": "官方一手源",
       "why_it_matters": "产品能力边界或使用门槛发生变化，值得检查目标用户、采用路径与竞品跟进节奏。",
       "career_angle": "优先研究部署、权限、审计和 ROI，补齐从 Demo 到规模化落地的经验。",
-      "score": 96,
+      "score": 95,
       "content_hash": "e16b9cc9aa52d6d1",
       "revisions": []
     },
@@ -57,39 +61,16 @@
       "signal_type": "产品发布",
       "published_at": "2026-09-29T14:00:02Z",
       "first_seen_at": "2026-09-30T10:03:00Z",
-      "last_checked_at": "2026-09-30T10:03:00Z",
-      "matched_windows": ["daily", "weekly"],
+      "last_checked_at": "2026-09-30T10:43:10Z",
+      "matched_windows": [
+        "daily"
+      ],
       "confidence": "高",
       "verification_status": "官方一手源",
       "why_it_matters": "产品能力边界或使用门槛发生变化，值得检查目标用户、采用路径与竞品跟进节奏。",
       "career_angle": "先问“能解决哪个用户任务”，再把论文指标转成产品假设和验证计划。",
       "score": 92,
       "content_hash": "b21f6bce705fa4e3",
-      "revisions": []
-    },
-    {
-      "id": "2b7eb2c13a1f0edbe194",
-      "title": "Building an AI-powered contract intelligence platform with Amazon Quick and Amazon Bedrock AgentCore",
-      "summary": "Manually extracting data from hundreds of vendor contracts doesn't scale, and RAG chat tools fall short on portfolio-wide questions. This post shares a contract intelligence platform on AWS that uses AI agents to extract and verify contract fields, then answers aggregate and single-contract questio…",
-      "url": "https://aws.amazon.com/blogs/machine-learning/building-an-ai-powered-contract-intelligence-platform-with-amazon-quick-and-amazon-bedrock-agentcore",
-      "source": "AWS Machine Learning",
-      "source_id": "aws-ml",
-      "source_tier": "一手来源",
-      "company": "Amazon",
-      "company_scale": "成熟企业",
-      "region": "北美",
-      "topic": "AI Agent",
-      "signal_type": "合作落地",
-      "published_at": "2026-09-29T16:14:24Z",
-      "first_seen_at": "2026-09-30T10:03:00Z",
-      "last_checked_at": "2026-09-30T10:03:00Z",
-      "matched_windows": ["daily", "weekly"],
-      "confidence": "高",
-      "verification_status": "官方一手源",
-      "why_it_matters": "这是一条商业化验证信号，应继续核查客户场景、交付方式和可复制性。",
-      "career_angle": "练习定义任务成功率、人工接管率和失败兜底，形成一份可复用的 Agent 评测框架。",
-      "score": 90,
-      "content_hash": "bcedcab905c98b71",
       "revisions": []
     },
     {
@@ -107,8 +88,10 @@
       "signal_type": "产品发布",
       "published_at": "2026-09-29T10:00:00Z",
       "first_seen_at": "2026-09-30T10:03:00Z",
-      "last_checked_at": "2026-09-30T10:03:00Z",
-      "matched_windows": ["daily", "weekly"],
+      "last_checked_at": "2026-09-30T10:43:10Z",
+      "matched_windows": [
+        "daily"
+      ],
       "confidence": "高",
       "verification_status": "官方一手源",
       "why_it_matters": "产品能力边界或使用门槛发生变化，值得检查目标用户、采用路径与竞品跟进节奏。",
@@ -132,8 +115,10 @@
       "signal_type": "产品发布",
       "published_at": "2026-09-29T10:00:00Z",
       "first_seen_at": "2026-09-30T10:03:00Z",
-      "last_checked_at": "2026-09-30T10:03:00Z",
-      "matched_windows": ["daily", "weekly"],
+      "last_checked_at": "2026-09-30T10:43:10Z",
+      "matched_windows": [
+        "daily"
+      ],
       "confidence": "高",
       "verification_status": "官方一手源",
       "why_it_matters": "产品能力边界或使用门槛发生变化，值得检查目标用户、采用路径与竞品跟进节奏。",
@@ -143,28 +128,30 @@
       "revisions": []
     },
     {
-      "id": "0527ec980465d5b2767e",
-      "title": "AI Native by Design: Lessons Learned from Building NVIDIA TensorRT Model Connect",
-      "summary": "Parallel work, model-family isolation, reversible changes, and GPU-backed validation shaped an open source project designed around coding agents NVIDIA TensorRT...",
-      "url": "https://developer.nvidia.com/blog/ai-native-by-design-lessons-learned-from-building-nvidia-tensorrt-model-connect",
-      "source": "NVIDIA Developer",
-      "source_id": "nvidia-developer",
+      "id": "2b7eb2c13a1f0edbe194",
+      "title": "Building an AI-powered contract intelligence platform with Amazon Quick and Amazon Bedrock AgentCore",
+      "summary": "Manually extracting data from hundreds of vendor contracts doesn't scale, and RAG chat tools fall short on portfolio-wide questions. This post shares a contract intelligence platform on AWS that uses AI agents to extract and verify contract fields, then answers aggregate and single-contract questio…",
+      "url": "https://aws.amazon.com/blogs/machine-learning/building-an-ai-powered-contract-intelligence-platform-with-amazon-quick-and-amazon-bedrock-agentcore",
+      "source": "AWS Machine Learning",
+      "source_id": "aws-ml",
       "source_tier": "一手来源",
-      "company": "NVIDIA",
+      "company": "Amazon",
       "company_scale": "成熟企业",
       "region": "北美",
       "topic": "AI Agent",
-      "signal_type": "开源",
-      "published_at": "2026-09-29T19:10:59Z",
+      "signal_type": "合作落地",
+      "published_at": "2026-09-29T16:14:24Z",
       "first_seen_at": "2026-09-30T10:03:00Z",
-      "last_checked_at": "2026-09-30T10:03:00Z",
-      "matched_windows": ["daily", "weekly"],
+      "last_checked_at": "2026-09-30T10:43:10Z",
+      "matched_windows": [
+        "daily"
+      ],
       "confidence": "高",
       "verification_status": "官方一手源",
-      "why_it_matters": "开放程度会改变开发成本和生态位，可能催生新的集成工具、评测和垂直应用机会。",
+      "why_it_matters": "这是一条商业化验证信号，应继续核查客户场景、交付方式和可复制性。",
       "career_angle": "练习定义任务成功率、人工接管率和失败兜底，形成一份可复用的 Agent 评测框架。",
-      "score": 87,
-      "content_hash": "e16efa588fb0bf04",
+      "score": 89,
+      "content_hash": "bcedcab905c98b71",
       "revisions": []
     },
     {
@@ -182,8 +169,10 @@
       "signal_type": "产品发布",
       "published_at": "2026-09-29T00:00:00Z",
       "first_seen_at": "2026-09-30T10:03:00Z",
-      "last_checked_at": "2026-09-30T10:03:00Z",
-      "matched_windows": ["daily", "weekly"],
+      "last_checked_at": "2026-09-30T10:43:10Z",
+      "matched_windows": [
+        "daily"
+      ],
       "confidence": "高",
       "verification_status": "官方一手源",
       "why_it_matters": "产品能力边界或使用门槛发生变化，值得检查目标用户、采用路径与竞品跟进节奏。",
@@ -207,8 +196,10 @@
       "signal_type": "研究突破",
       "published_at": "2026-09-30T04:00:00Z",
       "first_seen_at": "2026-09-30T10:03:00Z",
-      "last_checked_at": "2026-09-30T10:03:00Z",
-      "matched_windows": ["daily", "weekly"],
+      "last_checked_at": "2026-09-30T10:43:10Z",
+      "matched_windows": [
+        "daily"
+      ],
       "confidence": "高",
       "verification_status": "官方一手源",
       "why_it_matters": "技术可行性正在变化，但需要把实验指标与真实用户价值、成本和稳定性分开判断。",
@@ -232,8 +223,10 @@
       "signal_type": "研究突破",
       "published_at": "2026-09-30T04:00:00Z",
       "first_seen_at": "2026-09-30T10:03:00Z",
-      "last_checked_at": "2026-09-30T10:03:00Z",
-      "matched_windows": ["daily", "weekly"],
+      "last_checked_at": "2026-09-30T10:43:10Z",
+      "matched_windows": [
+        "daily"
+      ],
       "confidence": "高",
       "verification_status": "官方一手源",
       "why_it_matters": "技术可行性正在变化，但需要把实验指标与真实用户价值、成本和稳定性分开判断。",
@@ -257,8 +250,10 @@
       "signal_type": "研究突破",
       "published_at": "2026-09-30T04:00:00Z",
       "first_seen_at": "2026-09-30T10:03:00Z",
-      "last_checked_at": "2026-09-30T10:03:00Z",
-      "matched_windows": ["daily", "weekly"],
+      "last_checked_at": "2026-09-30T10:43:10Z",
+      "matched_windows": [
+        "daily"
+      ],
       "confidence": "高",
       "verification_status": "官方一手源",
       "why_it_matters": "技术可行性正在变化，但需要把实验指标与真实用户价值、成本和稳定性分开判断。",
@@ -282,8 +277,10 @@
       "signal_type": "研究突破",
       "published_at": "2026-09-30T04:00:00Z",
       "first_seen_at": "2026-09-30T10:03:00Z",
-      "last_checked_at": "2026-09-30T10:03:00Z",
-      "matched_windows": ["daily", "weekly"],
+      "last_checked_at": "2026-09-30T10:43:10Z",
+      "matched_windows": [
+        "daily"
+      ],
       "confidence": "高",
       "verification_status": "官方一手源",
       "why_it_matters": "技术可行性正在变化，但需要把实验指标与真实用户价值、成本和稳定性分开判断。",
@@ -307,8 +304,10 @@
       "signal_type": "研究突破",
       "published_at": "2026-09-30T04:00:00Z",
       "first_seen_at": "2026-09-30T10:03:00Z",
-      "last_checked_at": "2026-09-30T10:03:00Z",
-      "matched_windows": ["daily", "weekly"],
+      "last_checked_at": "2026-09-30T10:43:10Z",
+      "matched_windows": [
+        "daily"
+      ],
       "confidence": "高",
       "verification_status": "官方一手源",
       "why_it_matters": "技术可行性正在变化，但需要把实验指标与真实用户价值、成本和稳定性分开判断。",
@@ -332,8 +331,10 @@
       "signal_type": "研究突破",
       "published_at": "2026-09-30T04:00:00Z",
       "first_seen_at": "2026-09-30T10:03:00Z",
-      "last_checked_at": "2026-09-30T10:03:00Z",
-      "matched_windows": ["daily", "weekly"],
+      "last_checked_at": "2026-09-30T10:43:10Z",
+      "matched_windows": [
+        "daily"
+      ],
       "confidence": "高",
       "verification_status": "官方一手源",
       "why_it_matters": "技术可行性正在变化，但需要把实验指标与真实用户价值、成本和稳定性分开判断。",
@@ -357,8 +358,10 @@
       "signal_type": "研究突破",
       "published_at": "2026-09-30T04:00:00Z",
       "first_seen_at": "2026-09-30T10:03:00Z",
-      "last_checked_at": "2026-09-30T10:03:00Z",
-      "matched_windows": ["daily", "weekly"],
+      "last_checked_at": "2026-09-30T10:43:10Z",
+      "matched_windows": [
+        "daily"
+      ],
       "confidence": "高",
       "verification_status": "官方一手源",
       "why_it_matters": "技术可行性正在变化，但需要把实验指标与真实用户价值、成本和稳定性分开判断。",
@@ -382,8 +385,10 @@
       "signal_type": "研究突破",
       "published_at": "2026-09-30T04:00:00Z",
       "first_seen_at": "2026-09-30T10:03:00Z",
-      "last_checked_at": "2026-09-30T10:03:00Z",
-      "matched_windows": ["daily", "weekly"],
+      "last_checked_at": "2026-09-30T10:43:10Z",
+      "matched_windows": [
+        "daily"
+      ],
       "confidence": "高",
       "verification_status": "官方一手源",
       "why_it_matters": "技术可行性正在变化，但需要把实验指标与真实用户价值、成本和稳定性分开判断。",
@@ -407,8 +412,10 @@
       "signal_type": "研究突破",
       "published_at": "2026-09-30T04:00:00Z",
       "first_seen_at": "2026-09-30T10:03:00Z",
-      "last_checked_at": "2026-09-30T10:03:00Z",
-      "matched_windows": ["daily", "weekly"],
+      "last_checked_at": "2026-09-30T10:43:10Z",
+      "matched_windows": [
+        "daily"
+      ],
       "confidence": "高",
       "verification_status": "官方一手源",
       "why_it_matters": "技术可行性正在变化，但需要把实验指标与真实用户价值、成本和稳定性分开判断。",
@@ -432,8 +439,10 @@
       "signal_type": "研究突破",
       "published_at": "2026-09-30T04:00:00Z",
       "first_seen_at": "2026-09-30T10:03:00Z",
-      "last_checked_at": "2026-09-30T10:03:00Z",
-      "matched_windows": ["daily", "weekly"],
+      "last_checked_at": "2026-09-30T10:43:10Z",
+      "matched_windows": [
+        "daily"
+      ],
       "confidence": "高",
       "verification_status": "官方一手源",
       "why_it_matters": "技术可行性正在变化，但需要把实验指标与真实用户价值、成本和稳定性分开判断。",
@@ -457,8 +466,10 @@
       "signal_type": "研究突破",
       "published_at": "2026-09-30T04:00:00Z",
       "first_seen_at": "2026-09-30T10:03:00Z",
-      "last_checked_at": "2026-09-30T10:03:00Z",
-      "matched_windows": ["daily", "weekly"],
+      "last_checked_at": "2026-09-30T10:43:10Z",
+      "matched_windows": [
+        "daily"
+      ],
       "confidence": "高",
       "verification_status": "官方一手源",
       "why_it_matters": "技术可行性正在变化，但需要把实验指标与真实用户价值、成本和稳定性分开判断。",
@@ -482,8 +493,10 @@
       "signal_type": "研究突破",
       "published_at": "2026-09-30T04:00:00Z",
       "first_seen_at": "2026-09-30T10:03:00Z",
-      "last_checked_at": "2026-09-30T10:03:00Z",
-      "matched_windows": ["daily", "weekly"],
+      "last_checked_at": "2026-09-30T10:43:10Z",
+      "matched_windows": [
+        "daily"
+      ],
       "confidence": "高",
       "verification_status": "官方一手源",
       "why_it_matters": "技术可行性正在变化，但需要把实验指标与真实用户价值、成本和稳定性分开判断。",
@@ -507,8 +520,10 @@
       "signal_type": "研究突破",
       "published_at": "2026-09-30T04:00:00Z",
       "first_seen_at": "2026-09-30T10:03:00Z",
-      "last_checked_at": "2026-09-30T10:03:00Z",
-      "matched_windows": ["daily", "weekly"],
+      "last_checked_at": "2026-09-30T10:43:10Z",
+      "matched_windows": [
+        "daily"
+      ],
       "confidence": "高",
       "verification_status": "官方一手源",
       "why_it_matters": "技术可行性正在变化，但需要把实验指标与真实用户价值、成本和稳定性分开判断。",
@@ -532,8 +547,10 @@
       "signal_type": "研究突破",
       "published_at": "2026-09-30T04:00:00Z",
       "first_seen_at": "2026-09-30T10:03:00Z",
-      "last_checked_at": "2026-09-30T10:03:00Z",
-      "matched_windows": ["daily", "weekly"],
+      "last_checked_at": "2026-09-30T10:43:10Z",
+      "matched_windows": [
+        "daily"
+      ],
       "confidence": "高",
       "verification_status": "官方一手源",
       "why_it_matters": "技术可行性正在变化，但需要把实验指标与真实用户价值、成本和稳定性分开判断。",
@@ -557,8 +574,10 @@
       "signal_type": "研究突破",
       "published_at": "2026-09-30T04:00:00Z",
       "first_seen_at": "2026-09-30T10:03:00Z",
-      "last_checked_at": "2026-09-30T10:03:00Z",
-      "matched_windows": ["daily", "weekly"],
+      "last_checked_at": "2026-09-30T10:43:10Z",
+      "matched_windows": [
+        "daily"
+      ],
       "confidence": "高",
       "verification_status": "官方一手源",
       "why_it_matters": "技术可行性正在变化，但需要把实验指标与真实用户价值、成本和稳定性分开判断。",
@@ -582,8 +601,10 @@
       "signal_type": "研究突破",
       "published_at": "2026-09-30T04:00:00Z",
       "first_seen_at": "2026-09-30T10:03:00Z",
-      "last_checked_at": "2026-09-30T10:03:00Z",
-      "matched_windows": ["daily", "weekly"],
+      "last_checked_at": "2026-09-30T10:43:10Z",
+      "matched_windows": [
+        "daily"
+      ],
       "confidence": "高",
       "verification_status": "官方一手源",
       "why_it_matters": "技术可行性正在变化，但需要把实验指标与真实用户价值、成本和稳定性分开判断。",
@@ -607,8 +628,10 @@
       "signal_type": "研究突破",
       "published_at": "2026-09-30T04:00:00Z",
       "first_seen_at": "2026-09-30T10:03:00Z",
-      "last_checked_at": "2026-09-30T10:03:00Z",
-      "matched_windows": ["daily", "weekly"],
+      "last_checked_at": "2026-09-30T10:43:10Z",
+      "matched_windows": [
+        "daily"
+      ],
       "confidence": "高",
       "verification_status": "官方一手源",
       "why_it_matters": "技术可行性正在变化，但需要把实验指标与真实用户价值、成本和稳定性分开判断。",
@@ -632,8 +655,10 @@
       "signal_type": "研究突破",
       "published_at": "2026-09-30T04:00:00Z",
       "first_seen_at": "2026-09-30T10:03:00Z",
-      "last_checked_at": "2026-09-30T10:03:00Z",
-      "matched_windows": ["daily", "weekly"],
+      "last_checked_at": "2026-09-30T10:43:10Z",
+      "matched_windows": [
+        "daily"
+      ],
       "confidence": "高",
       "verification_status": "官方一手源",
       "why_it_matters": "技术可行性正在变化，但需要把实验指标与真实用户价值、成本和稳定性分开判断。",
@@ -657,8 +682,10 @@
       "signal_type": "研究突破",
       "published_at": "2026-09-30T04:00:00Z",
       "first_seen_at": "2026-09-30T10:03:00Z",
-      "last_checked_at": "2026-09-30T10:03:00Z",
-      "matched_windows": ["daily", "weekly"],
+      "last_checked_at": "2026-09-30T10:43:10Z",
+      "matched_windows": [
+        "daily"
+      ],
       "confidence": "高",
       "verification_status": "官方一手源",
       "why_it_matters": "技术可行性正在变化，但需要把实验指标与真实用户价值、成本和稳定性分开判断。",
@@ -682,8 +709,10 @@
       "signal_type": "研究突破",
       "published_at": "2026-09-30T04:00:00Z",
       "first_seen_at": "2026-09-30T10:03:00Z",
-      "last_checked_at": "2026-09-30T10:03:00Z",
-      "matched_windows": ["daily", "weekly"],
+      "last_checked_at": "2026-09-30T10:43:10Z",
+      "matched_windows": [
+        "daily"
+      ],
       "confidence": "高",
       "verification_status": "官方一手源",
       "why_it_matters": "技术可行性正在变化，但需要把实验指标与真实用户价值、成本和稳定性分开判断。",
@@ -707,8 +736,10 @@
       "signal_type": "研究突破",
       "published_at": "2026-09-30T04:00:00Z",
       "first_seen_at": "2026-09-30T10:03:00Z",
-      "last_checked_at": "2026-09-30T10:03:00Z",
-      "matched_windows": ["daily", "weekly"],
+      "last_checked_at": "2026-09-30T10:43:10Z",
+      "matched_windows": [
+        "daily"
+      ],
       "confidence": "高",
       "verification_status": "官方一手源",
       "why_it_matters": "技术可行性正在变化，但需要把实验指标与真实用户价值、成本和稳定性分开判断。",
@@ -732,8 +763,10 @@
       "signal_type": "研究突破",
       "published_at": "2026-09-30T04:00:00Z",
       "first_seen_at": "2026-09-30T10:03:00Z",
-      "last_checked_at": "2026-09-30T10:03:00Z",
-      "matched_windows": ["daily", "weekly"],
+      "last_checked_at": "2026-09-30T10:43:10Z",
+      "matched_windows": [
+        "daily"
+      ],
       "confidence": "高",
       "verification_status": "官方一手源",
       "why_it_matters": "技术可行性正在变化，但需要把实验指标与真实用户价值、成本和稳定性分开判断。",
@@ -757,8 +790,10 @@
       "signal_type": "研究突破",
       "published_at": "2026-09-30T04:00:00Z",
       "first_seen_at": "2026-09-30T10:03:00Z",
-      "last_checked_at": "2026-09-30T10:03:00Z",
-      "matched_windows": ["daily", "weekly"],
+      "last_checked_at": "2026-09-30T10:43:10Z",
+      "matched_windows": [
+        "daily"
+      ],
       "confidence": "高",
       "verification_status": "官方一手源",
       "why_it_matters": "技术可行性正在变化，但需要把实验指标与真实用户价值、成本和稳定性分开判断。",
@@ -782,8 +817,10 @@
       "signal_type": "研究突破",
       "published_at": "2026-09-30T04:00:00Z",
       "first_seen_at": "2026-09-30T10:03:00Z",
-      "last_checked_at": "2026-09-30T10:03:00Z",
-      "matched_windows": ["daily", "weekly"],
+      "last_checked_at": "2026-09-30T10:43:10Z",
+      "matched_windows": [
+        "daily"
+      ],
       "confidence": "高",
       "verification_status": "官方一手源",
       "why_it_matters": "技术可行性正在变化，但需要把实验指标与真实用户价值、成本和稳定性分开判断。",
@@ -807,8 +844,10 @@
       "signal_type": "研究突破",
       "published_at": "2026-09-30T04:00:00Z",
       "first_seen_at": "2026-09-30T10:03:00Z",
-      "last_checked_at": "2026-09-30T10:03:00Z",
-      "matched_windows": ["daily", "weekly"],
+      "last_checked_at": "2026-09-30T10:43:10Z",
+      "matched_windows": [
+        "daily"
+      ],
       "confidence": "高",
       "verification_status": "官方一手源",
       "why_it_matters": "技术可行性正在变化，但需要把实验指标与真实用户价值、成本和稳定性分开判断。",
@@ -832,8 +871,10 @@
       "signal_type": "研究突破",
       "published_at": "2026-09-30T04:00:00Z",
       "first_seen_at": "2026-09-30T10:03:00Z",
-      "last_checked_at": "2026-09-30T10:03:00Z",
-      "matched_windows": ["daily", "weekly"],
+      "last_checked_at": "2026-09-30T10:43:10Z",
+      "matched_windows": [
+        "daily"
+      ],
       "confidence": "高",
       "verification_status": "官方一手源",
       "why_it_matters": "技术可行性正在变化，但需要把实验指标与真实用户价值、成本和稳定性分开判断。",
@@ -857,8 +898,10 @@
       "signal_type": "研究突破",
       "published_at": "2026-09-30T04:00:00Z",
       "first_seen_at": "2026-09-30T10:03:00Z",
-      "last_checked_at": "2026-09-30T10:03:00Z",
-      "matched_windows": ["daily", "weekly"],
+      "last_checked_at": "2026-09-30T10:43:10Z",
+      "matched_windows": [
+        "daily"
+      ],
       "confidence": "高",
       "verification_status": "官方一手源",
       "why_it_matters": "技术可行性正在变化，但需要把实验指标与真实用户价值、成本和稳定性分开判断。",
@@ -882,8 +925,10 @@
       "signal_type": "研究突破",
       "published_at": "2026-09-30T04:00:00Z",
       "first_seen_at": "2026-09-30T10:03:00Z",
-      "last_checked_at": "2026-09-30T10:03:00Z",
-      "matched_windows": ["daily", "weekly"],
+      "last_checked_at": "2026-09-30T10:43:10Z",
+      "matched_windows": [
+        "daily"
+      ],
       "confidence": "高",
       "verification_status": "官方一手源",
       "why_it_matters": "技术可行性正在变化，但需要把实验指标与真实用户价值、成本和稳定性分开判断。",
@@ -907,8 +952,10 @@
       "signal_type": "研究突破",
       "published_at": "2026-09-30T04:00:00Z",
       "first_seen_at": "2026-09-30T10:03:00Z",
-      "last_checked_at": "2026-09-30T10:03:00Z",
-      "matched_windows": ["daily", "weekly"],
+      "last_checked_at": "2026-09-30T10:43:10Z",
+      "matched_windows": [
+        "daily"
+      ],
       "confidence": "高",
       "verification_status": "官方一手源",
       "why_it_matters": "技术可行性正在变化，但需要把实验指标与真实用户价值、成本和稳定性分开判断。",
@@ -932,8 +979,10 @@
       "signal_type": "研究突破",
       "published_at": "2026-09-30T04:00:00Z",
       "first_seen_at": "2026-09-30T10:03:00Z",
-      "last_checked_at": "2026-09-30T10:03:00Z",
-      "matched_windows": ["daily", "weekly"],
+      "last_checked_at": "2026-09-30T10:43:10Z",
+      "matched_windows": [
+        "daily"
+      ],
       "confidence": "高",
       "verification_status": "官方一手源",
       "why_it_matters": "技术可行性正在变化，但需要把实验指标与真实用户价值、成本和稳定性分开判断。",
@@ -957,8 +1006,10 @@
       "signal_type": "研究突破",
       "published_at": "2026-09-30T04:00:00Z",
       "first_seen_at": "2026-09-30T10:03:00Z",
-      "last_checked_at": "2026-09-30T10:03:00Z",
-      "matched_windows": ["daily", "weekly"],
+      "last_checked_at": "2026-09-30T10:43:10Z",
+      "matched_windows": [
+        "daily"
+      ],
       "confidence": "高",
       "verification_status": "官方一手源",
       "why_it_matters": "技术可行性正在变化，但需要把实验指标与真实用户价值、成本和稳定性分开判断。",
@@ -982,8 +1033,10 @@
       "signal_type": "研究突破",
       "published_at": "2026-09-30T04:00:00Z",
       "first_seen_at": "2026-09-30T10:03:00Z",
-      "last_checked_at": "2026-09-30T10:03:00Z",
-      "matched_windows": ["daily", "weekly"],
+      "last_checked_at": "2026-09-30T10:43:10Z",
+      "matched_windows": [
+        "daily"
+      ],
       "confidence": "高",
       "verification_status": "官方一手源",
       "why_it_matters": "技术可行性正在变化，但需要把实验指标与真实用户价值、成本和稳定性分开判断。",
@@ -1007,8 +1060,10 @@
       "signal_type": "研究突破",
       "published_at": "2026-09-30T04:00:00Z",
       "first_seen_at": "2026-09-30T10:03:00Z",
-      "last_checked_at": "2026-09-30T10:03:00Z",
-      "matched_windows": ["daily", "weekly"],
+      "last_checked_at": "2026-09-30T10:43:10Z",
+      "matched_windows": [
+        "daily"
+      ],
       "confidence": "高",
       "verification_status": "官方一手源",
       "why_it_matters": "技术可行性正在变化，但需要把实验指标与真实用户价值、成本和稳定性分开判断。",
@@ -1032,8 +1087,10 @@
       "signal_type": "研究突破",
       "published_at": "2026-09-30T04:00:00Z",
       "first_seen_at": "2026-09-30T10:03:00Z",
-      "last_checked_at": "2026-09-30T10:03:00Z",
-      "matched_windows": ["daily", "weekly"],
+      "last_checked_at": "2026-09-30T10:43:10Z",
+      "matched_windows": [
+        "daily"
+      ],
       "confidence": "高",
       "verification_status": "官方一手源",
       "why_it_matters": "技术可行性正在变化，但需要把实验指标与真实用户价值、成本和稳定性分开判断。",
@@ -1057,8 +1114,10 @@
       "signal_type": "研究突破",
       "published_at": "2026-09-30T04:00:00Z",
       "first_seen_at": "2026-09-30T10:03:00Z",
-      "last_checked_at": "2026-09-30T10:03:00Z",
-      "matched_windows": ["daily", "weekly"],
+      "last_checked_at": "2026-09-30T10:43:10Z",
+      "matched_windows": [
+        "daily"
+      ],
       "confidence": "高",
       "verification_status": "官方一手源",
       "why_it_matters": "技术可行性正在变化，但需要把实验指标与真实用户价值、成本和稳定性分开判断。",
@@ -1082,8 +1141,10 @@
       "signal_type": "研究突破",
       "published_at": "2026-09-30T04:00:00Z",
       "first_seen_at": "2026-09-30T10:03:00Z",
-      "last_checked_at": "2026-09-30T10:03:00Z",
-      "matched_windows": ["daily", "weekly"],
+      "last_checked_at": "2026-09-30T10:43:10Z",
+      "matched_windows": [
+        "daily"
+      ],
       "confidence": "高",
       "verification_status": "官方一手源",
       "why_it_matters": "技术可行性正在变化，但需要把实验指标与真实用户价值、成本和稳定性分开判断。",
@@ -1107,8 +1168,10 @@
       "signal_type": "研究突破",
       "published_at": "2026-09-30T04:00:00Z",
       "first_seen_at": "2026-09-30T10:03:00Z",
-      "last_checked_at": "2026-09-30T10:03:00Z",
-      "matched_windows": ["daily", "weekly"],
+      "last_checked_at": "2026-09-30T10:43:10Z",
+      "matched_windows": [
+        "daily"
+      ],
       "confidence": "高",
       "verification_status": "官方一手源",
       "why_it_matters": "技术可行性正在变化，但需要把实验指标与真实用户价值、成本和稳定性分开判断。",
@@ -1132,8 +1195,10 @@
       "signal_type": "研究突破",
       "published_at": "2026-09-30T04:00:00Z",
       "first_seen_at": "2026-09-30T10:03:00Z",
-      "last_checked_at": "2026-09-30T10:03:00Z",
-      "matched_windows": ["daily", "weekly"],
+      "last_checked_at": "2026-09-30T10:43:10Z",
+      "matched_windows": [
+        "daily"
+      ],
       "confidence": "高",
       "verification_status": "官方一手源",
       "why_it_matters": "技术可行性正在变化，但需要把实验指标与真实用户价值、成本和稳定性分开判断。",
@@ -1157,8 +1222,10 @@
       "signal_type": "研究突破",
       "published_at": "2026-09-30T04:00:00Z",
       "first_seen_at": "2026-09-30T10:03:00Z",
-      "last_checked_at": "2026-09-30T10:03:00Z",
-      "matched_windows": ["daily", "weekly"],
+      "last_checked_at": "2026-09-30T10:43:10Z",
+      "matched_windows": [
+        "daily"
+      ],
       "confidence": "高",
       "verification_status": "官方一手源",
       "why_it_matters": "技术可行性正在变化，但需要把实验指标与真实用户价值、成本和稳定性分开判断。",
@@ -1182,8 +1249,10 @@
       "signal_type": "研究突破",
       "published_at": "2026-09-30T04:00:00Z",
       "first_seen_at": "2026-09-30T10:03:00Z",
-      "last_checked_at": "2026-09-30T10:03:00Z",
-      "matched_windows": ["daily", "weekly"],
+      "last_checked_at": "2026-09-30T10:43:10Z",
+      "matched_windows": [
+        "daily"
+      ],
       "confidence": "高",
       "verification_status": "官方一手源",
       "why_it_matters": "技术可行性正在变化，但需要把实验指标与真实用户价值、成本和稳定性分开判断。",
@@ -1207,8 +1276,10 @@
       "signal_type": "研究突破",
       "published_at": "2026-09-30T04:00:00Z",
       "first_seen_at": "2026-09-30T10:03:00Z",
-      "last_checked_at": "2026-09-30T10:03:00Z",
-      "matched_windows": ["daily", "weekly"],
+      "last_checked_at": "2026-09-30T10:43:10Z",
+      "matched_windows": [
+        "daily"
+      ],
       "confidence": "高",
       "verification_status": "官方一手源",
       "why_it_matters": "技术可行性正在变化，但需要把实验指标与真实用户价值、成本和稳定性分开判断。",
@@ -1232,8 +1303,10 @@
       "signal_type": "研究突破",
       "published_at": "2026-09-30T04:00:00Z",
       "first_seen_at": "2026-09-30T10:03:00Z",
-      "last_checked_at": "2026-09-30T10:03:00Z",
-      "matched_windows": ["daily", "weekly"],
+      "last_checked_at": "2026-09-30T10:43:10Z",
+      "matched_windows": [
+        "daily"
+      ],
       "confidence": "高",
       "verification_status": "官方一手源",
       "why_it_matters": "技术可行性正在变化，但需要把实验指标与真实用户价值、成本和稳定性分开判断。",
@@ -1257,8 +1330,10 @@
       "signal_type": "研究突破",
       "published_at": "2026-09-30T04:00:00Z",
       "first_seen_at": "2026-09-30T10:03:00Z",
-      "last_checked_at": "2026-09-30T10:03:00Z",
-      "matched_windows": ["daily", "weekly"],
+      "last_checked_at": "2026-09-30T10:43:10Z",
+      "matched_windows": [
+        "daily"
+      ],
       "confidence": "高",
       "verification_status": "官方一手源",
       "why_it_matters": "技术可行性正在变化，但需要把实验指标与真实用户价值、成本和稳定性分开判断。",
@@ -1282,8 +1357,10 @@
       "signal_type": "研究突破",
       "published_at": "2026-09-30T04:00:00Z",
       "first_seen_at": "2026-09-30T10:03:00Z",
-      "last_checked_at": "2026-09-30T10:03:00Z",
-      "matched_windows": ["daily", "weekly"],
+      "last_checked_at": "2026-09-30T10:43:10Z",
+      "matched_windows": [
+        "daily"
+      ],
       "confidence": "高",
       "verification_status": "官方一手源",
       "why_it_matters": "技术可行性正在变化，但需要把实验指标与真实用户价值、成本和稳定性分开判断。",
@@ -1307,8 +1384,10 @@
       "signal_type": "研究突破",
       "published_at": "2026-09-30T04:00:00Z",
       "first_seen_at": "2026-09-30T10:03:00Z",
-      "last_checked_at": "2026-09-30T10:03:00Z",
-      "matched_windows": ["daily", "weekly"],
+      "last_checked_at": "2026-09-30T10:43:10Z",
+      "matched_windows": [
+        "daily"
+      ],
       "confidence": "高",
       "verification_status": "官方一手源",
       "why_it_matters": "技术可行性正在变化，但需要把实验指标与真实用户价值、成本和稳定性分开判断。",
@@ -1332,8 +1411,10 @@
       "signal_type": "研究突破",
       "published_at": "2026-09-30T04:00:00Z",
       "first_seen_at": "2026-09-30T10:03:00Z",
-      "last_checked_at": "2026-09-30T10:03:00Z",
-      "matched_windows": ["daily", "weekly"],
+      "last_checked_at": "2026-09-30T10:43:10Z",
+      "matched_windows": [
+        "daily"
+      ],
       "confidence": "高",
       "verification_status": "官方一手源",
       "why_it_matters": "技术可行性正在变化，但需要把实验指标与真实用户价值、成本和稳定性分开判断。",
@@ -1357,8 +1438,10 @@
       "signal_type": "研究突破",
       "published_at": "2026-09-30T04:00:00Z",
       "first_seen_at": "2026-09-30T10:03:00Z",
-      "last_checked_at": "2026-09-30T10:03:00Z",
-      "matched_windows": ["daily", "weekly"],
+      "last_checked_at": "2026-09-30T10:43:10Z",
+      "matched_windows": [
+        "daily"
+      ],
       "confidence": "高",
       "verification_status": "官方一手源",
       "why_it_matters": "技术可行性正在变化，但需要把实验指标与真实用户价值、成本和稳定性分开判断。",
@@ -1382,8 +1465,10 @@
       "signal_type": "研究突破",
       "published_at": "2026-09-30T04:00:00Z",
       "first_seen_at": "2026-09-30T10:03:00Z",
-      "last_checked_at": "2026-09-30T10:03:00Z",
-      "matched_windows": ["daily", "weekly"],
+      "last_checked_at": "2026-09-30T10:43:10Z",
+      "matched_windows": [
+        "daily"
+      ],
       "confidence": "高",
       "verification_status": "官方一手源",
       "why_it_matters": "技术可行性正在变化，但需要把实验指标与真实用户价值、成本和稳定性分开判断。",
@@ -1407,8 +1492,10 @@
       "signal_type": "研究突破",
       "published_at": "2026-09-30T04:00:00Z",
       "first_seen_at": "2026-09-30T10:03:00Z",
-      "last_checked_at": "2026-09-30T10:03:00Z",
-      "matched_windows": ["daily", "weekly"],
+      "last_checked_at": "2026-09-30T10:43:10Z",
+      "matched_windows": [
+        "daily"
+      ],
       "confidence": "高",
       "verification_status": "官方一手源",
       "why_it_matters": "技术可行性正在变化，但需要把实验指标与真实用户价值、成本和稳定性分开判断。",
@@ -1432,8 +1519,10 @@
       "signal_type": "研究突破",
       "published_at": "2026-09-30T04:00:00Z",
       "first_seen_at": "2026-09-30T10:03:00Z",
-      "last_checked_at": "2026-09-30T10:03:00Z",
-      "matched_windows": ["daily", "weekly"],
+      "last_checked_at": "2026-09-30T10:43:10Z",
+      "matched_windows": [
+        "daily"
+      ],
       "confidence": "高",
       "verification_status": "官方一手源",
       "why_it_matters": "技术可行性正在变化，但需要把实验指标与真实用户价值、成本和稳定性分开判断。",
@@ -1457,8 +1546,10 @@
       "signal_type": "研究突破",
       "published_at": "2026-09-30T04:00:00Z",
       "first_seen_at": "2026-09-30T10:03:00Z",
-      "last_checked_at": "2026-09-30T10:03:00Z",
-      "matched_windows": ["daily", "weekly"],
+      "last_checked_at": "2026-09-30T10:43:10Z",
+      "matched_windows": [
+        "daily"
+      ],
       "confidence": "高",
       "verification_status": "官方一手源",
       "why_it_matters": "技术可行性正在变化，但需要把实验指标与真实用户价值、成本和稳定性分开判断。",
@@ -1482,8 +1573,10 @@
       "signal_type": "研究突破",
       "published_at": "2026-09-30T04:00:00Z",
       "first_seen_at": "2026-09-30T10:03:00Z",
-      "last_checked_at": "2026-09-30T10:03:00Z",
-      "matched_windows": ["daily", "weekly"],
+      "last_checked_at": "2026-09-30T10:43:10Z",
+      "matched_windows": [
+        "daily"
+      ],
       "confidence": "高",
       "verification_status": "官方一手源",
       "why_it_matters": "技术可行性正在变化，但需要把实验指标与真实用户价值、成本和稳定性分开判断。",
@@ -1507,8 +1600,10 @@
       "signal_type": "研究突破",
       "published_at": "2026-09-30T04:00:00Z",
       "first_seen_at": "2026-09-30T10:03:00Z",
-      "last_checked_at": "2026-09-30T10:03:00Z",
-      "matched_windows": ["daily", "weekly"],
+      "last_checked_at": "2026-09-30T10:43:10Z",
+      "matched_windows": [
+        "daily"
+      ],
       "confidence": "高",
       "verification_status": "官方一手源",
       "why_it_matters": "技术可行性正在变化，但需要把实验指标与真实用户价值、成本和稳定性分开判断。",
@@ -1532,8 +1627,10 @@
       "signal_type": "研究突破",
       "published_at": "2026-09-30T04:00:00Z",
       "first_seen_at": "2026-09-30T10:03:00Z",
-      "last_checked_at": "2026-09-30T10:03:00Z",
-      "matched_windows": ["daily", "weekly"],
+      "last_checked_at": "2026-09-30T10:43:10Z",
+      "matched_windows": [
+        "daily"
+      ],
       "confidence": "高",
       "verification_status": "官方一手源",
       "why_it_matters": "技术可行性正在变化，但需要把实验指标与真实用户价值、成本和稳定性分开判断。",
@@ -1557,8 +1654,10 @@
       "signal_type": "研究突破",
       "published_at": "2026-09-30T04:00:00Z",
       "first_seen_at": "2026-09-30T10:03:00Z",
-      "last_checked_at": "2026-09-30T10:03:00Z",
-      "matched_windows": ["daily", "weekly"],
+      "last_checked_at": "2026-09-30T10:43:10Z",
+      "matched_windows": [
+        "daily"
+      ],
       "confidence": "高",
       "verification_status": "官方一手源",
       "why_it_matters": "技术可行性正在变化，但需要把实验指标与真实用户价值、成本和稳定性分开判断。",
@@ -1582,8 +1681,10 @@
       "signal_type": "研究突破",
       "published_at": "2026-09-30T04:00:00Z",
       "first_seen_at": "2026-09-30T10:03:00Z",
-      "last_checked_at": "2026-09-30T10:03:00Z",
-      "matched_windows": ["daily", "weekly"],
+      "last_checked_at": "2026-09-30T10:43:10Z",
+      "matched_windows": [
+        "daily"
+      ],
       "confidence": "高",
       "verification_status": "官方一手源",
       "why_it_matters": "技术可行性正在变化，但需要把实验指标与真实用户价值、成本和稳定性分开判断。",
@@ -1607,8 +1708,10 @@
       "signal_type": "研究突破",
       "published_at": "2026-09-30T04:00:00Z",
       "first_seen_at": "2026-09-30T10:03:00Z",
-      "last_checked_at": "2026-09-30T10:03:00Z",
-      "matched_windows": ["daily", "weekly"],
+      "last_checked_at": "2026-09-30T10:43:10Z",
+      "matched_windows": [
+        "daily"
+      ],
       "confidence": "高",
       "verification_status": "官方一手源",
       "why_it_matters": "技术可行性正在变化，但需要把实验指标与真实用户价值、成本和稳定性分开判断。",
@@ -1632,8 +1735,10 @@
       "signal_type": "研究突破",
       "published_at": "2026-09-30T04:00:00Z",
       "first_seen_at": "2026-09-30T10:03:00Z",
-      "last_checked_at": "2026-09-30T10:03:00Z",
-      "matched_windows": ["daily", "weekly"],
+      "last_checked_at": "2026-09-30T10:43:10Z",
+      "matched_windows": [
+        "daily"
+      ],
       "confidence": "高",
       "verification_status": "官方一手源",
       "why_it_matters": "技术可行性正在变化，但需要把实验指标与真实用户价值、成本和稳定性分开判断。",
@@ -1657,8 +1762,10 @@
       "signal_type": "研究突破",
       "published_at": "2026-09-30T04:00:00Z",
       "first_seen_at": "2026-09-30T10:03:00Z",
-      "last_checked_at": "2026-09-30T10:03:00Z",
-      "matched_windows": ["daily", "weekly"],
+      "last_checked_at": "2026-09-30T10:43:10Z",
+      "matched_windows": [
+        "daily"
+      ],
       "confidence": "高",
       "verification_status": "官方一手源",
       "why_it_matters": "技术可行性正在变化，但需要把实验指标与真实用户价值、成本和稳定性分开判断。",
@@ -1682,8 +1789,10 @@
       "signal_type": "研究突破",
       "published_at": "2026-09-30T04:00:00Z",
       "first_seen_at": "2026-09-30T10:03:00Z",
-      "last_checked_at": "2026-09-30T10:03:00Z",
-      "matched_windows": ["daily", "weekly"],
+      "last_checked_at": "2026-09-30T10:43:10Z",
+      "matched_windows": [
+        "daily"
+      ],
       "confidence": "高",
       "verification_status": "官方一手源",
       "why_it_matters": "技术可行性正在变化，但需要把实验指标与真实用户价值、成本和稳定性分开判断。",
@@ -1707,8 +1816,10 @@
       "signal_type": "研究突破",
       "published_at": "2026-09-30T04:00:00Z",
       "first_seen_at": "2026-09-30T10:03:00Z",
-      "last_checked_at": "2026-09-30T10:03:00Z",
-      "matched_windows": ["daily", "weekly"],
+      "last_checked_at": "2026-09-30T10:43:10Z",
+      "matched_windows": [
+        "daily"
+      ],
       "confidence": "高",
       "verification_status": "官方一手源",
       "why_it_matters": "技术可行性正在变化，但需要把实验指标与真实用户价值、成本和稳定性分开判断。",
@@ -1732,8 +1843,10 @@
       "signal_type": "研究突破",
       "published_at": "2026-09-30T04:00:00Z",
       "first_seen_at": "2026-09-30T10:03:00Z",
-      "last_checked_at": "2026-09-30T10:03:00Z",
-      "matched_windows": ["daily", "weekly"],
+      "last_checked_at": "2026-09-30T10:43:10Z",
+      "matched_windows": [
+        "daily"
+      ],
       "confidence": "高",
       "verification_status": "官方一手源",
       "why_it_matters": "技术可行性正在变化，但需要把实验指标与真实用户价值、成本和稳定性分开判断。",
@@ -1757,8 +1870,10 @@
       "signal_type": "研究突破",
       "published_at": "2026-09-30T04:00:00Z",
       "first_seen_at": "2026-09-30T10:03:00Z",
-      "last_checked_at": "2026-09-30T10:03:00Z",
-      "matched_windows": ["daily", "weekly"],
+      "last_checked_at": "2026-09-30T10:43:10Z",
+      "matched_windows": [
+        "daily"
+      ],
       "confidence": "高",
       "verification_status": "官方一手源",
       "why_it_matters": "技术可行性正在变化，但需要把实验指标与真实用户价值、成本和稳定性分开判断。",
@@ -1782,8 +1897,10 @@
       "signal_type": "研究突破",
       "published_at": "2026-09-30T04:00:00Z",
       "first_seen_at": "2026-09-30T10:03:00Z",
-      "last_checked_at": "2026-09-30T10:03:00Z",
-      "matched_windows": ["daily", "weekly"],
+      "last_checked_at": "2026-09-30T10:43:10Z",
+      "matched_windows": [
+        "daily"
+      ],
       "confidence": "高",
       "verification_status": "官方一手源",
       "why_it_matters": "技术可行性正在变化，但需要把实验指标与真实用户价值、成本和稳定性分开判断。",
@@ -1807,8 +1924,10 @@
       "signal_type": "研究突破",
       "published_at": "2026-09-30T04:00:00Z",
       "first_seen_at": "2026-09-30T10:03:00Z",
-      "last_checked_at": "2026-09-30T10:03:00Z",
-      "matched_windows": ["daily", "weekly"],
+      "last_checked_at": "2026-09-30T10:43:10Z",
+      "matched_windows": [
+        "daily"
+      ],
       "confidence": "高",
       "verification_status": "官方一手源",
       "why_it_matters": "技术可行性正在变化，但需要把实验指标与真实用户价值、成本和稳定性分开判断。",
@@ -1832,8 +1951,10 @@
       "signal_type": "研究突破",
       "published_at": "2026-09-30T04:00:00Z",
       "first_seen_at": "2026-09-30T10:03:00Z",
-      "last_checked_at": "2026-09-30T10:03:00Z",
-      "matched_windows": ["daily", "weekly"],
+      "last_checked_at": "2026-09-30T10:43:10Z",
+      "matched_windows": [
+        "daily"
+      ],
       "confidence": "高",
       "verification_status": "官方一手源",
       "why_it_matters": "技术可行性正在变化，但需要把实验指标与真实用户价值、成本和稳定性分开判断。",
@@ -1857,8 +1978,10 @@
       "signal_type": "研究突破",
       "published_at": "2026-09-30T04:00:00Z",
       "first_seen_at": "2026-09-30T10:03:00Z",
-      "last_checked_at": "2026-09-30T10:03:00Z",
-      "matched_windows": ["daily", "weekly"],
+      "last_checked_at": "2026-09-30T10:43:10Z",
+      "matched_windows": [
+        "daily"
+      ],
       "confidence": "高",
       "verification_status": "官方一手源",
       "why_it_matters": "技术可行性正在变化，但需要把实验指标与真实用户价值、成本和稳定性分开判断。",
@@ -1882,8 +2005,10 @@
       "signal_type": "研究突破",
       "published_at": "2026-09-30T04:00:00Z",
       "first_seen_at": "2026-09-30T10:03:00Z",
-      "last_checked_at": "2026-09-30T10:03:00Z",
-      "matched_windows": ["daily", "weekly"],
+      "last_checked_at": "2026-09-30T10:43:10Z",
+      "matched_windows": [
+        "daily"
+      ],
       "confidence": "高",
       "verification_status": "官方一手源",
       "why_it_matters": "技术可行性正在变化，但需要把实验指标与真实用户价值、成本和稳定性分开判断。",
@@ -1907,8 +2032,10 @@
       "signal_type": "研究突破",
       "published_at": "2026-09-30T04:00:00Z",
       "first_seen_at": "2026-09-30T10:03:00Z",
-      "last_checked_at": "2026-09-30T10:03:00Z",
-      "matched_windows": ["daily", "weekly"],
+      "last_checked_at": "2026-09-30T10:43:10Z",
+      "matched_windows": [
+        "daily"
+      ],
       "confidence": "高",
       "verification_status": "官方一手源",
       "why_it_matters": "技术可行性正在变化，但需要把实验指标与真实用户价值、成本和稳定性分开判断。",
@@ -1932,8 +2059,10 @@
       "signal_type": "研究突破",
       "published_at": "2026-09-30T04:00:00Z",
       "first_seen_at": "2026-09-30T10:03:00Z",
-      "last_checked_at": "2026-09-30T10:03:00Z",
-      "matched_windows": ["daily", "weekly"],
+      "last_checked_at": "2026-09-30T10:43:10Z",
+      "matched_windows": [
+        "daily"
+      ],
       "confidence": "高",
       "verification_status": "官方一手源",
       "why_it_matters": "技术可行性正在变化，但需要把实验指标与真实用户价值、成本和稳定性分开判断。",
@@ -1957,8 +2086,10 @@
       "signal_type": "研究突破",
       "published_at": "2026-09-30T04:00:00Z",
       "first_seen_at": "2026-09-30T10:03:00Z",
-      "last_checked_at": "2026-09-30T10:03:00Z",
-      "matched_windows": ["daily", "weekly"],
+      "last_checked_at": "2026-09-30T10:43:10Z",
+      "matched_windows": [
+        "daily"
+      ],
       "confidence": "高",
       "verification_status": "官方一手源",
       "why_it_matters": "技术可行性正在变化，但需要把实验指标与真实用户价值、成本和稳定性分开判断。",
@@ -1982,8 +2113,10 @@
       "signal_type": "研究突破",
       "published_at": "2026-09-30T04:00:00Z",
       "first_seen_at": "2026-09-30T10:03:00Z",
-      "last_checked_at": "2026-09-30T10:03:00Z",
-      "matched_windows": ["daily", "weekly"],
+      "last_checked_at": "2026-09-30T10:43:10Z",
+      "matched_windows": [
+        "daily"
+      ],
       "confidence": "高",
       "verification_status": "官方一手源",
       "why_it_matters": "技术可行性正在变化，但需要把实验指标与真实用户价值、成本和稳定性分开判断。",
@@ -2007,8 +2140,10 @@
       "signal_type": "研究突破",
       "published_at": "2026-09-30T04:00:00Z",
       "first_seen_at": "2026-09-30T10:03:00Z",
-      "last_checked_at": "2026-09-30T10:03:00Z",
-      "matched_windows": ["daily", "weekly"],
+      "last_checked_at": "2026-09-30T10:43:10Z",
+      "matched_windows": [
+        "daily"
+      ],
       "confidence": "高",
       "verification_status": "官方一手源",
       "why_it_matters": "技术可行性正在变化，但需要把实验指标与真实用户价值、成本和稳定性分开判断。",
@@ -2032,8 +2167,10 @@
       "signal_type": "研究突破",
       "published_at": "2026-09-30T04:00:00Z",
       "first_seen_at": "2026-09-30T10:03:00Z",
-      "last_checked_at": "2026-09-30T10:03:00Z",
-      "matched_windows": ["daily", "weekly"],
+      "last_checked_at": "2026-09-30T10:43:10Z",
+      "matched_windows": [
+        "daily"
+      ],
       "confidence": "高",
       "verification_status": "官方一手源",
       "why_it_matters": "技术可行性正在变化，但需要把实验指标与真实用户价值、成本和稳定性分开判断。",
@@ -2057,8 +2194,10 @@
       "signal_type": "研究突破",
       "published_at": "2026-09-30T04:00:00Z",
       "first_seen_at": "2026-09-30T10:03:00Z",
-      "last_checked_at": "2026-09-30T10:03:00Z",
-      "matched_windows": ["daily", "weekly"],
+      "last_checked_at": "2026-09-30T10:43:10Z",
+      "matched_windows": [
+        "daily"
+      ],
       "confidence": "高",
       "verification_status": "官方一手源",
       "why_it_matters": "技术可行性正在变化，但需要把实验指标与真实用户价值、成本和稳定性分开判断。",
@@ -2082,8 +2221,10 @@
       "signal_type": "研究突破",
       "published_at": "2026-09-30T04:00:00Z",
       "first_seen_at": "2026-09-30T10:03:00Z",
-      "last_checked_at": "2026-09-30T10:03:00Z",
-      "matched_windows": ["daily", "weekly"],
+      "last_checked_at": "2026-09-30T10:43:10Z",
+      "matched_windows": [
+        "daily"
+      ],
       "confidence": "高",
       "verification_status": "官方一手源",
       "why_it_matters": "技术可行性正在变化，但需要把实验指标与真实用户价值、成本和稳定性分开判断。",
@@ -2107,8 +2248,10 @@
       "signal_type": "研究突破",
       "published_at": "2026-09-30T04:00:00Z",
       "first_seen_at": "2026-09-30T10:03:00Z",
-      "last_checked_at": "2026-09-30T10:03:00Z",
-      "matched_windows": ["daily", "weekly"],
+      "last_checked_at": "2026-09-30T10:43:10Z",
+      "matched_windows": [
+        "daily"
+      ],
       "confidence": "高",
       "verification_status": "官方一手源",
       "why_it_matters": "技术可行性正在变化，但需要把实验指标与真实用户价值、成本和稳定性分开判断。",
@@ -2132,8 +2275,10 @@
       "signal_type": "研究突破",
       "published_at": "2026-09-30T04:00:00Z",
       "first_seen_at": "2026-09-30T10:03:00Z",
-      "last_checked_at": "2026-09-30T10:03:00Z",
-      "matched_windows": ["daily", "weekly"],
+      "last_checked_at": "2026-09-30T10:43:10Z",
+      "matched_windows": [
+        "daily"
+      ],
       "confidence": "高",
       "verification_status": "官方一手源",
       "why_it_matters": "技术可行性正在变化，但需要把实验指标与真实用户价值、成本和稳定性分开判断。",
@@ -2157,8 +2302,10 @@
       "signal_type": "研究突破",
       "published_at": "2026-09-30T04:00:00Z",
       "first_seen_at": "2026-09-30T10:03:00Z",
-      "last_checked_at": "2026-09-30T10:03:00Z",
-      "matched_windows": ["daily", "weekly"],
+      "last_checked_at": "2026-09-30T10:43:10Z",
+      "matched_windows": [
+        "daily"
+      ],
       "confidence": "高",
       "verification_status": "官方一手源",
       "why_it_matters": "技术可行性正在变化，但需要把实验指标与真实用户价值、成本和稳定性分开判断。",
@@ -2182,14 +2329,43 @@
       "signal_type": "研究突破",
       "published_at": "2026-09-30T04:00:00Z",
       "first_seen_at": "2026-09-30T10:03:00Z",
-      "last_checked_at": "2026-09-30T10:03:00Z",
-      "matched_windows": ["daily", "weekly"],
+      "last_checked_at": "2026-09-30T10:43:10Z",
+      "matched_windows": [
+        "daily"
+      ],
       "confidence": "高",
       "verification_status": "官方一手源",
       "why_it_matters": "技术可行性正在变化，但需要把实验指标与真实用户价值、成本和稳定性分开判断。",
       "career_angle": "先问“能解决哪个用户任务”，再把论文指标转成产品假设和验证计划。",
       "score": 86,
       "content_hash": "eb7c1a124af194a5",
+      "revisions": []
+    },
+    {
+      "id": "0527ec980465d5b2767e",
+      "title": "AI Native by Design: Lessons Learned from Building NVIDIA TensorRT Model Connect",
+      "summary": "Parallel work, model-family isolation, reversible changes, and GPU-backed validation shaped an open source project designed around coding agents NVIDIA TensorRT...",
+      "url": "https://developer.nvidia.com/blog/ai-native-by-design-lessons-learned-from-building-nvidia-tensorrt-model-connect",
+      "source": "NVIDIA Developer",
+      "source_id": "nvidia-developer",
+      "source_tier": "一手来源",
+      "company": "NVIDIA",
+      "company_scale": "成熟企业",
+      "region": "北美",
+      "topic": "AI Agent",
+      "signal_type": "开源",
+      "published_at": "2026-09-29T19:10:59Z",
+      "first_seen_at": "2026-09-30T10:03:00Z",
+      "last_checked_at": "2026-09-30T10:43:10Z",
+      "matched_windows": [
+        "daily"
+      ],
+      "confidence": "高",
+      "verification_status": "官方一手源",
+      "why_it_matters": "开放程度会改变开发成本和生态位，可能催生新的集成工具、评测和垂直应用机会。",
+      "career_angle": "练习定义任务成功率、人工接管率和失败兜底，形成一份可复用的 Agent 评测框架。",
+      "score": 86,
+      "content_hash": "e16efa588fb0bf04",
       "revisions": []
     },
     {
@@ -2207,8 +2383,10 @@
       "signal_type": "产品发布",
       "published_at": "2026-09-28T21:00:00Z",
       "first_seen_at": "2026-09-30T10:03:00Z",
-      "last_checked_at": "2026-09-30T10:03:00Z",
-      "matched_windows": ["daily", "weekly"],
+      "last_checked_at": "2026-09-30T10:43:10Z",
+      "matched_windows": [
+        "daily"
+      ],
       "confidence": "高",
       "verification_status": "官方一手源",
       "why_it_matters": "产品能力边界或使用门槛发生变化，值得检查目标用户、采用路径与竞品跟进节奏。",
@@ -2232,8 +2410,10 @@
       "signal_type": "产品发布",
       "published_at": "2026-09-28T18:57:13Z",
       "first_seen_at": "2026-09-30T10:03:00Z",
-      "last_checked_at": "2026-09-30T10:03:00Z",
-      "matched_windows": ["daily", "weekly"],
+      "last_checked_at": "2026-09-30T10:43:10Z",
+      "matched_windows": [
+        "daily"
+      ],
       "confidence": "高",
       "verification_status": "官方一手源",
       "why_it_matters": "产品能力边界或使用门槛发生变化，值得检查目标用户、采用路径与竞品跟进节奏。",
@@ -2257,13 +2437,15 @@
       "signal_type": "研究突破",
       "published_at": "2026-09-29T16:27:33Z",
       "first_seen_at": "2026-09-30T10:03:00Z",
-      "last_checked_at": "2026-09-30T10:03:00Z",
-      "matched_windows": ["daily", "weekly"],
+      "last_checked_at": "2026-09-30T10:43:10Z",
+      "matched_windows": [
+        "daily"
+      ],
       "confidence": "高",
       "verification_status": "官方一手源",
       "why_it_matters": "技术可行性正在变化，但需要把实验指标与真实用户价值、成本和稳定性分开判断。",
       "career_angle": "练习定义任务成功率、人工接管率和失败兜底，形成一份可复用的 Agent 评测框架。",
-      "score": 83,
+      "score": 82,
       "content_hash": "e623242a0fc2a0ea",
       "revisions": []
     },
@@ -2282,13 +2464,15 @@
       "signal_type": "合作落地",
       "published_at": "2026-09-28T16:15:46Z",
       "first_seen_at": "2026-09-30T10:03:00Z",
-      "last_checked_at": "2026-09-30T10:03:00Z",
-      "matched_windows": ["daily", "weekly"],
+      "last_checked_at": "2026-09-30T10:43:10Z",
+      "matched_windows": [
+        "daily"
+      ],
       "confidence": "高",
       "verification_status": "官方一手源",
       "why_it_matters": "这是一条商业化验证信号，应继续核查客户场景、交付方式和可复制性。",
       "career_angle": "把模型能力翻译成用户任务、评测集和业务指标，构建可证明的产品判断力。",
-      "score": 82,
+      "score": 81,
       "content_hash": "528a07813954dac1",
       "revisions": []
     },
@@ -2307,39 +2491,16 @@
       "signal_type": "合作落地",
       "published_at": "2026-09-28T16:15:17Z",
       "first_seen_at": "2026-09-30T10:03:00Z",
-      "last_checked_at": "2026-09-30T10:03:00Z",
-      "matched_windows": ["daily", "weekly"],
+      "last_checked_at": "2026-09-30T10:43:10Z",
+      "matched_windows": [
+        "daily"
+      ],
       "confidence": "高",
       "verification_status": "官方一手源",
       "why_it_matters": "这是一条商业化验证信号，应继续核查客户场景、交付方式和可复制性。",
       "career_angle": "把模型能力翻译成用户任务、评测集和业务指标，构建可证明的产品判断力。",
-      "score": 82,
+      "score": 81,
       "content_hash": "f3cd335596684c22",
-      "revisions": []
-    },
-    {
-      "id": "8a30d4b57da76f92e3e5",
-      "title": "Amazon Bedrock expands Claude model availability to in-country inferencing in India",
-      "summary": "Anthropic's Claude Opus 5, Claude Sonnet 5, and Claude Haiku 4.5 are now available in India through Amazon Bedrock geographic cross-Region inference. You can access these models while processing data within the India Regions, and get started from the Amazon Bedrock console or with the Messages, Inv…",
-      "url": "https://aws.amazon.com/blogs/machine-learning/amazon-bedrock-expands-claude-model-availability-to-india-cross-region-inference",
-      "source": "AWS Machine Learning",
-      "source_id": "aws-ml",
-      "source_tier": "一手来源",
-      "company": "Amazon",
-      "company_scale": "成熟企业",
-      "region": "北美",
-      "topic": "开源生态",
-      "signal_type": "行业动态",
-      "published_at": "2026-09-30T01:13:14Z",
-      "first_seen_at": "2026-09-30T10:03:00Z",
-      "last_checked_at": "2026-09-30T10:03:00Z",
-      "matched_windows": ["daily", "weekly"],
-      "confidence": "高",
-      "verification_status": "官方一手源",
-      "why_it_matters": "它可能影响赛道节奏或竞争判断，建议结合一手资料和后续动作继续观察。",
-      "career_angle": "研究开发者上手路径、文档与社区反馈，补强平台和开发者产品经验。",
-      "score": 80,
-      "content_hash": "2b561b216682943a",
       "revisions": []
     },
     {
@@ -2357,14 +2518,43 @@
       "signal_type": "组织招聘",
       "published_at": "2026-09-29T15:55:17Z",
       "first_seen_at": "2026-09-30T10:03:00Z",
-      "last_checked_at": "2026-09-30T10:03:00Z",
-      "matched_windows": ["daily", "weekly"],
+      "last_checked_at": "2026-09-30T10:43:10Z",
+      "matched_windows": [
+        "daily"
+      ],
       "confidence": "高",
       "verification_status": "官方一手源",
       "why_it_matters": "团队配置能反映下一阶段投入方向，可与产品发布和客户信号交叉验证。",
       "career_angle": "优先研究部署、权限、审计和 ROI，补齐从 Demo 到规模化落地的经验。",
       "score": 80,
       "content_hash": "7ef950be8c41371b",
+      "revisions": []
+    },
+    {
+      "id": "8a30d4b57da76f92e3e5",
+      "title": "Amazon Bedrock expands Claude model availability to in-country inferencing in India",
+      "summary": "Anthropic's Claude Opus 5, Claude Sonnet 5, and Claude Haiku 4.5 are now available in India through Amazon Bedrock geographic cross-Region inference. You can access these models while processing data within the India Regions, and get started from the Amazon Bedrock console or with the Messages, Inv…",
+      "url": "https://aws.amazon.com/blogs/machine-learning/amazon-bedrock-expands-claude-model-availability-to-india-cross-region-inference",
+      "source": "AWS Machine Learning",
+      "source_id": "aws-ml",
+      "source_tier": "一手来源",
+      "company": "Amazon",
+      "company_scale": "成熟企业",
+      "region": "北美",
+      "topic": "开源生态",
+      "signal_type": "行业动态",
+      "published_at": "2026-09-30T01:13:14Z",
+      "first_seen_at": "2026-09-30T10:03:00Z",
+      "last_checked_at": "2026-09-30T10:43:10Z",
+      "matched_windows": [
+        "daily"
+      ],
+      "confidence": "高",
+      "verification_status": "官方一手源",
+      "why_it_matters": "它可能影响赛道节奏或竞争判断，建议结合一手资料和后续动作继续观察。",
+      "career_angle": "研究开发者上手路径、文档与社区反馈，补强平台和开发者产品经验。",
+      "score": 79,
+      "content_hash": "2b561b216682943a",
       "revisions": []
     },
     {
@@ -2382,13 +2572,15 @@
       "signal_type": "行业动态",
       "published_at": "2026-09-29T19:34:14Z",
       "first_seen_at": "2026-09-30T10:03:00Z",
-      "last_checked_at": "2026-09-30T10:03:00Z",
-      "matched_windows": ["daily", "weekly"],
+      "last_checked_at": "2026-09-30T10:43:10Z",
+      "matched_windows": [
+        "daily"
+      ],
       "confidence": "高",
       "verification_status": "官方一手源",
       "why_it_matters": "它可能影响赛道节奏或竞争判断，建议结合一手资料和后续动作继续观察。",
       "career_angle": "练习定义任务成功率、人工接管率和失败兜底，形成一份可复用的 Agent 评测框架。",
-      "score": 78,
+      "score": 77,
       "content_hash": "65f207cbe9ee24d6",
       "revisions": []
     },
@@ -2407,8 +2599,10 @@
       "signal_type": "行业动态",
       "published_at": "2026-09-29T18:56:05Z",
       "first_seen_at": "2026-09-30T10:03:00Z",
-      "last_checked_at": "2026-09-30T10:03:00Z",
-      "matched_windows": ["daily", "weekly"],
+      "last_checked_at": "2026-09-30T10:43:10Z",
+      "matched_windows": [
+        "daily"
+      ],
       "confidence": "高",
       "verification_status": "官方一手源",
       "why_it_matters": "它可能影响赛道节奏或竞争判断，建议结合一手资料和后续动作继续观察。",
@@ -2432,39 +2626,16 @@
       "signal_type": "行业动态",
       "published_at": "2026-09-29T18:38:27Z",
       "first_seen_at": "2026-09-30T10:03:00Z",
-      "last_checked_at": "2026-09-30T10:03:00Z",
-      "matched_windows": ["daily", "weekly"],
+      "last_checked_at": "2026-09-30T10:43:10Z",
+      "matched_windows": [
+        "daily"
+      ],
       "confidence": "高",
       "verification_status": "官方一手源",
       "why_it_matters": "它可能影响赛道节奏或竞争判断，建议结合一手资料和后续动作继续观察。",
       "career_angle": "先问“能解决哪个用户任务”，再把论文指标转成产品假设和验证计划。",
       "score": 77,
       "content_hash": "844622345c45aaab",
-      "revisions": []
-    },
-    {
-      "id": "a7edf27ea4f355dfb6c2",
-      "title": "Prompt engineering fundamentals for Amazon Quick",
-      "summary": "Prompt engineering in Amazon Quick shapes how accurately its AI-powered features respond to your requests. Part 1 of a two-part series covers the foundational principles and reusable frameworks (specificity, context-setting, few-shot examples, and the CRISPE framework) for consistent, high-quality…",
-      "url": "https://aws.amazon.com/blogs/machine-learning/prompt-engineering-fundamentals-for-amazon-quick",
-      "source": "AWS Machine Learning",
-      "source_id": "aws-ml",
-      "source_tier": "一手来源",
-      "company": "Amazon",
-      "company_scale": "成熟企业",
-      "region": "北美",
-      "topic": "企业 AI",
-      "signal_type": "行业动态",
-      "published_at": "2026-09-29T16:27:57Z",
-      "first_seen_at": "2026-09-30T10:03:00Z",
-      "last_checked_at": "2026-09-30T10:03:00Z",
-      "matched_windows": ["daily", "weekly"],
-      "confidence": "高",
-      "verification_status": "官方一手源",
-      "why_it_matters": "它可能影响赛道节奏或竞争判断，建议结合一手资料和后续动作继续观察。",
-      "career_angle": "优先研究部署、权限、审计和 ROI，补齐从 Demo 到规模化落地的经验。",
-      "score": 77,
-      "content_hash": "f0e62006dfa3ab67",
       "revisions": []
     },
     {
@@ -2482,14 +2653,43 @@
       "signal_type": "融资并购",
       "published_at": "2026-09-28T07:00:00Z",
       "first_seen_at": "2026-09-30T10:03:00Z",
-      "last_checked_at": "2026-09-30T10:03:00Z",
-      "matched_windows": ["daily", "weekly"],
+      "last_checked_at": "2026-09-30T10:43:10Z",
+      "matched_windows": [
+        "daily"
+      ],
       "confidence": "高",
       "verification_status": "官方一手源",
       "why_it_matters": "资金或所有权变化可能加速产品路线、团队扩张与行业整合。",
       "career_angle": "把模型能力翻译成用户任务、评测集和业务指标，构建可证明的产品判断力。",
       "score": 77,
       "content_hash": "fce97daa446d8a6a",
+      "revisions": []
+    },
+    {
+      "id": "a7edf27ea4f355dfb6c2",
+      "title": "Prompt engineering fundamentals for Amazon Quick",
+      "summary": "Prompt engineering in Amazon Quick shapes how accurately its AI-powered features respond to your requests. Part 1 of a two-part series covers the foundational principles and reusable frameworks (specificity, context-setting, few-shot examples, and the CRISPE framework) for consistent, high-quality…",
+      "url": "https://aws.amazon.com/blogs/machine-learning/prompt-engineering-fundamentals-for-amazon-quick",
+      "source": "AWS Machine Learning",
+      "source_id": "aws-ml",
+      "source_tier": "一手来源",
+      "company": "Amazon",
+      "company_scale": "成熟企业",
+      "region": "北美",
+      "topic": "企业 AI",
+      "signal_type": "行业动态",
+      "published_at": "2026-09-29T16:27:57Z",
+      "first_seen_at": "2026-09-30T10:03:00Z",
+      "last_checked_at": "2026-09-30T10:43:10Z",
+      "matched_windows": [
+        "daily"
+      ],
+      "confidence": "高",
+      "verification_status": "官方一手源",
+      "why_it_matters": "它可能影响赛道节奏或竞争判断，建议结合一手资料和后续动作继续观察。",
+      "career_angle": "优先研究部署、权限、审计和 ROI，补齐从 Demo 到规模化落地的经验。",
+      "score": 76,
+      "content_hash": "f0e62006dfa3ab67",
       "revisions": []
     },
     {
@@ -2507,8 +2707,10 @@
       "signal_type": "行业动态",
       "published_at": "2026-09-29T15:30:38Z",
       "first_seen_at": "2026-09-30T10:03:00Z",
-      "last_checked_at": "2026-09-30T10:03:00Z",
-      "matched_windows": ["daily", "weekly"],
+      "last_checked_at": "2026-09-30T10:43:10Z",
+      "matched_windows": [
+        "daily"
+      ],
       "confidence": "高",
       "verification_status": "官方一手源",
       "why_it_matters": "它可能影响赛道节奏或竞争判断，建议结合一手资料和后续动作继续观察。",
@@ -2532,13 +2734,15 @@
       "signal_type": "行业动态",
       "published_at": "2026-09-29T13:07:00Z",
       "first_seen_at": "2026-09-30T10:03:00Z",
-      "last_checked_at": "2026-09-30T10:03:00Z",
-      "matched_windows": ["daily", "weekly"],
+      "last_checked_at": "2026-09-30T10:43:10Z",
+      "matched_windows": [
+        "daily"
+      ],
       "confidence": "高",
       "verification_status": "官方一手源",
       "why_it_matters": "它可能影响赛道节奏或竞争判断，建议结合一手资料和后续动作继续观察。",
       "career_angle": "练习定义任务成功率、人工接管率和失败兜底，形成一份可复用的 Agent 评测框架。",
-      "score": 76,
+      "score": 75,
       "content_hash": "71ebcddde80df595",
       "revisions": []
     },
@@ -2557,8 +2761,10 @@
       "signal_type": "行业动态",
       "published_at": "2026-09-29T00:00:00Z",
       "first_seen_at": "2026-09-30T10:03:00Z",
-      "last_checked_at": "2026-09-30T10:03:00Z",
-      "matched_windows": ["daily", "weekly"],
+      "last_checked_at": "2026-09-30T10:43:10Z",
+      "matched_windows": [
+        "daily"
+      ],
       "confidence": "高",
       "verification_status": "官方一手源",
       "why_it_matters": "它可能影响赛道节奏或竞争判断，建议结合一手资料和后续动作继续观察。",
@@ -2582,13 +2788,15 @@
       "signal_type": "行业动态",
       "published_at": "2026-09-28T22:13:16Z",
       "first_seen_at": "2026-09-30T10:03:00Z",
-      "last_checked_at": "2026-09-30T10:03:00Z",
-      "matched_windows": ["daily", "weekly"],
+      "last_checked_at": "2026-09-30T10:43:10Z",
+      "matched_windows": [
+        "daily"
+      ],
       "confidence": "高",
       "verification_status": "官方一手源",
       "why_it_matters": "它可能影响赛道节奏或竞争判断，建议结合一手资料和后续动作继续观察。",
       "career_angle": "练习定义任务成功率、人工接管率和失败兜底，形成一份可复用的 Agent 评测框架。",
-      "score": 71,
+      "score": 70,
       "content_hash": "476f3c81dac2c84c",
       "revisions": []
     },
@@ -2607,8 +2815,10 @@
       "signal_type": "行业动态",
       "published_at": "2026-09-28T19:00:00Z",
       "first_seen_at": "2026-09-30T10:03:00Z",
-      "last_checked_at": "2026-09-30T10:03:00Z",
-      "matched_windows": ["daily", "weekly"],
+      "last_checked_at": "2026-09-30T10:43:10Z",
+      "matched_windows": [
+        "daily"
+      ],
       "confidence": "高",
       "verification_status": "官方一手源",
       "why_it_matters": "它可能影响赛道节奏或竞争判断，建议结合一手资料和后续动作继续观察。",
@@ -2632,8 +2842,10 @@
       "signal_type": "行业动态",
       "published_at": "2026-09-28T19:00:00Z",
       "first_seen_at": "2026-09-30T10:03:00Z",
-      "last_checked_at": "2026-09-30T10:03:00Z",
-      "matched_windows": ["daily", "weekly"],
+      "last_checked_at": "2026-09-30T10:43:10Z",
+      "matched_windows": [
+        "daily"
+      ],
       "confidence": "高",
       "verification_status": "官方一手源",
       "why_it_matters": "它可能影响赛道节奏或竞争判断，建议结合一手资料和后续动作继续观察。",
@@ -2657,8 +2869,10 @@
       "signal_type": "行业动态",
       "published_at": "2026-09-28T17:24:46Z",
       "first_seen_at": "2026-09-30T10:03:00Z",
-      "last_checked_at": "2026-09-30T10:03:00Z",
-      "matched_windows": ["daily", "weekly"],
+      "last_checked_at": "2026-09-30T10:43:10Z",
+      "matched_windows": [
+        "daily"
+      ],
       "confidence": "高",
       "verification_status": "官方一手源",
       "why_it_matters": "它可能影响赛道节奏或竞争判断，建议结合一手资料和后续动作继续观察。",
@@ -2682,8 +2896,10 @@
       "signal_type": "行业动态",
       "published_at": "2026-09-28T17:14:05Z",
       "first_seen_at": "2026-09-30T10:03:00Z",
-      "last_checked_at": "2026-09-30T10:03:00Z",
-      "matched_windows": ["daily", "weekly"],
+      "last_checked_at": "2026-09-30T10:43:10Z",
+      "matched_windows": [
+        "daily"
+      ],
       "confidence": "高",
       "verification_status": "官方一手源",
       "why_it_matters": "它可能影响赛道节奏或竞争判断，建议结合一手资料和后续动作继续观察。",
@@ -2707,8 +2923,10 @@
       "signal_type": "行业动态",
       "published_at": "2026-09-28T17:00:03Z",
       "first_seen_at": "2026-09-30T10:03:00Z",
-      "last_checked_at": "2026-09-30T10:03:00Z",
-      "matched_windows": ["daily", "weekly"],
+      "last_checked_at": "2026-09-30T10:43:10Z",
+      "matched_windows": [
+        "daily"
+      ],
       "confidence": "高",
       "verification_status": "官方一手源",
       "why_it_matters": "它可能影响赛道节奏或竞争判断，建议结合一手资料和后续动作继续观察。",
@@ -2732,8 +2950,10 @@
       "signal_type": "研究突破",
       "published_at": "2026-09-28T00:00:00Z",
       "first_seen_at": "2026-09-30T10:03:00Z",
-      "last_checked_at": "2026-09-30T10:03:00Z",
-      "matched_windows": ["daily", "weekly"],
+      "last_checked_at": "2026-09-30T10:43:10Z",
+      "matched_windows": [
+        "daily"
+      ],
       "confidence": "高",
       "verification_status": "官方一手源",
       "why_it_matters": "技术可行性正在变化，但需要把实验指标与真实用户价值、成本和稳定性分开判断。",
@@ -2757,8 +2977,10 @@
       "signal_type": "研究突破",
       "published_at": "2026-09-28T00:00:00Z",
       "first_seen_at": "2026-09-30T10:03:00Z",
-      "last_checked_at": "2026-09-30T10:03:00Z",
-      "matched_windows": ["daily", "weekly"],
+      "last_checked_at": "2026-09-30T10:43:10Z",
+      "matched_windows": [
+        "daily"
+      ],
       "confidence": "高",
       "verification_status": "官方一手源",
       "why_it_matters": "技术可行性正在变化，但需要把实验指标与真实用户价值、成本和稳定性分开判断。",
@@ -2782,8 +3004,10 @@
       "signal_type": "行业动态",
       "published_at": "2026-09-28T15:56:32Z",
       "first_seen_at": "2026-09-30T10:03:00Z",
-      "last_checked_at": "2026-09-30T10:03:00Z",
-      "matched_windows": ["daily", "weekly"],
+      "last_checked_at": "2026-09-30T10:43:10Z",
+      "matched_windows": [
+        "daily"
+      ],
       "confidence": "高",
       "verification_status": "官方一手源",
       "why_it_matters": "它可能影响赛道节奏或竞争判断，建议结合一手资料和后续动作继续观察。",
@@ -2807,8 +3031,10 @@
       "signal_type": "行业动态",
       "published_at": "2026-09-28T15:49:04Z",
       "first_seen_at": "2026-09-30T10:03:00Z",
-      "last_checked_at": "2026-09-30T10:03:00Z",
-      "matched_windows": ["daily", "weekly"],
+      "last_checked_at": "2026-09-30T10:43:10Z",
+      "matched_windows": [
+        "daily"
+      ],
       "confidence": "高",
       "verification_status": "官方一手源",
       "why_it_matters": "它可能影响赛道节奏或竞争判断，建议结合一手资料和后续动作继续观察。",
@@ -2832,8 +3058,10 @@
       "signal_type": "行业动态",
       "published_at": "2026-09-28T15:10:06Z",
       "first_seen_at": "2026-09-30T10:03:00Z",
-      "last_checked_at": "2026-09-30T10:03:00Z",
-      "matched_windows": ["daily", "weekly"],
+      "last_checked_at": "2026-09-30T10:43:10Z",
+      "matched_windows": [
+        "daily"
+      ],
       "confidence": "高",
       "verification_status": "官方一手源",
       "why_it_matters": "它可能影响赛道节奏或竞争判断，建议结合一手资料和后续动作继续观察。",
@@ -2858,7 +3086,9 @@
       "published_at": "2026-09-26T15:25:12Z",
       "first_seen_at": "2026-09-30T10:03:00Z",
       "last_checked_at": "2026-09-30T10:03:00Z",
-      "matched_windows": ["weekly"],
+      "matched_windows": [
+        "weekly"
+      ],
       "confidence": "高",
       "verification_status": "官方一手源",
       "why_it_matters": "产品能力边界或使用门槛发生变化，值得检查目标用户、采用路径与竞品跟进节奏。",
@@ -2882,8 +3112,10 @@
       "signal_type": "行业动态",
       "published_at": "2026-09-28T09:44:05Z",
       "first_seen_at": "2026-09-30T10:03:00Z",
-      "last_checked_at": "2026-09-30T10:03:00Z",
-      "matched_windows": ["daily", "weekly"],
+      "last_checked_at": "2026-09-30T10:43:10Z",
+      "matched_windows": [
+        "daily"
+      ],
       "confidence": "高",
       "verification_status": "官方一手源",
       "why_it_matters": "它可能影响赛道节奏或竞争判断，建议结合一手资料和后续动作继续观察。",
@@ -2907,8 +3139,10 @@
       "signal_type": "行业动态",
       "published_at": "2026-09-28T00:00:00Z",
       "first_seen_at": "2026-09-30T10:03:00Z",
-      "last_checked_at": "2026-09-30T10:03:00Z",
-      "matched_windows": ["daily", "weekly"],
+      "last_checked_at": "2026-09-30T10:43:10Z",
+      "matched_windows": [
+        "daily"
+      ],
       "confidence": "高",
       "verification_status": "官方一手源",
       "why_it_matters": "它可能影响赛道节奏或竞争判断，建议结合一手资料和后续动作继续观察。",
@@ -2932,13 +3166,15 @@
       "signal_type": "行业动态",
       "published_at": "2026-09-27T19:16:41Z",
       "first_seen_at": "2026-09-30T10:03:00Z",
-      "last_checked_at": "2026-09-30T10:03:00Z",
-      "matched_windows": ["daily", "weekly"],
+      "last_checked_at": "2026-09-30T10:43:10Z",
+      "matched_windows": [
+        "daily"
+      ],
       "confidence": "高",
       "verification_status": "官方一手源",
       "why_it_matters": "它可能影响赛道节奏或竞争判断，建议结合一手资料和后续动作继续观察。",
       "career_angle": "把延迟、吞吐、成本和端云取舍写进产品决策，而不只比较模型榜单。",
-      "score": 62,
+      "score": 61,
       "content_hash": "49d927e750c29343",
       "revisions": []
     },
@@ -2958,7 +3194,9 @@
       "published_at": "2026-09-25T16:18:07Z",
       "first_seen_at": "2026-09-30T10:03:00Z",
       "last_checked_at": "2026-09-30T10:03:00Z",
-      "matched_windows": ["weekly"],
+      "matched_windows": [
+        "weekly"
+      ],
       "confidence": "高",
       "verification_status": "官方一手源",
       "why_it_matters": "产品能力边界或使用门槛发生变化，值得检查目标用户、采用路径与竞品跟进节奏。",
@@ -2983,7 +3221,9 @@
       "published_at": "2026-09-25T16:09:46Z",
       "first_seen_at": "2026-09-30T10:03:00Z",
       "last_checked_at": "2026-09-30T10:03:00Z",
-      "matched_windows": ["weekly"],
+      "matched_windows": [
+        "weekly"
+      ],
       "confidence": "高",
       "verification_status": "官方一手源",
       "why_it_matters": "这是一条商业化验证信号，应继续核查客户场景、交付方式和可复制性。",
@@ -3008,7 +3248,9 @@
       "published_at": "2026-09-23T10:00:00Z",
       "first_seen_at": "2026-09-30T10:03:00Z",
       "last_checked_at": "2026-09-30T10:03:00Z",
-      "matched_windows": ["weekly"],
+      "matched_windows": [
+        "weekly"
+      ],
       "confidence": "高",
       "verification_status": "官方一手源",
       "why_it_matters": "产品能力边界或使用门槛发生变化，值得检查目标用户、采用路径与竞品跟进节奏。",
@@ -3033,7 +3275,9 @@
       "published_at": "2026-09-23T00:00:00Z",
       "first_seen_at": "2026-09-30T10:03:00Z",
       "last_checked_at": "2026-09-30T10:03:00Z",
-      "matched_windows": ["weekly"],
+      "matched_windows": [
+        "weekly"
+      ],
       "confidence": "高",
       "verification_status": "官方一手源",
       "why_it_matters": "产品能力边界或使用门槛发生变化，值得检查目标用户、采用路径与竞品跟进节奏。",
@@ -3058,7 +3302,9 @@
       "published_at": "2026-09-22T18:00:00Z",
       "first_seen_at": "2026-09-30T10:03:00Z",
       "last_checked_at": "2026-09-30T10:03:00Z",
-      "matched_windows": ["weekly"],
+      "matched_windows": [
+        "weekly"
+      ],
       "confidence": "高",
       "verification_status": "官方一手源",
       "why_it_matters": "产品能力边界或使用门槛发生变化，值得检查目标用户、采用路径与竞品跟进节奏。",
@@ -3083,7 +3329,9 @@
       "published_at": "2026-09-18T12:00:00Z",
       "first_seen_at": "2026-09-30T10:03:00Z",
       "last_checked_at": "2026-09-30T10:03:00Z",
-      "matched_windows": ["weekly"],
+      "matched_windows": [
+        "weekly"
+      ],
       "confidence": "高",
       "verification_status": "官方一手源",
       "why_it_matters": "产品能力边界或使用门槛发生变化，值得检查目标用户、采用路径与竞品跟进节奏。",
@@ -3108,7 +3356,9 @@
       "published_at": "2026-09-17T20:20:33Z",
       "first_seen_at": "2026-09-30T10:03:00Z",
       "last_checked_at": "2026-09-30T10:03:00Z",
-      "matched_windows": ["weekly"],
+      "matched_windows": [
+        "weekly"
+      ],
       "confidence": "高",
       "verification_status": "官方一手源",
       "why_it_matters": "产品能力边界或使用门槛发生变化，值得检查目标用户、采用路径与竞品跟进节奏。",
@@ -3133,7 +3383,9 @@
       "published_at": "2026-09-17T00:00:00Z",
       "first_seen_at": "2026-09-30T10:03:00Z",
       "last_checked_at": "2026-09-30T10:03:00Z",
-      "matched_windows": ["weekly"],
+      "matched_windows": [
+        "weekly"
+      ],
       "confidence": "高",
       "verification_status": "官方一手源",
       "why_it_matters": "产品能力边界或使用门槛发生变化，值得检查目标用户、采用路径与竞品跟进节奏。",
@@ -3158,7 +3410,9 @@
       "published_at": "2026-09-16T21:46:25Z",
       "first_seen_at": "2026-09-30T10:03:00Z",
       "last_checked_at": "2026-09-30T10:03:00Z",
-      "matched_windows": ["weekly"],
+      "matched_windows": [
+        "weekly"
+      ],
       "confidence": "高",
       "verification_status": "官方一手源",
       "why_it_matters": "产品能力边界或使用门槛发生变化，值得检查目标用户、采用路径与竞品跟进节奏。",
@@ -3183,7 +3437,9 @@
       "published_at": "2026-09-16T21:39:25Z",
       "first_seen_at": "2026-09-30T10:03:00Z",
       "last_checked_at": "2026-09-30T10:03:00Z",
-      "matched_windows": ["weekly"],
+      "matched_windows": [
+        "weekly"
+      ],
       "confidence": "高",
       "verification_status": "官方一手源",
       "why_it_matters": "产品能力边界或使用门槛发生变化，值得检查目标用户、采用路径与竞品跟进节奏。",
@@ -3208,7 +3464,9 @@
       "published_at": "2026-09-10T07:00:00Z",
       "first_seen_at": "2026-09-30T10:03:00Z",
       "last_checked_at": "2026-09-30T10:03:00Z",
-      "matched_windows": ["weekly"],
+      "matched_windows": [
+        "weekly"
+      ],
       "confidence": "高",
       "verification_status": "官方一手源",
       "why_it_matters": "产品能力边界或使用门槛发生变化，值得检查目标用户、采用路径与竞品跟进节奏。",
@@ -3233,7 +3491,9 @@
       "published_at": "2026-09-10T00:00:00Z",
       "first_seen_at": "2026-09-30T10:03:00Z",
       "last_checked_at": "2026-09-30T10:03:00Z",
-      "matched_windows": ["weekly"],
+      "matched_windows": [
+        "weekly"
+      ],
       "confidence": "高",
       "verification_status": "官方一手源",
       "why_it_matters": "产品能力边界或使用门槛发生变化，值得检查目标用户、采用路径与竞品跟进节奏。",
@@ -3258,7 +3518,9 @@
       "published_at": "2026-09-08T11:30:00Z",
       "first_seen_at": "2026-09-30T10:03:00Z",
       "last_checked_at": "2026-09-30T10:03:00Z",
-      "matched_windows": ["weekly"],
+      "matched_windows": [
+        "weekly"
+      ],
       "confidence": "高",
       "verification_status": "官方一手源",
       "why_it_matters": "产品能力边界或使用门槛发生变化，值得检查目标用户、采用路径与竞品跟进节奏。",
@@ -3283,7 +3545,9 @@
       "published_at": "2026-09-07T00:00:00Z",
       "first_seen_at": "2026-09-30T10:03:00Z",
       "last_checked_at": "2026-09-30T10:03:00Z",
-      "matched_windows": ["weekly"],
+      "matched_windows": [
+        "weekly"
+      ],
       "confidence": "高",
       "verification_status": "官方一手源",
       "why_it_matters": "产品能力边界或使用门槛发生变化，值得检查目标用户、采用路径与竞品跟进节奏。",
@@ -3308,7 +3572,9 @@
       "published_at": "2026-09-04T23:07:14Z",
       "first_seen_at": "2026-09-30T10:03:00Z",
       "last_checked_at": "2026-09-30T10:03:00Z",
-      "matched_windows": ["weekly"],
+      "matched_windows": [
+        "weekly"
+      ],
       "confidence": "高",
       "verification_status": "官方一手源",
       "why_it_matters": "产品能力边界或使用门槛发生变化，值得检查目标用户、采用路径与竞品跟进节奏。",
@@ -3333,7 +3599,9 @@
       "published_at": "2026-09-03T22:36:46Z",
       "first_seen_at": "2026-09-30T10:03:00Z",
       "last_checked_at": "2026-09-30T10:03:00Z",
-      "matched_windows": ["weekly"],
+      "matched_windows": [
+        "weekly"
+      ],
       "confidence": "高",
       "verification_status": "官方一手源",
       "why_it_matters": "产品能力边界或使用门槛发生变化，值得检查目标用户、采用路径与竞品跟进节奏。",
@@ -3358,7 +3626,9 @@
       "published_at": "2026-09-03T11:00:00Z",
       "first_seen_at": "2026-09-30T10:03:00Z",
       "last_checked_at": "2026-09-30T10:03:00Z",
-      "matched_windows": ["weekly"],
+      "matched_windows": [
+        "weekly"
+      ],
       "confidence": "高",
       "verification_status": "官方一手源",
       "why_it_matters": "产品能力边界或使用门槛发生变化，值得检查目标用户、采用路径与竞品跟进节奏。",
@@ -3383,7 +3653,9 @@
       "published_at": "2026-09-01T21:19:54Z",
       "first_seen_at": "2026-09-30T10:03:00Z",
       "last_checked_at": "2026-09-30T10:03:00Z",
-      "matched_windows": ["weekly"],
+      "matched_windows": [
+        "weekly"
+      ],
       "confidence": "高",
       "verification_status": "官方一手源",
       "why_it_matters": "产品能力边界或使用门槛发生变化，值得检查目标用户、采用路径与竞品跟进节奏。",
@@ -3408,7 +3680,9 @@
       "published_at": "2026-09-01T13:00:00Z",
       "first_seen_at": "2026-09-30T10:03:00Z",
       "last_checked_at": "2026-09-30T10:03:00Z",
-      "matched_windows": ["weekly"],
+      "matched_windows": [
+        "weekly"
+      ],
       "confidence": "高",
       "verification_status": "官方一手源",
       "why_it_matters": "产品能力边界或使用门槛发生变化，值得检查目标用户、采用路径与竞品跟进节奏。",
@@ -3433,7 +3707,9 @@
       "published_at": "2026-09-01T00:00:00Z",
       "first_seen_at": "2026-09-30T10:03:00Z",
       "last_checked_at": "2026-09-30T10:03:00Z",
-      "matched_windows": ["weekly"],
+      "matched_windows": [
+        "weekly"
+      ],
       "confidence": "高",
       "verification_status": "官方一手源",
       "why_it_matters": "产品能力边界或使用门槛发生变化，值得检查目标用户、采用路径与竞品跟进节奏。",
@@ -3458,7 +3734,9 @@
       "published_at": "2026-08-28T02:00:00Z",
       "first_seen_at": "2026-09-30T10:03:00Z",
       "last_checked_at": "2026-09-30T10:03:00Z",
-      "matched_windows": ["monthly"],
+      "matched_windows": [
+        "monthly"
+      ],
       "confidence": "高",
       "verification_status": "官方一手源",
       "why_it_matters": "产品能力边界或使用门槛发生变化，值得检查目标用户、采用路径与竞品跟进节奏。",
@@ -3483,7 +3761,9 @@
       "published_at": "2026-08-12T16:14:36Z",
       "first_seen_at": "2026-09-30T10:03:00Z",
       "last_checked_at": "2026-09-30T10:03:00Z",
-      "matched_windows": ["monthly"],
+      "matched_windows": [
+        "monthly"
+      ],
       "confidence": "高",
       "verification_status": "官方一手源",
       "why_it_matters": "产品能力边界或使用门槛发生变化，值得检查目标用户、采用路径与竞品跟进节奏。",
@@ -3508,7 +3788,9 @@
       "published_at": "2026-08-11T16:00:00Z",
       "first_seen_at": "2026-09-30T10:03:00Z",
       "last_checked_at": "2026-09-30T10:03:00Z",
-      "matched_windows": ["monthly"],
+      "matched_windows": [
+        "monthly"
+      ],
       "confidence": "高",
       "verification_status": "官方一手源",
       "why_it_matters": "产品能力边界或使用门槛发生变化，值得检查目标用户、采用路径与竞品跟进节奏。",
@@ -3533,7 +3815,9 @@
       "published_at": "2026-09-24T16:20:12Z",
       "first_seen_at": "2026-09-30T10:03:00Z",
       "last_checked_at": "2026-09-30T10:03:00Z",
-      "matched_windows": ["weekly"],
+      "matched_windows": [
+        "weekly"
+      ],
       "confidence": "高",
       "verification_status": "官方一手源",
       "why_it_matters": "这是一条商业化验证信号，应继续核查客户场景、交付方式和可复制性。",
@@ -3558,7 +3842,9 @@
       "published_at": "2026-09-23T12:00:00Z",
       "first_seen_at": "2026-09-30T10:03:00Z",
       "last_checked_at": "2026-09-30T10:03:00Z",
-      "matched_windows": ["weekly"],
+      "matched_windows": [
+        "weekly"
+      ],
       "confidence": "高",
       "verification_status": "官方一手源",
       "why_it_matters": "这是一条商业化验证信号，应继续核查客户场景、交付方式和可复制性。",
@@ -3583,7 +3869,9 @@
       "published_at": "2026-09-21T18:45:07Z",
       "first_seen_at": "2026-09-30T10:03:00Z",
       "last_checked_at": "2026-09-30T10:03:00Z",
-      "matched_windows": ["weekly"],
+      "matched_windows": [
+        "weekly"
+      ],
       "confidence": "高",
       "verification_status": "官方一手源",
       "why_it_matters": "这是一条商业化验证信号，应继续核查客户场景、交付方式和可复制性。",
@@ -3608,7 +3896,9 @@
       "published_at": "2026-09-16T12:00:00Z",
       "first_seen_at": "2026-09-30T10:03:00Z",
       "last_checked_at": "2026-09-30T10:03:00Z",
-      "matched_windows": ["weekly"],
+      "matched_windows": [
+        "weekly"
+      ],
       "confidence": "高",
       "verification_status": "官方一手源",
       "why_it_matters": "这是一条商业化验证信号，应继续核查客户场景、交付方式和可复制性。",
@@ -3633,7 +3923,9 @@
       "published_at": "2026-09-10T16:55:39Z",
       "first_seen_at": "2026-09-30T10:03:00Z",
       "last_checked_at": "2026-09-30T10:03:00Z",
-      "matched_windows": ["weekly"],
+      "matched_windows": [
+        "weekly"
+      ],
       "confidence": "高",
       "verification_status": "官方一手源",
       "why_it_matters": "这是一条商业化验证信号，应继续核查客户场景、交付方式和可复制性。",
@@ -3658,7 +3950,9 @@
       "published_at": "2026-09-08T11:00:00Z",
       "first_seen_at": "2026-09-30T10:03:00Z",
       "last_checked_at": "2026-09-30T10:03:00Z",
-      "matched_windows": ["weekly"],
+      "matched_windows": [
+        "weekly"
+      ],
       "confidence": "高",
       "verification_status": "官方一手源",
       "why_it_matters": "这是一条商业化验证信号，应继续核查客户场景、交付方式和可复制性。",
@@ -3683,7 +3977,9 @@
       "published_at": "2026-09-04T16:21:13Z",
       "first_seen_at": "2026-09-30T10:03:00Z",
       "last_checked_at": "2026-09-30T10:03:00Z",
-      "matched_windows": ["weekly"],
+      "matched_windows": [
+        "weekly"
+      ],
       "confidence": "高",
       "verification_status": "官方一手源",
       "why_it_matters": "这是一条商业化验证信号，应继续核查客户场景、交付方式和可复制性。",
@@ -3708,7 +4004,9 @@
       "published_at": "2026-09-03T00:00:00Z",
       "first_seen_at": "2026-09-30T10:03:00Z",
       "last_checked_at": "2026-09-30T10:03:00Z",
-      "matched_windows": ["weekly"],
+      "matched_windows": [
+        "weekly"
+      ],
       "confidence": "高",
       "verification_status": "官方一手源",
       "why_it_matters": "这是一条商业化验证信号，应继续核查客户场景、交付方式和可复制性。",
@@ -3733,7 +4031,9 @@
       "published_at": "2026-08-31T19:28:23Z",
       "first_seen_at": "2026-09-30T10:03:00Z",
       "last_checked_at": "2026-09-30T10:03:00Z",
-      "matched_windows": ["weekly"],
+      "matched_windows": [
+        "weekly"
+      ],
       "confidence": "高",
       "verification_status": "官方一手源",
       "why_it_matters": "这是一条商业化验证信号，应继续核查客户场景、交付方式和可复制性。",
@@ -3758,7 +4058,9 @@
       "published_at": "2026-08-28T17:06:37Z",
       "first_seen_at": "2026-09-30T10:03:00Z",
       "last_checked_at": "2026-09-30T10:03:00Z",
-      "matched_windows": ["monthly"],
+      "matched_windows": [
+        "monthly"
+      ],
       "confidence": "高",
       "verification_status": "官方一手源",
       "why_it_matters": "这是一条商业化验证信号，应继续核查客户场景、交付方式和可复制性。",
@@ -3783,7 +4085,9 @@
       "published_at": "2026-08-28T06:00:00Z",
       "first_seen_at": "2026-09-30T10:03:00Z",
       "last_checked_at": "2026-09-30T10:03:00Z",
-      "matched_windows": ["monthly"],
+      "matched_windows": [
+        "monthly"
+      ],
       "confidence": "高",
       "verification_status": "官方一手源",
       "why_it_matters": "这是一条商业化验证信号，应继续核查客户场景、交付方式和可复制性。",
@@ -3808,7 +4112,9 @@
       "published_at": "2026-08-27T03:00:00Z",
       "first_seen_at": "2026-09-30T10:03:00Z",
       "last_checked_at": "2026-09-30T10:03:00Z",
-      "matched_windows": ["monthly"],
+      "matched_windows": [
+        "monthly"
+      ],
       "confidence": "高",
       "verification_status": "官方一手源",
       "why_it_matters": "这是一条商业化验证信号，应继续核查客户场景、交付方式和可复制性。",
@@ -3833,7 +4139,9 @@
       "published_at": "2026-08-25T00:00:00Z",
       "first_seen_at": "2026-09-30T10:03:00Z",
       "last_checked_at": "2026-09-30T10:03:00Z",
-      "matched_windows": ["monthly"],
+      "matched_windows": [
+        "monthly"
+      ],
       "confidence": "高",
       "verification_status": "官方一手源",
       "why_it_matters": "这是一条商业化验证信号，应继续核查客户场景、交付方式和可复制性。",
@@ -3858,7 +4166,9 @@
       "published_at": "2026-08-20T18:15:33Z",
       "first_seen_at": "2026-09-30T10:03:00Z",
       "last_checked_at": "2026-09-30T10:03:00Z",
-      "matched_windows": ["monthly"],
+      "matched_windows": [
+        "monthly"
+      ],
       "confidence": "高",
       "verification_status": "官方一手源",
       "why_it_matters": "这是一条商业化验证信号，应继续核查客户场景、交付方式和可复制性。",
@@ -3883,7 +4193,9 @@
       "published_at": "2026-08-13T17:16:04Z",
       "first_seen_at": "2026-09-30T10:03:00Z",
       "last_checked_at": "2026-09-30T10:03:00Z",
-      "matched_windows": ["monthly"],
+      "matched_windows": [
+        "monthly"
+      ],
       "confidence": "高",
       "verification_status": "官方一手源",
       "why_it_matters": "这是一条商业化验证信号，应继续核查客户场景、交付方式和可复制性。",
@@ -3908,7 +4220,9 @@
       "published_at": "2026-09-08T09:00:00Z",
       "first_seen_at": "2026-09-30T10:03:00Z",
       "last_checked_at": "2026-09-30T10:03:00Z",
-      "matched_windows": ["weekly"],
+      "matched_windows": [
+        "weekly"
+      ],
       "confidence": "高",
       "verification_status": "官方一手源",
       "why_it_matters": "资金或所有权变化可能加速产品路线、团队扩张与行业整合。",
@@ -3933,7 +4247,9 @@
       "published_at": "2026-09-17T00:00:00Z",
       "first_seen_at": "2026-09-30T10:03:00Z",
       "last_checked_at": "2026-09-30T10:03:00Z",
-      "matched_windows": ["weekly"],
+      "matched_windows": [
+        "weekly"
+      ],
       "confidence": "高",
       "verification_status": "官方一手源",
       "why_it_matters": "合规边界可能改变产品设计、数据流程、上市节奏和市场准入。",
@@ -3958,7 +4274,9 @@
       "published_at": "2026-09-09T13:00:00Z",
       "first_seen_at": "2026-09-30T10:03:00Z",
       "last_checked_at": "2026-09-30T10:03:00Z",
-      "matched_windows": ["weekly"],
+      "matched_windows": [
+        "weekly"
+      ],
       "confidence": "高",
       "verification_status": "官方一手源",
       "why_it_matters": "合规边界可能改变产品设计、数据流程、上市节奏和市场准入。",
@@ -3983,7 +4301,9 @@
       "published_at": "2026-08-26T22:34:18Z",
       "first_seen_at": "2026-09-30T10:03:00Z",
       "last_checked_at": "2026-09-30T10:03:00Z",
-      "matched_windows": ["monthly"],
+      "matched_windows": [
+        "monthly"
+      ],
       "confidence": "高",
       "verification_status": "官方一手源",
       "why_it_matters": "合规边界可能改变产品设计、数据流程、上市节奏和市场准入。",
@@ -4008,7 +4328,9 @@
       "published_at": "2026-08-20T18:15:29Z",
       "first_seen_at": "2026-09-30T10:03:00Z",
       "last_checked_at": "2026-09-30T10:03:00Z",
-      "matched_windows": ["monthly"],
+      "matched_windows": [
+        "monthly"
+      ],
       "confidence": "高",
       "verification_status": "官方一手源",
       "why_it_matters": "合规边界可能改变产品设计、数据流程、上市节奏和市场准入。",
@@ -4033,7 +4355,9 @@
       "published_at": "2026-09-25T19:00:00Z",
       "first_seen_at": "2026-09-30T10:03:00Z",
       "last_checked_at": "2026-09-30T10:03:00Z",
-      "matched_windows": ["weekly"],
+      "matched_windows": [
+        "weekly"
+      ],
       "confidence": "高",
       "verification_status": "官方一手源",
       "why_it_matters": "它可能影响赛道节奏或竞争判断，建议结合一手资料和后续动作继续观察。",
@@ -4058,7 +4382,9 @@
       "published_at": "2026-09-25T16:29:50Z",
       "first_seen_at": "2026-09-30T10:03:00Z",
       "last_checked_at": "2026-09-30T10:03:00Z",
-      "matched_windows": ["weekly"],
+      "matched_windows": [
+        "weekly"
+      ],
       "confidence": "高",
       "verification_status": "官方一手源",
       "why_it_matters": "它可能影响赛道节奏或竞争判断，建议结合一手资料和后续动作继续观察。",
@@ -4083,7 +4409,9 @@
       "published_at": "2026-09-25T16:15:22Z",
       "first_seen_at": "2026-09-30T10:03:00Z",
       "last_checked_at": "2026-09-30T10:03:00Z",
-      "matched_windows": ["weekly"],
+      "matched_windows": [
+        "weekly"
+      ],
       "confidence": "高",
       "verification_status": "官方一手源",
       "why_it_matters": "它可能影响赛道节奏或竞争判断，建议结合一手资料和后续动作继续观察。",
@@ -4108,7 +4436,9 @@
       "published_at": "2026-08-25T22:03:16Z",
       "first_seen_at": "2026-09-30T10:03:00Z",
       "last_checked_at": "2026-09-30T10:03:00Z",
-      "matched_windows": ["monthly"],
+      "matched_windows": [
+        "monthly"
+      ],
       "confidence": "高",
       "verification_status": "官方一手源",
       "why_it_matters": "开放程度会改变开发成本和生态位，可能催生新的集成工具、评测和垂直应用机会。",
@@ -4133,7 +4463,9 @@
       "published_at": "2026-08-20T18:15:22Z",
       "first_seen_at": "2026-09-30T10:03:00Z",
       "last_checked_at": "2026-09-30T10:03:00Z",
-      "matched_windows": ["monthly"],
+      "matched_windows": [
+        "monthly"
+      ],
       "confidence": "高",
       "verification_status": "官方一手源",
       "why_it_matters": "开放程度会改变开发成本和生态位，可能催生新的集成工具、评测和垂直应用机会。",
@@ -4158,7 +4490,9 @@
       "published_at": "2026-08-10T16:25:36Z",
       "first_seen_at": "2026-09-30T10:03:00Z",
       "last_checked_at": "2026-09-30T10:03:00Z",
-      "matched_windows": ["monthly"],
+      "matched_windows": [
+        "monthly"
+      ],
       "confidence": "高",
       "verification_status": "官方一手源",
       "why_it_matters": "开放程度会改变开发成本和生态位，可能催生新的集成工具、评测和垂直应用机会。",
@@ -4183,7 +4517,9 @@
       "published_at": "2026-08-10T00:00:00Z",
       "first_seen_at": "2026-09-30T10:03:00Z",
       "last_checked_at": "2026-09-30T10:03:00Z",
-      "matched_windows": ["monthly"],
+      "matched_windows": [
+        "monthly"
+      ],
       "confidence": "高",
       "verification_status": "官方一手源",
       "why_it_matters": "开放程度会改变开发成本和生态位，可能催生新的集成工具、评测和垂直应用机会。",
@@ -4208,7 +4544,9 @@
       "published_at": "2026-09-25T15:54:42Z",
       "first_seen_at": "2026-09-30T10:03:00Z",
       "last_checked_at": "2026-09-30T10:03:00Z",
-      "matched_windows": ["weekly"],
+      "matched_windows": [
+        "weekly"
+      ],
       "confidence": "高",
       "verification_status": "官方一手源",
       "why_it_matters": "它可能影响赛道节奏或竞争判断，建议结合一手资料和后续动作继续观察。",
@@ -4233,7 +4571,9 @@
       "published_at": "2026-09-25T15:49:44Z",
       "first_seen_at": "2026-09-30T10:03:00Z",
       "last_checked_at": "2026-09-30T10:03:00Z",
-      "matched_windows": ["weekly"],
+      "matched_windows": [
+        "weekly"
+      ],
       "confidence": "高",
       "verification_status": "官方一手源",
       "why_it_matters": "它可能影响赛道节奏或竞争判断，建议结合一手资料和后续动作继续观察。",
@@ -4258,7 +4598,9 @@
       "published_at": "2026-09-23T16:01:36Z",
       "first_seen_at": "2026-09-30T10:03:00Z",
       "last_checked_at": "2026-09-30T10:03:00Z",
-      "matched_windows": ["weekly"],
+      "matched_windows": [
+        "weekly"
+      ],
       "confidence": "高",
       "verification_status": "官方一手源",
       "why_it_matters": "技术可行性正在变化，但需要把实验指标与真实用户价值、成本和稳定性分开判断。",
@@ -4283,7 +4625,9 @@
       "published_at": "2026-09-22T12:00:00Z",
       "first_seen_at": "2026-09-30T10:03:00Z",
       "last_checked_at": "2026-09-30T10:03:00Z",
-      "matched_windows": ["weekly"],
+      "matched_windows": [
+        "weekly"
+      ],
       "confidence": "高",
       "verification_status": "官方一手源",
       "why_it_matters": "技术可行性正在变化，但需要把实验指标与真实用户价值、成本和稳定性分开判断。",
@@ -4308,7 +4652,9 @@
       "published_at": "2026-09-22T00:00:00Z",
       "first_seen_at": "2026-09-30T10:03:00Z",
       "last_checked_at": "2026-09-30T10:03:00Z",
-      "matched_windows": ["weekly"],
+      "matched_windows": [
+        "weekly"
+      ],
       "confidence": "高",
       "verification_status": "官方一手源",
       "why_it_matters": "技术可行性正在变化，但需要把实验指标与真实用户价值、成本和稳定性分开判断。",
@@ -4333,7 +4679,9 @@
       "published_at": "2026-09-21T15:30:19Z",
       "first_seen_at": "2026-09-30T10:03:00Z",
       "last_checked_at": "2026-09-30T10:03:00Z",
-      "matched_windows": ["weekly"],
+      "matched_windows": [
+        "weekly"
+      ],
       "confidence": "高",
       "verification_status": "官方一手源",
       "why_it_matters": "技术可行性正在变化，但需要把实验指标与真实用户价值、成本和稳定性分开判断。",
@@ -4358,7 +4706,9 @@
       "published_at": "2026-09-16T20:37:15Z",
       "first_seen_at": "2026-09-30T10:03:00Z",
       "last_checked_at": "2026-09-30T10:03:00Z",
-      "matched_windows": ["weekly"],
+      "matched_windows": [
+        "weekly"
+      ],
       "confidence": "高",
       "verification_status": "官方一手源",
       "why_it_matters": "技术可行性正在变化，但需要把实验指标与真实用户价值、成本和稳定性分开判断。",
@@ -4383,7 +4733,9 @@
       "published_at": "2026-09-16T09:00:00Z",
       "first_seen_at": "2026-09-30T10:03:00Z",
       "last_checked_at": "2026-09-30T10:03:00Z",
-      "matched_windows": ["weekly"],
+      "matched_windows": [
+        "weekly"
+      ],
       "confidence": "高",
       "verification_status": "官方一手源",
       "why_it_matters": "技术可行性正在变化，但需要把实验指标与真实用户价值、成本和稳定性分开判断。",
@@ -4408,7 +4760,9 @@
       "published_at": "2026-09-10T16:00:00Z",
       "first_seen_at": "2026-09-30T10:03:00Z",
       "last_checked_at": "2026-09-30T10:03:00Z",
-      "matched_windows": ["weekly"],
+      "matched_windows": [
+        "weekly"
+      ],
       "confidence": "高",
       "verification_status": "官方一手源",
       "why_it_matters": "技术可行性正在变化，但需要把实验指标与真实用户价值、成本和稳定性分开判断。",
@@ -4433,7 +4787,9 @@
       "published_at": "2026-09-08T17:00:00Z",
       "first_seen_at": "2026-09-30T10:03:00Z",
       "last_checked_at": "2026-09-30T10:03:00Z",
-      "matched_windows": ["weekly"],
+      "matched_windows": [
+        "weekly"
+      ],
       "confidence": "高",
       "verification_status": "官方一手源",
       "why_it_matters": "技术可行性正在变化，但需要把实验指标与真实用户价值、成本和稳定性分开判断。",
@@ -4458,7 +4814,9 @@
       "published_at": "2026-09-06T08:00:00Z",
       "first_seen_at": "2026-09-30T10:03:00Z",
       "last_checked_at": "2026-09-30T10:03:00Z",
-      "matched_windows": ["weekly"],
+      "matched_windows": [
+        "weekly"
+      ],
       "confidence": "高",
       "verification_status": "官方一手源",
       "why_it_matters": "技术可行性正在变化，但需要把实验指标与真实用户价值、成本和稳定性分开判断。",
@@ -4483,7 +4841,9 @@
       "published_at": "2026-09-01T21:39:07Z",
       "first_seen_at": "2026-09-30T10:03:00Z",
       "last_checked_at": "2026-09-30T10:03:00Z",
-      "matched_windows": ["weekly"],
+      "matched_windows": [
+        "weekly"
+      ],
       "confidence": "高",
       "verification_status": "官方一手源",
       "why_it_matters": "技术可行性正在变化，但需要把实验指标与真实用户价值、成本和稳定性分开判断。",
@@ -4508,7 +4868,9 @@
       "published_at": "2026-09-01T12:00:00Z",
       "first_seen_at": "2026-09-30T10:03:00Z",
       "last_checked_at": "2026-09-30T10:03:00Z",
-      "matched_windows": ["weekly"],
+      "matched_windows": [
+        "weekly"
+      ],
       "confidence": "高",
       "verification_status": "官方一手源",
       "why_it_matters": "技术可行性正在变化，但需要把实验指标与真实用户价值、成本和稳定性分开判断。",
@@ -4533,7 +4895,9 @@
       "published_at": "2026-08-31T16:23:58Z",
       "first_seen_at": "2026-09-30T10:03:00Z",
       "last_checked_at": "2026-09-30T10:03:00Z",
-      "matched_windows": ["weekly"],
+      "matched_windows": [
+        "weekly"
+      ],
       "confidence": "高",
       "verification_status": "官方一手源",
       "why_it_matters": "技术可行性正在变化，但需要把实验指标与真实用户价值、成本和稳定性分开判断。",
@@ -4558,7 +4922,9 @@
       "published_at": "2026-08-21T00:00:00Z",
       "first_seen_at": "2026-09-30T10:03:00Z",
       "last_checked_at": "2026-09-30T10:03:00Z",
-      "matched_windows": ["monthly"],
+      "matched_windows": [
+        "monthly"
+      ],
       "confidence": "高",
       "verification_status": "官方一手源",
       "why_it_matters": "技术可行性正在变化，但需要把实验指标与真实用户价值、成本和稳定性分开判断。",
@@ -4583,7 +4949,9 @@
       "published_at": "2026-08-21T00:00:00Z",
       "first_seen_at": "2026-09-30T10:03:00Z",
       "last_checked_at": "2026-09-30T10:03:00Z",
-      "matched_windows": ["monthly"],
+      "matched_windows": [
+        "monthly"
+      ],
       "confidence": "高",
       "verification_status": "官方一手源",
       "why_it_matters": "技术可行性正在变化，但需要把实验指标与真实用户价值、成本和稳定性分开判断。",
@@ -4608,7 +4976,9 @@
       "published_at": "2026-08-20T18:15:31Z",
       "first_seen_at": "2026-09-30T10:03:00Z",
       "last_checked_at": "2026-09-30T10:03:00Z",
-      "matched_windows": ["monthly"],
+      "matched_windows": [
+        "monthly"
+      ],
       "confidence": "高",
       "verification_status": "官方一手源",
       "why_it_matters": "技术可行性正在变化，但需要把实验指标与真实用户价值、成本和稳定性分开判断。",
@@ -4633,7 +5003,9 @@
       "published_at": "2026-08-20T16:00:00Z",
       "first_seen_at": "2026-09-30T10:03:00Z",
       "last_checked_at": "2026-09-30T10:03:00Z",
-      "matched_windows": ["monthly"],
+      "matched_windows": [
+        "monthly"
+      ],
       "confidence": "高",
       "verification_status": "官方一手源",
       "why_it_matters": "技术可行性正在变化，但需要把实验指标与真实用户价值、成本和稳定性分开判断。",
@@ -4658,7 +5030,9 @@
       "published_at": "2026-08-13T00:00:00Z",
       "first_seen_at": "2026-09-30T10:03:00Z",
       "last_checked_at": "2026-09-30T10:03:00Z",
-      "matched_windows": ["monthly"],
+      "matched_windows": [
+        "monthly"
+      ],
       "confidence": "高",
       "verification_status": "官方一手源",
       "why_it_matters": "技术可行性正在变化，但需要把实验指标与真实用户价值、成本和稳定性分开判断。",
@@ -4683,7 +5057,9 @@
       "published_at": "2026-08-12T16:00:00Z",
       "first_seen_at": "2026-09-30T10:03:00Z",
       "last_checked_at": "2026-09-30T10:03:00Z",
-      "matched_windows": ["monthly"],
+      "matched_windows": [
+        "monthly"
+      ],
       "confidence": "高",
       "verification_status": "官方一手源",
       "why_it_matters": "技术可行性正在变化，但需要把实验指标与真实用户价值、成本和稳定性分开判断。",
@@ -4708,7 +5084,9 @@
       "published_at": "2026-08-03T16:00:00Z",
       "first_seen_at": "2026-09-30T10:03:00Z",
       "last_checked_at": "2026-09-30T10:03:00Z",
-      "matched_windows": ["monthly"],
+      "matched_windows": [
+        "monthly"
+      ],
       "confidence": "高",
       "verification_status": "官方一手源",
       "why_it_matters": "技术可行性正在变化，但需要把实验指标与真实用户价值、成本和稳定性分开判断。",
@@ -4733,7 +5111,9 @@
       "published_at": "2026-09-23T01:00:00Z",
       "first_seen_at": "2026-09-30T10:03:00Z",
       "last_checked_at": "2026-09-30T10:03:00Z",
-      "matched_windows": ["weekly"],
+      "matched_windows": [
+        "weekly"
+      ],
       "confidence": "高",
       "verification_status": "官方一手源",
       "why_it_matters": "团队配置能反映下一阶段投入方向，可与产品发布和客户信号交叉验证。",
@@ -4758,7 +5138,9 @@
       "published_at": "2026-09-01T19:00:37Z",
       "first_seen_at": "2026-09-30T10:03:00Z",
       "last_checked_at": "2026-09-30T10:03:00Z",
-      "matched_windows": ["weekly"],
+      "matched_windows": [
+        "weekly"
+      ],
       "confidence": "高",
       "verification_status": "官方一手源",
       "why_it_matters": "团队配置能反映下一阶段投入方向，可与产品发布和客户信号交叉验证。",
@@ -4783,7 +5165,9 @@
       "published_at": "2026-08-20T18:15:31Z",
       "first_seen_at": "2026-09-30T10:03:00Z",
       "last_checked_at": "2026-09-30T10:03:00Z",
-      "matched_windows": ["monthly"],
+      "matched_windows": [
+        "monthly"
+      ],
       "confidence": "高",
       "verification_status": "官方一手源",
       "why_it_matters": "团队配置能反映下一阶段投入方向，可与产品发布和客户信号交叉验证。",
@@ -4808,7 +5192,9 @@
       "published_at": "2026-08-20T18:15:25Z",
       "first_seen_at": "2026-09-30T10:03:00Z",
       "last_checked_at": "2026-09-30T10:03:00Z",
-      "matched_windows": ["monthly"],
+      "matched_windows": [
+        "monthly"
+      ],
       "confidence": "高",
       "verification_status": "官方一手源",
       "why_it_matters": "团队配置能反映下一阶段投入方向，可与产品发布和客户信号交叉验证。",
@@ -4833,7 +5219,9 @@
       "published_at": "2026-09-24T19:40:00Z",
       "first_seen_at": "2026-09-30T10:03:00Z",
       "last_checked_at": "2026-09-30T10:03:00Z",
-      "matched_windows": ["weekly"],
+      "matched_windows": [
+        "weekly"
+      ],
       "confidence": "高",
       "verification_status": "官方一手源",
       "why_it_matters": "它可能影响赛道节奏或竞争判断，建议结合一手资料和后续动作继续观察。",
@@ -4858,7 +5246,9 @@
       "published_at": "2026-09-24T14:08:57Z",
       "first_seen_at": "2026-09-30T10:03:00Z",
       "last_checked_at": "2026-09-30T10:03:00Z",
-      "matched_windows": ["weekly"],
+      "matched_windows": [
+        "weekly"
+      ],
       "confidence": "高",
       "verification_status": "官方一手源",
       "why_it_matters": "它可能影响赛道节奏或竞争判断，建议结合一手资料和后续动作继续观察。",
@@ -4883,7 +5273,9 @@
       "published_at": "2026-09-24T00:00:00Z",
       "first_seen_at": "2026-09-30T10:03:00Z",
       "last_checked_at": "2026-09-30T10:03:00Z",
-      "matched_windows": ["weekly"],
+      "matched_windows": [
+        "weekly"
+      ],
       "confidence": "高",
       "verification_status": "官方一手源",
       "why_it_matters": "它可能影响赛道节奏或竞争判断，建议结合一手资料和后续动作继续观察。",
@@ -4908,7 +5300,9 @@
       "published_at": "2026-09-24T00:00:00Z",
       "first_seen_at": "2026-09-30T10:03:00Z",
       "last_checked_at": "2026-09-30T10:03:00Z",
-      "matched_windows": ["weekly"],
+      "matched_windows": [
+        "weekly"
+      ],
       "confidence": "高",
       "verification_status": "官方一手源",
       "why_it_matters": "它可能影响赛道节奏或竞争判断，建议结合一手资料和后续动作继续观察。",
@@ -4933,7 +5327,9 @@
       "published_at": "2026-09-23T21:34:20Z",
       "first_seen_at": "2026-09-30T10:03:00Z",
       "last_checked_at": "2026-09-30T10:03:00Z",
-      "matched_windows": ["weekly"],
+      "matched_windows": [
+        "weekly"
+      ],
       "confidence": "高",
       "verification_status": "官方一手源",
       "why_it_matters": "它可能影响赛道节奏或竞争判断，建议结合一手资料和后续动作继续观察。",
@@ -4958,7 +5354,9 @@
       "published_at": "2026-09-23T18:25:56Z",
       "first_seen_at": "2026-09-30T10:03:00Z",
       "last_checked_at": "2026-09-30T10:03:00Z",
-      "matched_windows": ["weekly"],
+      "matched_windows": [
+        "weekly"
+      ],
       "confidence": "高",
       "verification_status": "官方一手源",
       "why_it_matters": "它可能影响赛道节奏或竞争判断，建议结合一手资料和后续动作继续观察。",
@@ -4983,7 +5381,9 @@
       "published_at": "2026-09-23T16:26:24Z",
       "first_seen_at": "2026-09-30T10:03:00Z",
       "last_checked_at": "2026-09-30T10:03:00Z",
-      "matched_windows": ["weekly"],
+      "matched_windows": [
+        "weekly"
+      ],
       "confidence": "高",
       "verification_status": "官方一手源",
       "why_it_matters": "它可能影响赛道节奏或竞争判断，建议结合一手资料和后续动作继续观察。",
@@ -5008,7 +5408,9 @@
       "published_at": "2026-09-23T16:05:30Z",
       "first_seen_at": "2026-09-30T10:03:00Z",
       "last_checked_at": "2026-09-30T10:03:00Z",
-      "matched_windows": ["weekly"],
+      "matched_windows": [
+        "weekly"
+      ],
       "confidence": "高",
       "verification_status": "官方一手源",
       "why_it_matters": "它可能影响赛道节奏或竞争判断，建议结合一手资料和后续动作继续观察。",
@@ -5033,7 +5435,9 @@
       "published_at": "2026-09-23T16:00:00Z",
       "first_seen_at": "2026-09-30T10:03:00Z",
       "last_checked_at": "2026-09-30T10:03:00Z",
-      "matched_windows": ["weekly"],
+      "matched_windows": [
+        "weekly"
+      ],
       "confidence": "高",
       "verification_status": "官方一手源",
       "why_it_matters": "它可能影响赛道节奏或竞争判断，建议结合一手资料和后续动作继续观察。",
@@ -5058,7 +5462,9 @@
       "published_at": "2026-09-23T13:00:00Z",
       "first_seen_at": "2026-09-30T10:03:00Z",
       "last_checked_at": "2026-09-30T10:03:00Z",
-      "matched_windows": ["weekly"],
+      "matched_windows": [
+        "weekly"
+      ],
       "confidence": "高",
       "verification_status": "官方一手源",
       "why_it_matters": "它可能影响赛道节奏或竞争判断，建议结合一手资料和后续动作继续观察。",
@@ -5083,7 +5489,9 @@
       "published_at": "2026-09-23T12:00:00Z",
       "first_seen_at": "2026-09-30T10:03:00Z",
       "last_checked_at": "2026-09-30T10:03:00Z",
-      "matched_windows": ["weekly"],
+      "matched_windows": [
+        "weekly"
+      ],
       "confidence": "高",
       "verification_status": "官方一手源",
       "why_it_matters": "它可能影响赛道节奏或竞争判断，建议结合一手资料和后续动作继续观察。",
@@ -5108,7 +5516,9 @@
       "published_at": "2026-09-23T12:00:00Z",
       "first_seen_at": "2026-09-30T10:03:00Z",
       "last_checked_at": "2026-09-30T10:03:00Z",
-      "matched_windows": ["weekly"],
+      "matched_windows": [
+        "weekly"
+      ],
       "confidence": "高",
       "verification_status": "官方一手源",
       "why_it_matters": "它可能影响赛道节奏或竞争判断，建议结合一手资料和后续动作继续观察。",
@@ -5133,7 +5543,9 @@
       "published_at": "2026-09-23T12:00:00Z",
       "first_seen_at": "2026-09-30T10:03:00Z",
       "last_checked_at": "2026-09-30T10:03:00Z",
-      "matched_windows": ["weekly"],
+      "matched_windows": [
+        "weekly"
+      ],
       "confidence": "高",
       "verification_status": "官方一手源",
       "why_it_matters": "它可能影响赛道节奏或竞争判断，建议结合一手资料和后续动作继续观察。",
@@ -5158,7 +5570,9 @@
       "published_at": "2026-09-23T02:00:00Z",
       "first_seen_at": "2026-09-30T10:03:00Z",
       "last_checked_at": "2026-09-30T10:03:00Z",
-      "matched_windows": ["weekly"],
+      "matched_windows": [
+        "weekly"
+      ],
       "confidence": "高",
       "verification_status": "官方一手源",
       "why_it_matters": "它可能影响赛道节奏或竞争判断，建议结合一手资料和后续动作继续观察。",
@@ -5183,7 +5597,9 @@
       "published_at": "2026-09-23T00:00:00Z",
       "first_seen_at": "2026-09-30T10:03:00Z",
       "last_checked_at": "2026-09-30T10:03:00Z",
-      "matched_windows": ["weekly"],
+      "matched_windows": [
+        "weekly"
+      ],
       "confidence": "高",
       "verification_status": "官方一手源",
       "why_it_matters": "它可能影响赛道节奏或竞争判断，建议结合一手资料和后续动作继续观察。",
@@ -5208,7 +5624,9 @@
       "published_at": "2026-09-22T21:00:00Z",
       "first_seen_at": "2026-09-30T10:03:00Z",
       "last_checked_at": "2026-09-30T10:03:00Z",
-      "matched_windows": ["weekly"],
+      "matched_windows": [
+        "weekly"
+      ],
       "confidence": "高",
       "verification_status": "官方一手源",
       "why_it_matters": "它可能影响赛道节奏或竞争判断，建议结合一手资料和后续动作继续观察。",
@@ -5233,7 +5651,9 @@
       "published_at": "2026-09-22T20:48:36Z",
       "first_seen_at": "2026-09-30T10:03:00Z",
       "last_checked_at": "2026-09-30T10:03:00Z",
-      "matched_windows": ["weekly"],
+      "matched_windows": [
+        "weekly"
+      ],
       "confidence": "高",
       "verification_status": "官方一手源",
       "why_it_matters": "它可能影响赛道节奏或竞争判断，建议结合一手资料和后续动作继续观察。",
@@ -5258,7 +5678,9 @@
       "published_at": "2026-09-22T17:16:36Z",
       "first_seen_at": "2026-09-30T10:03:00Z",
       "last_checked_at": "2026-09-30T10:03:00Z",
-      "matched_windows": ["weekly"],
+      "matched_windows": [
+        "weekly"
+      ],
       "confidence": "高",
       "verification_status": "官方一手源",
       "why_it_matters": "它可能影响赛道节奏或竞争判断，建议结合一手资料和后续动作继续观察。",
@@ -5283,7 +5705,9 @@
       "published_at": "2026-09-22T00:00:00Z",
       "first_seen_at": "2026-09-30T10:03:00Z",
       "last_checked_at": "2026-09-30T10:03:00Z",
-      "matched_windows": ["weekly"],
+      "matched_windows": [
+        "weekly"
+      ],
       "confidence": "高",
       "verification_status": "官方一手源",
       "why_it_matters": "它可能影响赛道节奏或竞争判断，建议结合一手资料和后续动作继续观察。",
@@ -5308,7 +5732,9 @@
       "published_at": "2026-09-22T00:00:00Z",
       "first_seen_at": "2026-09-30T10:03:00Z",
       "last_checked_at": "2026-09-30T10:03:00Z",
-      "matched_windows": ["weekly"],
+      "matched_windows": [
+        "weekly"
+      ],
       "confidence": "高",
       "verification_status": "官方一手源",
       "why_it_matters": "它可能影响赛道节奏或竞争判断，建议结合一手资料和后续动作继续观察。",
@@ -5333,7 +5759,9 @@
       "published_at": "2026-09-22T00:00:00Z",
       "first_seen_at": "2026-09-30T10:03:00Z",
       "last_checked_at": "2026-09-30T10:03:00Z",
-      "matched_windows": ["weekly"],
+      "matched_windows": [
+        "weekly"
+      ],
       "confidence": "高",
       "verification_status": "官方一手源",
       "why_it_matters": "它可能影响赛道节奏或竞争判断，建议结合一手资料和后续动作继续观察。",
@@ -5358,7 +5786,9 @@
       "published_at": "2026-09-21T21:51:14Z",
       "first_seen_at": "2026-09-30T10:03:00Z",
       "last_checked_at": "2026-09-30T10:03:00Z",
-      "matched_windows": ["weekly"],
+      "matched_windows": [
+        "weekly"
+      ],
       "confidence": "高",
       "verification_status": "官方一手源",
       "why_it_matters": "它可能影响赛道节奏或竞争判断，建议结合一手资料和后续动作继续观察。",
@@ -5383,7 +5813,9 @@
       "published_at": "2026-09-21T21:05:37Z",
       "first_seen_at": "2026-09-30T10:03:00Z",
       "last_checked_at": "2026-09-30T10:03:00Z",
-      "matched_windows": ["weekly"],
+      "matched_windows": [
+        "weekly"
+      ],
       "confidence": "高",
       "verification_status": "官方一手源",
       "why_it_matters": "它可能影响赛道节奏或竞争判断，建议结合一手资料和后续动作继续观察。",
@@ -5408,7 +5840,9 @@
       "published_at": "2026-09-21T19:07:33Z",
       "first_seen_at": "2026-09-30T10:03:00Z",
       "last_checked_at": "2026-09-30T10:03:00Z",
-      "matched_windows": ["weekly"],
+      "matched_windows": [
+        "weekly"
+      ],
       "confidence": "高",
       "verification_status": "官方一手源",
       "why_it_matters": "它可能影响赛道节奏或竞争判断，建议结合一手资料和后续动作继续观察。",
@@ -5433,7 +5867,9 @@
       "published_at": "2026-09-21T12:00:00Z",
       "first_seen_at": "2026-09-30T10:03:00Z",
       "last_checked_at": "2026-09-30T10:03:00Z",
-      "matched_windows": ["weekly"],
+      "matched_windows": [
+        "weekly"
+      ],
       "confidence": "高",
       "verification_status": "官方一手源",
       "why_it_matters": "它可能影响赛道节奏或竞争判断，建议结合一手资料和后续动作继续观察。",
@@ -5458,7 +5894,9 @@
       "published_at": "2026-09-21T12:00:00Z",
       "first_seen_at": "2026-09-30T10:03:00Z",
       "last_checked_at": "2026-09-30T10:03:00Z",
-      "matched_windows": ["weekly"],
+      "matched_windows": [
+        "weekly"
+      ],
       "confidence": "高",
       "verification_status": "官方一手源",
       "why_it_matters": "它可能影响赛道节奏或竞争判断，建议结合一手资料和后续动作继续观察。",
@@ -5483,7 +5921,9 @@
       "published_at": "2026-09-21T10:00:00Z",
       "first_seen_at": "2026-09-30T10:03:00Z",
       "last_checked_at": "2026-09-30T10:03:00Z",
-      "matched_windows": ["weekly"],
+      "matched_windows": [
+        "weekly"
+      ],
       "confidence": "高",
       "verification_status": "官方一手源",
       "why_it_matters": "它可能影响赛道节奏或竞争判断，建议结合一手资料和后续动作继续观察。",
@@ -5508,7 +5948,9 @@
       "published_at": "2026-09-21T07:00:00Z",
       "first_seen_at": "2026-09-30T10:03:00Z",
       "last_checked_at": "2026-09-30T10:03:00Z",
-      "matched_windows": ["weekly"],
+      "matched_windows": [
+        "weekly"
+      ],
       "confidence": "高",
       "verification_status": "官方一手源",
       "why_it_matters": "它可能影响赛道节奏或竞争判断，建议结合一手资料和后续动作继续观察。",
@@ -5533,7 +5975,9 @@
       "published_at": "2026-09-21T00:00:00Z",
       "first_seen_at": "2026-09-30T10:03:00Z",
       "last_checked_at": "2026-09-30T10:03:00Z",
-      "matched_windows": ["weekly"],
+      "matched_windows": [
+        "weekly"
+      ],
       "confidence": "高",
       "verification_status": "官方一手源",
       "why_it_matters": "它可能影响赛道节奏或竞争判断，建议结合一手资料和后续动作继续观察。",
@@ -5558,7 +6002,9 @@
       "published_at": "2026-09-21T00:00:00Z",
       "first_seen_at": "2026-09-30T10:03:00Z",
       "last_checked_at": "2026-09-30T10:03:00Z",
-      "matched_windows": ["weekly"],
+      "matched_windows": [
+        "weekly"
+      ],
       "confidence": "高",
       "verification_status": "官方一手源",
       "why_it_matters": "它可能影响赛道节奏或竞争判断，建议结合一手资料和后续动作继续观察。",
@@ -5583,7 +6029,9 @@
       "published_at": "2026-09-18T17:46:09Z",
       "first_seen_at": "2026-09-30T10:03:00Z",
       "last_checked_at": "2026-09-30T10:03:00Z",
-      "matched_windows": ["weekly"],
+      "matched_windows": [
+        "weekly"
+      ],
       "confidence": "高",
       "verification_status": "官方一手源",
       "why_it_matters": "它可能影响赛道节奏或竞争判断，建议结合一手资料和后续动作继续观察。",
@@ -5608,7 +6056,9 @@
       "published_at": "2026-09-18T00:00:00Z",
       "first_seen_at": "2026-09-30T10:03:00Z",
       "last_checked_at": "2026-09-30T10:03:00Z",
-      "matched_windows": ["weekly"],
+      "matched_windows": [
+        "weekly"
+      ],
       "confidence": "高",
       "verification_status": "官方一手源",
       "why_it_matters": "它可能影响赛道节奏或竞争判断，建议结合一手资料和后续动作继续观察。",
@@ -5633,7 +6083,9 @@
       "published_at": "2026-09-17T20:45:00Z",
       "first_seen_at": "2026-09-30T10:03:00Z",
       "last_checked_at": "2026-09-30T10:03:00Z",
-      "matched_windows": ["weekly"],
+      "matched_windows": [
+        "weekly"
+      ],
       "confidence": "高",
       "verification_status": "官方一手源",
       "why_it_matters": "它可能影响赛道节奏或竞争判断，建议结合一手资料和后续动作继续观察。",
@@ -5658,7 +6110,9 @@
       "published_at": "2026-09-17T16:21:31Z",
       "first_seen_at": "2026-09-30T10:03:00Z",
       "last_checked_at": "2026-09-30T10:03:00Z",
-      "matched_windows": ["weekly"],
+      "matched_windows": [
+        "weekly"
+      ],
       "confidence": "高",
       "verification_status": "官方一手源",
       "why_it_matters": "它可能影响赛道节奏或竞争判断，建议结合一手资料和后续动作继续观察。",
@@ -5683,7 +6137,9 @@
       "published_at": "2026-09-17T12:00:00Z",
       "first_seen_at": "2026-09-30T10:03:00Z",
       "last_checked_at": "2026-09-30T10:03:00Z",
-      "matched_windows": ["weekly"],
+      "matched_windows": [
+        "weekly"
+      ],
       "confidence": "高",
       "verification_status": "官方一手源",
       "why_it_matters": "它可能影响赛道节奏或竞争判断，建议结合一手资料和后续动作继续观察。",
@@ -5708,7 +6164,9 @@
       "published_at": "2026-09-16T17:00:00Z",
       "first_seen_at": "2026-09-30T10:03:00Z",
       "last_checked_at": "2026-09-30T10:03:00Z",
-      "matched_windows": ["weekly"],
+      "matched_windows": [
+        "weekly"
+      ],
       "confidence": "高",
       "verification_status": "官方一手源",
       "why_it_matters": "它可能影响赛道节奏或竞争判断，建议结合一手资料和后续动作继续观察。",
@@ -5733,7 +6191,9 @@
       "published_at": "2026-09-16T16:29:07Z",
       "first_seen_at": "2026-09-30T10:03:00Z",
       "last_checked_at": "2026-09-30T10:03:00Z",
-      "matched_windows": ["weekly"],
+      "matched_windows": [
+        "weekly"
+      ],
       "confidence": "高",
       "verification_status": "官方一手源",
       "why_it_matters": "它可能影响赛道节奏或竞争判断，建议结合一手资料和后续动作继续观察。",
@@ -5758,7 +6218,9 @@
       "published_at": "2026-09-16T16:00:00Z",
       "first_seen_at": "2026-09-30T10:03:00Z",
       "last_checked_at": "2026-09-30T10:03:00Z",
-      "matched_windows": ["weekly"],
+      "matched_windows": [
+        "weekly"
+      ],
       "confidence": "高",
       "verification_status": "官方一手源",
       "why_it_matters": "它可能影响赛道节奏或竞争判断，建议结合一手资料和后续动作继续观察。",
@@ -5783,7 +6245,9 @@
       "published_at": "2026-09-16T13:00:00Z",
       "first_seen_at": "2026-09-30T10:03:00Z",
       "last_checked_at": "2026-09-30T10:03:00Z",
-      "matched_windows": ["weekly"],
+      "matched_windows": [
+        "weekly"
+      ],
       "confidence": "高",
       "verification_status": "官方一手源",
       "why_it_matters": "它可能影响赛道节奏或竞争判断，建议结合一手资料和后续动作继续观察。",
@@ -5808,7 +6272,9 @@
       "published_at": "2026-09-16T12:00:00Z",
       "first_seen_at": "2026-09-30T10:03:00Z",
       "last_checked_at": "2026-09-30T10:03:00Z",
-      "matched_windows": ["weekly"],
+      "matched_windows": [
+        "weekly"
+      ],
       "confidence": "高",
       "verification_status": "官方一手源",
       "why_it_matters": "它可能影响赛道节奏或竞争判断，建议结合一手资料和后续动作继续观察。",
@@ -5833,7 +6299,9 @@
       "published_at": "2026-09-16T00:00:00Z",
       "first_seen_at": "2026-09-30T10:03:00Z",
       "last_checked_at": "2026-09-30T10:03:00Z",
-      "matched_windows": ["weekly"],
+      "matched_windows": [
+        "weekly"
+      ],
       "confidence": "高",
       "verification_status": "官方一手源",
       "why_it_matters": "它可能影响赛道节奏或竞争判断，建议结合一手资料和后续动作继续观察。",
@@ -5858,7 +6326,9 @@
       "published_at": "2026-09-16T00:00:00Z",
       "first_seen_at": "2026-09-30T10:03:00Z",
       "last_checked_at": "2026-09-30T10:03:00Z",
-      "matched_windows": ["weekly"],
+      "matched_windows": [
+        "weekly"
+      ],
       "confidence": "高",
       "verification_status": "官方一手源",
       "why_it_matters": "它可能影响赛道节奏或竞争判断，建议结合一手资料和后续动作继续观察。",
@@ -5883,7 +6353,9 @@
       "published_at": "2026-09-16T00:00:00Z",
       "first_seen_at": "2026-09-30T10:03:00Z",
       "last_checked_at": "2026-09-30T10:03:00Z",
-      "matched_windows": ["weekly"],
+      "matched_windows": [
+        "weekly"
+      ],
       "confidence": "高",
       "verification_status": "官方一手源",
       "why_it_matters": "它可能影响赛道节奏或竞争判断，建议结合一手资料和后续动作继续观察。",
@@ -5908,7 +6380,9 @@
       "published_at": "2026-09-15T21:44:59Z",
       "first_seen_at": "2026-09-30T10:03:00Z",
       "last_checked_at": "2026-09-30T10:03:00Z",
-      "matched_windows": ["weekly"],
+      "matched_windows": [
+        "weekly"
+      ],
       "confidence": "高",
       "verification_status": "官方一手源",
       "why_it_matters": "它可能影响赛道节奏或竞争判断，建议结合一手资料和后续动作继续观察。",
@@ -5933,7 +6407,9 @@
       "published_at": "2026-09-15T20:00:00Z",
       "first_seen_at": "2026-09-30T10:03:00Z",
       "last_checked_at": "2026-09-30T10:03:00Z",
-      "matched_windows": ["weekly"],
+      "matched_windows": [
+        "weekly"
+      ],
       "confidence": "高",
       "verification_status": "官方一手源",
       "why_it_matters": "它可能影响赛道节奏或竞争判断，建议结合一手资料和后续动作继续观察。",
@@ -5958,7 +6434,9 @@
       "published_at": "2026-09-15T17:06:22Z",
       "first_seen_at": "2026-09-30T10:03:00Z",
       "last_checked_at": "2026-09-30T10:03:00Z",
-      "matched_windows": ["weekly"],
+      "matched_windows": [
+        "weekly"
+      ],
       "confidence": "高",
       "verification_status": "官方一手源",
       "why_it_matters": "它可能影响赛道节奏或竞争判断，建议结合一手资料和后续动作继续观察。",
@@ -5983,7 +6461,9 @@
       "published_at": "2026-09-15T17:00:18Z",
       "first_seen_at": "2026-09-30T10:03:00Z",
       "last_checked_at": "2026-09-30T10:03:00Z",
-      "matched_windows": ["weekly"],
+      "matched_windows": [
+        "weekly"
+      ],
       "confidence": "高",
       "verification_status": "官方一手源",
       "why_it_matters": "它可能影响赛道节奏或竞争判断，建议结合一手资料和后续动作继续观察。",
@@ -6008,7 +6488,9 @@
       "published_at": "2026-09-15T16:42:44Z",
       "first_seen_at": "2026-09-30T10:03:00Z",
       "last_checked_at": "2026-09-30T10:03:00Z",
-      "matched_windows": ["weekly"],
+      "matched_windows": [
+        "weekly"
+      ],
       "confidence": "高",
       "verification_status": "官方一手源",
       "why_it_matters": "它可能影响赛道节奏或竞争判断，建议结合一手资料和后续动作继续观察。",
@@ -6033,7 +6515,9 @@
       "published_at": "2026-09-15T16:00:44Z",
       "first_seen_at": "2026-09-30T10:03:00Z",
       "last_checked_at": "2026-09-30T10:03:00Z",
-      "matched_windows": ["weekly"],
+      "matched_windows": [
+        "weekly"
+      ],
       "confidence": "高",
       "verification_status": "官方一手源",
       "why_it_matters": "它可能影响赛道节奏或竞争判断，建议结合一手资料和后续动作继续观察。",
@@ -6058,7 +6542,9 @@
       "published_at": "2026-09-15T02:49:31Z",
       "first_seen_at": "2026-09-30T10:03:00Z",
       "last_checked_at": "2026-09-30T10:03:00Z",
-      "matched_windows": ["weekly"],
+      "matched_windows": [
+        "weekly"
+      ],
       "confidence": "高",
       "verification_status": "官方一手源",
       "why_it_matters": "它可能影响赛道节奏或竞争判断，建议结合一手资料和后续动作继续观察。",
@@ -6083,7 +6569,9 @@
       "published_at": "2026-09-14T12:00:00Z",
       "first_seen_at": "2026-09-30T10:03:00Z",
       "last_checked_at": "2026-09-30T10:03:00Z",
-      "matched_windows": ["weekly"],
+      "matched_windows": [
+        "weekly"
+      ],
       "confidence": "高",
       "verification_status": "官方一手源",
       "why_it_matters": "它可能影响赛道节奏或竞争判断，建议结合一手资料和后续动作继续观察。",
@@ -6108,7 +6596,9 @@
       "published_at": "2026-09-14T00:00:00Z",
       "first_seen_at": "2026-09-30T10:03:00Z",
       "last_checked_at": "2026-09-30T10:03:00Z",
-      "matched_windows": ["weekly"],
+      "matched_windows": [
+        "weekly"
+      ],
       "confidence": "高",
       "verification_status": "官方一手源",
       "why_it_matters": "它可能影响赛道节奏或竞争判断，建议结合一手资料和后续动作继续观察。",
@@ -6133,7 +6623,9 @@
       "published_at": "2026-09-11T23:57:34Z",
       "first_seen_at": "2026-09-30T10:03:00Z",
       "last_checked_at": "2026-09-30T10:03:00Z",
-      "matched_windows": ["weekly"],
+      "matched_windows": [
+        "weekly"
+      ],
       "confidence": "高",
       "verification_status": "官方一手源",
       "why_it_matters": "它可能影响赛道节奏或竞争判断，建议结合一手资料和后续动作继续观察。",
@@ -6158,7 +6650,9 @@
       "published_at": "2026-09-11T16:00:00Z",
       "first_seen_at": "2026-09-30T10:03:00Z",
       "last_checked_at": "2026-09-30T10:03:00Z",
-      "matched_windows": ["weekly"],
+      "matched_windows": [
+        "weekly"
+      ],
       "confidence": "高",
       "verification_status": "官方一手源",
       "why_it_matters": "它可能影响赛道节奏或竞争判断，建议结合一手资料和后续动作继续观察。",
@@ -6183,7 +6677,9 @@
       "published_at": "2026-09-11T10:00:00Z",
       "first_seen_at": "2026-09-30T10:03:00Z",
       "last_checked_at": "2026-09-30T10:03:00Z",
-      "matched_windows": ["weekly"],
+      "matched_windows": [
+        "weekly"
+      ],
       "confidence": "高",
       "verification_status": "官方一手源",
       "why_it_matters": "它可能影响赛道节奏或竞争判断，建议结合一手资料和后续动作继续观察。",
@@ -6208,7 +6704,9 @@
       "published_at": "2026-09-10T22:50:22Z",
       "first_seen_at": "2026-09-30T10:03:00Z",
       "last_checked_at": "2026-09-30T10:03:00Z",
-      "matched_windows": ["weekly"],
+      "matched_windows": [
+        "weekly"
+      ],
       "confidence": "高",
       "verification_status": "官方一手源",
       "why_it_matters": "它可能影响赛道节奏或竞争判断，建议结合一手资料和后续动作继续观察。",
@@ -6233,7 +6731,9 @@
       "published_at": "2026-09-10T15:00:00Z",
       "first_seen_at": "2026-09-30T10:03:00Z",
       "last_checked_at": "2026-09-30T10:03:00Z",
-      "matched_windows": ["weekly"],
+      "matched_windows": [
+        "weekly"
+      ],
       "confidence": "高",
       "verification_status": "官方一手源",
       "why_it_matters": "它可能影响赛道节奏或竞争判断，建议结合一手资料和后续动作继续观察。",
@@ -6258,7 +6758,9 @@
       "published_at": "2026-09-10T13:08:37Z",
       "first_seen_at": "2026-09-30T10:03:00Z",
       "last_checked_at": "2026-09-30T10:03:00Z",
-      "matched_windows": ["weekly"],
+      "matched_windows": [
+        "weekly"
+      ],
       "confidence": "高",
       "verification_status": "官方一手源",
       "why_it_matters": "它可能影响赛道节奏或竞争判断，建议结合一手资料和后续动作继续观察。",
@@ -6283,7 +6785,9 @@
       "published_at": "2026-09-10T07:00:00Z",
       "first_seen_at": "2026-09-30T10:03:00Z",
       "last_checked_at": "2026-09-30T10:03:00Z",
-      "matched_windows": ["weekly"],
+      "matched_windows": [
+        "weekly"
+      ],
       "confidence": "高",
       "verification_status": "官方一手源",
       "why_it_matters": "它可能影响赛道节奏或竞争判断，建议结合一手资料和后续动作继续观察。",
@@ -6308,7 +6812,9 @@
       "published_at": "2026-09-10T00:00:00Z",
       "first_seen_at": "2026-09-30T10:03:00Z",
       "last_checked_at": "2026-09-30T10:03:00Z",
-      "matched_windows": ["weekly"],
+      "matched_windows": [
+        "weekly"
+      ],
       "confidence": "高",
       "verification_status": "官方一手源",
       "why_it_matters": "它可能影响赛道节奏或竞争判断，建议结合一手资料和后续动作继续观察。",
@@ -6333,7 +6839,9 @@
       "published_at": "2026-09-10T00:00:00Z",
       "first_seen_at": "2026-09-30T10:03:00Z",
       "last_checked_at": "2026-09-30T10:03:00Z",
-      "matched_windows": ["weekly"],
+      "matched_windows": [
+        "weekly"
+      ],
       "confidence": "高",
       "verification_status": "官方一手源",
       "why_it_matters": "它可能影响赛道节奏或竞争判断，建议结合一手资料和后续动作继续观察。",
@@ -6358,7 +6866,9 @@
       "published_at": "2026-09-10T00:00:00Z",
       "first_seen_at": "2026-09-30T10:03:00Z",
       "last_checked_at": "2026-09-30T10:03:00Z",
-      "matched_windows": ["weekly"],
+      "matched_windows": [
+        "weekly"
+      ],
       "confidence": "高",
       "verification_status": "官方一手源",
       "why_it_matters": "它可能影响赛道节奏或竞争判断，建议结合一手资料和后续动作继续观察。",
@@ -6383,7 +6893,9 @@
       "published_at": "2026-09-09T23:45:42Z",
       "first_seen_at": "2026-09-30T10:03:00Z",
       "last_checked_at": "2026-09-30T10:03:00Z",
-      "matched_windows": ["weekly"],
+      "matched_windows": [
+        "weekly"
+      ],
       "confidence": "高",
       "verification_status": "官方一手源",
       "why_it_matters": "它可能影响赛道节奏或竞争判断，建议结合一手资料和后续动作继续观察。",
@@ -6408,7 +6920,9 @@
       "published_at": "2026-09-09T20:31:11Z",
       "first_seen_at": "2026-09-30T10:03:00Z",
       "last_checked_at": "2026-09-30T10:03:00Z",
-      "matched_windows": ["weekly"],
+      "matched_windows": [
+        "weekly"
+      ],
       "confidence": "高",
       "verification_status": "官方一手源",
       "why_it_matters": "它可能影响赛道节奏或竞争判断，建议结合一手资料和后续动作继续观察。",
@@ -6433,7 +6947,9 @@
       "published_at": "2026-09-09T17:00:00Z",
       "first_seen_at": "2026-09-30T10:03:00Z",
       "last_checked_at": "2026-09-30T10:03:00Z",
-      "matched_windows": ["weekly"],
+      "matched_windows": [
+        "weekly"
+      ],
       "confidence": "高",
       "verification_status": "官方一手源",
       "why_it_matters": "它可能影响赛道节奏或竞争判断，建议结合一手资料和后续动作继续观察。",
@@ -6458,7 +6974,9 @@
       "published_at": "2026-09-09T11:00:00Z",
       "first_seen_at": "2026-09-30T10:03:00Z",
       "last_checked_at": "2026-09-30T10:03:00Z",
-      "matched_windows": ["weekly"],
+      "matched_windows": [
+        "weekly"
+      ],
       "confidence": "高",
       "verification_status": "官方一手源",
       "why_it_matters": "它可能影响赛道节奏或竞争判断，建议结合一手资料和后续动作继续观察。",
@@ -6483,7 +7001,9 @@
       "published_at": "2026-09-08T13:00:00Z",
       "first_seen_at": "2026-09-30T10:03:00Z",
       "last_checked_at": "2026-09-30T10:03:00Z",
-      "matched_windows": ["weekly"],
+      "matched_windows": [
+        "weekly"
+      ],
       "confidence": "高",
       "verification_status": "官方一手源",
       "why_it_matters": "它可能影响赛道节奏或竞争判断，建议结合一手资料和后续动作继续观察。",
@@ -6508,7 +7028,9 @@
       "published_at": "2026-09-08T10:00:00Z",
       "first_seen_at": "2026-09-30T10:03:00Z",
       "last_checked_at": "2026-09-30T10:03:00Z",
-      "matched_windows": ["weekly"],
+      "matched_windows": [
+        "weekly"
+      ],
       "confidence": "高",
       "verification_status": "官方一手源",
       "why_it_matters": "它可能影响赛道节奏或竞争判断，建议结合一手资料和后续动作继续观察。",
@@ -6533,7 +7055,9 @@
       "published_at": "2026-09-08T00:00:00Z",
       "first_seen_at": "2026-09-30T10:03:00Z",
       "last_checked_at": "2026-09-30T10:03:00Z",
-      "matched_windows": ["weekly"],
+      "matched_windows": [
+        "weekly"
+      ],
       "confidence": "高",
       "verification_status": "官方一手源",
       "why_it_matters": "它可能影响赛道节奏或竞争判断，建议结合一手资料和后续动作继续观察。",
@@ -6558,7 +7082,9 @@
       "published_at": "2026-09-06T09:00:00Z",
       "first_seen_at": "2026-09-30T10:03:00Z",
       "last_checked_at": "2026-09-30T10:03:00Z",
-      "matched_windows": ["weekly"],
+      "matched_windows": [
+        "weekly"
+      ],
       "confidence": "高",
       "verification_status": "官方一手源",
       "why_it_matters": "它可能影响赛道节奏或竞争判断，建议结合一手资料和后续动作继续观察。",
@@ -6583,7 +7109,9 @@
       "published_at": "2026-09-04T18:05:02Z",
       "first_seen_at": "2026-09-30T10:03:00Z",
       "last_checked_at": "2026-09-30T10:03:00Z",
-      "matched_windows": ["weekly"],
+      "matched_windows": [
+        "weekly"
+      ],
       "confidence": "高",
       "verification_status": "官方一手源",
       "why_it_matters": "它可能影响赛道节奏或竞争判断，建议结合一手资料和后续动作继续观察。",
@@ -6608,7 +7136,9 @@
       "published_at": "2026-09-03T18:20:31Z",
       "first_seen_at": "2026-09-30T10:03:00Z",
       "last_checked_at": "2026-09-30T10:03:00Z",
-      "matched_windows": ["weekly"],
+      "matched_windows": [
+        "weekly"
+      ],
       "confidence": "高",
       "verification_status": "官方一手源",
       "why_it_matters": "它可能影响赛道节奏或竞争判断，建议结合一手资料和后续动作继续观察。",
@@ -6633,7 +7163,9 @@
       "published_at": "2026-09-03T16:00:00Z",
       "first_seen_at": "2026-09-30T10:03:00Z",
       "last_checked_at": "2026-09-30T10:03:00Z",
-      "matched_windows": ["weekly"],
+      "matched_windows": [
+        "weekly"
+      ],
       "confidence": "高",
       "verification_status": "官方一手源",
       "why_it_matters": "它可能影响赛道节奏或竞争判断，建议结合一手资料和后续动作继续观察。",
@@ -6658,7 +7190,9 @@
       "published_at": "2026-09-03T13:15:00Z",
       "first_seen_at": "2026-09-30T10:03:00Z",
       "last_checked_at": "2026-09-30T10:03:00Z",
-      "matched_windows": ["weekly"],
+      "matched_windows": [
+        "weekly"
+      ],
       "confidence": "高",
       "verification_status": "官方一手源",
       "why_it_matters": "它可能影响赛道节奏或竞争判断，建议结合一手资料和后续动作继续观察。",
@@ -6683,7 +7217,9 @@
       "published_at": "2026-09-03T13:13:48Z",
       "first_seen_at": "2026-09-30T10:03:00Z",
       "last_checked_at": "2026-09-30T10:03:00Z",
-      "matched_windows": ["weekly"],
+      "matched_windows": [
+        "weekly"
+      ],
       "confidence": "高",
       "verification_status": "官方一手源",
       "why_it_matters": "它可能影响赛道节奏或竞争判断，建议结合一手资料和后续动作继续观察。",
@@ -6708,7 +7244,9 @@
       "published_at": "2026-09-03T12:00:00Z",
       "first_seen_at": "2026-09-30T10:03:00Z",
       "last_checked_at": "2026-09-30T10:03:00Z",
-      "matched_windows": ["weekly"],
+      "matched_windows": [
+        "weekly"
+      ],
       "confidence": "高",
       "verification_status": "官方一手源",
       "why_it_matters": "它可能影响赛道节奏或竞争判断，建议结合一手资料和后续动作继续观察。",
@@ -6733,7 +7271,9 @@
       "published_at": "2026-09-03T12:00:00Z",
       "first_seen_at": "2026-09-30T10:03:00Z",
       "last_checked_at": "2026-09-30T10:03:00Z",
-      "matched_windows": ["weekly"],
+      "matched_windows": [
+        "weekly"
+      ],
       "confidence": "高",
       "verification_status": "官方一手源",
       "why_it_matters": "它可能影响赛道节奏或竞争判断，建议结合一手资料和后续动作继续观察。",
@@ -6758,7 +7298,9 @@
       "published_at": "2026-09-03T00:00:00Z",
       "first_seen_at": "2026-09-30T10:03:00Z",
       "last_checked_at": "2026-09-30T10:03:00Z",
-      "matched_windows": ["weekly"],
+      "matched_windows": [
+        "weekly"
+      ],
       "confidence": "高",
       "verification_status": "官方一手源",
       "why_it_matters": "它可能影响赛道节奏或竞争判断，建议结合一手资料和后续动作继续观察。",
@@ -6783,7 +7325,9 @@
       "published_at": "2026-09-03T00:00:00Z",
       "first_seen_at": "2026-09-30T10:03:00Z",
       "last_checked_at": "2026-09-30T10:03:00Z",
-      "matched_windows": ["weekly"],
+      "matched_windows": [
+        "weekly"
+      ],
       "confidence": "高",
       "verification_status": "官方一手源",
       "why_it_matters": "它可能影响赛道节奏或竞争判断，建议结合一手资料和后续动作继续观察。",
@@ -6808,7 +7352,9 @@
       "published_at": "2026-09-03T00:00:00Z",
       "first_seen_at": "2026-09-30T10:03:00Z",
       "last_checked_at": "2026-09-30T10:03:00Z",
-      "matched_windows": ["weekly"],
+      "matched_windows": [
+        "weekly"
+      ],
       "confidence": "高",
       "verification_status": "官方一手源",
       "why_it_matters": "它可能影响赛道节奏或竞争判断，建议结合一手资料和后续动作继续观察。",
@@ -6833,7 +7379,9 @@
       "published_at": "2026-09-02T23:06:37Z",
       "first_seen_at": "2026-09-30T10:03:00Z",
       "last_checked_at": "2026-09-30T10:03:00Z",
-      "matched_windows": ["weekly"],
+      "matched_windows": [
+        "weekly"
+      ],
       "confidence": "高",
       "verification_status": "官方一手源",
       "why_it_matters": "它可能影响赛道节奏或竞争判断，建议结合一手资料和后续动作继续观察。",
@@ -6858,7 +7406,9 @@
       "published_at": "2026-09-02T21:33:39Z",
       "first_seen_at": "2026-09-30T10:03:00Z",
       "last_checked_at": "2026-09-30T10:03:00Z",
-      "matched_windows": ["weekly"],
+      "matched_windows": [
+        "weekly"
+      ],
       "confidence": "高",
       "verification_status": "官方一手源",
       "why_it_matters": "它可能影响赛道节奏或竞争判断，建议结合一手资料和后续动作继续观察。",
@@ -6883,7 +7433,9 @@
       "published_at": "2026-09-02T17:16:06Z",
       "first_seen_at": "2026-09-30T10:03:00Z",
       "last_checked_at": "2026-09-30T10:03:00Z",
-      "matched_windows": ["weekly"],
+      "matched_windows": [
+        "weekly"
+      ],
       "confidence": "高",
       "verification_status": "官方一手源",
       "why_it_matters": "它可能影响赛道节奏或竞争判断，建议结合一手资料和后续动作继续观察。",
@@ -6908,7 +7460,9 @@
       "published_at": "2026-09-02T16:28:46Z",
       "first_seen_at": "2026-09-30T10:03:00Z",
       "last_checked_at": "2026-09-30T10:03:00Z",
-      "matched_windows": ["weekly"],
+      "matched_windows": [
+        "weekly"
+      ],
       "confidence": "高",
       "verification_status": "官方一手源",
       "why_it_matters": "它可能影响赛道节奏或竞争判断，建议结合一手资料和后续动作继续观察。",
@@ -6933,7 +7487,9 @@
       "published_at": "2026-09-02T12:00:00Z",
       "first_seen_at": "2026-09-30T10:03:00Z",
       "last_checked_at": "2026-09-30T10:03:00Z",
-      "matched_windows": ["weekly"],
+      "matched_windows": [
+        "weekly"
+      ],
       "confidence": "高",
       "verification_status": "官方一手源",
       "why_it_matters": "它可能影响赛道节奏或竞争判断，建议结合一手资料和后续动作继续观察。",
@@ -6958,7 +7514,9 @@
       "published_at": "2026-09-01T18:40:00Z",
       "first_seen_at": "2026-09-30T10:03:00Z",
       "last_checked_at": "2026-09-30T10:03:00Z",
-      "matched_windows": ["weekly"],
+      "matched_windows": [
+        "weekly"
+      ],
       "confidence": "高",
       "verification_status": "官方一手源",
       "why_it_matters": "它可能影响赛道节奏或竞争判断，建议结合一手资料和后续动作继续观察。",
@@ -6983,7 +7541,9 @@
       "published_at": "2026-09-01T17:00:00Z",
       "first_seen_at": "2026-09-30T10:03:00Z",
       "last_checked_at": "2026-09-30T10:03:00Z",
-      "matched_windows": ["weekly"],
+      "matched_windows": [
+        "weekly"
+      ],
       "confidence": "高",
       "verification_status": "官方一手源",
       "why_it_matters": "它可能影响赛道节奏或竞争判断，建议结合一手资料和后续动作继续观察。",
@@ -7008,7 +7568,9 @@
       "published_at": "2026-09-01T01:00:00Z",
       "first_seen_at": "2026-09-30T10:03:00Z",
       "last_checked_at": "2026-09-30T10:03:00Z",
-      "matched_windows": ["weekly"],
+      "matched_windows": [
+        "weekly"
+      ],
       "confidence": "高",
       "verification_status": "官方一手源",
       "why_it_matters": "它可能影响赛道节奏或竞争判断，建议结合一手资料和后续动作继续观察。",
@@ -7033,7 +7595,9 @@
       "published_at": "2026-08-31T22:07:34Z",
       "first_seen_at": "2026-09-30T10:03:00Z",
       "last_checked_at": "2026-09-30T10:03:00Z",
-      "matched_windows": ["weekly"],
+      "matched_windows": [
+        "weekly"
+      ],
       "confidence": "高",
       "verification_status": "官方一手源",
       "why_it_matters": "它可能影响赛道节奏或竞争判断，建议结合一手资料和后续动作继续观察。",
@@ -7058,7 +7622,9 @@
       "published_at": "2026-08-31T20:56:08Z",
       "first_seen_at": "2026-09-30T10:03:00Z",
       "last_checked_at": "2026-09-30T10:03:00Z",
-      "matched_windows": ["weekly"],
+      "matched_windows": [
+        "weekly"
+      ],
       "confidence": "高",
       "verification_status": "官方一手源",
       "why_it_matters": "它可能影响赛道节奏或竞争判断，建议结合一手资料和后续动作继续观察。",
@@ -7083,7 +7649,9 @@
       "published_at": "2026-08-31T17:19:40Z",
       "first_seen_at": "2026-09-30T10:03:00Z",
       "last_checked_at": "2026-09-30T10:03:00Z",
-      "matched_windows": ["weekly"],
+      "matched_windows": [
+        "weekly"
+      ],
       "confidence": "高",
       "verification_status": "官方一手源",
       "why_it_matters": "它可能影响赛道节奏或竞争判断，建议结合一手资料和后续动作继续观察。",
@@ -7108,7 +7676,9 @@
       "published_at": "2026-08-31T16:00:00Z",
       "first_seen_at": "2026-09-30T10:03:00Z",
       "last_checked_at": "2026-09-30T10:03:00Z",
-      "matched_windows": ["weekly"],
+      "matched_windows": [
+        "weekly"
+      ],
       "confidence": "高",
       "verification_status": "官方一手源",
       "why_it_matters": "它可能影响赛道节奏或竞争判断，建议结合一手资料和后续动作继续观察。",
@@ -7133,7 +7703,9 @@
       "published_at": "2026-08-31T07:00:00Z",
       "first_seen_at": "2026-09-30T10:03:00Z",
       "last_checked_at": "2026-09-30T10:03:00Z",
-      "matched_windows": ["monthly"],
+      "matched_windows": [
+        "monthly"
+      ],
       "confidence": "高",
       "verification_status": "官方一手源",
       "why_it_matters": "它可能影响赛道节奏或竞争判断，建议结合一手资料和后续动作继续观察。",
@@ -7158,7 +7730,9 @@
       "published_at": "2026-08-31T07:00:00Z",
       "first_seen_at": "2026-09-30T10:03:00Z",
       "last_checked_at": "2026-09-30T10:03:00Z",
-      "matched_windows": ["monthly"],
+      "matched_windows": [
+        "monthly"
+      ],
       "confidence": "高",
       "verification_status": "官方一手源",
       "why_it_matters": "它可能影响赛道节奏或竞争判断，建议结合一手资料和后续动作继续观察。",
@@ -7183,7 +7757,9 @@
       "published_at": "2026-08-31T04:00:00Z",
       "first_seen_at": "2026-09-30T10:03:00Z",
       "last_checked_at": "2026-09-30T10:03:00Z",
-      "matched_windows": ["monthly"],
+      "matched_windows": [
+        "monthly"
+      ],
       "confidence": "高",
       "verification_status": "官方一手源",
       "why_it_matters": "它可能影响赛道节奏或竞争判断，建议结合一手资料和后续动作继续观察。",
@@ -7208,7 +7784,9 @@
       "published_at": "2026-08-28T19:07:31Z",
       "first_seen_at": "2026-09-30T10:03:00Z",
       "last_checked_at": "2026-09-30T10:03:00Z",
-      "matched_windows": ["monthly"],
+      "matched_windows": [
+        "monthly"
+      ],
       "confidence": "高",
       "verification_status": "官方一手源",
       "why_it_matters": "它可能影响赛道节奏或竞争判断，建议结合一手资料和后续动作继续观察。",
@@ -7233,7 +7811,9 @@
       "published_at": "2026-08-28T00:00:00Z",
       "first_seen_at": "2026-09-30T10:03:00Z",
       "last_checked_at": "2026-09-30T10:03:00Z",
-      "matched_windows": ["monthly"],
+      "matched_windows": [
+        "monthly"
+      ],
       "confidence": "高",
       "verification_status": "官方一手源",
       "why_it_matters": "它可能影响赛道节奏或竞争判断，建议结合一手资料和后续动作继续观察。",
@@ -7258,7 +7838,9 @@
       "published_at": "2026-08-27T17:48:53Z",
       "first_seen_at": "2026-09-30T10:03:00Z",
       "last_checked_at": "2026-09-30T10:03:00Z",
-      "matched_windows": ["monthly"],
+      "matched_windows": [
+        "monthly"
+      ],
       "confidence": "高",
       "verification_status": "官方一手源",
       "why_it_matters": "它可能影响赛道节奏或竞争判断，建议结合一手资料和后续动作继续观察。",
@@ -7283,7 +7865,9 @@
       "published_at": "2026-08-27T17:48:50Z",
       "first_seen_at": "2026-09-30T10:03:00Z",
       "last_checked_at": "2026-09-30T10:03:00Z",
-      "matched_windows": ["monthly"],
+      "matched_windows": [
+        "monthly"
+      ],
       "confidence": "高",
       "verification_status": "官方一手源",
       "why_it_matters": "它可能影响赛道节奏或竞争判断，建议结合一手资料和后续动作继续观察。",
@@ -7308,7 +7892,9 @@
       "published_at": "2026-08-27T17:37:00Z",
       "first_seen_at": "2026-09-30T10:03:00Z",
       "last_checked_at": "2026-09-30T10:03:00Z",
-      "matched_windows": ["monthly"],
+      "matched_windows": [
+        "monthly"
+      ],
       "confidence": "高",
       "verification_status": "官方一手源",
       "why_it_matters": "它可能影响赛道节奏或竞争判断，建议结合一手资料和后续动作继续观察。",
@@ -7333,7 +7919,9 @@
       "published_at": "2026-08-27T09:00:00Z",
       "first_seen_at": "2026-09-30T10:03:00Z",
       "last_checked_at": "2026-09-30T10:03:00Z",
-      "matched_windows": ["monthly"],
+      "matched_windows": [
+        "monthly"
+      ],
       "confidence": "高",
       "verification_status": "官方一手源",
       "why_it_matters": "它可能影响赛道节奏或竞争判断，建议结合一手资料和后续动作继续观察。",
@@ -7358,7 +7946,9 @@
       "published_at": "2026-08-26T21:08:40Z",
       "first_seen_at": "2026-09-30T10:03:00Z",
       "last_checked_at": "2026-09-30T10:03:00Z",
-      "matched_windows": ["monthly"],
+      "matched_windows": [
+        "monthly"
+      ],
       "confidence": "高",
       "verification_status": "官方一手源",
       "why_it_matters": "它可能影响赛道节奏或竞争判断，建议结合一手资料和后续动作继续观察。",
@@ -7383,7 +7973,9 @@
       "published_at": "2026-08-26T18:42:43Z",
       "first_seen_at": "2026-09-30T10:03:00Z",
       "last_checked_at": "2026-09-30T10:03:00Z",
-      "matched_windows": ["monthly"],
+      "matched_windows": [
+        "monthly"
+      ],
       "confidence": "高",
       "verification_status": "官方一手源",
       "why_it_matters": "它可能影响赛道节奏或竞争判断，建议结合一手资料和后续动作继续观察。",
@@ -7408,7 +8000,9 @@
       "published_at": "2026-08-26T10:00:00Z",
       "first_seen_at": "2026-09-30T10:03:00Z",
       "last_checked_at": "2026-09-30T10:03:00Z",
-      "matched_windows": ["monthly"],
+      "matched_windows": [
+        "monthly"
+      ],
       "confidence": "高",
       "verification_status": "官方一手源",
       "why_it_matters": "它可能影响赛道节奏或竞争判断，建议结合一手资料和后续动作继续观察。",
@@ -7433,7 +8027,9 @@
       "published_at": "2026-08-26T10:00:00Z",
       "first_seen_at": "2026-09-30T10:03:00Z",
       "last_checked_at": "2026-09-30T10:03:00Z",
-      "matched_windows": ["monthly"],
+      "matched_windows": [
+        "monthly"
+      ],
       "confidence": "高",
       "verification_status": "官方一手源",
       "why_it_matters": "它可能影响赛道节奏或竞争判断，建议结合一手资料和后续动作继续观察。",
@@ -7458,7 +8054,9 @@
       "published_at": "2026-08-26T00:00:00Z",
       "first_seen_at": "2026-09-30T10:03:00Z",
       "last_checked_at": "2026-09-30T10:03:00Z",
-      "matched_windows": ["monthly"],
+      "matched_windows": [
+        "monthly"
+      ],
       "confidence": "高",
       "verification_status": "官方一手源",
       "why_it_matters": "它可能影响赛道节奏或竞争判断，建议结合一手资料和后续动作继续观察。",
@@ -7483,7 +8081,9 @@
       "published_at": "2026-08-26T00:00:00Z",
       "first_seen_at": "2026-09-30T10:03:00Z",
       "last_checked_at": "2026-09-30T10:03:00Z",
-      "matched_windows": ["monthly"],
+      "matched_windows": [
+        "monthly"
+      ],
       "confidence": "高",
       "verification_status": "官方一手源",
       "why_it_matters": "它可能影响赛道节奏或竞争判断，建议结合一手资料和后续动作继续观察。",
@@ -7508,7 +8108,9 @@
       "published_at": "2026-08-25T19:10:59Z",
       "first_seen_at": "2026-09-30T10:03:00Z",
       "last_checked_at": "2026-09-30T10:03:00Z",
-      "matched_windows": ["monthly"],
+      "matched_windows": [
+        "monthly"
+      ],
       "confidence": "高",
       "verification_status": "官方一手源",
       "why_it_matters": "它可能影响赛道节奏或竞争判断，建议结合一手资料和后续动作继续观察。",
@@ -7533,7 +8135,9 @@
       "published_at": "2026-08-25T15:14:14Z",
       "first_seen_at": "2026-09-30T10:03:00Z",
       "last_checked_at": "2026-09-30T10:03:00Z",
-      "matched_windows": ["monthly"],
+      "matched_windows": [
+        "monthly"
+      ],
       "confidence": "高",
       "verification_status": "官方一手源",
       "why_it_matters": "它可能影响赛道节奏或竞争判断，建议结合一手资料和后续动作继续观察。",
@@ -7558,7 +8162,9 @@
       "published_at": "2026-08-25T11:39:24Z",
       "first_seen_at": "2026-09-30T10:03:00Z",
       "last_checked_at": "2026-09-30T10:03:00Z",
-      "matched_windows": ["monthly"],
+      "matched_windows": [
+        "monthly"
+      ],
       "confidence": "高",
       "verification_status": "官方一手源",
       "why_it_matters": "它可能影响赛道节奏或竞争判断，建议结合一手资料和后续动作继续观察。",
@@ -7583,7 +8189,9 @@
       "published_at": "2026-08-24T17:52:50Z",
       "first_seen_at": "2026-09-30T10:03:00Z",
       "last_checked_at": "2026-09-30T10:03:00Z",
-      "matched_windows": ["monthly"],
+      "matched_windows": [
+        "monthly"
+      ],
       "confidence": "高",
       "verification_status": "官方一手源",
       "why_it_matters": "它可能影响赛道节奏或竞争判断，建议结合一手资料和后续动作继续观察。",
@@ -7608,7 +8216,9 @@
       "published_at": "2026-08-24T15:23:55Z",
       "first_seen_at": "2026-09-30T10:03:00Z",
       "last_checked_at": "2026-09-30T10:03:00Z",
-      "matched_windows": ["monthly"],
+      "matched_windows": [
+        "monthly"
+      ],
       "confidence": "高",
       "verification_status": "官方一手源",
       "why_it_matters": "它可能影响赛道节奏或竞争判断，建议结合一手资料和后续动作继续观察。",
@@ -7633,7 +8243,9 @@
       "published_at": "2026-08-24T15:01:04Z",
       "first_seen_at": "2026-09-30T10:03:00Z",
       "last_checked_at": "2026-09-30T10:03:00Z",
-      "matched_windows": ["monthly"],
+      "matched_windows": [
+        "monthly"
+      ],
       "confidence": "高",
       "verification_status": "官方一手源",
       "why_it_matters": "它可能影响赛道节奏或竞争判断，建议结合一手资料和后续动作继续观察。",
@@ -7658,7 +8270,9 @@
       "published_at": "2026-08-21T23:09:15Z",
       "first_seen_at": "2026-09-30T10:03:00Z",
       "last_checked_at": "2026-09-30T10:03:00Z",
-      "matched_windows": ["monthly"],
+      "matched_windows": [
+        "monthly"
+      ],
       "confidence": "高",
       "verification_status": "官方一手源",
       "why_it_matters": "它可能影响赛道节奏或竞争判断，建议结合一手资料和后续动作继续观察。",
@@ -7683,7 +8297,9 @@
       "published_at": "2026-08-21T22:32:02Z",
       "first_seen_at": "2026-09-30T10:03:00Z",
       "last_checked_at": "2026-09-30T10:03:00Z",
-      "matched_windows": ["monthly"],
+      "matched_windows": [
+        "monthly"
+      ],
       "confidence": "高",
       "verification_status": "官方一手源",
       "why_it_matters": "它可能影响赛道节奏或竞争判断，建议结合一手资料和后续动作继续观察。",
@@ -7708,7 +8324,9 @@
       "published_at": "2026-08-21T21:08:48Z",
       "first_seen_at": "2026-09-30T10:03:00Z",
       "last_checked_at": "2026-09-30T10:03:00Z",
-      "matched_windows": ["monthly"],
+      "matched_windows": [
+        "monthly"
+      ],
       "confidence": "高",
       "verification_status": "官方一手源",
       "why_it_matters": "它可能影响赛道节奏或竞争判断，建议结合一手资料和后续动作继续观察。",
@@ -7733,7 +8351,9 @@
       "published_at": "2026-08-21T18:29:21Z",
       "first_seen_at": "2026-09-30T10:03:00Z",
       "last_checked_at": "2026-09-30T10:03:00Z",
-      "matched_windows": ["monthly"],
+      "matched_windows": [
+        "monthly"
+      ],
       "confidence": "高",
       "verification_status": "官方一手源",
       "why_it_matters": "它可能影响赛道节奏或竞争判断，建议结合一手资料和后续动作继续观察。",
@@ -7758,7 +8378,9 @@
       "published_at": "2026-08-21T17:02:24Z",
       "first_seen_at": "2026-09-30T10:03:00Z",
       "last_checked_at": "2026-09-30T10:03:00Z",
-      "matched_windows": ["monthly"],
+      "matched_windows": [
+        "monthly"
+      ],
       "confidence": "高",
       "verification_status": "官方一手源",
       "why_it_matters": "它可能影响赛道节奏或竞争判断，建议结合一手资料和后续动作继续观察。",
@@ -7783,7 +8405,9 @@
       "published_at": "2026-08-21T16:21:21Z",
       "first_seen_at": "2026-09-30T10:03:00Z",
       "last_checked_at": "2026-09-30T10:03:00Z",
-      "matched_windows": ["monthly"],
+      "matched_windows": [
+        "monthly"
+      ],
       "confidence": "高",
       "verification_status": "官方一手源",
       "why_it_matters": "它可能影响赛道节奏或竞争判断，建议结合一手资料和后续动作继续观察。",
@@ -7808,7 +8432,9 @@
       "published_at": "2026-08-21T10:54:00Z",
       "first_seen_at": "2026-09-30T10:03:00Z",
       "last_checked_at": "2026-09-30T10:03:00Z",
-      "matched_windows": ["monthly"],
+      "matched_windows": [
+        "monthly"
+      ],
       "confidence": "高",
       "verification_status": "官方一手源",
       "why_it_matters": "它可能影响赛道节奏或竞争判断，建议结合一手资料和后续动作继续观察。",
@@ -7833,7 +8459,9 @@
       "published_at": "2026-08-20T21:38:18Z",
       "first_seen_at": "2026-09-30T10:03:00Z",
       "last_checked_at": "2026-09-30T10:03:00Z",
-      "matched_windows": ["monthly"],
+      "matched_windows": [
+        "monthly"
+      ],
       "confidence": "高",
       "verification_status": "官方一手源",
       "why_it_matters": "它可能影响赛道节奏或竞争判断，建议结合一手资料和后续动作继续观察。",
@@ -7858,7 +8486,9 @@
       "published_at": "2026-08-20T18:15:34Z",
       "first_seen_at": "2026-09-30T10:03:00Z",
       "last_checked_at": "2026-09-30T10:03:00Z",
-      "matched_windows": ["monthly"],
+      "matched_windows": [
+        "monthly"
+      ],
       "confidence": "高",
       "verification_status": "官方一手源",
       "why_it_matters": "它可能影响赛道节奏或竞争判断，建议结合一手资料和后续动作继续观察。",
@@ -7883,7 +8513,9 @@
       "published_at": "2026-08-20T18:15:33Z",
       "first_seen_at": "2026-09-30T10:03:00Z",
       "last_checked_at": "2026-09-30T10:03:00Z",
-      "matched_windows": ["monthly"],
+      "matched_windows": [
+        "monthly"
+      ],
       "confidence": "高",
       "verification_status": "官方一手源",
       "why_it_matters": "它可能影响赛道节奏或竞争判断，建议结合一手资料和后续动作继续观察。",
@@ -7908,7 +8540,9 @@
       "published_at": "2026-08-20T18:15:32Z",
       "first_seen_at": "2026-09-30T10:03:00Z",
       "last_checked_at": "2026-09-30T10:03:00Z",
-      "matched_windows": ["monthly"],
+      "matched_windows": [
+        "monthly"
+      ],
       "confidence": "高",
       "verification_status": "官方一手源",
       "why_it_matters": "它可能影响赛道节奏或竞争判断，建议结合一手资料和后续动作继续观察。",
@@ -7933,7 +8567,9 @@
       "published_at": "2026-08-20T18:15:32Z",
       "first_seen_at": "2026-09-30T10:03:00Z",
       "last_checked_at": "2026-09-30T10:03:00Z",
-      "matched_windows": ["monthly"],
+      "matched_windows": [
+        "monthly"
+      ],
       "confidence": "高",
       "verification_status": "官方一手源",
       "why_it_matters": "它可能影响赛道节奏或竞争判断，建议结合一手资料和后续动作继续观察。",
@@ -7958,7 +8594,9 @@
       "published_at": "2026-08-20T18:15:30Z",
       "first_seen_at": "2026-09-30T10:03:00Z",
       "last_checked_at": "2026-09-30T10:03:00Z",
-      "matched_windows": ["monthly"],
+      "matched_windows": [
+        "monthly"
+      ],
       "confidence": "高",
       "verification_status": "官方一手源",
       "why_it_matters": "它可能影响赛道节奏或竞争判断，建议结合一手资料和后续动作继续观察。",
@@ -7983,7 +8621,9 @@
       "published_at": "2026-08-20T18:15:28Z",
       "first_seen_at": "2026-09-30T10:03:00Z",
       "last_checked_at": "2026-09-30T10:03:00Z",
-      "matched_windows": ["monthly"],
+      "matched_windows": [
+        "monthly"
+      ],
       "confidence": "高",
       "verification_status": "官方一手源",
       "why_it_matters": "它可能影响赛道节奏或竞争判断，建议结合一手资料和后续动作继续观察。",
@@ -8008,7 +8648,9 @@
       "published_at": "2026-08-20T18:15:27Z",
       "first_seen_at": "2026-09-30T10:03:00Z",
       "last_checked_at": "2026-09-30T10:03:00Z",
-      "matched_windows": ["monthly"],
+      "matched_windows": [
+        "monthly"
+      ],
       "confidence": "高",
       "verification_status": "官方一手源",
       "why_it_matters": "它可能影响赛道节奏或竞争判断，建议结合一手资料和后续动作继续观察。",
@@ -8033,7 +8675,9 @@
       "published_at": "2026-08-20T18:15:27Z",
       "first_seen_at": "2026-09-30T10:03:00Z",
       "last_checked_at": "2026-09-30T10:03:00Z",
-      "matched_windows": ["monthly"],
+      "matched_windows": [
+        "monthly"
+      ],
       "confidence": "高",
       "verification_status": "官方一手源",
       "why_it_matters": "它可能影响赛道节奏或竞争判断，建议结合一手资料和后续动作继续观察。",
@@ -8058,7 +8702,9 @@
       "published_at": "2026-08-20T18:15:25Z",
       "first_seen_at": "2026-09-30T10:03:00Z",
       "last_checked_at": "2026-09-30T10:03:00Z",
-      "matched_windows": ["monthly"],
+      "matched_windows": [
+        "monthly"
+      ],
       "confidence": "高",
       "verification_status": "官方一手源",
       "why_it_matters": "它可能影响赛道节奏或竞争判断，建议结合一手资料和后续动作继续观察。",
@@ -8083,7 +8729,9 @@
       "published_at": "2026-08-20T18:15:24Z",
       "first_seen_at": "2026-09-30T10:03:00Z",
       "last_checked_at": "2026-09-30T10:03:00Z",
-      "matched_windows": ["monthly"],
+      "matched_windows": [
+        "monthly"
+      ],
       "confidence": "高",
       "verification_status": "官方一手源",
       "why_it_matters": "它可能影响赛道节奏或竞争判断，建议结合一手资料和后续动作继续观察。",
@@ -8108,7 +8756,9 @@
       "published_at": "2026-08-20T18:15:23Z",
       "first_seen_at": "2026-09-30T10:03:00Z",
       "last_checked_at": "2026-09-30T10:03:00Z",
-      "matched_windows": ["monthly"],
+      "matched_windows": [
+        "monthly"
+      ],
       "confidence": "高",
       "verification_status": "官方一手源",
       "why_it_matters": "它可能影响赛道节奏或竞争判断，建议结合一手资料和后续动作继续观察。",
@@ -8133,7 +8783,9 @@
       "published_at": "2026-08-20T18:15:23Z",
       "first_seen_at": "2026-09-30T10:03:00Z",
       "last_checked_at": "2026-09-30T10:03:00Z",
-      "matched_windows": ["monthly"],
+      "matched_windows": [
+        "monthly"
+      ],
       "confidence": "高",
       "verification_status": "官方一手源",
       "why_it_matters": "它可能影响赛道节奏或竞争判断，建议结合一手资料和后续动作继续观察。",
@@ -8158,7 +8810,9 @@
       "published_at": "2026-08-20T16:52:57Z",
       "first_seen_at": "2026-09-30T10:03:00Z",
       "last_checked_at": "2026-09-30T10:03:00Z",
-      "matched_windows": ["monthly"],
+      "matched_windows": [
+        "monthly"
+      ],
       "confidence": "高",
       "verification_status": "官方一手源",
       "why_it_matters": "它可能影响赛道节奏或竞争判断，建议结合一手资料和后续动作继续观察。",
@@ -8183,7 +8837,9 @@
       "published_at": "2026-08-18T18:09:38Z",
       "first_seen_at": "2026-09-30T10:03:00Z",
       "last_checked_at": "2026-09-30T10:03:00Z",
-      "matched_windows": ["monthly"],
+      "matched_windows": [
+        "monthly"
+      ],
       "confidence": "高",
       "verification_status": "官方一手源",
       "why_it_matters": "它可能影响赛道节奏或竞争判断，建议结合一手资料和后续动作继续观察。",
@@ -8208,7 +8864,9 @@
       "published_at": "2026-08-18T00:00:00Z",
       "first_seen_at": "2026-09-30T10:03:00Z",
       "last_checked_at": "2026-09-30T10:03:00Z",
-      "matched_windows": ["monthly"],
+      "matched_windows": [
+        "monthly"
+      ],
       "confidence": "高",
       "verification_status": "官方一手源",
       "why_it_matters": "它可能影响赛道节奏或竞争判断，建议结合一手资料和后续动作继续观察。",
@@ -8233,7 +8891,9 @@
       "published_at": "2026-08-17T19:46:21Z",
       "first_seen_at": "2026-09-30T10:03:00Z",
       "last_checked_at": "2026-09-30T10:03:00Z",
-      "matched_windows": ["monthly"],
+      "matched_windows": [
+        "monthly"
+      ],
       "confidence": "高",
       "verification_status": "官方一手源",
       "why_it_matters": "它可能影响赛道节奏或竞争判断，建议结合一手资料和后续动作继续观察。",
@@ -8258,7 +8918,9 @@
       "published_at": "2026-08-17T10:34:00Z",
       "first_seen_at": "2026-09-30T10:03:00Z",
       "last_checked_at": "2026-09-30T10:03:00Z",
-      "matched_windows": ["monthly"],
+      "matched_windows": [
+        "monthly"
+      ],
       "confidence": "高",
       "verification_status": "官方一手源",
       "why_it_matters": "它可能影响赛道节奏或竞争判断，建议结合一手资料和后续动作继续观察。",
@@ -8283,7 +8945,9 @@
       "published_at": "2026-08-14T00:00:00Z",
       "first_seen_at": "2026-09-30T10:03:00Z",
       "last_checked_at": "2026-09-30T10:03:00Z",
-      "matched_windows": ["monthly"],
+      "matched_windows": [
+        "monthly"
+      ],
       "confidence": "高",
       "verification_status": "官方一手源",
       "why_it_matters": "它可能影响赛道节奏或竞争判断，建议结合一手资料和后续动作继续观察。",
@@ -8308,7 +8972,9 @@
       "published_at": "2026-08-12T09:51:00Z",
       "first_seen_at": "2026-09-30T10:03:00Z",
       "last_checked_at": "2026-09-30T10:03:00Z",
-      "matched_windows": ["monthly"],
+      "matched_windows": [
+        "monthly"
+      ],
       "confidence": "高",
       "verification_status": "官方一手源",
       "why_it_matters": "它可能影响赛道节奏或竞争判断，建议结合一手资料和后续动作继续观察。",
@@ -8333,7 +8999,9 @@
       "published_at": "2026-08-11T17:04:00Z",
       "first_seen_at": "2026-09-30T10:03:00Z",
       "last_checked_at": "2026-09-30T10:03:00Z",
-      "matched_windows": ["monthly"],
+      "matched_windows": [
+        "monthly"
+      ],
       "confidence": "高",
       "verification_status": "官方一手源",
       "why_it_matters": "它可能影响赛道节奏或竞争判断，建议结合一手资料和后续动作继续观察。",
@@ -8358,7 +9026,9 @@
       "published_at": "2026-08-11T13:37:10Z",
       "first_seen_at": "2026-09-30T10:03:00Z",
       "last_checked_at": "2026-09-30T10:03:00Z",
-      "matched_windows": ["monthly"],
+      "matched_windows": [
+        "monthly"
+      ],
       "confidence": "高",
       "verification_status": "官方一手源",
       "why_it_matters": "它可能影响赛道节奏或竞争判断，建议结合一手资料和后续动作继续观察。",
@@ -8383,7 +9053,9 @@
       "published_at": "2026-08-10T15:07:06Z",
       "first_seen_at": "2026-09-30T10:03:00Z",
       "last_checked_at": "2026-09-30T10:03:00Z",
-      "matched_windows": ["monthly"],
+      "matched_windows": [
+        "monthly"
+      ],
       "confidence": "高",
       "verification_status": "官方一手源",
       "why_it_matters": "它可能影响赛道节奏或竞争判断，建议结合一手资料和后续动作继续观察。",
@@ -8408,7 +9080,9 @@
       "published_at": "2026-08-10T10:05:36Z",
       "first_seen_at": "2026-09-30T10:03:00Z",
       "last_checked_at": "2026-09-30T10:03:00Z",
-      "matched_windows": ["monthly"],
+      "matched_windows": [
+        "monthly"
+      ],
       "confidence": "高",
       "verification_status": "官方一手源",
       "why_it_matters": "它可能影响赛道节奏或竞争判断，建议结合一手资料和后续动作继续观察。",
@@ -8433,7 +9107,9 @@
       "published_at": "2026-08-06T00:00:00Z",
       "first_seen_at": "2026-09-30T10:03:00Z",
       "last_checked_at": "2026-09-30T10:03:00Z",
-      "matched_windows": ["monthly"],
+      "matched_windows": [
+        "monthly"
+      ],
       "confidence": "高",
       "verification_status": "官方一手源",
       "why_it_matters": "它可能影响赛道节奏或竞争判断，建议结合一手资料和后续动作继续观察。",
@@ -8458,7 +9134,9 @@
       "published_at": "2026-08-04T13:38:55Z",
       "first_seen_at": "2026-09-30T10:03:00Z",
       "last_checked_at": "2026-09-30T10:03:00Z",
-      "matched_windows": ["monthly"],
+      "matched_windows": [
+        "monthly"
+      ],
       "confidence": "高",
       "verification_status": "官方一手源",
       "why_it_matters": "它可能影响赛道节奏或竞争判断，建议结合一手资料和后续动作继续观察。",
@@ -8475,10 +9153,10 @@
       "status": "ok",
       "kind": "RSS",
       "fetched": 10,
-      "matched": 10,
+      "matched": 2,
       "latest_item_at": "2026-09-29T00:00:00Z",
-      "etag": "\"6abc2563-2743\"",
-      "duration_ms": 305
+      "etag": "W/\"6abc2563-2743\"",
+      "duration_ms": 115
     },
     {
       "id": "arxiv-ai-robotics",
@@ -8489,7 +9167,7 @@
       "matched": 80,
       "latest_item_at": "2026-09-30T04:00:00Z",
       "etag": "dd3acf69aeb51479e24bc5c8187bdbe4a334605b7d778cf6574d186be83152b0",
-      "duration_ms": 3771
+      "duration_ms": 345
     },
     {
       "id": "aws-ml",
@@ -8497,10 +9175,10 @@
       "status": "ok",
       "kind": "RSS",
       "fetched": 20,
-      "matched": 20,
+      "matched": 13,
       "latest_item_at": "2026-09-30T01:13:14Z",
       "etag": null,
-      "duration_ms": 853
+      "duration_ms": 195
     },
     {
       "id": "boston-dynamics",
@@ -8511,63 +9189,77 @@
       "matched": 0,
       "latest_item_at": null,
       "etag": null,
-      "duration_ms": 752
+      "duration_ms": 448
     },
     {
       "id": "github-bytedance-seed",
       "name": "ByteDance Seed GitHub",
+      "status": "ok",
       "kind": "GitHub",
-      "status": "error",
-      "error": "fetch failed: https://api.github.com/orgs/ByteDance-Seed/events?per_page=100: HTTP Error 403: rate limit exceeded",
-      "matched": 0
+      "fetched": 100,
+      "matched": 0,
+      "latest_item_at": null,
+      "duration_ms": 1043
     },
     {
       "id": "github-deepseek",
       "name": "DeepSeek GitHub",
+      "status": "ok",
       "kind": "GitHub",
-      "status": "error",
-      "error": "fetch failed: https://api.github.com/orgs/deepseek-ai/events?per_page=100: HTTP Error 403: rate limit exceeded",
-      "matched": 0
+      "fetched": 99,
+      "matched": 0,
+      "latest_item_at": null,
+      "duration_ms": 1208
     },
     {
       "id": "github-mindspore",
       "name": "MindSpore GitHub",
+      "status": "ok",
       "kind": "GitHub",
-      "status": "error",
-      "error": "fetch failed: https://api.github.com/orgs/mindspore-ai/events?per_page=100: HTTP Error 403: rate limit exceeded",
-      "matched": 0
+      "fetched": 100,
+      "matched": 0,
+      "latest_item_at": null,
+      "duration_ms": 1520
     },
     {
       "id": "github-paddle",
       "name": "PaddlePaddle GitHub",
+      "status": "ok",
       "kind": "GitHub",
-      "status": "error",
-      "error": "fetch failed: https://api.github.com/orgs/PaddlePaddle/events?per_page=100: HTTP Error 403: rate limit exceeded",
-      "matched": 0
+      "fetched": 96,
+      "matched": 0,
+      "latest_item_at": null,
+      "duration_ms": 1434
     },
     {
       "id": "github-qwen",
       "name": "Qwen GitHub",
+      "status": "ok",
       "kind": "GitHub",
-      "status": "error",
-      "error": "fetch failed: https://api.github.com/orgs/QwenLM/events?per_page=100: HTTP Error 403: rate limit exceeded",
-      "matched": 0
+      "fetched": 100,
+      "matched": 0,
+      "latest_item_at": null,
+      "duration_ms": 1798
     },
     {
       "id": "github-tencent-hunyuan",
       "name": "Tencent Hunyuan GitHub",
+      "status": "ok",
       "kind": "GitHub",
-      "status": "error",
-      "error": "fetch failed: https://api.github.com/orgs/Tencent-Hunyuan/events?per_page=100: HTTP Error 403: rate limit exceeded",
-      "matched": 0
+      "fetched": 100,
+      "matched": 0,
+      "latest_item_at": null,
+      "duration_ms": 1055
     },
     {
       "id": "github-unitree",
       "name": "Unitree Robotics GitHub",
+      "status": "ok",
       "kind": "GitHub",
-      "status": "error",
-      "error": "fetch failed: https://api.github.com/orgs/unitreerobotics/events?per_page=100: HTTP Error 403: rate limit exceeded",
-      "matched": 0
+      "fetched": 99,
+      "matched": 0,
+      "latest_item_at": null,
+      "duration_ms": 1171
     },
     {
       "id": "google-research",
@@ -8575,10 +9267,10 @@
       "status": "ok",
       "kind": "RSS",
       "fetched": 100,
-      "matched": 18,
+      "matched": 1,
       "latest_item_at": "2026-09-29T18:38:27Z",
       "etag": null,
-      "duration_ms": 1874
+      "duration_ms": 437
     },
     {
       "id": "hugging-face",
@@ -8586,10 +9278,10 @@
       "status": "ok",
       "kind": "RSS",
       "fetched": 869,
-      "matched": 37,
+      "matched": 3,
       "latest_item_at": "2026-09-29T15:30:38Z",
       "etag": "W/\"3ea16-AL+Q3Eb0t/GiWqjtqcYGKqB1zcM\"",
-      "duration_ms": 849
+      "duration_ms": 281
     },
     {
       "id": "microsoft-ai",
@@ -8597,10 +9289,10 @@
       "status": "ok",
       "kind": "RSS",
       "fetched": 10,
-      "matched": 4,
-      "latest_item_at": "2026-09-10T13:08:37Z",
+      "matched": 0,
+      "latest_item_at": null,
       "etag": "W/\"47bccc7684e36461a64bdc10a2b27a08\"",
-      "duration_ms": 347
+      "duration_ms": 179
     },
     {
       "id": "microsoft-research",
@@ -8608,10 +9300,10 @@
       "status": "ok",
       "kind": "RSS",
       "fetched": 10,
-      "matched": 9,
+      "matched": 2,
       "latest_item_at": "2026-09-29T14:00:02Z",
       "etag": "\"92f956225359f4b95680777d61a4012b\"",
-      "duration_ms": 2397
+      "duration_ms": 652
     },
     {
       "id": "nvidia-developer",
@@ -8619,10 +9311,10 @@
       "status": "ok",
       "kind": "RSS",
       "fetched": 100,
-      "matched": 80,
+      "matched": 7,
       "latest_item_at": "2026-09-29T19:10:59Z",
       "etag": "\"fa3f9a91c4b57bd38dcc52f7632e1028\"",
-      "duration_ms": 1956
+      "duration_ms": 72
     },
     {
       "id": "nvidia-robotics",
@@ -8633,7 +9325,7 @@
       "matched": 0,
       "latest_item_at": null,
       "etag": "\"6abc0e23-4042c\"",
-      "duration_ms": 798
+      "duration_ms": 142
     },
     {
       "id": "openai-news",
@@ -8641,10 +9333,10 @@
       "status": "ok",
       "kind": "RSS",
       "fetched": 1238,
-      "matched": 80,
+      "matched": 8,
       "latest_item_at": "2026-09-29T10:00:00Z",
       "etag": null,
-      "duration_ms": 464
+      "duration_ms": 178
     }
   ]
 }
