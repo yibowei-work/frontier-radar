@@ -299,6 +299,24 @@ def matching_windows(published: datetime, windows: list[Window]) -> list[str]:
     return [window.name for window in windows if window.start <= published < window.end]
 
 
+def github_activity_native_id(repo_id: object, published: datetime) -> str:
+    push_day = published.astimezone(SHANGHAI).date().isoformat()
+    return f"repo:{repo_id}:{push_day}"
+
+
+def github_activity_key(item: dict[str, Any]) -> tuple[str, str, str] | None:
+    """Group legacy UTC IDs and current Beijing-day IDs for safe migration."""
+
+    if not str(item.get("source_id", "")).startswith("github-"):
+        return None
+    published = parse_datetime(item.get("published_at"))
+    url = canonical_url(str(item.get("url", "")))
+    if not published or not url:
+        return None
+    local_day = published.astimezone(SHANGHAI).date().isoformat()
+    return str(item["source_id"]), url, local_day
+
+
 def make_item(
     *,
     source: dict[str, Any],
@@ -436,7 +454,7 @@ def collect_github(source: dict[str, Any], now: datetime, windows: list[Window],
         summary = "；".join(details) + "。"
 
         repo_id = repository.get("id") or repository.get("full_name") or repo_name
-        native_id = f"repo:{repo_id}:{published.date().isoformat()}"
+        native_id = github_activity_native_id(repo_id, published)
         item = make_item(
             source=source,
             title=title,
@@ -477,6 +495,16 @@ def merge_items(existing: list[dict[str, Any]], incoming: list[dict[str, Any]], 
     revisions = 0
     for item in incoming:
         previous = by_id.get(item["id"])
+        activity_key = github_activity_key(item)
+        if activity_key:
+            legacy_ids = [
+                item_id
+                for item_id, candidate in by_id.items()
+                if item_id != item["id"] and github_activity_key(candidate) == activity_key
+            ]
+            legacy_items = [by_id.pop(item_id) for item_id in legacy_ids]
+            if not previous and legacy_items:
+                previous = min(legacy_items, key=lambda candidate: candidate.get("first_seen_at", ""))
         if previous:
             item["first_seen_at"] = previous.get("first_seen_at", item["first_seen_at"])
             old_revisions = previous.get("revisions", [])

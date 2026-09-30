@@ -45,6 +45,20 @@ class CanonicalUrlTests(unittest.TestCase):
 
 
 class GithubCollectorTests(unittest.TestCase):
+    def test_repository_activity_ids_follow_beijing_calendar_days(self):
+        first = datetime(2026, 9, 29, 16, 30, tzinfo=timezone.utc)
+        same_beijing_day = datetime(2026, 9, 30, 1, 0, tzinfo=timezone.utc)
+        next_beijing_day = datetime(2026, 9, 30, 16, 0, tzinfo=timezone.utc)
+
+        self.assertEqual(
+            collector.github_activity_native_id(42, first),
+            collector.github_activity_native_id(42, same_beijing_day),
+        )
+        self.assertNotEqual(
+            collector.github_activity_native_id(42, same_beijing_day),
+            collector.github_activity_native_id(42, next_beijing_day),
+        )
+
     def test_recent_repository_pushes_are_capped_and_old_or_forked_repos_are_ignored(self):
         now = datetime(2026, 9, 30, 11, 0, tzinfo=timezone.utc)
         windows = [collector.Window("daily", datetime(2026, 9, 27, 11, 0, tzinfo=timezone.utc), now, "2026-09-30")]
