@@ -436,7 +436,7 @@ export function IntelligenceDashboard({ data }: { data: IntelligenceData }) {
                   </p>
                 </div>
 
-                <div className="flex gap-2 overflow-x-auto pb-1 2xl:max-w-[560px] 2xl:justify-end">
+                <div className="topic-scroller flex gap-2 overflow-x-auto pb-1 2xl:max-w-[560px] 2xl:justify-end">
                   {[ALL, ...topics.slice(0, 6)].map((value) => (
                     <button
                       key={value}
@@ -768,7 +768,7 @@ export function IntelligenceDashboard({ data }: { data: IntelligenceData }) {
             </Button>
           </div>
 
-          <div className="mt-3 flex items-center gap-2 overflow-x-auto pb-1">
+          <div className="topic-scroller mt-3 flex items-center gap-2 overflow-x-auto pb-1">
             {[ALL, ...topics].map((value) => (
               <button
                 type="button"

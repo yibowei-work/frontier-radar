@@ -258,6 +258,14 @@
       0 0 22px rgba(119, 229, 245, 0.07);
   }
 
+  .topic-scroller {
+    scrollbar-width: none;
+  }
+
+  .topic-scroller::-webkit-scrollbar {
+    display: none;
+  }
+
   .signal-card {
     isolation: isolate;
     overflow: hidden;
@@ -370,6 +378,7 @@
   }
 
   .mobile-nav {
+    bottom: max(0.75rem, env(safe-area-inset-bottom));
     padding-bottom: max(0.375rem, env(safe-area-inset-bottom));
   }
 
