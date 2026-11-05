@@ -1,6 +1,6 @@
 {
-  "daily_last_success": "2026-11-04T10:07:49Z",
+  "daily_last_success": "2026-11-05T10:01:39Z",
   "weekly_last_due_date": "2026-11-01",
   "monthly_complete_through": "2026-10",
-  "last_run_status": "healthy"
+  "last_run_status": "degraded"
 }
