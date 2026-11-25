@@ -1,49 +1,157 @@
 {
   "meta": {
     "schema_version": 1,
-    "generated_at": "2026-11-24T13:03:45Z",
-    "generated_at_beijing": "2026-11-24 21:03",
-    "run_status": "degraded",
+    "generated_at": "2026-11-25T11:52:13Z",
+    "generated_at_beijing": "2026-11-25 19:52",
+    "run_status": "healthy",
     "active_modes": [
       "daily"
     ],
-    "window_start": "2026-11-21T13:03:45Z",
-    "window_end": "2026-11-24T13:03:45Z",
+    "window_start": "2026-11-22T11:52:13Z",
+    "window_end": "2026-11-25T11:52:13Z",
     "source_count": 27,
-    "healthy_source_count": 26,
-    "degraded_source_count": 1,
-    "new_or_checked_count": 133,
+    "healthy_source_count": 27,
+    "degraded_source_count": 0,
+    "new_or_checked_count": 145,
     "total_item_count": 1500,
-    "revision_count": 6,
+    "revision_count": 7,
     "weekly_last_due_date": "2026-11-22",
     "monthly_complete_through": "2026-10"
   },
   "items": [
     {
-      "id": "cec1aaffbdc875e384e0",
-      "title": "Introducing the Amazon Bedrock Trusted Access API with Anthropic’s Enterprise Frontier Safeguards and Enterprise Data Controls",
-      "summary": "Amazon Bedrock now offers a trusted access program API: one place to discover, request, and enroll in model provider programs. The first two offerings, in public preview, are Anthropic's Enterprise Frontier Safeguards (EFS) and Enterprise Data Controls (EDC), which give you control over your data w…",
-      "url": "https://aws.amazon.com/blogs/machine-learning/introducing-the-amazon-bedrock-trusted-access-api-with-anthropics-enterprise-frontier-safeguards-and-enterprise-data-controls",
-      "source": "AWS Machine Learning",
-      "source_id": "aws-ml",
+      "id": "355ad21d614bf6e3d3ab",
+      "title": "DeepSeek 更新开源项目：DeepSelect",
+      "summary": "DeepSelect: TopK kernels for DeepSeek Sparse Attention (DSA) and Samplers；主要语言：Cuda；GitHub Stars：551；最近代码推送：2026-11-25T11:48:28Z。",
+      "url": "https://github.com/deepseek-ai/DeepSelect",
+      "source": "DeepSeek GitHub",
+      "source_id": "github-deepseek",
       "source_tier": "一手来源",
-      "company": "Amazon",
-      "company_scale": "成熟企业",
-      "region": "北美",
-      "topic": "开源生态",
-      "signal_type": "产品发布",
-      "published_at": "2026-11-24T05:01:14Z",
-      "first_seen_at": "2026-11-24T13:03:45Z",
-      "last_checked_at": "2026-11-24T13:03:45Z",
+      "company": "DeepSeek",
+      "company_scale": "成长公司",
+      "region": "中国",
+      "topic": "大模型",
+      "signal_type": "开源",
+      "published_at": "2026-11-25T11:48:28Z",
+      "first_seen_at": "2026-11-25T11:52:13Z",
+      "last_checked_at": "2026-11-25T11:52:13Z",
       "matched_windows": [
         "daily"
       ],
       "confidence": "高",
       "verification_status": "官方一手源",
-      "why_it_matters": "产品能力边界或使用门槛发生变化，值得检查目标用户、采用路径与竞品跟进节奏。",
+      "why_it_matters": "开放程度会改变开发成本和生态位，可能催生新的集成工具、评测和垂直应用机会。",
+      "career_angle": "把模型能力翻译成用户任务、评测集和业务指标，构建可证明的产品判断力。",
+      "score": 95,
+      "content_hash": "5ea205c8b34273ae",
+      "revisions": []
+    },
+    {
+      "id": "026e9f2f098a7c6e3120",
+      "title": "字节跳动 更新开源项目：VeOmni",
+      "summary": "VeOmni: Scaling Any Modality Model Training with Model-Centric Distributed Recipe Zoo；主要语言：Python；GitHub Stars：2,305；最近代码推送：2026-11-25T11:44:18Z。",
+      "url": "https://github.com/ByteDance-Seed/VeOmni",
+      "source": "ByteDance Seed GitHub",
+      "source_id": "github-bytedance-seed",
+      "source_tier": "一手来源",
+      "company": "字节跳动",
+      "company_scale": "成熟企业",
+      "region": "中国",
+      "topic": "大模型",
+      "signal_type": "开源",
+      "published_at": "2026-11-25T11:44:18Z",
+      "first_seen_at": "2026-11-25T11:52:13Z",
+      "last_checked_at": "2026-11-25T11:52:13Z",
+      "matched_windows": [
+        "daily"
+      ],
+      "confidence": "高",
+      "verification_status": "官方一手源",
+      "why_it_matters": "开放程度会改变开发成本和生态位，可能催生新的集成工具、评测和垂直应用机会。",
+      "career_angle": "把模型能力翻译成用户任务、评测集和业务指标，构建可证明的产品判断力。",
+      "score": 95,
+      "content_hash": "875030bf99ae7ff7",
+      "revisions": []
+    },
+    {
+      "id": "42ce490ce7a682efa7ac",
+      "title": "阿里巴巴 更新开源项目：qwen-code",
+      "summary": "An open-source AI coding agent that lives in your terminal.；主要语言：TypeScript；GitHub Stars：30,933；最近代码推送：2026-11-25T11:42:46Z。",
+      "url": "https://github.com/QwenLM/qwen-code",
+      "source": "Qwen GitHub",
+      "source_id": "github-qwen",
+      "source_tier": "一手来源",
+      "company": "阿里巴巴",
+      "company_scale": "成熟企业",
+      "region": "中国",
+      "topic": "大模型",
+      "signal_type": "开源",
+      "published_at": "2026-11-25T11:42:46Z",
+      "first_seen_at": "2026-11-25T11:52:13Z",
+      "last_checked_at": "2026-11-25T11:52:13Z",
+      "matched_windows": [
+        "daily"
+      ],
+      "confidence": "高",
+      "verification_status": "官方一手源",
+      "why_it_matters": "开放程度会改变开发成本和生态位，可能催生新的集成工具、评测和垂直应用机会。",
+      "career_angle": "把模型能力翻译成用户任务、评测集和业务指标，构建可证明的产品判断力。",
+      "score": 95,
+      "content_hash": "2efc704355b1c792",
+      "revisions": []
+    },
+    {
+      "id": "838c49a621ab2b4408c9",
+      "title": "阶跃星辰 更新开源项目：Step-Code",
+      "summary": "主要语言：TypeScript；GitHub Stars：1,047；最近代码推送：2026-11-25T10:47:21Z。",
+      "url": "https://github.com/stepfun-ai/Step-Code",
+      "source": "阶跃星辰 GitHub",
+      "source_id": "github-stepfun",
+      "source_tier": "一手来源",
+      "company": "阶跃星辰",
+      "company_scale": "初创公司",
+      "region": "中国",
+      "topic": "大模型",
+      "signal_type": "开源",
+      "published_at": "2026-11-25T10:47:21Z",
+      "first_seen_at": "2026-11-25T11:52:13Z",
+      "last_checked_at": "2026-11-25T11:52:13Z",
+      "matched_windows": [
+        "daily"
+      ],
+      "confidence": "高",
+      "verification_status": "官方一手源",
+      "why_it_matters": "开放程度会改变开发成本和生态位，可能催生新的集成工具、评测和垂直应用机会。",
+      "career_angle": "把模型能力翻译成用户任务、评测集和业务指标，构建可证明的产品判断力。",
+      "score": 95,
+      "content_hash": "046ed310fea0773b",
+      "revisions": []
+    },
+    {
+      "id": "3d32ed422ad0410330f8",
+      "title": "华为 更新开源项目：hyper-parallel",
+      "summary": "A SuperPod-Affinity Training Acceleration Framework.；主要语言：Python；GitHub Stars：216；最近代码推送：2026-11-25T10:18:52Z。",
+      "url": "https://github.com/mindspore-ai/hyper-parallel",
+      "source": "MindSpore GitHub",
+      "source_id": "github-mindspore",
+      "source_tier": "一手来源",
+      "company": "华为",
+      "company_scale": "成熟企业",
+      "region": "中国",
+      "topic": "开源生态",
+      "signal_type": "开源",
+      "published_at": "2026-11-25T10:18:52Z",
+      "first_seen_at": "2026-11-25T11:52:13Z",
+      "last_checked_at": "2026-11-25T11:52:13Z",
+      "matched_windows": [
+        "daily"
+      ],
+      "confidence": "高",
+      "verification_status": "官方一手源",
+      "why_it_matters": "开放程度会改变开发成本和生态位，可能催生新的集成工具、评测和垂直应用机会。",
       "career_angle": "研究开发者上手路径、文档与社区反馈，补强平台和开发者产品经验。",
-      "score": 96,
-      "content_hash": "d3c3d7d70294e253",
+      "score": 95,
+      "content_hash": "6a71cdde17a95994",
       "revisions": []
     },
     {
@@ -101,33 +209,6 @@
       "revisions": []
     },
     {
-      "id": "e51b35c68934cf9ee535",
-      "title": "智元机器人 更新开源项目：genie_sim",
-      "summary": "Simulation Platform from AgiBot；主要语言：Python；GitHub Stars：1,752；最近代码推送：2026-11-24T12:11:27Z。",
-      "url": "https://github.com/AgibotTech/genie_sim",
-      "source": "智元机器人 GitHub",
-      "source_id": "github-agibot",
-      "source_tier": "一手来源",
-      "company": "智元机器人",
-      "company_scale": "成长公司",
-      "region": "中国",
-      "topic": "具身智能",
-      "signal_type": "开源",
-      "published_at": "2026-11-24T12:11:27Z",
-      "first_seen_at": "2026-11-24T13:03:45Z",
-      "last_checked_at": "2026-11-24T13:03:45Z",
-      "matched_windows": [
-        "daily"
-      ],
-      "confidence": "高",
-      "verification_status": "官方一手源",
-      "why_it_matters": "开放程度会改变开发成本和生态位，可能催生新的集成工具、评测和垂直应用机会。",
-      "career_angle": "关注软硬件协同、任务评测与真实场景数据闭环；这些经验比单一功能设计更稀缺。",
-      "score": 95,
-      "content_hash": "f12b7c6f4fac8ffa",
-      "revisions": []
-    },
-    {
       "id": "dbe347a171dc997e9ffb",
       "title": "阶跃星辰 更新开源项目：Step-Code",
       "summary": "主要语言：TypeScript；GitHub Stars：1,045；最近代码推送：2026-11-24T11:23:11Z。",
@@ -152,33 +233,6 @@
       "career_angle": "把模型能力翻译成用户任务、评测集和业务指标，构建可证明的产品判断力。",
       "score": 95,
       "content_hash": "42c01b45c49f5d9f",
-      "revisions": []
-    },
-    {
-      "id": "8c5ecd712394b7889d1f",
-      "title": "DeepSeek 更新开源项目：chat-demo",
-      "summary": "Chat Demo；主要语言：TypeScript；GitHub Stars：5,382；最近代码推送：2026-11-24T11:20:28Z。",
-      "url": "https://github.com/deepseek-ai/chat-demo",
-      "source": "DeepSeek GitHub",
-      "source_id": "github-deepseek",
-      "source_tier": "一手来源",
-      "company": "DeepSeek",
-      "company_scale": "成长公司",
-      "region": "中国",
-      "topic": "大模型",
-      "signal_type": "开源",
-      "published_at": "2026-11-24T11:20:28Z",
-      "first_seen_at": "2026-11-24T13:03:45Z",
-      "last_checked_at": "2026-11-24T13:03:45Z",
-      "matched_windows": [
-        "daily"
-      ],
-      "confidence": "高",
-      "verification_status": "官方一手源",
-      "why_it_matters": "开放程度会改变开发成本和生态位，可能催生新的集成工具、评测和垂直应用机会。",
-      "career_angle": "把模型能力翻译成用户任务、评测集和业务指标，构建可证明的产品判断力。",
-      "score": 95,
-      "content_hash": "f3bbeeb61e88fb46",
       "revisions": []
     },
     {
@@ -7640,6 +7694,195 @@
       ]
     },
     {
+      "id": "21c188ed3b4a9872fdf3",
+      "title": "百度 更新开源项目：PaddleX",
+      "summary": "All-in-One Development Tool based on PaddlePaddle；主要语言：Python；GitHub Stars：6,302；最近代码推送：2026-11-25T08:27:39Z。",
+      "url": "https://github.com/PaddlePaddle/PaddleX",
+      "source": "PaddlePaddle GitHub",
+      "source_id": "github-paddle",
+      "source_tier": "一手来源",
+      "company": "百度",
+      "company_scale": "成熟企业",
+      "region": "中国",
+      "topic": "开源生态",
+      "signal_type": "开源",
+      "published_at": "2026-11-25T08:27:39Z",
+      "first_seen_at": "2026-11-25T11:52:13Z",
+      "last_checked_at": "2026-11-25T11:52:13Z",
+      "matched_windows": [
+        "daily"
+      ],
+      "confidence": "高",
+      "verification_status": "官方一手源",
+      "why_it_matters": "开放程度会改变开发成本和生态位，可能催生新的集成工具、评测和垂直应用机会。",
+      "career_angle": "研究开发者上手路径、文档与社区反馈，补强平台和开发者产品经验。",
+      "score": 94,
+      "content_hash": "3ef018f44a7c6e89",
+      "revisions": []
+    },
+    {
+      "id": "dd56a6dbbcae60e10ce5",
+      "title": "宇树科技 更新开源项目：unitree_cloth_service",
+      "summary": "主要语言：C++；GitHub Stars：0；最近代码推送：2026-11-25T08:12:34Z。",
+      "url": "https://github.com/unitreerobotics/unitree_cloth_service",
+      "source": "Unitree Robotics GitHub",
+      "source_id": "github-unitree",
+      "source_tier": "一手来源",
+      "company": "宇树科技",
+      "company_scale": "成长公司",
+      "region": "中国",
+      "topic": "具身智能",
+      "signal_type": "开源",
+      "published_at": "2026-11-25T08:12:34Z",
+      "first_seen_at": "2026-11-25T11:52:13Z",
+      "last_checked_at": "2026-11-25T11:52:13Z",
+      "matched_windows": [
+        "daily"
+      ],
+      "confidence": "高",
+      "verification_status": "官方一手源",
+      "why_it_matters": "开放程度会改变开发成本和生态位，可能催生新的集成工具、评测和垂直应用机会。",
+      "career_angle": "关注软硬件协同、任务评测与真实场景数据闭环；这些经验比单一功能设计更稀缺。",
+      "score": 94,
+      "content_hash": "42be1d1cb5ebb11b",
+      "revisions": []
+    },
+    {
+      "id": "de81ea35676108b23df4",
+      "title": "MiniMax 更新开源项目：MiniMax-Code-MiniApps",
+      "summary": "We believe the Agent is evolving into the next-generation operating system (OS). In this paradigm shift, a plugin is no longer just a feature extension: a plugin is software, and a plugin is an app (a Mini App).；主要语言：JavaScript；GitHub Stars：81；最近代码推送：2026-11-25T07:25:20Z。",
+      "url": "https://github.com/MiniMax-AI/MiniMax-Code-MiniApps",
+      "source": "MiniMax GitHub",
+      "source_id": "github-minimax",
+      "source_tier": "一手来源",
+      "company": "MiniMax",
+      "company_scale": "成长公司",
+      "region": "中国",
+      "topic": "大模型",
+      "signal_type": "开源",
+      "published_at": "2026-11-25T07:25:20Z",
+      "first_seen_at": "2026-11-25T11:52:13Z",
+      "last_checked_at": "2026-11-25T11:52:13Z",
+      "matched_windows": [
+        "daily"
+      ],
+      "confidence": "高",
+      "verification_status": "官方一手源",
+      "why_it_matters": "开放程度会改变开发成本和生态位，可能催生新的集成工具、评测和垂直应用机会。",
+      "career_angle": "把模型能力翻译成用户任务、评测集和业务指标，构建可证明的产品判断力。",
+      "score": 94,
+      "content_hash": "8089eb40602f6f7d",
+      "revisions": []
+    },
+    {
+      "id": "3432bc46e12022806281",
+      "title": "腾讯 更新开源项目：HunyuanWorld-Mirror",
+      "summary": "[ICML 2026] WorldMirror: Fast and Universal 3D reconstruction model for versatile tasks；主要语言：Python；GitHub Stars：1,235；最近代码推送：2026-11-25T06:26:31Z。",
+      "url": "https://github.com/Tencent-Hunyuan/HunyuanWorld-Mirror",
+      "source": "Tencent Hunyuan GitHub",
+      "source_id": "github-tencent-hunyuan",
+      "source_tier": "一手来源",
+      "company": "腾讯",
+      "company_scale": "成熟企业",
+      "region": "中国",
+      "topic": "大模型",
+      "signal_type": "开源",
+      "published_at": "2026-11-25T06:26:31Z",
+      "first_seen_at": "2026-11-25T11:52:13Z",
+      "last_checked_at": "2026-11-25T11:52:13Z",
+      "matched_windows": [
+        "daily"
+      ],
+      "confidence": "高",
+      "verification_status": "官方一手源",
+      "why_it_matters": "开放程度会改变开发成本和生态位，可能催生新的集成工具、评测和垂直应用机会。",
+      "career_angle": "把模型能力翻译成用户任务、评测集和业务指标，构建可证明的产品判断力。",
+      "score": 94,
+      "content_hash": "0b139e78ee642267",
+      "revisions": []
+    },
+    {
+      "id": "f28cc1f957c34f048552",
+      "title": "百度 更新开源项目：Paddle",
+      "summary": "主要语言：C++；GitHub Stars：24,150；最近代码推送：2026-11-25T06:08:47Z。",
+      "url": "https://github.com/PaddlePaddle/Paddle",
+      "source": "PaddlePaddle GitHub",
+      "source_id": "github-paddle",
+      "source_tier": "一手来源",
+      "company": "百度",
+      "company_scale": "成熟企业",
+      "region": "中国",
+      "topic": "开源生态",
+      "signal_type": "开源",
+      "published_at": "2026-11-25T06:08:47Z",
+      "first_seen_at": "2026-11-25T11:52:13Z",
+      "last_checked_at": "2026-11-25T11:52:13Z",
+      "matched_windows": [
+        "daily"
+      ],
+      "confidence": "高",
+      "verification_status": "官方一手源",
+      "why_it_matters": "开放程度会改变开发成本和生态位，可能催生新的集成工具、评测和垂直应用机会。",
+      "career_angle": "研究开发者上手路径、文档与社区反馈，补强平台和开发者产品经验。",
+      "score": 94,
+      "content_hash": "c60d1acb7dd507d1",
+      "revisions": []
+    },
+    {
+      "id": "e41085d95b73a62bd0bc",
+      "title": "腾讯 更新开源项目：HunyuanWorld-Voyager",
+      "summary": "Voyager is an interactive RGBD video generation model conditioned on camera input, and supports real-time 3D reconstruction.；主要语言：Python；GitHub Stars：1,611；最近代码推送：2026-11-25T06:01:05Z。",
+      "url": "https://github.com/Tencent-Hunyuan/HunyuanWorld-Voyager",
+      "source": "Tencent Hunyuan GitHub",
+      "source_id": "github-tencent-hunyuan",
+      "source_tier": "一手来源",
+      "company": "腾讯",
+      "company_scale": "成熟企业",
+      "region": "中国",
+      "topic": "大模型",
+      "signal_type": "开源",
+      "published_at": "2026-11-25T06:01:05Z",
+      "first_seen_at": "2026-11-25T11:52:13Z",
+      "last_checked_at": "2026-11-25T11:52:13Z",
+      "matched_windows": [
+        "daily"
+      ],
+      "confidence": "高",
+      "verification_status": "官方一手源",
+      "why_it_matters": "开放程度会改变开发成本和生态位，可能催生新的集成工具、评测和垂直应用机会。",
+      "career_angle": "把模型能力翻译成用户任务、评测集和业务指标，构建可证明的产品判断力。",
+      "score": 94,
+      "content_hash": "a22d10eb913cb6b7",
+      "revisions": []
+    },
+    {
+      "id": "2a9f48cb814c7fe7f759",
+      "title": "腾讯 更新开源项目：HY-WorldPlay",
+      "summary": "HY-World 1.5: A Systematic Framework for Interactive World Modeling with Real-Time Latency and Geometric Consistency；主要语言：Python；GitHub Stars：1,637；最近代码推送：2026-11-25T05:55:53Z。",
+      "url": "https://github.com/Tencent-Hunyuan/HY-WorldPlay",
+      "source": "Tencent Hunyuan GitHub",
+      "source_id": "github-tencent-hunyuan",
+      "source_tier": "一手来源",
+      "company": "腾讯",
+      "company_scale": "成熟企业",
+      "region": "中国",
+      "topic": "大模型",
+      "signal_type": "开源",
+      "published_at": "2026-11-25T05:55:53Z",
+      "first_seen_at": "2026-11-25T11:52:13Z",
+      "last_checked_at": "2026-11-25T11:52:13Z",
+      "matched_windows": [
+        "daily"
+      ],
+      "confidence": "高",
+      "verification_status": "官方一手源",
+      "why_it_matters": "开放程度会改变开发成本和生态位，可能催生新的集成工具、评测和垂直应用机会。",
+      "career_angle": "把模型能力翻译成用户任务、评测集和业务指标，构建可证明的产品判断力。",
+      "score": 94,
+      "content_hash": "4c417873adeb7731",
+      "revisions": []
+    },
+    {
       "id": "a77afe7e25e4aa60fc9b",
       "title": "百度 更新开源项目：PaddleFormers",
       "summary": "PaddleFormers is an easy-to-use library of pre-trained large language model zoo based on PaddlePaddle.；主要语言：Python；GitHub Stars：12,970；最近代码推送：2026-11-24T09:19:44Z。",
@@ -7691,33 +7934,6 @@
       "career_angle": "关注软硬件协同、任务评测与真实场景数据闭环；这些经验比单一功能设计更稀缺。",
       "score": 94,
       "content_hash": "4128e9f20edfe6f4",
-      "revisions": []
-    },
-    {
-      "id": "b7632e3484677819236d",
-      "title": "华为 更新开源项目：community",
-      "summary": "MindSpore community；主要语言：Python；GitHub Stars：68；最近代码推送：2026-11-24T08:17:11Z。",
-      "url": "https://github.com/mindspore-ai/community",
-      "source": "MindSpore GitHub",
-      "source_id": "github-mindspore",
-      "source_tier": "一手来源",
-      "company": "华为",
-      "company_scale": "成熟企业",
-      "region": "中国",
-      "topic": "开源生态",
-      "signal_type": "开源",
-      "published_at": "2026-11-24T08:17:11Z",
-      "first_seen_at": "2026-11-24T13:03:45Z",
-      "last_checked_at": "2026-11-24T13:03:45Z",
-      "matched_windows": [
-        "daily"
-      ],
-      "confidence": "高",
-      "verification_status": "官方一手源",
-      "why_it_matters": "开放程度会改变开发成本和生态位，可能催生新的集成工具、评测和垂直应用机会。",
-      "career_angle": "研究开发者上手路径、文档与社区反馈，补强平台和开发者产品经验。",
-      "score": 94,
-      "content_hash": "def3989fe4aa9c07",
       "revisions": []
     },
     {
@@ -9782,30 +9998,111 @@
       "revisions": []
     },
     {
-      "id": "5e403b0ab338b74e08e3",
-      "title": "腾讯 更新开源项目：Hy-MT3",
-      "summary": "主要语言：Python；GitHub Stars：21；最近代码推送：2026-11-24T07:02:12Z。",
-      "url": "https://github.com/Tencent-Hunyuan/Hy-MT3",
-      "source": "Tencent Hunyuan GitHub",
-      "source_id": "github-tencent-hunyuan",
+      "id": "0b78408d77dab292c639",
+      "title": "百度 更新开源项目：Paddle-iluvatar",
+      "summary": "PaddlePaddle for Iluvatar GPU；主要语言：Cuda；GitHub Stars：1；最近代码推送：2026-11-25T04:50:40Z。",
+      "url": "https://github.com/PaddlePaddle/Paddle-iluvatar",
+      "source": "PaddlePaddle GitHub",
+      "source_id": "github-paddle",
       "source_tier": "一手来源",
-      "company": "腾讯",
+      "company": "百度",
       "company_scale": "成熟企业",
       "region": "中国",
-      "topic": "大模型",
+      "topic": "开源生态",
       "signal_type": "开源",
-      "published_at": "2026-11-24T07:02:12Z",
-      "first_seen_at": "2026-11-24T13:03:45Z",
-      "last_checked_at": "2026-11-24T13:03:45Z",
+      "published_at": "2026-11-25T04:50:40Z",
+      "first_seen_at": "2026-11-25T11:52:13Z",
+      "last_checked_at": "2026-11-25T11:52:13Z",
       "matched_windows": [
         "daily"
       ],
       "confidence": "高",
       "verification_status": "官方一手源",
       "why_it_matters": "开放程度会改变开发成本和生态位，可能催生新的集成工具、评测和垂直应用机会。",
-      "career_angle": "把模型能力翻译成用户任务、评测集和业务指标，构建可证明的产品判断力。",
+      "career_angle": "研究开发者上手路径、文档与社区反馈，补强平台和开发者产品经验。",
       "score": 93,
-      "content_hash": "1babdf708c644050",
+      "content_hash": "9db65e3bf3d61bc3",
+      "revisions": []
+    },
+    {
+      "id": "6530d278a84e033c0f73",
+      "title": "华为 更新开源项目：akg",
+      "summary": "AKG (Auto Kernel Generator) is an optimizer for operators in Deep Learning Networks, which provides the ability to automatically fuse ops with specific patterns.；主要语言：Python；GitHub Stars：268；最近代码推送：2026-11-25T03:43:10Z。",
+      "url": "https://github.com/mindspore-ai/akg",
+      "source": "MindSpore GitHub",
+      "source_id": "github-mindspore",
+      "source_tier": "一手来源",
+      "company": "华为",
+      "company_scale": "成熟企业",
+      "region": "中国",
+      "topic": "开源生态",
+      "signal_type": "开源",
+      "published_at": "2026-11-25T03:43:10Z",
+      "first_seen_at": "2026-11-25T11:52:13Z",
+      "last_checked_at": "2026-11-25T11:52:13Z",
+      "matched_windows": [
+        "daily"
+      ],
+      "confidence": "高",
+      "verification_status": "官方一手源",
+      "why_it_matters": "开放程度会改变开发成本和生态位，可能催生新的集成工具、评测和垂直应用机会。",
+      "career_angle": "研究开发者上手路径、文档与社区反馈，补强平台和开发者产品经验。",
+      "score": 93,
+      "content_hash": "7d8ec807717ad4a5",
+      "revisions": []
+    },
+    {
+      "id": "9ca929230efb21b7e7fe",
+      "title": "华为 更新开源项目：mindformers",
+      "summary": "主要语言：Python；GitHub Stars：5；最近代码推送：2026-11-25T03:42:03Z。",
+      "url": "https://github.com/mindspore-ai/mindformers",
+      "source": "MindSpore GitHub",
+      "source_id": "github-mindspore",
+      "source_tier": "一手来源",
+      "company": "华为",
+      "company_scale": "成熟企业",
+      "region": "中国",
+      "topic": "开源生态",
+      "signal_type": "开源",
+      "published_at": "2026-11-25T03:42:03Z",
+      "first_seen_at": "2026-11-25T11:52:13Z",
+      "last_checked_at": "2026-11-25T11:52:13Z",
+      "matched_windows": [
+        "daily"
+      ],
+      "confidence": "高",
+      "verification_status": "官方一手源",
+      "why_it_matters": "开放程度会改变开发成本和生态位，可能催生新的集成工具、评测和垂直应用机会。",
+      "career_angle": "研究开发者上手路径、文档与社区反馈，补强平台和开发者产品经验。",
+      "score": 93,
+      "content_hash": "3df6d5270e31c6ae",
+      "revisions": []
+    },
+    {
+      "id": "77d0b040fe19b65755fd",
+      "title": "华为 更新开源项目：mindquantum",
+      "summary": "MindQuantum is a quantum machine learning library that can be used to build and train different quantum neural networks.；主要语言：Python；GitHub Stars：105；最近代码推送：2026-11-25T03:41:50Z。",
+      "url": "https://github.com/mindspore-ai/mindquantum",
+      "source": "MindSpore GitHub",
+      "source_id": "github-mindspore",
+      "source_tier": "一手来源",
+      "company": "华为",
+      "company_scale": "成熟企业",
+      "region": "中国",
+      "topic": "开源生态",
+      "signal_type": "开源",
+      "published_at": "2026-11-25T03:41:50Z",
+      "first_seen_at": "2026-11-25T11:52:13Z",
+      "last_checked_at": "2026-11-25T11:52:13Z",
+      "matched_windows": [
+        "daily"
+      ],
+      "confidence": "高",
+      "verification_status": "官方一手源",
+      "why_it_matters": "开放程度会改变开发成本和生态位，可能催生新的集成工具、评测和垂直应用机会。",
+      "career_angle": "研究开发者上手路径、文档与社区反馈，补强平台和开发者产品经验。",
+      "score": 93,
+      "content_hash": "fbcceb9eff9278c2",
       "revisions": []
     },
     {
@@ -9833,33 +10130,6 @@
       "career_angle": "研究开发者上手路径、文档与社区反馈，补强平台和开发者产品经验。",
       "score": 93,
       "content_hash": "5ee7baaf091b9f92",
-      "revisions": []
-    },
-    {
-      "id": "c528ececb6a545e56e5e",
-      "title": "DeepSeek 更新开源项目：DeepJIT",
-      "summary": "A lightweight library for xPU kernel JIT compilation；主要语言：C++；GitHub Stars：477；最近代码推送：2026-11-24T05:13:08Z。",
-      "url": "https://github.com/deepseek-ai/DeepJIT",
-      "source": "DeepSeek GitHub",
-      "source_id": "github-deepseek",
-      "source_tier": "一手来源",
-      "company": "DeepSeek",
-      "company_scale": "成长公司",
-      "region": "中国",
-      "topic": "大模型",
-      "signal_type": "开源",
-      "published_at": "2026-11-24T05:13:08Z",
-      "first_seen_at": "2026-11-24T13:03:45Z",
-      "last_checked_at": "2026-11-24T13:03:45Z",
-      "matched_windows": [
-        "daily"
-      ],
-      "confidence": "高",
-      "verification_status": "官方一手源",
-      "why_it_matters": "开放程度会改变开发成本和生态位，可能催生新的集成工具、评测和垂直应用机会。",
-      "career_angle": "把模型能力翻译成用户任务、评测集和业务指标，构建可证明的产品判断力。",
-      "score": 93,
-      "content_hash": "4bc7a1bb27b5b832",
       "revisions": []
     },
     {
@@ -12570,6 +12840,87 @@
       "revisions": []
     },
     {
+      "id": "df7e834fb95cc9460cfc",
+      "title": "宇树科技 更新开源项目：teleimager",
+      "summary": "an image server that captures video streams from multiple cameras (UVC, V4L2, Gstreamer and RealSense) and publishes them over the network using ZeroMQ or WebRTC.；主要语言：Python；GitHub Stars：66；最近代码推送：2026-11-25T02:09:34Z。",
+      "url": "https://github.com/unitreerobotics/teleimager",
+      "source": "Unitree Robotics GitHub",
+      "source_id": "github-unitree",
+      "source_tier": "一手来源",
+      "company": "宇树科技",
+      "company_scale": "成长公司",
+      "region": "中国",
+      "topic": "具身智能",
+      "signal_type": "开源",
+      "published_at": "2026-11-25T02:09:34Z",
+      "first_seen_at": "2026-11-25T11:52:13Z",
+      "last_checked_at": "2026-11-25T11:52:13Z",
+      "matched_windows": [
+        "daily"
+      ],
+      "confidence": "高",
+      "verification_status": "官方一手源",
+      "why_it_matters": "开放程度会改变开发成本和生态位，可能催生新的集成工具、评测和垂直应用机会。",
+      "career_angle": "关注软硬件协同、任务评测与真实场景数据闭环；这些经验比单一功能设计更稀缺。",
+      "score": 92,
+      "content_hash": "7c1f4974526b9923",
+      "revisions": []
+    },
+    {
+      "id": "093b9683353300f010a0",
+      "title": "智元机器人 更新开源项目：agilink_omnihand_toolbox",
+      "summary": "Supports hmi , data collection and firmware update.；GitHub Stars：1；最近代码推送：2026-11-25T01:53:36Z。",
+      "url": "https://github.com/AgibotTech/agilink_omnihand_toolbox",
+      "source": "智元机器人 GitHub",
+      "source_id": "github-agibot",
+      "source_tier": "一手来源",
+      "company": "智元机器人",
+      "company_scale": "成长公司",
+      "region": "中国",
+      "topic": "具身智能",
+      "signal_type": "开源",
+      "published_at": "2026-11-25T01:53:36Z",
+      "first_seen_at": "2026-11-25T11:52:13Z",
+      "last_checked_at": "2026-11-25T11:52:13Z",
+      "matched_windows": [
+        "daily"
+      ],
+      "confidence": "高",
+      "verification_status": "官方一手源",
+      "why_it_matters": "开放程度会改变开发成本和生态位，可能催生新的集成工具、评测和垂直应用机会。",
+      "career_angle": "关注软硬件协同、任务评测与真实场景数据闭环；这些经验比单一功能设计更稀缺。",
+      "score": 92,
+      "content_hash": "a0fe7cdf40f51a43",
+      "revisions": []
+    },
+    {
+      "id": "2b23043a947b40742435",
+      "title": "百度 更新开源项目：PaddleScience",
+      "summary": "PaddleScience is SDK and library for developing AI-driven scientific computing applications based on PaddlePaddle.；主要语言：Python；GitHub Stars：456；最近代码推送：2026-11-25T01:46:37Z。",
+      "url": "https://github.com/PaddlePaddle/PaddleScience",
+      "source": "PaddlePaddle GitHub",
+      "source_id": "github-paddle",
+      "source_tier": "一手来源",
+      "company": "百度",
+      "company_scale": "成熟企业",
+      "region": "中国",
+      "topic": "开源生态",
+      "signal_type": "开源",
+      "published_at": "2026-11-25T01:46:37Z",
+      "first_seen_at": "2026-11-25T11:52:13Z",
+      "last_checked_at": "2026-11-25T11:52:13Z",
+      "matched_windows": [
+        "daily"
+      ],
+      "confidence": "高",
+      "verification_status": "官方一手源",
+      "why_it_matters": "开放程度会改变开发成本和生态位，可能催生新的集成工具、评测和垂直应用机会。",
+      "career_angle": "研究开发者上手路径、文档与社区反馈，补强平台和开发者产品经验。",
+      "score": 92,
+      "content_hash": "a3a5b5493adb7d9c",
+      "revisions": []
+    },
+    {
       "id": "c50a56c1bd8bfb65d90d",
       "title": "宇树科技 更新开源项目：unitree_cloth_service",
       "summary": "主要语言：C++；GitHub Stars：0；最近代码推送：2026-11-24T03:52:52Z。",
@@ -13219,6 +13570,33 @@
       "career_angle": "研究开发者上手路径、文档与社区反馈，补强平台和开发者产品经验。",
       "score": 92,
       "content_hash": "e547343e71013eb3",
+      "revisions": []
+    },
+    {
+      "id": "50cf9c5ddb0338839088",
+      "title": "Anthropic 更新开源项目：oss-scanner",
+      "summary": "主要语言：Dockerfile；GitHub Stars：1,864；最近代码推送：2026-11-25T10:31:02Z。",
+      "url": "https://github.com/anthropics/oss-scanner",
+      "source": "Anthropic GitHub",
+      "source_id": "github-anthropic",
+      "source_tier": "一手来源",
+      "company": "Anthropic",
+      "company_scale": "成长公司",
+      "region": "北美",
+      "topic": "大模型",
+      "signal_type": "开源",
+      "published_at": "2026-11-25T10:31:02Z",
+      "first_seen_at": "2026-11-25T11:52:13Z",
+      "last_checked_at": "2026-11-25T11:52:13Z",
+      "matched_windows": [
+        "daily"
+      ],
+      "confidence": "高",
+      "verification_status": "官方一手源",
+      "why_it_matters": "开放程度会改变开发成本和生态位，可能催生新的集成工具、评测和垂直应用机会。",
+      "career_angle": "把模型能力翻译成用户任务、评测集和业务指标，构建可证明的产品判断力。",
+      "score": 91,
+      "content_hash": "1c9efe222836fdc3",
       "revisions": []
     },
     {
@@ -18399,21 +18777,21 @@
       ]
     },
     {
-      "id": "b08545399279f1c58762",
-      "title": "Mistral AI 更新开源项目：cookbook",
-      "summary": "主要语言：Jupyter Notebook；GitHub Stars：2,367；最近代码推送：2026-11-24T09:47:15Z。",
-      "url": "https://github.com/mistralai/cookbook",
-      "source": "Mistral AI GitHub",
-      "source_id": "github-mistral",
+      "id": "96fa2a82f20d3c1a8fbf",
+      "title": "Anthropic 更新开源项目：claude-plugins-official",
+      "summary": "Official, Anthropic-managed directory of high quality Claude Code Plugins.；主要语言：Python；GitHub Stars：48,160；最近代码推送：2026-11-25T07:32:58Z。",
+      "url": "https://github.com/anthropics/claude-plugins-official",
+      "source": "Anthropic GitHub",
+      "source_id": "github-anthropic",
       "source_tier": "一手来源",
-      "company": "Mistral AI",
+      "company": "Anthropic",
       "company_scale": "成长公司",
-      "region": "欧洲",
+      "region": "北美",
       "topic": "大模型",
       "signal_type": "开源",
-      "published_at": "2026-11-24T09:47:15Z",
-      "first_seen_at": "2026-11-24T13:03:45Z",
-      "last_checked_at": "2026-11-24T13:03:45Z",
+      "published_at": "2026-11-25T07:32:58Z",
+      "first_seen_at": "2026-11-25T11:52:13Z",
+      "last_checked_at": "2026-11-25T11:52:13Z",
       "matched_windows": [
         "daily"
       ],
@@ -18422,25 +18800,25 @@
       "why_it_matters": "开放程度会改变开发成本和生态位，可能催生新的集成工具、评测和垂直应用机会。",
       "career_angle": "把模型能力翻译成用户任务、评测集和业务指标，构建可证明的产品判断力。",
       "score": 90,
-      "content_hash": "6224a0927978dcb4",
+      "content_hash": "0b6059fe2354d4c5",
       "revisions": []
     },
     {
-      "id": "d61f74bc84aa9a27ffb7",
-      "title": "Mistral AI 更新开源项目：mistral-common",
-      "summary": "Official inference library for pre-processing of Mistral models；主要语言：Python；GitHub Stars：966；最近代码推送：2026-11-24T08:33:03Z。",
-      "url": "https://github.com/mistralai/mistral-common",
-      "source": "Mistral AI GitHub",
-      "source_id": "github-mistral",
+      "id": "b7555cbc9ebbeadbea29",
+      "title": "Anthropic 更新开源项目：knowledge-work-plugins",
+      "summary": "Open source repository of plugins primarily intended for knowledge workers to use in Claude Cowork；主要语言：Python；GitHub Stars：36,861；最近代码推送：2026-11-25T07:27:27Z。",
+      "url": "https://github.com/anthropics/knowledge-work-plugins",
+      "source": "Anthropic GitHub",
+      "source_id": "github-anthropic",
       "source_tier": "一手来源",
-      "company": "Mistral AI",
+      "company": "Anthropic",
       "company_scale": "成长公司",
-      "region": "欧洲",
+      "region": "北美",
       "topic": "大模型",
       "signal_type": "开源",
-      "published_at": "2026-11-24T08:33:03Z",
-      "first_seen_at": "2026-11-24T13:03:45Z",
-      "last_checked_at": "2026-11-24T13:03:45Z",
+      "published_at": "2026-11-25T07:27:27Z",
+      "first_seen_at": "2026-11-25T11:52:13Z",
+      "last_checked_at": "2026-11-25T11:52:13Z",
       "matched_windows": [
         "daily"
       ],
@@ -18449,7 +18827,7 @@
       "why_it_matters": "开放程度会改变开发成本和生态位，可能催生新的集成工具、评测和垂直应用机会。",
       "career_angle": "把模型能力翻译成用户任务、评测集和业务指标，构建可证明的产品判断力。",
       "score": 90,
-      "content_hash": "33aa59de1474a4e9",
+      "content_hash": "6a942915d22f8b09",
       "revisions": []
     },
     {
@@ -20367,6 +20745,60 @@
       "revisions": []
     },
     {
+      "id": "13589155a45197009c17",
+      "title": "Anthropic 更新开源项目：claude-code",
+      "summary": "Claude Code is an agentic coding tool that lives in your terminal, understands your codebase, and helps you code faster by executing routine tasks, explaining complex code, and handling git workflows - all through natur…；主要语言：TypeScript；GitHub Stars：157,011；最近代码推送：2026-11-25T05:20:59Z。",
+      "url": "https://github.com/anthropics/claude-code",
+      "source": "Anthropic GitHub",
+      "source_id": "github-anthropic",
+      "source_tier": "一手来源",
+      "company": "Anthropic",
+      "company_scale": "成长公司",
+      "region": "北美",
+      "topic": "大模型",
+      "signal_type": "开源",
+      "published_at": "2026-11-25T05:20:59Z",
+      "first_seen_at": "2026-11-25T11:52:13Z",
+      "last_checked_at": "2026-11-25T11:52:13Z",
+      "matched_windows": [
+        "daily"
+      ],
+      "confidence": "高",
+      "verification_status": "官方一手源",
+      "why_it_matters": "开放程度会改变开发成本和生态位，可能催生新的集成工具、评测和垂直应用机会。",
+      "career_angle": "把模型能力翻译成用户任务、评测集和业务指标，构建可证明的产品判断力。",
+      "score": 89,
+      "content_hash": "7213888207fc25ff",
+      "revisions": []
+    },
+    {
+      "id": "0cd0dfc2d73193075444",
+      "title": "阿里巴巴 更新开源项目：qwen-code-action",
+      "summary": "A GitHub Action that integrates Qwen Code into your development workflow.；主要语言：Shell；GitHub Stars：43；最近代码推送：2026-11-24T15:05:02Z。",
+      "url": "https://github.com/QwenLM/qwen-code-action",
+      "source": "Qwen GitHub",
+      "source_id": "github-qwen",
+      "source_tier": "一手来源",
+      "company": "阿里巴巴",
+      "company_scale": "成熟企业",
+      "region": "中国",
+      "topic": "大模型",
+      "signal_type": "开源",
+      "published_at": "2026-11-24T15:05:02Z",
+      "first_seen_at": "2026-11-25T11:52:13Z",
+      "last_checked_at": "2026-11-25T11:52:13Z",
+      "matched_windows": [
+        "daily"
+      ],
+      "confidence": "高",
+      "verification_status": "官方一手源",
+      "why_it_matters": "开放程度会改变开发成本和生态位，可能催生新的集成工具、评测和垂直应用机会。",
+      "career_angle": "把模型能力翻译成用户任务、评测集和业务指标，构建可证明的产品判断力。",
+      "score": 89,
+      "content_hash": "50b8bdb3eeda2519",
+      "revisions": []
+    },
+    {
       "id": "56e9231a5ff3a2a5e07e",
       "title": "Anthropic 更新开源项目：uplifting-biomolecular-modeling",
       "summary": "主要语言：Python；GitHub Stars：393；最近代码推送：2026-11-24T05:10:01Z。",
@@ -20391,33 +20823,6 @@
       "career_angle": "把模型能力翻译成用户任务、评测集和业务指标，构建可证明的产品判断力。",
       "score": 89,
       "content_hash": "229aa799775f3f8b",
-      "revisions": []
-    },
-    {
-      "id": "d7c035a746ef05c7cc6d",
-      "title": "MiniMax 更新开源项目：Research",
-      "summary": "主要语言：TeX；GitHub Stars：84；最近代码推送：2026-11-23T16:15:30Z。",
-      "url": "https://github.com/MiniMax-AI/Research",
-      "source": "MiniMax GitHub",
-      "source_id": "github-minimax",
-      "source_tier": "一手来源",
-      "company": "MiniMax",
-      "company_scale": "成长公司",
-      "region": "中国",
-      "topic": "大模型",
-      "signal_type": "开源",
-      "published_at": "2026-11-23T16:15:30Z",
-      "first_seen_at": "2026-11-24T13:03:45Z",
-      "last_checked_at": "2026-11-24T13:03:45Z",
-      "matched_windows": [
-        "daily"
-      ],
-      "confidence": "高",
-      "verification_status": "官方一手源",
-      "why_it_matters": "开放程度会改变开发成本和生态位，可能催生新的集成工具、评测和垂直应用机会。",
-      "career_angle": "把模型能力翻译成用户任务、评测集和业务指标，构建可证明的产品判断力。",
-      "score": 89,
-      "content_hash": "7732956277686be7",
       "revisions": []
     },
     {
@@ -22236,6 +22641,126 @@
       "score": 89,
       "content_hash": "fc9b8e0bfdb790ce",
       "revisions": []
+    },
+    {
+      "id": "7d85be850575be4fff52",
+      "title": "Anthropic 更新开源项目：claude-agent-sdk-python",
+      "summary": "主要语言：Python；GitHub Stars：8,640；最近代码推送：2026-11-25T02:22:25Z。",
+      "url": "https://github.com/anthropics/claude-agent-sdk-python",
+      "source": "Anthropic GitHub",
+      "source_id": "github-anthropic",
+      "source_tier": "一手来源",
+      "company": "Anthropic",
+      "company_scale": "成长公司",
+      "region": "北美",
+      "topic": "大模型",
+      "signal_type": "开源",
+      "published_at": "2026-11-25T02:22:25Z",
+      "first_seen_at": "2026-11-25T11:52:13Z",
+      "last_checked_at": "2026-11-25T11:52:13Z",
+      "matched_windows": [
+        "daily"
+      ],
+      "confidence": "高",
+      "verification_status": "官方一手源",
+      "why_it_matters": "开放程度会改变开发成本和生态位，可能催生新的集成工具、评测和垂直应用机会。",
+      "career_angle": "把模型能力翻译成用户任务、评测集和业务指标，构建可证明的产品判断力。",
+      "score": 88,
+      "content_hash": "d98055a97f5f0192",
+      "revisions": []
+    },
+    {
+      "id": "b40c9aa5b8969108427a",
+      "title": "百度 更新开源项目：FlashMask",
+      "summary": "Efficient Mask-Aware Distributed Attention for Long-Context Training；主要语言：Python；GitHub Stars：67；最近代码推送：2026-11-24T13:08:04Z。",
+      "url": "https://github.com/PaddlePaddle/FlashMask",
+      "source": "PaddlePaddle GitHub",
+      "source_id": "github-paddle",
+      "source_tier": "一手来源",
+      "company": "百度",
+      "company_scale": "成熟企业",
+      "region": "中国",
+      "topic": "开源生态",
+      "signal_type": "开源",
+      "published_at": "2026-11-24T13:08:04Z",
+      "first_seen_at": "2026-11-25T11:52:13Z",
+      "last_checked_at": "2026-11-25T11:52:13Z",
+      "matched_windows": [
+        "daily"
+      ],
+      "confidence": "高",
+      "verification_status": "官方一手源",
+      "why_it_matters": "开放程度会改变开发成本和生态位，可能催生新的集成工具、评测和垂直应用机会。",
+      "career_angle": "研究开发者上手路径、文档与社区反馈，补强平台和开发者产品经验。",
+      "score": 88,
+      "content_hash": "9590ee60f0da5ec9",
+      "revisions": []
+    },
+    {
+      "id": "e51b35c68934cf9ee535",
+      "title": "智元机器人 更新开源项目：genie_sim",
+      "summary": "Simulation Platform from AgiBot；主要语言：Python；GitHub Stars：1,765；最近代码推送：2026-11-24T12:11:27Z。",
+      "url": "https://github.com/AgibotTech/genie_sim",
+      "source": "智元机器人 GitHub",
+      "source_id": "github-agibot",
+      "source_tier": "一手来源",
+      "company": "智元机器人",
+      "company_scale": "成长公司",
+      "region": "中国",
+      "topic": "具身智能",
+      "signal_type": "开源",
+      "published_at": "2026-11-24T12:11:27Z",
+      "first_seen_at": "2026-11-24T13:03:45Z",
+      "last_checked_at": "2026-11-25T11:52:13Z",
+      "matched_windows": [
+        "daily"
+      ],
+      "confidence": "高",
+      "verification_status": "复查有更新",
+      "why_it_matters": "开放程度会改变开发成本和生态位，可能催生新的集成工具、评测和垂直应用机会。",
+      "career_angle": "关注软硬件协同、任务评测与真实场景数据闭环；这些经验比单一功能设计更稀缺。",
+      "score": 88,
+      "content_hash": "a99a4d9ab38746af",
+      "revisions": [
+        {
+          "at": "2026-11-25T11:52:13Z",
+          "previous_title": "智元机器人 更新开源项目：genie_sim",
+          "previous_summary": "Simulation Platform from AgiBot；主要语言：Python；GitHub Stars：1,752；最近代码推送：2026-11-24T12:11:27Z。"
+        }
+      ]
+    },
+    {
+      "id": "cec1aaffbdc875e384e0",
+      "title": "Introducing the Amazon Bedrock Trusted Access API, with Enterprise Frontier Safeguards and Enterprise Data Controls for Claude models",
+      "summary": "Amazon Bedrock now offers a trusted access program API: one place to discover, request, and enroll in model provider programs. The first two offerings, in public preview, are Anthropic's Enterprise Frontier Safeguards (EFS) and Enterprise Data Controls (EDC), which give you control over your data w…",
+      "url": "https://aws.amazon.com/blogs/machine-learning/introducing-the-amazon-bedrock-trusted-access-api-with-anthropics-enterprise-frontier-safeguards-and-enterprise-data-controls",
+      "source": "AWS Machine Learning",
+      "source_id": "aws-ml",
+      "source_tier": "一手来源",
+      "company": "Amazon",
+      "company_scale": "成熟企业",
+      "region": "北美",
+      "topic": "开源生态",
+      "signal_type": "产品发布",
+      "published_at": "2026-11-24T05:01:14Z",
+      "first_seen_at": "2026-11-24T13:03:45Z",
+      "last_checked_at": "2026-11-25T11:52:13Z",
+      "matched_windows": [
+        "daily"
+      ],
+      "confidence": "高",
+      "verification_status": "复查有更新",
+      "why_it_matters": "产品能力边界或使用门槛发生变化，值得检查目标用户、采用路径与竞品跟进节奏。",
+      "career_angle": "研究开发者上手路径、文档与社区反馈，补强平台和开发者产品经验。",
+      "score": 88,
+      "content_hash": "29f7a9175ed95bc2",
+      "revisions": [
+        {
+          "at": "2026-11-25T11:52:13Z",
+          "previous_title": "Introducing the Amazon Bedrock Trusted Access API with Anthropic’s Enterprise Frontier Safeguards and Enterprise Data Controls",
+          "previous_summary": "Amazon Bedrock now offers a trusted access program API: one place to discover, request, and enroll in model provider programs. The first two offerings, in public preview, are Anthropic's Enterprise Frontier Safeguards (EFS) and Enterprise Data Controls (EDC), which give you control over your data w…"
+        }
+      ]
     },
     {
       "id": "9c26144032b95791f4b9",
@@ -24162,81 +24687,21 @@
       ]
     },
     {
-      "id": "ed865fb14ceb94c127e6",
-      "title": "宇树科技 更新开源项目：unitree_robotskills",
-      "summary": "Unitree RobotSkills is a robot skill framework for quickly connecting frontier AI models (e.g., GPT‑6 Astra) to Unitree robots and easily authoring diverse skills, enabling robots to autonomously perform various tasks i…；主要语言：Python；GitHub Stars：23；最近代码推送：2026-11-23T12:44:40Z。",
-      "url": "https://github.com/unitreerobotics/unitree_robotskills",
-      "source": "Unitree Robotics GitHub",
-      "source_id": "github-unitree",
+      "id": "8c5ecd712394b7889d1f",
+      "title": "DeepSeek 更新开源项目：chat-demo",
+      "summary": "Chat Demo；主要语言：TypeScript；GitHub Stars：5,430；最近代码推送：2026-11-24T11:20:28Z。",
+      "url": "https://github.com/deepseek-ai/chat-demo",
+      "source": "DeepSeek GitHub",
+      "source_id": "github-deepseek",
       "source_tier": "一手来源",
-      "company": "宇树科技",
+      "company": "DeepSeek",
       "company_scale": "成长公司",
       "region": "中国",
-      "topic": "具身智能",
-      "signal_type": "开源",
-      "published_at": "2026-11-23T12:44:40Z",
-      "first_seen_at": "2026-11-23T11:29:15Z",
-      "last_checked_at": "2026-11-24T13:03:45Z",
-      "matched_windows": [
-        "daily"
-      ],
-      "confidence": "高",
-      "verification_status": "复查有更新",
-      "why_it_matters": "开放程度会改变开发成本和生态位，可能催生新的集成工具、评测和垂直应用机会。",
-      "career_angle": "关注软硬件协同、任务评测与真实场景数据闭环；这些经验比单一功能设计更稀缺。",
-      "score": 87,
-      "content_hash": "f49a83119926976b",
-      "revisions": [
-        {
-          "at": "2026-11-24T13:03:45Z",
-          "previous_title": "宇树科技 更新开源项目：unitree_robotskills",
-          "previous_summary": "Unitree RobotSkills is a robot skill framework for quickly connecting frontier AI models (e.g., GPT‑6 Astra) to Unitree robots and easily authoring diverse skills, enabling robots to autonomously perform various tasks i…；主要语言：Python；GitHub Stars：21；最近代码推送：2026-11-23T05:00:05Z。"
-        }
-      ]
-    },
-    {
-      "id": "ed687cd3f0e71cf7bf82",
-      "title": "字节跳动 更新开源项目：Triton-distributed",
-      "summary": "Distributed Compiler and Optimized Parallel Kernels；主要语言：Python；GitHub Stars：1,590；最近代码推送：2026-11-23T11:43:03Z。",
-      "url": "https://github.com/ByteDance-Seed/Triton-distributed",
-      "source": "ByteDance Seed GitHub",
-      "source_id": "github-bytedance-seed",
-      "source_tier": "一手来源",
-      "company": "字节跳动",
-      "company_scale": "成熟企业",
-      "region": "中国",
       "topic": "大模型",
       "signal_type": "开源",
-      "published_at": "2026-11-23T11:43:03Z",
+      "published_at": "2026-11-24T11:20:28Z",
       "first_seen_at": "2026-11-24T13:03:45Z",
-      "last_checked_at": "2026-11-24T13:03:45Z",
-      "matched_windows": [
-        "daily"
-      ],
-      "confidence": "高",
-      "verification_status": "官方一手源",
-      "why_it_matters": "开放程度会改变开发成本和生态位，可能催生新的集成工具、评测和垂直应用机会。",
-      "career_angle": "把模型能力翻译成用户任务、评测集和业务指标，构建可证明的产品判断力。",
-      "score": 87,
-      "content_hash": "b5141550e8a707b0",
-      "revisions": []
-    },
-    {
-      "id": "0238155dccef0b69dccc",
-      "title": "阿里巴巴 更新开源项目：FlashQLA",
-      "summary": "high-performance linear attention kernel library built on TileLang；主要语言：Python；GitHub Stars：766；最近代码推送：2026-11-23T10:37:13Z。",
-      "url": "https://github.com/QwenLM/FlashQLA",
-      "source": "Qwen GitHub",
-      "source_id": "github-qwen",
-      "source_tier": "一手来源",
-      "company": "阿里巴巴",
-      "company_scale": "成熟企业",
-      "region": "中国",
-      "topic": "大模型",
-      "signal_type": "开源",
-      "published_at": "2026-11-23T10:37:13Z",
-      "first_seen_at": "2026-11-23T11:29:15Z",
-      "last_checked_at": "2026-11-24T13:03:45Z",
+      "last_checked_at": "2026-11-25T11:52:13Z",
       "matched_windows": [
         "daily"
       ],
@@ -24245,12 +24710,12 @@
       "why_it_matters": "开放程度会改变开发成本和生态位，可能催生新的集成工具、评测和垂直应用机会。",
       "career_angle": "把模型能力翻译成用户任务、评测集和业务指标，构建可证明的产品判断力。",
       "score": 87,
-      "content_hash": "e3f06625ceab6c1e",
+      "content_hash": "f65b439593102e2c",
       "revisions": [
         {
-          "at": "2026-11-24T13:03:45Z",
-          "previous_title": "阿里巴巴 更新开源项目：FlashQLA",
-          "previous_summary": "high-performance linear attention kernel library built on TileLang；主要语言：Python；GitHub Stars：765；最近代码推送：2026-11-23T10:37:13Z。"
+          "at": "2026-11-25T11:52:13Z",
+          "previous_title": "DeepSeek 更新开源项目：chat-demo",
+          "previous_summary": "Chat Demo；主要语言：TypeScript；GitHub Stars：5,382；最近代码推送：2026-11-24T11:20:28Z。"
         }
       ]
     },
@@ -40459,465 +40924,6 @@
       "score": 87,
       "content_hash": "b874dccc51fced9b",
       "revisions": []
-    },
-    {
-      "id": "2e5fd803027729614c72",
-      "title": "HaNDF: Object-Conditioned Geometric Neural Hand Distance Fields",
-      "summary": "arXiv:2611.08578v1 Announce Type: new Abstract: We propose, HaNDF, object-conditional neural distance fields as data-driven priors for modeling the plausible hand-object configurations, in the product manifold of hand articulations. While recent unconditional generative priors showed success in mod…",
-      "url": "https://arxiv.org/abs/2611.08578",
-      "source": "arXiv AI & Robotics",
-      "source_id": "arxiv-ai-robotics",
-      "source_tier": "一手来源",
-      "company": "arXiv",
-      "company_scale": "研究机构",
-      "region": "全球",
-      "topic": "AI 研究",
-      "signal_type": "研究突破",
-      "published_at": "2026-11-09T05:00:00Z",
-      "first_seen_at": "2026-11-09T10:35:49Z",
-      "last_checked_at": "2026-11-09T10:35:49Z",
-      "matched_windows": [
-        "daily"
-      ],
-      "confidence": "高",
-      "verification_status": "官方一手源",
-      "why_it_matters": "技术可行性正在变化，但需要把实验指标与真实用户价值、成本和稳定性分开判断。",
-      "career_angle": "先问“能解决哪个用户任务”，再把论文指标转成产品假设和验证计划。",
-      "score": 87,
-      "content_hash": "ef33afe42db15294",
-      "revisions": []
-    },
-    {
-      "id": "aace87589dd311b07fc7",
-      "title": "InstaGen: Group-Shared Importance Sampling for Fast Video Generation",
-      "summary": "arXiv:2611.08610v1 Announce Type: new Abstract: Diffusion Transformers (DiTs) are the dominant architecture for video generation, but their quadratic attention complexity results in substantial computational cost and latency. Permuted block-sparse attention (PBSA) offers a promising approach to red…",
-      "url": "https://arxiv.org/abs/2611.08610",
-      "source": "arXiv AI & Robotics",
-      "source_id": "arxiv-ai-robotics",
-      "source_tier": "一手来源",
-      "company": "arXiv",
-      "company_scale": "研究机构",
-      "region": "全球",
-      "topic": "AI 研究",
-      "signal_type": "研究突破",
-      "published_at": "2026-11-09T05:00:00Z",
-      "first_seen_at": "2026-11-09T10:35:49Z",
-      "last_checked_at": "2026-11-09T10:35:49Z",
-      "matched_windows": [
-        "daily"
-      ],
-      "confidence": "高",
-      "verification_status": "官方一手源",
-      "why_it_matters": "技术可行性正在变化，但需要把实验指标与真实用户价值、成本和稳定性分开判断。",
-      "career_angle": "先问“能解决哪个用户任务”，再把论文指标转成产品假设和验证计划。",
-      "score": 87,
-      "content_hash": "625ec78c2c05fb68",
-      "revisions": []
-    },
-    {
-      "id": "381c9bbe4d53eb0a5a7a",
-      "title": "NormGym: Evaluating Normative Competence through Social Interaction",
-      "summary": "arXiv:2611.08613v1 Announce Type: new Abstract: Normative competence, the ability to infer socially enforced expectations from interaction and adjust behavior accordingly, is essential for agents operating in unfamiliar human communities. Yet existing evaluations largely test whether agents can rec…",
-      "url": "https://arxiv.org/abs/2611.08613",
-      "source": "arXiv AI & Robotics",
-      "source_id": "arxiv-ai-robotics",
-      "source_tier": "一手来源",
-      "company": "arXiv",
-      "company_scale": "研究机构",
-      "region": "全球",
-      "topic": "AI Agent",
-      "signal_type": "研究突破",
-      "published_at": "2026-11-09T05:00:00Z",
-      "first_seen_at": "2026-11-09T10:35:49Z",
-      "last_checked_at": "2026-11-09T10:35:49Z",
-      "matched_windows": [
-        "daily"
-      ],
-      "confidence": "高",
-      "verification_status": "官方一手源",
-      "why_it_matters": "技术可行性正在变化，但需要把实验指标与真实用户价值、成本和稳定性分开判断。",
-      "career_angle": "练习定义任务成功率、人工接管率和失败兜底，形成一份可复用的 Agent 评测框架。",
-      "score": 87,
-      "content_hash": "8dd9b881fb468dce",
-      "revisions": []
-    },
-    {
-      "id": "8ba681538842bdd1fd11",
-      "title": "LLM-Based Feature Extraction for Multi-Criteria Inventory Classification",
-      "summary": "arXiv:2611.08626v1 Announce Type: new Abstract: E-commerce supply chains generate large volumes of customer feedback and operational data that remain underutilized in inventory management. Traditional inventory classification techniques such as ABC analysis rely primarily on annual dollar usage, wh…",
-      "url": "https://arxiv.org/abs/2611.08626",
-      "source": "arXiv AI & Robotics",
-      "source_id": "arxiv-ai-robotics",
-      "source_tier": "一手来源",
-      "company": "arXiv",
-      "company_scale": "研究机构",
-      "region": "全球",
-      "topic": "大模型",
-      "signal_type": "研究突破",
-      "published_at": "2026-11-09T05:00:00Z",
-      "first_seen_at": "2026-11-09T10:35:49Z",
-      "last_checked_at": "2026-11-09T10:35:49Z",
-      "matched_windows": [
-        "daily"
-      ],
-      "confidence": "高",
-      "verification_status": "官方一手源",
-      "why_it_matters": "技术可行性正在变化，但需要把实验指标与真实用户价值、成本和稳定性分开判断。",
-      "career_angle": "把模型能力翻译成用户任务、评测集和业务指标，构建可证明的产品判断力。",
-      "score": 87,
-      "content_hash": "f482007f65ccd641",
-      "revisions": []
-    },
-    {
-      "id": "d09569287030f4d653fd",
-      "title": "BEVCast: Path-Adaptive BEV for Efficient End-to-End Autonomous Driving",
-      "summary": "arXiv:2611.08631v1 Announce Type: new Abstract: Camera-based driving models build a dense bird's-eye-view (BEV) grid and spend the same computation on every cell of it, although the vehicle crosses only a few of those cells within the planning horizon. We present BEVCast, a two-stage BEV whose reso…",
-      "url": "https://arxiv.org/abs/2611.08631",
-      "source": "arXiv AI & Robotics",
-      "source_id": "arxiv-ai-robotics",
-      "source_tier": "一手来源",
-      "company": "arXiv",
-      "company_scale": "研究机构",
-      "region": "全球",
-      "topic": "自动驾驶",
-      "signal_type": "研究突破",
-      "published_at": "2026-11-09T05:00:00Z",
-      "first_seen_at": "2026-11-09T10:35:49Z",
-      "last_checked_at": "2026-11-09T10:35:49Z",
-      "matched_windows": [
-        "daily"
-      ],
-      "confidence": "高",
-      "verification_status": "官方一手源",
-      "why_it_matters": "技术可行性正在变化，但需要把实验指标与真实用户价值、成本和稳定性分开判断。",
-      "career_angle": "积累安全约束、人机交互和灰度运营案例，强化复杂系统产品能力。",
-      "score": 87,
-      "content_hash": "65583e0216aa4180",
-      "revisions": []
-    },
-    {
-      "id": "397e0ab5a9cac9629e31",
-      "title": "Benchmarking Machine Learning for Chaotic Three-Body Dynamics in Astrophysics",
-      "summary": "arXiv:2611.08634v1 Announce Type: new Abstract: Machine learning (ML) and generative AI have recently made impressive progress in understanding physics. We explore a hierarchy of prediction problems stemming from chaotic three-body systems and benchmark existing ML approaches, including general-pur…",
-      "url": "https://arxiv.org/abs/2611.08634",
-      "source": "arXiv AI & Robotics",
-      "source_id": "arxiv-ai-robotics",
-      "source_tier": "一手来源",
-      "company": "arXiv",
-      "company_scale": "研究机构",
-      "region": "全球",
-      "topic": "AI 研究",
-      "signal_type": "研究突破",
-      "published_at": "2026-11-09T05:00:00Z",
-      "first_seen_at": "2026-11-09T10:35:49Z",
-      "last_checked_at": "2026-11-09T10:35:49Z",
-      "matched_windows": [
-        "daily"
-      ],
-      "confidence": "高",
-      "verification_status": "官方一手源",
-      "why_it_matters": "技术可行性正在变化，但需要把实验指标与真实用户价值、成本和稳定性分开判断。",
-      "career_angle": "先问“能解决哪个用户任务”，再把论文指标转成产品假设和验证计划。",
-      "score": 87,
-      "content_hash": "b52d06afb8c0c3d7",
-      "revisions": []
-    },
-    {
-      "id": "56083809d6c72f93f2d6",
-      "title": "Aspect-wise Pairwise Tournaments for Test-Time Selection",
-      "summary": "arXiv:2611.08640v1 Announce Type: new Abstract: Scaling test-time compute has proven highly effective at improving LLM reasoning. A popular method is best-of-n sampling, where a model generates many candidate solutions and one is selected. This motivates the question: how can we select the best can…",
-      "url": "https://arxiv.org/abs/2611.08640",
-      "source": "arXiv AI & Robotics",
-      "source_id": "arxiv-ai-robotics",
-      "source_tier": "一手来源",
-      "company": "arXiv",
-      "company_scale": "研究机构",
-      "region": "全球",
-      "topic": "大模型",
-      "signal_type": "研究突破",
-      "published_at": "2026-11-09T05:00:00Z",
-      "first_seen_at": "2026-11-09T10:35:49Z",
-      "last_checked_at": "2026-11-09T10:35:49Z",
-      "matched_windows": [
-        "daily"
-      ],
-      "confidence": "高",
-      "verification_status": "官方一手源",
-      "why_it_matters": "技术可行性正在变化，但需要把实验指标与真实用户价值、成本和稳定性分开判断。",
-      "career_angle": "把模型能力翻译成用户任务、评测集和业务指标，构建可证明的产品判断力。",
-      "score": 87,
-      "content_hash": "10857bf7dccb2fce",
-      "revisions": []
-    },
-    {
-      "id": "1d773721f727ca727357",
-      "title": "Decision Context: Persistent Behavioral Learning for AI Agents",
-      "summary": "arXiv:2611.08644v1 Announce Type: new Abstract: LLM agents do not learn from corrections across sessions. A user fixes the same mistake at the start of every conversation. Existing agent memory systems primarily handle facts, such as preferences, entities, and conversational history, rather than pr…",
-      "url": "https://arxiv.org/abs/2611.08644",
-      "source": "arXiv AI & Robotics",
-      "source_id": "arxiv-ai-robotics",
-      "source_tier": "一手来源",
-      "company": "arXiv",
-      "company_scale": "研究机构",
-      "region": "全球",
-      "topic": "AI Agent",
-      "signal_type": "研究突破",
-      "published_at": "2026-11-09T05:00:00Z",
-      "first_seen_at": "2026-11-09T10:35:49Z",
-      "last_checked_at": "2026-11-09T10:35:49Z",
-      "matched_windows": [
-        "daily"
-      ],
-      "confidence": "高",
-      "verification_status": "官方一手源",
-      "why_it_matters": "技术可行性正在变化，但需要把实验指标与真实用户价值、成本和稳定性分开判断。",
-      "career_angle": "练习定义任务成功率、人工接管率和失败兜底，形成一份可复用的 Agent 评测框架。",
-      "score": 87,
-      "content_hash": "bf215a8902b809f2",
-      "revisions": []
-    },
-    {
-      "id": "a37d87b864263632844b",
-      "title": "From Geometry to Function: A Multi-Task LiDAR Benchmark Dataset for Semantic and Functional Parsing of Urban Facades",
-      "summary": "arXiv:2611.08645v1 Announce Type: new Abstract: Understanding building facades is central to urban digital twins, heritage modelling, and sustainable city analysis, yet existing LiDAR benchmarks stop at geometry and semantic segmentation and offer little support for reasoning about the functional r…",
-      "url": "https://arxiv.org/abs/2611.08645",
-      "source": "arXiv AI & Robotics",
-      "source_id": "arxiv-ai-robotics",
-      "source_tier": "一手来源",
-      "company": "arXiv",
-      "company_scale": "研究机构",
-      "region": "全球",
-      "topic": "AI 研究",
-      "signal_type": "研究突破",
-      "published_at": "2026-11-09T05:00:00Z",
-      "first_seen_at": "2026-11-09T10:35:49Z",
-      "last_checked_at": "2026-11-09T10:35:49Z",
-      "matched_windows": [
-        "daily"
-      ],
-      "confidence": "高",
-      "verification_status": "官方一手源",
-      "why_it_matters": "技术可行性正在变化，但需要把实验指标与真实用户价值、成本和稳定性分开判断。",
-      "career_angle": "先问“能解决哪个用户任务”，再把论文指标转成产品假设和验证计划。",
-      "score": 87,
-      "content_hash": "f5daef584fdba2dc",
-      "revisions": []
-    },
-    {
-      "id": "43cb1e52fcd2c95212cf",
-      "title": "IWIBench: Evaluating Gradient-Free Model Driven Intra-weight Injection",
-      "summary": "arXiv:2611.08647v1 Announce Type: new Abstract: Intra-weight injection lets one model change another model's behaviour by editing its weights directly, without gradients. Such edits can range from altering lexical associations to enforcing output formats or updating factual knowledge. Despite growi…",
-      "url": "https://arxiv.org/abs/2611.08647",
-      "source": "arXiv AI & Robotics",
-      "source_id": "arxiv-ai-robotics",
-      "source_tier": "一手来源",
-      "company": "arXiv",
-      "company_scale": "研究机构",
-      "region": "全球",
-      "topic": "AI 研究",
-      "signal_type": "研究突破",
-      "published_at": "2026-11-09T05:00:00Z",
-      "first_seen_at": "2026-11-09T10:35:49Z",
-      "last_checked_at": "2026-11-09T10:35:49Z",
-      "matched_windows": [
-        "daily"
-      ],
-      "confidence": "高",
-      "verification_status": "官方一手源",
-      "why_it_matters": "技术可行性正在变化，但需要把实验指标与真实用户价值、成本和稳定性分开判断。",
-      "career_angle": "先问“能解决哪个用户任务”，再把论文指标转成产品假设和验证计划。",
-      "score": 87,
-      "content_hash": "7a81947141886842",
-      "revisions": []
-    },
-    {
-      "id": "3a1a5867cd99cff78e08",
-      "title": "VoluCompose: Constructing Compact Volumetric Visual Representations for Medical Image Understanding",
-      "summary": "arXiv:2611.08649v1 Announce Type: new Abstract: Medical vision--language models can interpret volumetric images, but processing full volumes is costly because hundreds of slices produce long, redundant visual-token sequences. Existing compression methods often couple content selection with budget d…",
-      "url": "https://arxiv.org/abs/2611.08649",
-      "source": "arXiv AI & Robotics",
-      "source_id": "arxiv-ai-robotics",
-      "source_tier": "一手来源",
-      "company": "arXiv",
-      "company_scale": "研究机构",
-      "region": "全球",
-      "topic": "大模型",
-      "signal_type": "研究突破",
-      "published_at": "2026-11-09T05:00:00Z",
-      "first_seen_at": "2026-11-09T10:35:49Z",
-      "last_checked_at": "2026-11-09T10:35:49Z",
-      "matched_windows": [
-        "daily"
-      ],
-      "confidence": "高",
-      "verification_status": "官方一手源",
-      "why_it_matters": "技术可行性正在变化，但需要把实验指标与真实用户价值、成本和稳定性分开判断。",
-      "career_angle": "把模型能力翻译成用户任务、评测集和业务指标，构建可证明的产品判断力。",
-      "score": 87,
-      "content_hash": "681ad3b154489644",
-      "revisions": []
-    },
-    {
-      "id": "4d7c39a99d4ad8d21f61",
-      "title": "Turkish Multimodal Video Fact-Checking: A New Dataset and a Comparison of Zero-Shot Agentic and Fine-Tuned Systems",
-      "summary": "arXiv:2611.08651v1 Announce Type: new Abstract: Video-based misinformation spreads rapidly on social media, but almost all existing fact-checking systems focus exclusively on English text. Tools for low-resource languages such as Turkish are severely limited. In this work, we present TeViD (Turkish…",
-      "url": "https://arxiv.org/abs/2611.08651",
-      "source": "arXiv AI & Robotics",
-      "source_id": "arxiv-ai-robotics",
-      "source_tier": "一手来源",
-      "company": "arXiv",
-      "company_scale": "研究机构",
-      "region": "全球",
-      "topic": "AI Agent",
-      "signal_type": "研究突破",
-      "published_at": "2026-11-09T05:00:00Z",
-      "first_seen_at": "2026-11-09T10:35:49Z",
-      "last_checked_at": "2026-11-09T10:35:49Z",
-      "matched_windows": [
-        "daily"
-      ],
-      "confidence": "高",
-      "verification_status": "官方一手源",
-      "why_it_matters": "技术可行性正在变化，但需要把实验指标与真实用户价值、成本和稳定性分开判断。",
-      "career_angle": "练习定义任务成功率、人工接管率和失败兜底，形成一份可复用的 Agent 评测框架。",
-      "score": 87,
-      "content_hash": "edb6e8ed0cb45253",
-      "revisions": []
-    },
-    {
-      "id": "ccfefe799c503b604c2e",
-      "title": "An Anatomy-guided 3D Segmentation Pipeline for Prostate Surgical Phantoms from CT Scans",
-      "summary": "arXiv:2611.08652v1 Announce Type: new Abstract: Full autonomy has been a long-term goal in robotic surgery and a near-to-medium-term goal for prostatectomy. Due to the relatively closed structure of the procedure, its standard-of-care robotic/laparoscopic solutions, and procedure economics, prostat…",
-      "url": "https://arxiv.org/abs/2611.08652",
-      "source": "arXiv AI & Robotics",
-      "source_id": "arxiv-ai-robotics",
-      "source_tier": "一手来源",
-      "company": "arXiv",
-      "company_scale": "研究机构",
-      "region": "全球",
-      "topic": "具身智能",
-      "signal_type": "研究突破",
-      "published_at": "2026-11-09T05:00:00Z",
-      "first_seen_at": "2026-11-09T10:35:49Z",
-      "last_checked_at": "2026-11-09T10:35:49Z",
-      "matched_windows": [
-        "daily"
-      ],
-      "confidence": "高",
-      "verification_status": "官方一手源",
-      "why_it_matters": "技术可行性正在变化，但需要把实验指标与真实用户价值、成本和稳定性分开判断。",
-      "career_angle": "关注软硬件协同、任务评测与真实场景数据闭环；这些经验比单一功能设计更稀缺。",
-      "score": 87,
-      "content_hash": "f382bfe556d65328",
-      "revisions": []
-    },
-    {
-      "id": "7d7b70025a027ac5ca82",
-      "title": "CS-Pi: Constraint-Satisfying Flow Policy Sampling",
-      "summary": "arXiv:2611.08654v1 Announce Type: new Abstract: A flow-matching policy deployed in the field must often satisfy a constraint that was absent from its demonstrations, such as avoiding an obstacle it has never seen. Retraining for every new constraint is impractical, so the constraint must be enforce…",
-      "url": "https://arxiv.org/abs/2611.08654",
-      "source": "arXiv AI & Robotics",
-      "source_id": "arxiv-ai-robotics",
-      "source_tier": "一手来源",
-      "company": "arXiv",
-      "company_scale": "研究机构",
-      "region": "全球",
-      "topic": "AI 研究",
-      "signal_type": "研究突破",
-      "published_at": "2026-11-09T05:00:00Z",
-      "first_seen_at": "2026-11-09T10:35:49Z",
-      "last_checked_at": "2026-11-09T10:35:49Z",
-      "matched_windows": [
-        "daily"
-      ],
-      "confidence": "高",
-      "verification_status": "官方一手源",
-      "why_it_matters": "技术可行性正在变化，但需要把实验指标与真实用户价值、成本和稳定性分开判断。",
-      "career_angle": "先问“能解决哪个用户任务”，再把论文指标转成产品假设和验证计划。",
-      "score": 87,
-      "content_hash": "0eb8a80c3b676a69",
-      "revisions": []
-    },
-    {
-      "id": "5970d46efebcfa9ecdb1",
-      "title": "Scoring, Not Learning: Decomposing Catalog-Consolidation Gains in Web-Scraped Retail Product Recognition",
-      "summary": "arXiv:2611.08655v1 Announce Type: new Abstract: Retail product catalogs assembled from web image search are cheap to build and pervasively noisy: queries return packaging shots instead of products, and entries proliferate under names that cannot be distinguished visually. Consolidating such a catal…",
-      "url": "https://arxiv.org/abs/2611.08655",
-      "source": "arXiv AI & Robotics",
-      "source_id": "arxiv-ai-robotics",
-      "source_tier": "一手来源",
-      "company": "arXiv",
-      "company_scale": "研究机构",
-      "region": "全球",
-      "topic": "AI 研究",
-      "signal_type": "研究突破",
-      "published_at": "2026-11-09T05:00:00Z",
-      "first_seen_at": "2026-11-09T10:35:49Z",
-      "last_checked_at": "2026-11-09T10:35:49Z",
-      "matched_windows": [
-        "daily"
-      ],
-      "confidence": "高",
-      "verification_status": "官方一手源",
-      "why_it_matters": "技术可行性正在变化，但需要把实验指标与真实用户价值、成本和稳定性分开判断。",
-      "career_angle": "先问“能解决哪个用户任务”，再把论文指标转成产品假设和验证计划。",
-      "score": 87,
-      "content_hash": "d9f351974d1abadf",
-      "revisions": []
-    },
-    {
-      "id": "cadca0e3374c57770c2f",
-      "title": "Higher Order Component Attribution via Learned Surrogates in High Energy Physics",
-      "summary": "arXiv:2611.08656v1 Announce Type: new Abstract: Experimental High Energy Physics (HEP) has adopted the transformer architecture for identification of jets, particularly the state-of-the-art Particle Transformer (ParT) which injects explicit information about particle correlations into the attention…",
-      "url": "https://arxiv.org/abs/2611.08656",
-      "source": "arXiv AI & Robotics",
-      "source_id": "arxiv-ai-robotics",
-      "source_tier": "一手来源",
-      "company": "arXiv",
-      "company_scale": "研究机构",
-      "region": "全球",
-      "topic": "AI 研究",
-      "signal_type": "研究突破",
-      "published_at": "2026-11-09T05:00:00Z",
-      "first_seen_at": "2026-11-09T10:35:49Z",
-      "last_checked_at": "2026-11-09T10:35:49Z",
-      "matched_windows": [
-        "daily"
-      ],
-      "confidence": "高",
-      "verification_status": "官方一手源",
-      "why_it_matters": "技术可行性正在变化，但需要把实验指标与真实用户价值、成本和稳定性分开判断。",
-      "career_angle": "先问“能解决哪个用户任务”，再把论文指标转成产品假设和验证计划。",
-      "score": 87,
-      "content_hash": "d54150f6e2d2bc39",
-      "revisions": []
-    },
-    {
-      "id": "f0b3b7bbef60e40b4fff",
-      "title": "JEPAhead: From Inpainting to Causal Forecasting for Urban Driving",
-      "summary": "arXiv:2611.08657v1 Announce Type: new Abstract: We fine-tune a pre-trained V-JEPA1 predictor from bidirectional latent inpainting to action-free causal forecasting while keeping the encoder frozen. Using contiguous past observations, horizon-aligned targets, and group-level causal attention, the mo…",
-      "url": "https://arxiv.org/abs/2611.08657",
-      "source": "arXiv AI & Robotics",
-      "source_id": "arxiv-ai-robotics",
-      "source_tier": "一手来源",
-      "company": "arXiv",
-      "company_scale": "研究机构",
-      "region": "全球",
-      "topic": "AI 研究",
-      "signal_type": "研究突破",
-      "published_at": "2026-11-09T05:00:00Z",
-      "first_seen_at": "2026-11-09T10:35:49Z",
-      "last_checked_at": "2026-11-09T10:35:49Z",
-      "matched_windows": [
-        "daily"
-      ],
-      "confidence": "高",
-      "verification_status": "官方一手源",
-      "why_it_matters": "技术可行性正在变化，但需要把实验指标与真实用户价值、成本和稳定性分开判断。",
-      "career_angle": "先问“能解决哪个用户任务”，再把论文指标转成产品假设和验证计划。",
-      "score": 87,
-      "content_hash": "2fe45ceda0e2560b",
-      "revisions": []
     }
   ],
   "sources": [
@@ -40930,18 +40936,18 @@
       "matched": 0,
       "latest_item_at": null,
       "etag": "W/\"6b00aa86-260d\"",
-      "duration_ms": 157
+      "duration_ms": 169
     },
     {
       "id": "arxiv-ai-robotics",
       "name": "arXiv AI & Robotics",
       "status": "ok",
       "kind": "RSS",
-      "fetched": 1887,
+      "fetched": 1118,
       "matched": 80,
-      "latest_item_at": "2026-11-24T05:00:00Z",
-      "etag": "a969e4e1e56324d5b3bb6b8765394f22f0d0f4dbe11c77963ea25fb793acf4bb",
-      "duration_ms": 2102
+      "latest_item_at": "2026-11-25T05:00:00Z",
+      "etag": "be63bfe9cca4462b63dff836068f4806d001d6cb8764832cd2cf1e794fcf6e5e",
+      "duration_ms": 1465
     },
     {
       "id": "aws-ml",
@@ -40949,18 +40955,21 @@
       "status": "ok",
       "kind": "RSS",
       "fetched": 20,
-      "matched": 2,
+      "matched": 1,
       "latest_item_at": "2026-11-24T05:01:14Z",
       "etag": null,
-      "duration_ms": 148
+      "duration_ms": 206
     },
     {
       "id": "boston-dynamics",
       "name": "Boston Dynamics",
+      "status": "ok",
       "kind": "RSS",
-      "status": "error",
-      "error": "fetch failed: https://bostondynamics.com/feed/: HTTP Error 403: Forbidden",
-      "matched": 0
+      "fetched": 0,
+      "matched": 0,
+      "latest_item_at": null,
+      "etag": null,
+      "duration_ms": 397
     },
     {
       "id": "github-01-ai",
@@ -40970,7 +40979,7 @@
       "fetched": 13,
       "matched": 0,
       "latest_item_at": null,
-      "duration_ms": 659
+      "duration_ms": 480
     },
     {
       "id": "github-1x",
@@ -40980,7 +40989,7 @@
       "fetched": 1,
       "matched": 0,
       "latest_item_at": null,
-      "duration_ms": 339
+      "duration_ms": 332
     },
     {
       "id": "github-agibot",
@@ -40989,8 +40998,8 @@
       "kind": "GitHub",
       "fetched": 34,
       "matched": 2,
-      "latest_item_at": "2026-11-24T12:11:27Z",
-      "duration_ms": 779
+      "latest_item_at": "2026-11-25T01:53:36Z",
+      "duration_ms": 722
     },
     {
       "id": "github-anthropic",
@@ -40999,8 +41008,8 @@
       "kind": "GitHub",
       "fetched": 100,
       "matched": 5,
-      "latest_item_at": "2026-11-24T12:35:42Z",
-      "duration_ms": 2065
+      "latest_item_at": "2026-11-25T10:31:02Z",
+      "duration_ms": 1239
     },
     {
       "id": "github-bytedance-seed",
@@ -41009,8 +41018,8 @@
       "kind": "GitHub",
       "fetched": 67,
       "matched": 2,
-      "latest_item_at": "2026-11-24T12:57:41Z",
-      "duration_ms": 1007
+      "latest_item_at": "2026-11-25T11:44:18Z",
+      "duration_ms": 870
     },
     {
       "id": "github-deepseek",
@@ -41019,8 +41028,8 @@
       "kind": "GitHub",
       "fetched": 47,
       "matched": 3,
-      "latest_item_at": "2026-11-24T11:20:28Z",
-      "duration_ms": 924
+      "latest_item_at": "2026-11-25T11:48:28Z",
+      "duration_ms": 726
     },
     {
       "id": "github-galaxea",
@@ -41030,7 +41039,7 @@
       "fetched": 13,
       "matched": 0,
       "latest_item_at": null,
-      "duration_ms": 603
+      "duration_ms": 460
     },
     {
       "id": "github-mindspore",
@@ -41038,9 +41047,9 @@
       "status": "ok",
       "kind": "GitHub",
       "fetched": 22,
-      "matched": 4,
-      "latest_item_at": "2026-11-24T08:17:11Z",
-      "duration_ms": 698
+      "matched": 5,
+      "latest_item_at": "2026-11-25T10:18:52Z",
+      "duration_ms": 648
     },
     {
       "id": "github-minimax",
@@ -41049,8 +41058,8 @@
       "kind": "GitHub",
       "fetched": 42,
       "matched": 3,
-      "latest_item_at": "2026-11-24T07:30:44Z",
-      "duration_ms": 809
+      "latest_item_at": "2026-11-25T07:25:20Z",
+      "duration_ms": 656
     },
     {
       "id": "github-mistral",
@@ -41059,8 +41068,8 @@
       "kind": "GitHub",
       "fetched": 30,
       "matched": 5,
-      "latest_item_at": "2026-11-24T09:47:15Z",
-      "duration_ms": 705
+      "latest_item_at": "2026-11-24T16:19:56Z",
+      "duration_ms": 723
     },
     {
       "id": "github-paddle",
@@ -41069,8 +41078,8 @@
       "kind": "GitHub",
       "fetched": 100,
       "matched": 5,
-      "latest_item_at": "2026-11-24T09:19:44Z",
-      "duration_ms": 1829
+      "latest_item_at": "2026-11-25T08:27:39Z",
+      "duration_ms": 1577
     },
     {
       "id": "github-physical-intelligence",
@@ -41080,7 +41089,7 @@
       "fetched": 10,
       "matched": 0,
       "latest_item_at": null,
-      "duration_ms": 499
+      "duration_ms": 520
     },
     {
       "id": "github-qwen",
@@ -41089,8 +41098,8 @@
       "kind": "GitHub",
       "fetched": 62,
       "matched": 5,
-      "latest_item_at": "2026-11-24T13:01:17Z",
-      "duration_ms": 1119
+      "latest_item_at": "2026-11-25T11:42:46Z",
+      "duration_ms": 778
     },
     {
       "id": "github-stepfun",
@@ -41099,8 +41108,8 @@
       "kind": "GitHub",
       "fetched": 34,
       "matched": 1,
-      "latest_item_at": "2026-11-24T11:23:11Z",
-      "duration_ms": 660
+      "latest_item_at": "2026-11-25T10:47:21Z",
+      "duration_ms": 719
     },
     {
       "id": "github-tencent-hunyuan",
@@ -41108,9 +41117,9 @@
       "status": "ok",
       "kind": "GitHub",
       "fetched": 100,
-      "matched": 3,
-      "latest_item_at": "2026-11-24T07:02:12Z",
-      "duration_ms": 1473
+      "matched": 5,
+      "latest_item_at": "2026-11-25T06:26:31Z",
+      "duration_ms": 1169
     },
     {
       "id": "github-unitree",
@@ -41119,8 +41128,8 @@
       "kind": "GitHub",
       "fetched": 61,
       "matched": 3,
-      "latest_item_at": "2026-11-24T03:52:52Z",
-      "duration_ms": 1134
+      "latest_item_at": "2026-11-25T08:12:34Z",
+      "duration_ms": 832
     },
     {
       "id": "google-research",
@@ -41131,7 +41140,7 @@
       "matched": 1,
       "latest_item_at": "2026-11-23T17:21:12Z",
       "etag": null,
-      "duration_ms": 665
+      "duration_ms": 420
     },
     {
       "id": "hugging-face",
@@ -41139,10 +41148,10 @@
       "status": "ok",
       "kind": "RSS",
       "fetched": 916,
-      "matched": 2,
-      "latest_item_at": "2026-11-23T17:20:37Z",
-      "etag": "W/\"42298-tXD2I7mC5oUSAGFcKFwWRx+ANhs\"",
-      "duration_ms": 82
+      "matched": 4,
+      "latest_item_at": "2026-11-25T10:22:09Z",
+      "etag": "W/\"42270-nBN9iWdlDnwd4w3GFi9PEhpuLOE\"",
+      "duration_ms": 116
     },
     {
       "id": "microsoft-ai",
@@ -41152,8 +41161,8 @@
       "fetched": 10,
       "matched": 0,
       "latest_item_at": null,
-      "etag": "W/\"5d81494fe7676fae198e39f51d13014b\"",
-      "duration_ms": 236
+      "etag": "W/\"a07a5c6fb2ccf291cfaa28034a2c02da\"",
+      "duration_ms": 209
     },
     {
       "id": "microsoft-research",
@@ -41163,8 +41172,8 @@
       "fetched": 10,
       "matched": 0,
       "latest_item_at": null,
-      "etag": "\"b118e3b4f5810153f55a16bfe185d382\"",
-      "duration_ms": 875
+      "etag": "\"d472fa3409ff25166860b8f95b4b703d\"",
+      "duration_ms": 796
     },
     {
       "id": "nvidia-developer",
@@ -41172,10 +41181,10 @@
       "status": "ok",
       "kind": "RSS",
       "fetched": 100,
-      "matched": 3,
-      "latest_item_at": "2026-11-23T19:59:49Z",
-      "etag": "\"0952dab8281ec3bbb20ae806888decba\"",
-      "duration_ms": 123
+      "matched": 7,
+      "latest_item_at": "2026-11-24T22:26:24Z",
+      "etag": "\"85dfa6a1a7635dac5fdbcf51bf2444a6\"",
+      "duration_ms": 241
     },
     {
       "id": "nvidia-robotics",
@@ -41185,19 +41194,19 @@
       "fetched": 20,
       "matched": 0,
       "latest_item_at": null,
-      "etag": "\"6b05727b-44d36\"",
-      "duration_ms": 73
+      "etag": "\"6b066911-44d36\"",
+      "duration_ms": 167
     },
     {
       "id": "openai-news",
       "name": "OpenAI",
       "status": "ok",
       "kind": "RSS",
-      "fetched": 1425,
-      "matched": 4,
-      "latest_item_at": "2026-11-23T21:20:00Z",
+      "fetched": 1430,
+      "matched": 8,
+      "latest_item_at": "2026-11-24T13:00:00Z",
       "etag": null,
-      "duration_ms": 213
+      "duration_ms": 171
     }
   ]
 }
